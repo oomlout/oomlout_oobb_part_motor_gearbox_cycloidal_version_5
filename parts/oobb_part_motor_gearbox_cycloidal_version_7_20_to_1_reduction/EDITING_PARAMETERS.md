@@ -49,11 +49,13 @@ These are the initial defaults, not a record of any later edits you make.
 | `standoff_pitch_radius` | 18.55 mm | Position radius of the standoffs and their mating features. |
 | `guide_radius` | 1.5 mm | M3 guides; `3 mm` selects M6 and changes associated holes and nut pockets. |
 | `guide_pitch_radius` | 17.4 mm | Position radius of the six guide screws. |
+| `casing_bearing` | 6810 | Both casing bearing seats, lips, journals, shoulders and axial spacing. |
+| `casing_fit_checks` | 0 | Optional casing passage/backing/pin-envelope checks; `0` leaves them off. |
 | `top_bearing` | 6703 | Upper disc bearing, seat and eccentric journal. |
 | `bottom_bearing` | 6703 | Lower disc bearing, seat and eccentric journal. |
 
-Use whole bearing catalogue codes. The casing bearings remain 6810, and the
-front shaft bearing remains 6701. Leave derived parameters and `native_unit`
+Use whole bearing catalogue codes. See [casing bearing options](CASING_BEARINGS.md).
+The front shaft bearing remains 6701. Leave derived parameters and `native_unit`
 alone; the favourites are the intended editing controls.
 
 Dimensions must fit together. For example, a larger bearing may require moving
@@ -62,6 +64,27 @@ restore the last working values and check the related dimensions. Apply coupled
 changes together where possible. The [full guide](../../NATIVE_V7.md) includes
 tested bearing and M6 combinations and their limits; changing only `guide_radius`
 to M6 is not the tested M6 configuration.
+
+## Automatic OOBB tab positions
+
+The four three-wide casing tabs follow the **smallest odd square OOBB plate**
+that fits the casing and clears M6 hardware at the two outer holes of every tab.
+They use the centred 15 mm OOBB grid: 5×5, 7×7, 9×9, and so on.
+M3 half-grid holes and the existing casing joining screws move with each tab.
+
+Sizing allows the larger of the shared OOBB M6 socket-head radius and M6 nut
+corner radius, plus `tab_m6_clearance` (initially **0.5 mm**). This is clearance
+around the hardware, in addition to the existing Ø6.5 mm through holes.
+The middle M6 hole is not the sizing constraint; the two outer holes are.
+
+In Parameters → all, the derived `tab_plate_size` gives the selected grid count,
+`tab_plate_width` its physical width, and `tab_outer_bolt_gap` the radial space
+between the hardware envelope and casing. These recalculate when the bearing,
+wall or cycloid dimensions change. Leave the OOBB pitch and inset constants alone.
+
+At the default settings the tabs match **7×7**: 104 mm plate width and centres
+45 mm from the gearbox axis. A 6811 also uses 7×7; a 6812 moves to 9×9, with
+centres 60 mm from the axis. The print layout expands with the tabs.
 
 ## 3. Switch between views in the same file
 

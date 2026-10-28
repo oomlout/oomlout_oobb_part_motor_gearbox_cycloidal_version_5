@@ -26,6 +26,8 @@ edit can take a few minutes because SolidCraft solves the complete native histor
 | `standoff_pitch_radius` | 18.55 mm | Standoffs, front registers, fasteners and clearance tracks. |
 | `guide_radius` | 1.5 mm | M3 guides. Set 3 mm for M6; holes, head access and nut pockets switch together. |
 | `guide_pitch_radius` | 17.4 mm | All six guide positions and their rotor clearance tracks. |
+| `casing_bearing` | 6810 | Both casing bearing seats, lips, journals, shoulders and axial spacing. |
+| `casing_fit_checks` | 0 | Optional casing passage/backing/pin-envelope guards; off by default. |
 | `top_bearing` / `bottom_bearing` | 6703 | Integer catalogue codes; changes seats, retaining lips and eccentric journals. |
 | `input_angle` | 0° | Eccentric input and opposing rotor orbits; casing turns by input/reduction. |
 | `explode` | 0 mm | Axial separation for inspecting the eight printed components. Try 12 mm. |
@@ -33,8 +35,8 @@ edit can take a few minutes because SolidCraft solves the complete native histor
 
 Non-favourite parameters are derived dimensions or construction constraints.
 Leave `native_unit` at 1 mm. Use whole catalogue bearing codes, not intermediate
-numeric values. The two casing bearings remain **6810**, and the front shaft
-bearing remains **6701**. The 5 mm motor shaft and NEMA 17 mounting interface are
+numeric values. The two casing bearings share `casing_bearing`, initially **6810**;
+the front shaft bearing remains **6701**. See [the full casing-bearing table](parts/oobb_part_motor_gearbox_cycloidal_version_7_20_to_1_reduction/CASING_BEARINGS.md). The 5 mm motor shaft and NEMA 17 mounting interface are
 unchanged. Explorer underlays and amber warning colours are not native geometry
 controls and are not included in this document.
 
@@ -50,12 +52,26 @@ the actual disc seats and both sides of the eccentric support. M3/M6 selection
 uses the shared OOBB screw/nut dimensions, including nut overhang geometry.
 Assembly and print positions are native expressions applied after construction.
 
-The compact 6810 envelope still imposes limits: increasing a bearing, track or
+The selected casing bearing still imposes physical limits: increasing a bearing, track or
 eccentricity may require changing the neighbouring settings together. A rejected
 edit is not a request to run Python. Correct the incompatible dimensions in the
-Parameters menu. The native guards cover pitch, backing, passage, retained bearing
-lips, webs, key engagement and screw clearances. They are not a complete physical
+Parameters menu. Casing backing, passage and fixed-pin-envelope guards are
+optional and disabled by default (`casing_fit_checks=0`). The remaining native
+guards cover pitch, retained disc bearing lips, webs, key engagement and screw clearances. They are not a complete physical
 load or continuous collision proof.
+
+## Automatic OOBB mounting footprint
+
+The casing tabs snap to the perimeter row of the smallest odd OOBB plate that
+contains the casing and leaves room for M6 hardware in each tab's two outer holes.
+The 15 mm centred grid gives 5×5, 7×7, 9×9, etc.; intermediate half-grid rows
+are not used. Tab width, three-hole pattern, M3 joining screws and nut overhangs
+remain as before. Native `tab_plate_size`, `tab_plate_width` and `tab_outer_bolt_gap`
+show the result. The sizing envelope covers both the OOBB M6 socket head and nut
+corners, plus `tab_m6_clearance=0.5 mm`. Only the two outer M6 holes determine
+this clearance requirement. The default and 6811 fit the 7×7 positions (45 mm);
+6812 selects 9×9 (60 mm). This checks mounting hardware clearance, not the entire
+gearbox mechanism's fit.
 
 ## Examples to try
 

@@ -16,6 +16,7 @@ from oobb_solidcraft import api as oobb
 from gearbox_native.project import PROJECT
 from gearbox_native import controls
 from gearbox_native.acceptance import health_check
+from gearbox_native.native_tabs import tab_parameters, TAB_RADIUS
 
 
 def polar(radius, count, phase=0):
@@ -34,25 +35,29 @@ def parameters(d):
         d.parameter(name,f"{values[name]} {spec['unit']}".strip(),unit=spec['unit'],favorite=True,comment=comment)
     d.parameter('explode','0 mm',favorite=True,comment='Axial exploded spacing; 0 mm assembles the mechanism.')
     d.parameter('print_layout','0',unit='',favorite=True,comment='0 = assembled/exploded; 1 = all eight parts laid out on their print faces.')
+    d.parameter('casing_bearing','6810',unit='',favorite=True,comment='Catalogue code for BOTH casing bearings. See CASING_BEARINGS.md for options. Fit is not guaranteed.')
+    d.parameter('casing_fit_checks','0',unit='',favorite=True,comment='Optional casing passage/backing/pin-envelope guards: 0 off, 1 on. Not a complete collision check.')
     # Catalogue codes select dimensions inside the native expression graph.
     # A selector is 1 at its integer code and zero at all other integer codes.
     from gearbox_native.parts import bearing_spec
     catalogue={}
-    for code in [*range(6700,6712),*range(6800,6813)]:
+    for code in [*range(6700,6800),*range(6800,6900)]:
         try:catalogue[code]=bearing_spec(str(code))
         except ValueError:pass  # Unsupported catalogue codes fail the native selector guard.
-    for side in ('bottom','top'):
+    for side in ('bottom','top','casing'):
         for field,key in [('bore','id'),('od','od'),('width','depth')]:
             expr=' + '.join(f'max(0, 1 - abs({side}_bearing - {code})) * {spec[key]} mm' for code,spec in catalogue.items())
-            d.parameter(f'{side}_{field}',expr)
+            name='casing_bore_catalogue' if side=='casing' and field=='bore' else f'{side}_{field}'
+            d.parameter(name,expr)
         selector=' + '.join(f'max(0, 1 - abs({side}_bearing - {code}))' for code in catalogue)
-        d.parameter(f'{side}_catalogue_guard',f'sqrt(-abs(({selector}) - 1))',unit='')
+        d.parameter(f'{side}_catalogue_guard',f'sqrt(-abs(({selector}) - 1)) + sqrt(-abs({side}_bearing - floor({side}_bearing)))',unit='')
     expressions=[
         ('ring_count','reduction',''),
         ('reduction_integer_guard','sqrt(-abs(reduction - floor(reduction)))',''),
         ('reduction_range_guard','sqrt(min(reduction - 12, 24 - reduction))',''),
         ('auto_switch_guard','sqrt(-abs(automatic_pitch - floor(automatic_pitch))) + sqrt(automatic_pitch * (1 - automatic_pitch))',''),
         ('print_switch_guard','sqrt(-abs(print_layout - floor(print_layout))) + sqrt(print_layout * (1 - print_layout))',''),
+        ('casing_checks_switch_guard','sqrt(-abs(casing_fit_checks - floor(casing_fit_checks))) + sqrt(casing_fit_checks * (1 - casing_fit_checks))',''),
         ('unit_guard','sqrt(-abs(native_unit / (1 mm) - 1))',''),
         ('seat_clearance','0.1 mm','mm'),('endplay','0.1 mm','mm'),
         ('journal_clearance','0.1 mm','mm'),('minimum_web','2 mm','mm'),
@@ -71,19 +76,23 @@ def parameters(d):
         ('minimum_pitch','max(max(feature_pitch_limit, bearing_pitch_limit), max(undercut_pitch_limit, max(contact_spacing_limit, ring_count * eccentricity / 0.9)))','mm'),
         ('pitch','automatic_pitch * ceil((minimum_pitch + radius_buffer) / (0.05 mm) - 0.000000001) * 0.05 mm + (1 - automatic_pitch) * contact_pitch_radius','mm'),
         ('casing_bore','pitch + max(0 mm, 2 * eccentricity - contact_radius)','mm'),
-        ('casing_radius','max(pitch + contact_radius + casing_wall, 32.5 mm + seat_clearance + casing_wall)','mm'),
-        ('bearing_lip_radius','31.2 mm','mm'),
+        ('casing_radius','max(pitch + contact_radius + casing_wall, casing_od / 2 + seat_clearance + casing_wall)','mm'),
+        ('bearing_lip_radius','casing_od / 2 - 1.3 mm','mm'),
         ('rotor_swept_radius','pitch + 2 * eccentricity - contact_radius - profile_clearance','mm'),
         ('motor_plate_depth','4 mm','mm'),('drive_start','2.5 mm','mm'),('drive_radius','11 mm','mm'),
-        ('drive_depth','9 mm','mm'),('rotor_a_z','drive_start + drive_depth + 0.5 mm','mm'),
+        ('rear_seat_top','motor_plate_depth + 0.3 mm + casing_width + endplay','mm'),
+        ('drive_depth','9 mm','mm'),('rotor_a_z','max(drive_start + drive_depth + 0.5 mm, rear_seat_top + 0.6 mm)','mm'),
         ('rear_support_top','rotor_a_z - 0.5 mm','mm'),
         ('rotor_b_z','rotor_a_z + disc_thickness + disc_gap','mm'),
         ('seam_z','rotor_a_z + disc_thickness + disc_gap / 2','mm'),
         ('front_z','rotor_b_z + disc_thickness + 0.5 mm','mm'),
-        ('front_depth','8.1 mm','mm'),('housing_top','front_z + front_depth','mm'),
+        ('front_depth','casing_width + 1.1 mm','mm'),('housing_top','front_z + front_depth','mm'),
         ('hub_top','max(housing_top, 32 mm)','mm'),('casing_bottom','4.5 mm','mm'),
-        ('rear_seat_top','11.4 mm','mm'),('front_seat_bottom','front_z + 0.8 mm','mm'),
-        ('carrier_radius','25 mm - journal_clearance','mm'),
+        ('front_seat_bottom','front_z + 0.8 mm','mm'),
+        ('casing_bore_diameter','casing_bore_catalogue','mm'),
+        ('carrier_radius','casing_bore_diameter / 2 - journal_clearance','mm'),
+        ('carrier_shoulder_radius','casing_bore_diameter / 2 + 1.5 mm','mm'),
+        ('motor_plate_half','max(37 mm, carrier_shoulder_radius + minimum_web)','mm'),
         ('bottom_seat_depth','bottom_width + 2 * endplay','mm'),
         ('top_seat_depth','top_width + 2 * endplay','mm'),
         ('bottom_journal','bottom_bore / 2 - journal_clearance','mm'),
@@ -93,20 +102,26 @@ def parameters(d):
         ('bottom_journal_z','rotor_a_z + disc_thickness - bottom_seat_depth','mm'),
         ('top_journal_end','rotor_b_z + top_seat_depth','mm'),
         ('key_top','27.5 mm','mm'),('key_depth','key_top - seam_z','mm'),
-        ('tab_radius','45 mm','mm'),('tab_depth','3 mm','mm'),
+        *tab_parameters(),
+        ('tab_radius',TAB_RADIUS,'mm'),('tab_depth','3 mm','mm'),
         ('tab_root','sqrt(casing_radius^2 - (22 mm)^2) - 0.8 mm','mm'),
+        ('split_extent','max(100 mm, tab_radius + 10 mm)','mm'),
+        ('layout_scale','max(1, (2 * (tab_radius + 7 mm) + 6 mm) / (110 mm))',''),
         ('output_angle','input_angle / ring_count','deg'),
         ('profile_phase','180 deg / (ring_count - 1)','deg'),
         ('pitch_guard','sqrt((pitch - minimum_pitch + 0.00000001 mm) / (1 mm))',''),
-        ('bearing_backing_guard','sqrt((bearing_lip_radius - casing_bore + 0.00000001 mm) / (1 mm))',''),
-        ('assembly_pass_guard','sqrt((bearing_lip_radius - rotor_swept_radius - 0.05 mm + 0.00000001 mm) / (1 mm))',''),
+        ('bearing_backing_margin','(bearing_lip_radius - casing_bore + 0.00000001 mm) / (1 mm)',''),
+        ('bearing_backing_guard','sqrt(max(0, bearing_backing_margin) + casing_fit_checks * min(0, bearing_backing_margin))',''),
+        ('assembly_pass_margin','(bearing_lip_radius - rotor_swept_radius - 0.05 mm + 0.00000001 mm) / (1 mm)',''),
+        ('assembly_pass_guard','sqrt(max(0, assembly_pass_margin) + casing_fit_checks * min(0, assembly_pass_margin))',''),
         ('disc_lip_guard','sqrt((disc_thickness - max(bottom_seat_depth, top_seat_depth) - 0.8 mm + 0.00000001 mm) / (1 mm))',''),
         ('guide_web_guard','sqrt((guide_pitch_radius - guide_orbit_radius - max(bottom_od, top_od) / 2 - seat_clearance - minimum_web) / (1 mm))',''),
         ('post_web_guard','sqrt((standoff_pitch_radius - post_orbit_radius - max(bottom_od, top_od) / 2 - seat_clearance - minimum_web) / (1 mm))',''),
         ('post_wall_guard','sqrt((standoff_radius - 2.5 mm) / (1 mm))',''),
         ('track_separation_guard','sqrt((sqrt(guide_pitch_radius^2 + standoff_pitch_radius^2 - 2 * guide_pitch_radius * standoff_pitch_radius * cos(30 deg)) - guide_orbit_radius - post_orbit_radius - minimum_web) / (1 mm))',''),
         ('key_wall_guard','sqrt((min(bottom_journal, top_journal) - eccentricity - 6.45 mm) / (1 mm))',''),
-        ('fixed_pin_envelope_guard','sqrt((carrier_radius - max(guide_pitch_radius + guide_radius + minimum_web, standoff_pitch_radius + standoff_radius)) / (1 mm))',''),
+        ('fixed_pin_envelope_margin','(carrier_radius - max(guide_pitch_radius + guide_radius + minimum_web, standoff_pitch_radius + standoff_radius)) / (1 mm)',''),
+        ('fixed_pin_envelope_guard','sqrt(max(0, fixed_pin_envelope_margin) + casing_fit_checks * min(0, fixed_pin_envelope_margin))',''),
         ('key_depth_guard','sqrt((key_depth - 2 mm) / (1 mm))',''),
         ('post_screw_tip_guard','sqrt((front_z + 2.6 mm - 25 mm - 0.2 mm) / (1 mm))',''),
         ('guide_nut_roof_guard','sqrt((rear_support_top - front_z - 1.4 mm + 20 mm - 0.2 mm - guide_nut_depth - 0.5 mm) / (1 mm))',''),
@@ -163,10 +178,10 @@ def nut(d,xy,top,depth=40,rotation=30,guide=False):
 def motor_mount(d):
     d.component('motor_mount')
     sketch=d.sketch('OOBB_5x5')
-    d.rounded_rectangle(-37,37,-37,37,5)
+    d.rounded_rectangle('-motor_plate_half','motor_plate_half','-motor_plate_half','motor_plate_half',5)
     d.extrude(sketch,'motor_plate_depth','new')
-    d.cylinder('carrier_radius','rear_support_top',name='6810_inner_journal')
-    d.cylinder(26.5,.3,z='motor_plate_depth',name='6810_inner_shoulder')
+    d.cylinder('carrier_radius','rear_support_top',name='casing_inner_journal')
+    d.cylinder('carrier_shoulder_radius',.3,z='motor_plate_depth',name='casing_inner_shoulder')
     posts=polar('standoff_pitch_radius',3)
     for xy in posts:
         d.cylinder('standoff_radius','front_z - rear_support_top',z='rear_support_top',xy=xy,name='integral_standoff')
@@ -186,8 +201,8 @@ def motor_mount(d):
 
 def front_carrier(d):
     d.component('pin_front')
-    d.cylinder(26.5,.8,operation='new',name='bearing_shoulder')
-    d.cylinder('carrier_radius','front_depth',name='6810_inner_journal')
+    d.cylinder('carrier_shoulder_radius',.8,operation='new',name='bearing_shoulder')
+    d.cylinder('carrier_radius','front_depth',name='casing_inner_journal')
     d.holes(7.5,'front_depth',name='6701_retaining_lip')
     d.holes(9.1,4.2,z='front_depth - 4.2 mm',name='6701_seat')
     guides=polar('guide_pitch_radius',6,30);posts=polar('standoff_pitch_radius',3)
@@ -251,14 +266,14 @@ def output_half(d,side):
     d.pattern(curves,'ring_count');d.extrude(sketch,depth,all_profiles=True)
     for z in ('rear_seat_top','front_seat_bottom - minimum_web'):
         d.cylinder('casing_radius','minimum_web',z=z,inner='bearing_lip_radius',name='bearing_outer_shoulder')
-    d.holes('32.5 mm + seat_clearance','rear_seat_top - casing_bottom + 0.02 mm',z='casing_bottom - 0.01 mm',name='rear_6810_seat')
-    d.holes('32.5 mm + seat_clearance','housing_top - front_seat_bottom + 0.02 mm',z='front_seat_bottom - 0.01 mm',name='front_6810_seat')
+    d.holes('casing_od / 2 + seat_clearance','rear_seat_top - casing_bottom + 0.02 mm',z='casing_bottom - 0.01 mm',name='rear_casing_seat')
+    d.holes('casing_od / 2 + seat_clearance','housing_top - front_seat_bottom + 0.02 mm',z='front_seat_bottom - 0.01 mm',name='front_casing_seat')
     for i in range(3):
         r=f'bearing_lip_radius - (bearing_lip_radius - pitch + contact_radius) * {i}/3'
         d.holes(r,.21,z=f'rear_seat_top + {i*.2-.005!r} mm',name='bearing_run_transition')
     d.holes('bearing_lip_radius','housing_top - front_z',z='front_z',name='front_bearing_clearance')
-    if side:d.box(-100,100,-100,100,'seam_z + 1 mm',z=-1,operation='cut',name='middle_split')
-    else:d.box(-100,100,-100,100,100,z='seam_z',operation='cut',name='middle_split')
+    if side:d.box('-split_extent','split_extent','-split_extent','split_extent','seam_z + 1 mm',z=-1,operation='cut',name='middle_split')
+    else:d.box('-split_extent','split_extent','-split_extent','split_extent','housing_top',z='seam_z',operation='cut',name='middle_split')
     z='seam_z' if side else 'seam_z - tab_depth'
     shell=d.body
     for angle in (0,90,180,270):
@@ -312,8 +327,8 @@ def place(d,name):
         else:pz='-seam_z'
         d.move(axis=[0,0,1],angle='output_angle * (1 - print_layout)')
         az=('1' if name.endswith('lower') else '6')+' * explode'
-    d.move(translate=[f'(1 - print_layout) * ({ax}) + print_layout * {x} mm',
-                      f'(1 - print_layout) * ({ay}) + print_layout * {y} mm',
+    d.move(translate=[f'(1 - print_layout) * ({ax}) + print_layout * layout_scale * {x} mm',
+                      f'(1 - print_layout) * ({ay}) + print_layout * layout_scale * {y} mm',
                       f'(1 - print_layout) * ({az}) + print_layout * ({pz})'])
 
 

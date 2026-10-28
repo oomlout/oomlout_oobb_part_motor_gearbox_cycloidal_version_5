@@ -15,6 +15,11 @@ height above the motor face, 6810 casing bearings, 6703 disc bearings, a 6701
 front shaft bearing and direct 5 mm input. Contacts have a 3 mm **radius**;
 eccentricity is 1.4 mm. The two 5 mm discs have a 0.5 mm gap.
 
+Change `casing_bearing` to select both casing bearings from 40 catalogue options,
+including the added 6708–6712 sizes. Seats, journals, shoulders and spacing follow
+the selection inside SolidCraft. Casing fit guards are optional and off by default.
+See [the bearing table and editing notes](parts/oobb_part_motor_gearbox_cycloidal_version_7_20_to_1_reduction/CASING_BEARINGS.md).
+
 Set `explode=12 mm` to separate the printed components, or `print_layout=1`
 to put them on their print faces. Save your changes normally. For optional
 STEP/STL exports and view snapshots, run `python action_export_native.py`.

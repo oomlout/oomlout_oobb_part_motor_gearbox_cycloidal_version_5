@@ -51,7 +51,8 @@ def export(design, output, profile):
                 require_ok(client.call('export',dict(bodies=[name],path=str(raw/(name+'.'+ext)))))
             native=read_step(raw/(name+'.step'));assert inspect_shape(native)['valid']
             mesh=verify_mesh(raw/(name+'.stl'),native)
-            localize(raw/(name+'.step'),raw/(name+'.stl'),parts/name,([x,y,0],[0,0,0]))
+            scale=values.get('layout_scale',1)
+            localize(raw/(name+'.step'),raw/(name+'.stl'),parts/name,([x*scale,y*scale,0],[0,0,0]))
             report['parts'][name]={'native_shape':inspect_shape(native),'mesh':mesh}
     with MCPClient(output/'reopen_exploded',design=output/'exploded.solidcraft',allow_path=PROJECT,timeout=600) as client:
         health_check(client,output/'reopened_exploded_health.json')

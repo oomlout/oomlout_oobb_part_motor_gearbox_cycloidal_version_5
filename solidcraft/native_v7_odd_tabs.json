@@ -1,0 +1,25 @@
+{
+  "status": "verified_native_revision",
+  "master": "gearbox_controls.solidcraft",
+  "initial_sha256": "cd6d7c8061c77c1a4d3485daadbc71813c517c7dbcbe1731b2b7717d17c72766",
+  "previous_sha256": "7cbc3016087555fc4c7bb5fa1ef1da4837e2379451213a2d38b836ed4a63338f",
+  "previous_master": "solidcraft\\revisions\\v7_before_odd_oobb_tabs\\gearbox_controls.solidcraft",
+  "upgrade_verification": "build\\native_v7\\odd_oobb_tabs_01\\upgrade.json",
+  "edit_verification": "build\\native_v7\\odd_oobb_tabs_01\\casing_verification.json",
+  "rule_verification": "build/native_v7/odd_oobb_tab_rule/verification.json",
+  "hardware_verification": "build\\native_v7\\odd_oobb_tabs_01\\tab_geometry.json",
+  "default_hardware_verification": "build\\native_v7\\odd_oobb_tabs_01\\default_tab_geometry.json",
+  "export_verification": "build\\native_v7\\odd_oobb_tabs_views_01\\export.json",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "unchanged_default_part_stl_sha256": {
+    "eccentric_hub_lower": "d040af3e2e8411bc7cc734fab2703890500b50a0a962ed460c838e5a5c8b2442",
+    "eccentric_hub_upper": "ac1d57b5dca3e2759b56299004d944cf5adf60344ab1e21d5aad0ad3cfd4a042",
+    "motor_mount": "029d8d159aa9cd885a0b174f65f108edff05d43a56a9488869bd43ded22165f1",
+    "output_casing_lower": "bf455b3967a28f32054c0505cb2ba1d2e965bda76c88425a6aeb61978efdedaa",
+    "output_casing_upper": "c676c87e76668452368db1b4e7f6059364d7b330ef5d382c1e7a7a725657d390",
+    "pin_front": "b738b4832eca53fc2d03e8190e6db4396559de86a520de18b7bf7c6d696bae95",
+    "rotor_a": "77d87defa3798e77ea5cc64f2ad3b4b61f0575e5fed55570851e15ece7fc622d",
+    "rotor_b": "2865a41849268726c190f0c989ed51d6ae4c1c1420b4ca5af6e36bcc06e15060"
+  },
+  "note": "Smallest odd OOBB footprint; outer M6 head/nut envelopes plus 0.5 mm radial clearance. Only mounting hardware clearance checked."
+}

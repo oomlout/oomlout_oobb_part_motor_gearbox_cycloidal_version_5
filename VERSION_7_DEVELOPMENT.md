@@ -71,3 +71,51 @@ circle inward to 18.2 mm; no acceptance repair or tolerance relaxation was used.
 
 Do not regenerate any directory carrying SEALED.json. Frozen sources, examples
 and evidence are in releases/version_6/version_6.zip.
+
+
+## Configurable casing bearings (2026-10-28)
+
+`casing_bearing` now selects both outer casing bearings inside the native graph.
+The default remains 6810, with unchanged baseline geometry. Bore, OD and width
+propagate into the seats, lips, journals, shoulders, carrier thickness and axial
+stack. The mounting tabs and print spacing expand for larger casing envelopes.
+The cycloid pitch remains under its existing independent controls.
+
+The shared OOBB catalogue gained sourced 6708, 6709, 6710, 6711 and 6712 entries,
+including representation and seat variables. The native table includes those
+and all installed four-digit 6800-series codes: 40 options total. No external
+catalogue access is needed when editing the saved native file.
+
+Casing passage, backing and fixed-pin-envelope guards are optional and off by
+default (`casing_fit_checks=0`), as requested. Integer catalogue selection and
+the existing unrelated construction guards remain. This is not a guarantee
+that every selected size can build or physically assemble.
+
+Revision evidence: [native_v7_casing_bearings.json](solidcraft/native_v7_casing_bearings.json).
+It records baseline geometry comparison, all 40 native selector evaluations,
+6710/6811 native edits, all eight STEP/STL bodies, repeated save/reopen and the
+refreshed assembled/exploded/print snapshots. The original acceptance policy
+and sealed V1–V6 releases are unchanged. Mechanical fit was not re-certified.
+
+
+## Odd OOBB mounting footprint (2026-10-28)
+
+The native tab-radius expression now derives from the smallest odd square OOBB
+plate that contains the casing and clears an M6 socket head or nut at each
+three-wide tab's two outer holes. The envelope uses the larger shared OOBB
+3dpr head/nut radius plus 0.5 mm. The selected plate has 15 mm grid spacing
+and the standard 1 mm overall plate reduction. The existing M3 half-grid holes,
+joining screws, nut overhangs, full-length tab connections and 3 mm tab depths
+are unchanged. The default remains 7×7; 6811 also fits 7×7, and 6812 selects 9×9.
+
+The revision is applied to an isolated copy of the existing native master by
+adding derived parameters and changing only the tab-radius formula. All other
+parameter expressions are preserved. It does not regenerate the gearbox from
+Python or replace user settings with factory defaults. Future native authoring
+uses the same shared expression definitions in `gearbox_native/native_tabs.py`.
+
+[Revision evidence](solidcraft/native_v7_odd_tabs.json) records 20 native sizing
+and boundary cases checked against enumerated odd plate sizes; a real 6812
+native edit with STEP/STL and repeated reopen checks; actual casing bore and
+head/nut/shank intersection checks; refreshed native views; and byte-identical
+STL geometry for all eight default parts. The preceding master is backed up.

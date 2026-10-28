@@ -7807,5 +7807,9 @@
       "log": "outputs/v7_project_tests.log"
     }
   },
-  "preservation": "solidcraft/preservation.json"
+  "preservation": "solidcraft/preservation.json",
+  "revisions": [
+    "solidcraft/native_v7_casing_bearings.json",
+    "solidcraft\\native_v7_odd_tabs.json"
+  ]
 }
