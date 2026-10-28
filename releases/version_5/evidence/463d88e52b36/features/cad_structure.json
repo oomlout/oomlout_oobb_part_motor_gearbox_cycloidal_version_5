@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_6810_case_lip",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_31d2",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_31d2_radius",
+        "height": "oobb_hole_radius_31d2_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_32d6",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_32d6_radius",
+        "height": "oobb_hole_radius_32d6_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    }
+  ],
+  "sketch_count": 3,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

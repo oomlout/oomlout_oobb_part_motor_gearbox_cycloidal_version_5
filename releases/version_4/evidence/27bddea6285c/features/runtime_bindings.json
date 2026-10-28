@@ -1,0 +1,468 @@
+{
+  "direct_001_oobb_cylinder_00": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 2.0589,
+        "name": "direct_001_oobb_cylinder_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 1.8004,
+        "name": "direct_001_oobb_cylinder_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_001_oobb_cylinder_00_radius",
+      "height": "direct_001_oobb_cylinder_00_depth"
+    },
+    "instances": []
+  },
+  "direct_003_oobb_cylinder_01": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 1.3273,
+        "name": "direct_003_oobb_cylinder_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 1.3754,
+        "name": "direct_003_oobb_cylinder_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_003_oobb_cylinder_01_radius",
+      "height": "direct_003_oobb_cylinder_01_depth"
+    },
+    "instances": []
+  },
+  "direct_003_oobb_cube_02": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 6,
+        "ms": 0.5585,
+        "name": "direct_003_oobb_cube_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 6,
+        "ms": 0.5556,
+        "name": "direct_003_oobb_cube_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_003_oobb_cube_02_length",
+      "width": "direct_003_oobb_cube_02_width",
+      "height": "direct_003_oobb_cube_02_depth"
+    },
+    "instances": []
+  },
+  "direct_004_m6_03": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 11,
+        "ms": 0.5267,
+        "name": "direct_004_m6_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 11,
+        "ms": 0.4705,
+        "name": "direct_004_m6_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_004_m6_03_length",
+      "width": "direct_004_m6_03_width",
+      "height": "direct_004_m6_03_depth"
+    },
+    "instances": []
+  },
+  "direct_004_m6_04": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 14,
+        "ms": 0.4814,
+        "name": "direct_004_m6_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 14,
+        "ms": 0.43389999999999995,
+        "name": "direct_004_m6_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_004_m6_04_length",
+      "width": "direct_004_m6_04_width",
+      "height": "direct_004_m6_04_depth"
+    },
+    "instances": []
+  },
+  "direct_004_m6_05": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 17,
+        "ms": 0.42260000000000003,
+        "name": "direct_004_m6_05_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 17,
+        "ms": 0.37179999999999996,
+        "name": "direct_004_m6_05_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_004_m6_05_length",
+      "width": "direct_004_m6_05_width",
+      "height": "direct_004_m6_05_depth"
+    },
+    "instances": []
+  },
+  "direct_004_m6_06": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 20,
+        "ms": 0.5317,
+        "name": "direct_004_m6_06_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 20,
+        "ms": 0.44739999999999996,
+        "name": "direct_004_m6_06_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_004_m6_06_length",
+      "width": "direct_004_m6_06_width",
+      "height": "direct_004_m6_06_depth"
+    },
+    "instances": []
+  },
+  "oobb_nut_m6_hex": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 23,
+        "ms": 0.8273,
+        "name": "oobb_nut_m6_hex_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 23,
+        "ms": 0.4436,
+        "name": "oobb_nut_m6_hex_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "oobb_nut_m6_hex_radius",
+      "height": "oobb_nut_m6_hex_depth"
+    },
+    "instances": [
+      {
+        "body": "oobb_nut_m6_hex_instance_001",
+        "source_id": "direct_004",
+        "placement_feature": "oobb_nut_m6_hex_place_001"
+      }
+    ]
+  },
+  "direct_006_revolved_profile_08": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 29,
+        "ms": 4.5408,
+        "name": "direct_006_revolved_profile_08_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 29,
+        "ms": 5.1366,
+        "name": "direct_006_revolved_profile_08_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "direct_006_revolved_profile_08_radius_0",
+      "z_0": "direct_006_revolved_profile_08_z_0",
+      "radius_1": "0",
+      "z_1": "direct_006_revolved_profile_08_z_1",
+      "radius_2": "0",
+      "z_2": "direct_006_revolved_profile_08_z_2",
+      "radius_3": "direct_006_revolved_profile_08_radius_3",
+      "z_3": "direct_006_revolved_profile_08_z_3",
+      "radius_4": "direct_006_revolved_profile_08_radius_4",
+      "z_4": "direct_006_revolved_profile_08_z_4",
+      "radius_5": "direct_006_revolved_profile_08_radius_5",
+      "z_5": "direct_006_revolved_profile_08_z_5"
+    },
+    "instances": []
+  },
+  "direct_009_revolved_profile_09": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 32,
+        "ms": 4.8183,
+        "name": "direct_009_revolved_profile_09_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 32,
+        "ms": 5.066,
+        "name": "direct_009_revolved_profile_09_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "direct_009_revolved_profile_09_radius_0",
+      "z_0": "direct_009_revolved_profile_09_z_0",
+      "radius_1": "0",
+      "z_1": "direct_009_revolved_profile_09_z_1",
+      "radius_2": "0",
+      "z_2": "direct_009_revolved_profile_09_z_2",
+      "radius_3": "direct_009_revolved_profile_09_radius_3",
+      "z_3": "direct_009_revolved_profile_09_z_3",
+      "radius_4": "direct_009_revolved_profile_09_radius_4",
+      "z_4": "direct_009_revolved_profile_09_z_4",
+      "radius_5": "direct_009_revolved_profile_09_radius_5",
+      "z_5": "direct_009_revolved_profile_09_z_5"
+    },
+    "instances": []
+  },
+  "direct_012_revolved_profile_10": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 35,
+        "ms": 2.1281,
+        "name": "direct_012_revolved_profile_10_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 35,
+        "ms": 1.8552,
+        "name": "direct_012_revolved_profile_10_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_012_revolved_profile_10_z_0",
+      "radius_1": "direct_012_revolved_profile_10_radius_1",
+      "z_1": "direct_012_revolved_profile_10_z_1",
+      "radius_2": "direct_012_revolved_profile_10_radius_2",
+      "z_2": "direct_012_revolved_profile_10_z_2",
+      "radius_3": "0",
+      "z_3": "direct_012_revolved_profile_10_z_3"
+    },
+    "instances": []
+  }
+}

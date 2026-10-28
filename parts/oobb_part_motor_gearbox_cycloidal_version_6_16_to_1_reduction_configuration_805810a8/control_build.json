@@ -1,0 +1,77 @@
+{
+  "status": "accepted",
+  "values": {
+    "reduction": 16,
+    "automatic_pitch": 1,
+    "radius_buffer": 0.0,
+    "contact_pitch_radius": 31.15,
+    "contact_radius": 3.0,
+    "eccentricity": 1.4,
+    "profile_clearance": 0.2,
+    "casing_wall": 2.0,
+    "disc_thickness": 5.0,
+    "disc_gap": 0.5,
+    "standoff_radius": 2.7,
+    "standoff_pitch_radius": 18.55,
+    "guide_radius": 1.5,
+    "guide_pitch_radius": 17.4,
+    "reference_bearing": 6810,
+    "top_bearing": 6703,
+    "bottom_bearing": 6703,
+    "input_angle": 0.0,
+    "reference_underlay": 1,
+    "amber_clearance": 0.1
+  },
+  "resolved_values": {
+    "reduction": 16,
+    "automatic_pitch": 1,
+    "radius_buffer": 0.0,
+    "contact_pitch_radius": 29.4,
+    "contact_radius": 3.0,
+    "eccentricity": 1.4,
+    "profile_clearance": 0.2,
+    "casing_wall": 2.0,
+    "disc_thickness": 5.0,
+    "disc_gap": 0.5,
+    "standoff_radius": 2.7,
+    "standoff_pitch_radius": 18.55,
+    "guide_radius": 1.5,
+    "guide_pitch_radius": 17.4,
+    "reference_bearing": 6810,
+    "top_bearing": 6703,
+    "bottom_bearing": 6703,
+    "input_angle": 0.0,
+    "reference_underlay": 1,
+    "amber_clearance": 0.1
+  },
+  "diameter_mm": 69.2,
+  "height_mm": 32.0,
+  "pitch_sizing": {
+    "mode": "automatic",
+    "limits_mm": {
+      "lobe_shape": 24.888888888888886,
+      "rotor_features": 27.099999999999998,
+      "support_tracks": 29.4,
+      "pin_spacing": 20.50332358193205,
+      "centre_bearings": 18.2,
+      "analytic_undercut": 29.400000000000002
+    },
+    "limiting_feature": "analytic_undercut",
+    "selected_pitch_radius": 29.4,
+    "rounding_increment_mm": 0.05
+  },
+  "sampling": {
+    "rotor_a": {
+      "regenerate": true,
+      "reason": "Ring count changes the equation and sampling topology"
+    },
+    "rotor_b": {
+      "regenerate": true,
+      "reason": "Ring count changes the equation and sampling topology"
+    }
+  },
+  "note": "Full native, assembly and installation checks run during Update gearbox. Fixed samples are regenerated on every update.",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8",
+  "revision": "configuration_805810a8",
+  "attempt": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\parametric_v6\\updates\\configuration_805810a8"
+}

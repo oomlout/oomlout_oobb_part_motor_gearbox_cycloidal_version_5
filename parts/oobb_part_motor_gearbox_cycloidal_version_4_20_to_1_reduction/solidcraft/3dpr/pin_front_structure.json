@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction__pin_front",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_nut_m6_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m6_hex_body",
+      "instance_count": 6,
+      "parameters": {
+        "radius": "oobb_nut_m6_hex_radius",
+        "height": "oobb_nut_m6_hex_depth"
+      }
+    },
+    {
+      "name": "oobb_nut_m6_shaft",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m6_shaft_body",
+      "instance_count": 6,
+      "parameters": {
+        "radius": "oobb_nut_m6_shaft_radius",
+        "height": "oobb_nut_m6_shaft_depth"
+      }
+    },
+    {
+      "name": "oobb_nut_m3_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_hex_body",
+      "instance_count": 3,
+      "parameters": {
+        "radius": "oobb_nut_m3_hex_radius",
+        "height": "oobb_nut_m3_hex_depth"
+      }
+    },
+    {
+      "name": "oobb_nut_m3_shaft",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_shaft_body",
+      "instance_count": 3,
+      "parameters": {
+        "radius": "oobb_nut_m3_shaft_radius",
+        "height": "oobb_nut_m3_shaft_depth"
+      }
+    }
+  ],
+  "sketch_count": 44,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

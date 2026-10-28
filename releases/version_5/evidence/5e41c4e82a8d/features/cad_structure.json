@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_casing_clamp_lower",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_m3",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_m3_radius",
+        "height": "oobb_hole_m3_depth"
+      },
+      "positions": [
+        [
+          0,
+          7.5,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_m6",
+      "method": "finite_circle_extrusions",
+      "instance_count": 3,
+      "parameters": {
+        "radius": "oobb_hole_m6_radius",
+        "height": "oobb_hole_m6_depth"
+      },
+      "positions": [
+        [
+          0,
+          -15.0,
+          -0.01
+        ],
+        [
+          0,
+          0.0,
+          -0.01
+        ],
+        [
+          0,
+          15.0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_nut_m3_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_hex_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_nut_m3_hex_radius",
+        "height": "oobb_nut_m3_hex_depth"
+      }
+    },
+    {
+      "name": "oobb_nut_m3_shaft",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_shaft_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_nut_m3_shaft_radius",
+        "height": "oobb_nut_m3_shaft_depth"
+      }
+    }
+  ],
+  "sketch_count": 14,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

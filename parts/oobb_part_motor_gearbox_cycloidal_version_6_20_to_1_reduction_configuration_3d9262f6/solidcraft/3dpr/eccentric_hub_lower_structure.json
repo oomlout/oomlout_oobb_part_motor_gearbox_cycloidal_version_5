@@ -1,0 +1,12 @@
+{
+  "construction": "native",
+  "method": "analytic_sketch_surfaces",
+  "native_feature_history": true,
+  "body_count": 1,
+  "sketch_count": 180,
+  "profile_vertices_preserved": true,
+  "parameters": {
+    "profile_unit": "uniform native dimension scale"
+  },
+  "parameter_source": "Recipe dimensions regenerate native sketch boundaries; each saved sketch and surface remains editable"
+}

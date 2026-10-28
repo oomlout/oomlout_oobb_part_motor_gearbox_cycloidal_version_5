@@ -1,0 +1,3507 @@
+{
+  "project": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5",
+  "output": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware",
+  "mode": "true",
+  "pieces": [
+    {
+      "name": "motor_mount",
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        -11
+      ],
+      "member": "fixed",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\motor_mount.stl",
+      "stl_sha256": "93b7593c91214966a3d36050803edc721c318fb892f2771a16af5f14ffcd9a60",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\motor_mount.solidcraft"
+    },
+    {
+      "name": "pin_rear",
+      "translation": [
+        0,
+        0,
+        14.0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        -7
+      ],
+      "member": "fixed",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_rear.stl",
+      "stl_sha256": "3a4323f0bfa60d09f6eaaeedb06fa94c60cbff996b3c1524ffa4c017ffff249b",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_rear.solidcraft"
+    },
+    {
+      "name": "pin_front",
+      "translation": [
+        0,
+        0,
+        48.0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        7
+      ],
+      "member": "fixed",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_front.stl",
+      "stl_sha256": "4d8fd98cf139dfd72404c01cceb1195ecbdc7f71d2b98600a98f17916e2f4583",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_front.solidcraft"
+    },
+    {
+      "name": "front_bearing_hub",
+      "translation": [
+        0,
+        0,
+        54.5
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        10
+      ],
+      "member": "fixed",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\front_bearing_hub.stl",
+      "stl_sha256": "d32f29cc044e2b90c8424f2eb27184565fbe4bc5f5af8efcfc9783e3d9fc2749",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\front_bearing_hub.solidcraft"
+    },
+    {
+      "name": "output_base",
+      "translation": [
+        0,
+        0,
+        13.4
+      ],
+      "rotation_x": 180,
+      "explode": [
+        10,
+        0,
+        -4
+      ],
+      "member": "output",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_base.stl",
+      "stl_sha256": "ffe4d6d70006d9b57b2e6a1db4cacf2ce88ddde009b3d10986e325b725a9bdfb",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_base.solidcraft"
+    },
+    {
+      "name": "output_casing",
+      "translation": [
+        0,
+        0,
+        13.4
+      ],
+      "rotation_x": 0,
+      "explode": [
+        10,
+        0,
+        1
+      ],
+      "member": "output",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_casing.stl",
+      "stl_sha256": "60d99ba6c695a639541c1538926c6269bb5c15b4949f4d2535459d7bd15a399a",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_casing.solidcraft"
+    },
+    {
+      "name": "output_cover",
+      "translation": [
+        0,
+        0,
+        67.0
+      ],
+      "rotation_x": 180,
+      "explode": [
+        0,
+        0,
+        14
+      ],
+      "member": "output",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_cover.stl",
+      "stl_sha256": "572cfaf472c44bbb3c1d0d43cc05dad085ea54718729755ccd90315ba15b32f6",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_cover.solidcraft"
+    },
+    {
+      "name": "coupling_collar",
+      "translation": [
+        0,
+        0,
+        16.0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        -8,
+        0,
+        -7
+      ],
+      "member": "input",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_collar.stl",
+      "stl_sha256": "a0b5ef9f425a6a29842aaf2fd20ef9e792e53e44207d489c74a78d7701ab0b59",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_collar.solidcraft"
+    },
+    {
+      "name": "coupling_drive",
+      "translation": [
+        0,
+        0,
+        24.0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        -8,
+        0,
+        -4
+      ],
+      "member": "input",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_drive.stl",
+      "stl_sha256": "fb0cf86824239c81aef377e5047e31f94633c064577de9e4fad2bde85ac8f303",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_drive.solidcraft"
+    },
+    {
+      "name": "eccentric_hub_lower",
+      "translation": [
+        0,
+        0,
+        32.5
+      ],
+      "rotation_x": 0,
+      "explode": [
+        -8,
+        0,
+        -1
+      ],
+      "member": "input",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_lower.stl",
+      "stl_sha256": "7d1c5ff9b73ed6718e0ac6fed9e59883da6a2bfcbcd2f805bb16c9545b41a8fb",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_lower.solidcraft"
+    },
+    {
+      "name": "eccentric_hub_upper",
+      "translation": [
+        0,
+        0,
+        40.25
+      ],
+      "rotation_x": 0,
+      "explode": [
+        -8,
+        0,
+        4
+      ],
+      "member": "input",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_upper.stl",
+      "stl_sha256": "ca959025b89f5a13d221e24ef4fce73c5ec63392fbb2ac20fac8b124a4136b09",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_upper.solidcraft"
+    },
+    {
+      "name": "rotor_a_lower",
+      "translation": [
+        0,
+        0,
+        33.0
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        -4
+      ],
+      "member": "orbit_0",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_lower.stl",
+      "stl_sha256": "415b48f011be8b33db106f92b906f9cb93e1f1411b8316bf26e34dd2542de116",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_lower.solidcraft"
+    },
+    {
+      "name": "rotor_a_upper",
+      "translation": [
+        0,
+        0,
+        40.0
+      ],
+      "rotation_x": 180,
+      "explode": [
+        0,
+        0,
+        -1
+      ],
+      "member": "orbit_0",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_upper.stl",
+      "stl_sha256": "614bc8f0abd774ce92dcc8b7e262be54ee5a04c9f8eba0e346848d0f3458c4d6",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_upper.solidcraft"
+    },
+    {
+      "name": "rotor_b_lower",
+      "translation": [
+        0,
+        0,
+        40.5
+      ],
+      "rotation_x": 0,
+      "explode": [
+        0,
+        0,
+        2
+      ],
+      "member": "orbit_1",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_lower.stl",
+      "stl_sha256": "cb3a4501a389769e91d4c7205aac6f1f9aa46f61ff03cfc80007d310cba01238",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_lower.solidcraft"
+    },
+    {
+      "name": "rotor_b_upper",
+      "translation": [
+        0,
+        0,
+        47.5
+      ],
+      "rotation_x": 180,
+      "explode": [
+        0,
+        0,
+        5
+      ],
+      "member": "orbit_1",
+      "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_upper.stl",
+      "stl_sha256": "5e5e80711d41f253f509a88cea14a754282a7ef36fab00aa6c06c0e974e221f1",
+      "native_document": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_upper.solidcraft"
+    }
+  ],
+  "config": {
+    "reduction": 20,
+    "radius_offset": 1.85,
+    "lobe_radius": 2.1,
+    "lobe_eccentricity_ratio": 0.91,
+    "bearing_eccentric": "6704",
+    "bearing_shaft": "6704",
+    "bearing_output": "6810",
+    "bearing_guide": "6700",
+    "guide_bolt_radius_name": "m6",
+    "guide_spacer_radius": 3.425,
+    "guide_spacer_bore": 3.1,
+    "guide_head_depth": 4.0,
+    "guide_head_clearance": 0.2,
+    "rotor_thickness": 7,
+    "disc_gap": 0.5,
+    "axial_clearance": 0.5,
+    "flange_depth": 17.0,
+    "flange_web": 6.5,
+    "guide_pin_diameter": 6,
+    "guide_pin_pitch_radius": 21.1,
+    "guide_head_wall": 1.0,
+    "guide_pin_count": 6,
+    "guide_pin_clearance": 0.15,
+    "bearing_seat_clearance": 0.1,
+    "bearing_endplay": 0.1,
+    "journal_clearance": 0.1,
+    "lobe_clearance": 0.2,
+    "minimum_wall": 2.0,
+    "motor_plate_depth": 4.0,
+    "motor_hole_pitch": 31,
+    "motor_pilot_diameter": 22.0,
+    "motor_pilot_clearance": 0.2,
+    "motor_shaft_length": 24.0,
+    "motor_body_depth": 40.0,
+    "motor_screw_length": 6,
+    "shaft_radius_name": "m5",
+    "coupling_diameter": 22.0,
+    "coupling_barrel_diameter": 10.0,
+    "coupling_length": 12.0,
+    "coupling_barrel_length": 10.0,
+    "coupling_pitch_diameter": 16.0,
+    "coupling_flange_hole_diameter": 3.0,
+    "coupling_face_clearance": 0.2,
+    "motor_pilot_height": 2.0,
+    "coupling_grub_from_barrel_top": 5.0,
+    "coupling_grub_angles": [
+      45,
+      135
+    ],
+    "coupling_service_angle": 0.0,
+    "coupling_screw_length": 12.0,
+    "coupling_nut_rotation_offset": 180.0,
+    "coupling_nut_hex_rotation": 30.0,
+    "coupling_nut_side_clearance": 0.1,
+    "drive_roof_depth": 2.0,
+    "drive_flange_clearance": 0.2,
+    "drive_cavity_clearance": 0.3,
+    "rear_bearing_lift": 0.3,
+    "casing_bottom_clearance": 0.5,
+    "case_nut_plate_clearance": 3.0,
+    "grub_access_radius": 1.7,
+    "samples_per_lobe": 48,
+    "profile_tolerance": 0.005,
+    "front_retainer_depth": 2.0,
+    "rotor_central_wall": 1.5,
+    "motor_body_width": 42.0,
+    "motor_body_clearance": 0.4,
+    "guide_thread_allowance": 18.0,
+    "architecture": "captured_6810",
+    "allow_shared_bearing_pockets": true,
+    "bearing_outer_race_gap_min": 0.05,
+    "disc_join_radius": 30.0,
+    "disc_join_count": 3,
+    "disc_join_phase": 60,
+    "disc_join_length": 6.0,
+    "disc_join_nut_depth": 2.4,
+    "guide_lip_radius": 7.0,
+    "eccentric_lip_radius": 12.7,
+    "housing_lug_radius": 7.0,
+    "case_cover_post_radius": 4.8,
+    "case_cover_post_clearance": 0.2,
+    "case_cover_post_floor": 2.5,
+    "housing_screw_style": "socket_cap",
+    "housing_screw_max_length": 35.0,
+    "deck_bottom": 14.0,
+    "deck_radius": 34.0,
+    "deck_bore": 13.7,
+    "deck_screw_radius": 16.5,
+    "deck_screw_head_z": 26.0,
+    "deck_screw_length": 25.0,
+    "post_pitch_radius": 29.0,
+    "post_radius": 3.0,
+    "post_clearance": 0.15,
+    "post_screw_length": 25.0,
+    "post_nut_bottom": 27.0,
+    "drive_flange_radius": 13.5,
+    "drive_flange_depth": 8.5,
+    "hub_key_radius": 4.9,
+    "hub_key_flat": 4.3,
+    "hub_key_depth": 2.0,
+    "hub_key_clearance": 0.15,
+    "hub_bolt_length": 35.0,
+    "hub_nut_bottom": 24.2,
+    "collar_bottom": 16.0,
+    "guide_bolt_length": 40.0,
+    "guide_nut_bottom": 14.2,
+    "front_hub_screw_length": 16.0,
+    "animation_explode": 12,
+    "animation_camera_distance": 1600,
+    "animation_size": [
+      960,
+      1600
+    ],
+    "print_width": 240,
+    "filter": "",
+    "modes": [
+      "3dpr"
+    ],
+    "navigation": true,
+    "oobb_name": "version_4",
+    "oomp_description_extra": "",
+    "oomp_description_main": "version_4_",
+    "oomp_mode": "project",
+    "oomp_run": false,
+    "overwrite": true,
+    "reduction_text": "20_to_1",
+    "style": "version_4",
+    "taxonomy_1": "oobb",
+    "taxonomy_2": "part",
+    "taxonomy_3": "motor_gearbox",
+    "taxonomy_4": "cycloidal",
+    "taxonomy_5": "version_4",
+    "taxonomy_6": "20_to_1_reduction",
+    "type": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5_version_4",
+    "mode": "true",
+    "output_member": "outer_casing",
+    "output_direction": "same_as_input",
+    "eccentric_phase_degrees": [
+      0,
+      180
+    ],
+    "coupling_orientation": "flange_up_at_motor_shaft_tip",
+    "ring_pin_count": 20,
+    "disc_lobes": 19,
+    "disc_phase_degrees": [
+      0,
+      -9.473684210526315
+    ],
+    "eccentric_bearing": {
+      "id": 20.0,
+      "od": 27.0,
+      "depth": 4.0
+    },
+    "shaft_bearing": {
+      "id": 20.0,
+      "od": 27.0,
+      "depth": 4.0
+    },
+    "output_bearing": {
+      "id": 50.0,
+      "od": 65.0,
+      "depth": 7.0
+    },
+    "guide_bearing": {
+      "id": 10.0,
+      "od": 15.0,
+      "depth": 4.0
+    },
+    "guide_strategy": "outer_races_captured_in_split_discs_inner_races_orbit_M6",
+    "guide_hole_radius": 7.6,
+    "guide_running_clearance": 0.1499999999999999,
+    "guide_positions": [
+      [
+        18.27313601985166,
+        10.549999999999999
+      ],
+      [
+        1.2920023731004577e-15,
+        21.1
+      ],
+      [
+        -18.27313601985166,
+        10.549999999999999
+      ],
+      [
+        -18.273136019851655,
+        -10.550000000000002
+      ],
+      [
+        -3.876007119301373e-15,
+        -21.1
+      ],
+      [
+        18.273136019851652,
+        -10.55000000000001
+      ]
+    ],
+    "post_positions": [
+      [
+        29.0,
+        0.0
+      ],
+      [
+        -14.499999999999993,
+        25.114736709748723
+      ],
+      [
+        -14.500000000000012,
+        -25.114736709748716
+      ]
+    ],
+    "post_hole_radius": 5.0,
+    "disc_join_positions": [
+      [
+        15.000000000000004,
+        25.980762113533157
+      ],
+      [
+        -30.0,
+        3.67394039744206e-15
+      ],
+      [
+        15.000000000000004,
+        -25.980762113533157
+      ]
+    ],
+    "deck_positions": [
+      [
+        16.5,
+        0.0
+      ],
+      [
+        -8.249999999999996,
+        14.289419162443238
+      ],
+      [
+        -8.250000000000007,
+        -14.289419162443235
+      ]
+    ],
+    "guide_nut_rotations": [
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0,
+      30.0
+    ],
+    "pitch_radius": 41.0,
+    "radius_calculation": {
+      "mode": "automatic",
+      "limits_mm": {
+        "lobe_shape": 40.65934065934066,
+        "rotor_features": 34.85000000000001,
+        "support_tracks": 40.150000000000006,
+        "bearing_package": 37.2,
+        "pin_spacing": 19.81660498664895,
+        "disc_fasteners": 39.650000000000006
+      },
+      "limiting_feature": "lobe_shape",
+      "selected_pitch_radius": 41.0
+    },
+    "ring_positions": [
+      [
+        41.0,
+        0.0
+      ],
+      [
+        38.99331716810129,
+        12.669696769372843
+      ],
+      [
+        33.16969676937285,
+        24.099195343991397
+      ],
+      [
+        24.099195343991397,
+        33.16969676937285
+      ],
+      [
+        12.669696769372845,
+        38.99331716810129
+      ],
+      [
+        2.510525938252074e-15,
+        41.0
+      ],
+      [
+        -12.669696769372841,
+        38.9933171681013
+      ],
+      [
+        -24.099195343991394,
+        33.16969676937285
+      ],
+      [
+        -33.16969676937284,
+        24.099195343991404
+      ],
+      [
+        -38.99331716810129,
+        12.669696769372848
+      ],
+      [
+        -41.0,
+        5.021051876504148e-15
+      ],
+      [
+        -38.9933171681013,
+        -12.66969676937284
+      ],
+      [
+        -33.16969676937285,
+        -24.099195343991394
+      ],
+      [
+        -24.099195343991404,
+        -33.16969676937284
+      ],
+      [
+        -12.66969676937285,
+        -38.99331716810129
+      ],
+      [
+        -7.531577814756221e-15,
+        -41.0
+      ],
+      [
+        12.669696769372836,
+        -38.9933171681013
+      ],
+      [
+        24.09919534399139,
+        -33.16969676937285
+      ],
+      [
+        33.16969676937284,
+        -24.099195343991408
+      ],
+      [
+        38.99331716810129,
+        -12.669696769372855
+      ]
+    ],
+    "casing_bore_radius": 42.6,
+    "housing_radius": 46.1,
+    "housing_width": 7,
+    "housing_mount_offset": 35.5,
+    "housing_positions": [
+      [
+        35.5,
+        35.5
+      ],
+      [
+        -35.5,
+        35.5
+      ],
+      [
+        -35.5,
+        -35.5
+      ],
+      [
+        35.5,
+        -35.5
+      ]
+    ],
+    "motor_positions": [
+      [
+        15.5,
+        15.5
+      ],
+      [
+        -15.5,
+        15.5
+      ],
+      [
+        -15.5,
+        -15.5
+      ],
+      [
+        15.5,
+        -15.5
+      ]
+    ],
+    "carrier_journal_radius": 24.9,
+    "carrier_radius": 28.0,
+    "bearing_pass_radius": 28.5,
+    "bearing_cup_radius": 34.6,
+    "bearing_cup_depth": 10.4,
+    "guide_heads_nested": false,
+    "motor_face_z": 0.0,
+    "mount_bottom_z": 0.0,
+    "motor_plate_top": 4.0,
+    "mount_rim_top": 4.0,
+    "rear_bearing_bottom": 4.3,
+    "rear_bearing_top": 11.3,
+    "rear_bearing_shoulder_radius": 26.5,
+    "casing_bottom_z": 4.5,
+    "rear_retainer_depth": -4.5,
+    "integrated_mount_depth": 14.0,
+    "coupling_top": 24.0,
+    "coupling_flange_top": 24.0,
+    "coupling_z": 12.0,
+    "coupling_flange_z": 22.0,
+    "coupling_grub_z": 17.0,
+    "coupling_hole_positions": [
+      [
+        8.0,
+        0.0
+      ],
+      [
+        4.898587196589413e-16,
+        8.0
+      ],
+      [
+        -8.0,
+        9.797174393178826e-16
+      ],
+      [
+        -1.4695761589768238e-15,
+        -8.0
+      ]
+    ],
+    "coupling_positions": [
+      [
+        4.898587196589413e-16,
+        8.0
+      ],
+      [
+        -1.4695761589768238e-15,
+        -8.0
+      ]
+    ],
+    "coupling_nut_rotations": [
+      270.0,
+      89.99999999999999
+    ],
+    "drive_roof_top": 20.5,
+    "drive_roof_z": 18.0,
+    "drive_start": 24.0,
+    "drive_flange_top": 32.5,
+    "cap_screw_head_z": 29.5,
+    "rotor_a_z": 33.0,
+    "rotor_b_z": 40.5,
+    "rear_support_top": 32.5,
+    "front_support_bottom": 48.0,
+    "housing_depth": 65.0,
+    "output_bearing_z": [
+      7.800000000000001,
+      58.1
+    ],
+    "shaft_bearing_z": [
+      0,
+      62.900000000000006
+    ],
+    "eccentric_bearing_z": [
+      36.5,
+      44.0
+    ],
+    "guide_bearing_z": [
+      36.5,
+      44.0
+    ],
+    "eccentric_journal_depth": 4.2,
+    "eccentric_journal_z": [
+      34.4,
+      41.9
+    ],
+    "eccentric_journal_radius": 9.9,
+    "eccentric_shoulder_radius": 10.8,
+    "shaft_journal_radius": 9.9,
+    "shaft_exit_radius": 12.0,
+    "hub_split_z": 40.25,
+    "hub_upper_start": 40.25,
+    "hub_upper_end": 65.2,
+    "hub_bolt_head_z": 59.2,
+    "guide_bolt_head_z": 50.2,
+    "guide_nut_top": 19.2,
+    "guide_spacer_depths": [],
+    "guide_spacer_z": [],
+    "post_depth": 15.5,
+    "post_screw_head_z": 50.0,
+    "front_hub_bottom": 54.5,
+    "front_hub_screw_head_z": 64.8,
+    "front_hub_nut_bottom": 49.0,
+    "case_nut_bottom": 7.0,
+    "housing_screw_length": 35.0,
+    "case_screw_head_z": 42.0,
+    "case_cover_post_bottom": 39.5,
+    "case_cover_depth": 27.5,
+    "case_split_z": 13.4,
+    "case_base_depth": 8.9,
+    "case_ring_depth": 51.6,
+    "central_to_guide_race_gap": 0.10000000000000142,
+    "gap": 65.0,
+    "thickness_outer_rotor": 17.0,
+    "disc_half_depth": 3.5,
+    "disc_join_head_z": 6.7,
+    "disc_join_nut_bottom": 0.7000000000000002
+  },
+  "spacing": 12.0,
+  "fps": 24,
+  "frames": 360,
+  "still_size": 2000,
+  "video_size": 1200,
+  "preview_only": false,
+  "geometry_source": "verified native SolidCraft exports",
+  "hardware_included": true,
+  "hardware": [
+    {
+      "name": "guide_bearing_0_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        18.27313601985166,
+        10.549999999999999,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_0_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        1.2920023731004577e-15,
+        21.1,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_0_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -18.27313601985166,
+        10.549999999999999,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_0_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -18.273136019851655,
+        -10.550000000000002,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_0_5",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -3.876007119301373e-15,
+        -21.1,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_0_6",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        18.273136019851652,
+        -10.55000000000001,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "eccentric_bearing_0",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_eccentric.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d0ae176e49d39df8e28c2d64c2a507152c87e698352dc0473a603f014a9de7ac"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        36.5
+      ],
+      "explode": [
+        0,
+        0,
+        -2.5
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_eccentric"
+    },
+    {
+      "name": "output_bearing_0",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_output.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "605aedf45ad129f4f1b39fd0c5542e0dc87d84e819adc3023585c00c5b774672"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        7.800000000000001
+      ],
+      "explode": [
+        0,
+        0,
+        -9
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_output"
+    },
+    {
+      "name": "disc_screw_0_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        25.980762113533157,
+        39.7
+      ],
+      "explode": [
+        0,
+        0,
+        -0.3
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_screw_0_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        -30.0,
+        3.67394039744206e-15,
+        39.7
+      ],
+      "explode": [
+        0,
+        0,
+        -0.3
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_screw_0_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        -25.980762113533157,
+        39.7
+      ],
+      "explode": [
+        0,
+        0,
+        -0.3
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_nut_0_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        25.980762113533157,
+        33.7
+      ],
+      "explode": [
+        0,
+        0,
+        -4.7
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "disc_nut_0_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -30.0,
+        3.67394039744206e-15,
+        33.7
+      ],
+      "explode": [
+        0,
+        0,
+        -4.7
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "disc_nut_0_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        -25.980762113533157,
+        33.7
+      ],
+      "explode": [
+        0,
+        0,
+        -4.7
+      ],
+      "member": "orbit_0",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "guide_bearing_1_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        18.27313601985166,
+        10.549999999999999,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_1_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        1.2920023731004577e-15,
+        21.1,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_1_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -18.27313601985166,
+        10.549999999999999,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_1_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -18.273136019851655,
+        -10.550000000000002,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_1_5",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        -3.876007119301373e-15,
+        -21.1,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "guide_bearing_1_6",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d154daa49645f8dcea1bbc7a2c92075aea9030a60c838ad9d89b088543d56e9f"
+        }
+      ],
+      "translation": [
+        18.273136019851652,
+        -10.55000000000001,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_guide"
+    },
+    {
+      "name": "eccentric_bearing_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_eccentric.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d0ae176e49d39df8e28c2d64c2a507152c87e698352dc0473a603f014a9de7ac"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        44.0
+      ],
+      "explode": [
+        0,
+        0,
+        3.5
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_eccentric"
+    },
+    {
+      "name": "output_bearing_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_output.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "605aedf45ad129f4f1b39fd0c5542e0dc87d84e819adc3023585c00c5b774672"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        58.1
+      ],
+      "explode": [
+        0,
+        0,
+        12
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_output"
+    },
+    {
+      "name": "disc_screw_1_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        25.980762113533157,
+        47.2
+      ],
+      "explode": [
+        0,
+        0,
+        5.7
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_screw_1_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        -30.0,
+        3.67394039744206e-15,
+        47.2
+      ],
+      "explode": [
+        0,
+        0,
+        5.7
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_screw_1_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_disc.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        -25.980762113533157,
+        47.2
+      ],
+      "explode": [
+        0,
+        0,
+        5.7
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_disc"
+    },
+    {
+      "name": "disc_nut_1_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        25.980762113533157,
+        41.2
+      ],
+      "explode": [
+        0,
+        0,
+        1.3
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "disc_nut_1_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -30.0,
+        3.67394039744206e-15,
+        41.2
+      ],
+      "explode": [
+        0,
+        0,
+        1.3
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "disc_nut_1_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        15.000000000000004,
+        -25.980762113533157,
+        41.2
+      ],
+      "explode": [
+        0,
+        0,
+        1.3
+      ],
+      "member": "orbit_1",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "shaft_bearing",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\bearing_shaft.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d0ae176e49d39df8e28c2d64c2a507152c87e698352dc0473a603f014a9de7ac"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        62.900000000000006
+      ],
+      "explode": [
+        0,
+        0,
+        11
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "bearing_shaft"
+    },
+    {
+      "name": "guide_bolt_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        18.27313601985166,
+        10.549999999999999,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_bolt_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        1.2920023731004577e-15,
+        21.1,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_bolt_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        -18.27313601985166,
+        10.549999999999999,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_bolt_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        -18.273136019851655,
+        -10.550000000000002,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_bolt_5",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        -3.876007119301373e-15,
+        -21.1,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_bolt_6",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_guide.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "c16c871ae8be5966f71235f04e7e124fe0137fd830a014490a93717f629c47e8"
+        }
+      ],
+      "translation": [
+        18.273136019851652,
+        -10.55000000000001,
+        50.2
+      ],
+      "explode": [
+        0,
+        0,
+        8.8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_guide"
+    },
+    {
+      "name": "guide_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        18.27313601985166,
+        10.549999999999999,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "guide_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        1.2920023731004577e-15,
+        21.1,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "guide_nut_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        -18.27313601985166,
+        10.549999999999999,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "guide_nut_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        -18.273136019851655,
+        -10.550000000000002,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "guide_nut_5",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        -3.876007119301373e-15,
+        -21.1,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "guide_nut_6",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        18.273136019851652,
+        -10.55000000000001,
+        14.2
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m6"
+    },
+    {
+      "name": "support_post_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "1ff196c0b402f19b70402b46c4114dc6f211de4393fac8f1240c670af39d0fc1"
+        }
+      ],
+      "translation": [
+        29.0,
+        0.0,
+        32.5
+      ],
+      "explode": [
+        0,
+        0,
+        6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "post"
+    },
+    {
+      "name": "support_post_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "1ff196c0b402f19b70402b46c4114dc6f211de4393fac8f1240c670af39d0fc1"
+        }
+      ],
+      "translation": [
+        -14.499999999999993,
+        25.114736709748723,
+        32.5
+      ],
+      "explode": [
+        0,
+        0,
+        6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "post"
+    },
+    {
+      "name": "support_post_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "1ff196c0b402f19b70402b46c4114dc6f211de4393fac8f1240c670af39d0fc1"
+        }
+      ],
+      "translation": [
+        -14.500000000000012,
+        -25.114736709748716,
+        32.5
+      ],
+      "explode": [
+        0,
+        0,
+        6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "post"
+    },
+    {
+      "name": "post_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        29.0,
+        0.0,
+        50.0
+      ],
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_post"
+    },
+    {
+      "name": "post_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        -14.499999999999993,
+        25.114736709748723,
+        50.0
+      ],
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_post"
+    },
+    {
+      "name": "post_screw_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_post.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        -14.500000000000012,
+        -25.114736709748716,
+        50.0
+      ],
+      "explode": [
+        0,
+        0,
+        8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_post"
+    },
+    {
+      "name": "post_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        29.0,
+        0.0,
+        27.0
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "post_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -14.499999999999993,
+        25.114736709748723,
+        27.0
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "post_nut_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -14.500000000000012,
+        -25.114736709748716,
+        27.0
+      ],
+      "explode": [
+        0,
+        0,
+        -8
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "deck_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_deck.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        16.5,
+        0.0,
+        26.0
+      ],
+      "explode": [
+        0,
+        0,
+        -6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_deck"
+    },
+    {
+      "name": "deck_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_deck.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        -8.249999999999996,
+        14.289419162443238,
+        26.0
+      ],
+      "explode": [
+        0,
+        0,
+        -6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_deck"
+    },
+    {
+      "name": "deck_screw_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_deck.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "84da1688c3387eac27e783cd5e671ae16adee6d2bc37e92d594f555b51eb0c6c"
+        }
+      ],
+      "translation": [
+        -8.250000000000007,
+        -14.289419162443235,
+        26.0
+      ],
+      "explode": [
+        0,
+        0,
+        -6
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_deck"
+    },
+    {
+      "name": "deck_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        16.5,
+        0.0,
+        0.3
+      ],
+      "explode": [
+        0,
+        0,
+        -12
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "deck_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -8.249999999999996,
+        14.289419162443238,
+        0.3
+      ],
+      "explode": [
+        0,
+        0,
+        -12
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "deck_nut_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -8.250000000000007,
+        -14.289419162443235,
+        0.3
+      ],
+      "explode": [
+        0,
+        0,
+        -12
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "front_hub_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_front_hub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "9534df3c114c9808b588d274627554fac31f593a71a08aed540a12f393e35df5"
+        }
+      ],
+      "translation": [
+        16.5,
+        0.0,
+        64.8
+      ],
+      "explode": [
+        0,
+        0,
+        11.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_front_hub"
+    },
+    {
+      "name": "front_hub_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_front_hub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "9534df3c114c9808b588d274627554fac31f593a71a08aed540a12f393e35df5"
+        }
+      ],
+      "translation": [
+        -8.249999999999996,
+        14.289419162443238,
+        64.8
+      ],
+      "explode": [
+        0,
+        0,
+        11.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_front_hub"
+    },
+    {
+      "name": "front_hub_screw_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_front_hub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "9534df3c114c9808b588d274627554fac31f593a71a08aed540a12f393e35df5"
+        }
+      ],
+      "translation": [
+        -8.250000000000007,
+        -14.289419162443235,
+        64.8
+      ],
+      "explode": [
+        0,
+        0,
+        11.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_front_hub"
+    },
+    {
+      "name": "front_hub_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        16.5,
+        0.0,
+        49.0
+      ],
+      "explode": [
+        0,
+        0,
+        6.7
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "front_hub_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -8.249999999999996,
+        14.289419162443238,
+        49.0
+      ],
+      "explode": [
+        0,
+        0,
+        6.7
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "front_hub_nut_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -8.250000000000007,
+        -14.289419162443235,
+        49.0
+      ],
+      "explode": [
+        0,
+        0,
+        6.7
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "housing_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_housing.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d4dc7fd5d9ea59986d7b7ce1972a6225618585f88b739e5343a802ded46729cb"
+        }
+      ],
+      "translation": [
+        35.5,
+        35.5,
+        42.0
+      ],
+      "explode": [
+        0,
+        0,
+        17
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_housing"
+    },
+    {
+      "name": "housing_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_housing.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d4dc7fd5d9ea59986d7b7ce1972a6225618585f88b739e5343a802ded46729cb"
+        }
+      ],
+      "translation": [
+        -35.5,
+        35.5,
+        42.0
+      ],
+      "explode": [
+        0,
+        0,
+        17
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_housing"
+    },
+    {
+      "name": "housing_screw_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_housing.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d4dc7fd5d9ea59986d7b7ce1972a6225618585f88b739e5343a802ded46729cb"
+        }
+      ],
+      "translation": [
+        -35.5,
+        -35.5,
+        42.0
+      ],
+      "explode": [
+        0,
+        0,
+        17
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_housing"
+    },
+    {
+      "name": "housing_screw_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_housing.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "d4dc7fd5d9ea59986d7b7ce1972a6225618585f88b739e5343a802ded46729cb"
+        }
+      ],
+      "translation": [
+        35.5,
+        -35.5,
+        42.0
+      ],
+      "explode": [
+        0,
+        0,
+        17
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_housing"
+    },
+    {
+      "name": "housing_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        35.5,
+        35.5,
+        7.0
+      ],
+      "explode": [
+        10,
+        0,
+        -6
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "housing_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -35.5,
+        35.5,
+        7.0
+      ],
+      "explode": [
+        10,
+        0,
+        -6
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "housing_nut_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -35.5,
+        -35.5,
+        7.0
+      ],
+      "explode": [
+        10,
+        0,
+        -6
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "housing_nut_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        35.5,
+        -35.5,
+        7.0
+      ],
+      "explode": [
+        10,
+        0,
+        -6
+      ],
+      "member": "output",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "motor_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_motor.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.5,
+        15.5,
+        4.0
+      ],
+      "explode": [
+        0,
+        0,
+        -10.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_motor"
+    },
+    {
+      "name": "motor_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_motor.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        -15.5,
+        15.5,
+        4.0
+      ],
+      "explode": [
+        0,
+        0,
+        -10.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_motor"
+    },
+    {
+      "name": "motor_screw_3",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_motor.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        -15.5,
+        -15.5,
+        4.0
+      ],
+      "explode": [
+        0,
+        0,
+        -10.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_motor"
+    },
+    {
+      "name": "motor_screw_4",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_motor.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7badfeb4f1673fb661be65163c62fe8293eb119592ec338d132c190c62a40db1"
+        }
+      ],
+      "translation": [
+        15.5,
+        -15.5,
+        4.0
+      ],
+      "explode": [
+        0,
+        0,
+        -10.5
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "screw_motor"
+    },
+    {
+      "name": "motor",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\motor_body.stl",
+          "color": [
+            0.14,
+            0.18,
+            0.21,
+            1
+          ],
+          "sha256": "47d17c837a30f3969d74a9712909014d8e968bca24491156cb096da4d95f484c"
+        },
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\motor_rear.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "3b247db9ecf730f9bec046ad3022fc085ddfa47d6c9356bf93d9b661ae8409fe"
+        },
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\motor_front.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b3565bca07a64ebfa0a27461acdd0ce516efaa7d779fb35af088eccab4b70201"
+        },
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\motor_shaft.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "cf64cdd8bc9973320ebd67d2a461cdd183a62d75fef38821b046ce77c0f2dfd1"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        0
+      ],
+      "explode": [
+        0,
+        0,
+        -15
+      ],
+      "member": "fixed",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": false,
+      "hardware": true,
+      "model": "motor"
+    },
+    {
+      "name": "flanged_coupler",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\coupler.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "68e30ba3d32d8999cd1cd211bb1ec341545508fb2e7c0ddda564e67441b17d8c"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        12.0
+      ],
+      "explode": [
+        -8,
+        0,
+        -10
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "coupler"
+    },
+    {
+      "name": "grub_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\grub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "0aafefde37d6f4679a092e1f65b47ce041202f61893ce5996ed6189022abfcdd"
+        }
+      ],
+      "translation": [
+        3.924442635585339,
+        3.924442635585339,
+        17.0
+      ],
+      "explode": [
+        -7.646446609406726,
+        0.3535533905932738,
+        -10
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 90,
+      "rotation_z": 45,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "grub"
+    },
+    {
+      "name": "grub_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\grub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "0aafefde37d6f4679a092e1f65b47ce041202f61893ce5996ed6189022abfcdd"
+        }
+      ],
+      "translation": [
+        -3.924442635585338,
+        3.924442635585339,
+        17.0
+      ],
+      "explode": [
+        -8.353553390593273,
+        0.3535533905932738,
+        -10
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 90,
+      "rotation_z": 135,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "grub"
+    },
+    {
+      "name": "flange_screw_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_flange.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7c5bbbd073bdc39ee86d592fc4a432c98cc0b3fe6d2eede8394245916fb34d71"
+        }
+      ],
+      "translation": [
+        4.898587196589413e-16,
+        8.0,
+        29.5
+      ],
+      "explode": [
+        -8,
+        0,
+        -3.3
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_flange"
+    },
+    {
+      "name": "flange_screw_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_flange.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "7c5bbbd073bdc39ee86d592fc4a432c98cc0b3fe6d2eede8394245916fb34d71"
+        }
+      ],
+      "translation": [
+        -1.4695761589768238e-15,
+        -8.0,
+        29.5
+      ],
+      "explode": [
+        -8,
+        0,
+        -3.3
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_flange"
+    },
+    {
+      "name": "flange_nut_1",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        4.898587196589413e-16,
+        8.0,
+        18.0
+      ],
+      "explode": [
+        -8.0,
+        1.0,
+        -7
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 300.0,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "flange_nut_2",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m3.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "55e738b2499bdedf656c7b66d98eb0d68c20e31f2f30fef0000ff5f5543d6002"
+        }
+      ],
+      "translation": [
+        -1.4695761589768238e-15,
+        -8.0,
+        18.0
+      ],
+      "explode": [
+        -8.0,
+        -1.0,
+        -7
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 119.99999999999999,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m3"
+    },
+    {
+      "name": "hub_bolt",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\screw_hub.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "6c7e0f69c8f01b20870f264e78b302c2cbea5226dc605d80a5bcfc6ab57929d4"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        59.2
+      ],
+      "explode": [
+        -8,
+        0,
+        9
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "screw_hub"
+    },
+    {
+      "name": "hub_nut",
+      "assets": [
+        {
+          "stl": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft_renders\\true\\with_hardware\\hardware_meshes\\nut_m6.stl",
+          "color": [
+            0.53,
+            0.58,
+            0.62,
+            1
+          ],
+          "sha256": "b7ec192d33d42de29b9063d48b998c7874bea6f627c18a461147a41651cf90db"
+        }
+      ],
+      "translation": [
+        0,
+        0,
+        24.2
+      ],
+      "explode": [
+        -8,
+        0,
+        -6
+      ],
+      "member": "input",
+      "rotation_x": 0,
+      "rotation_y": 0,
+      "rotation_z": 30,
+      "rotate_position": true,
+      "hardware": true,
+      "model": "nut_m6"
+    }
+  ],
+  "hardware_geometry": "parametric nominal envelopes; threads and rolling elements omitted"
+}

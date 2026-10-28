@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\gearbox_native\export.py", line 64, in render_piece
+    outcome=render_thing(local,plan=plan,output_dir=folder,export_stl=True,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 132, in render_thing
+    original = check_health(client, output / "native_inspection.json")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\gearbox_native\acceptance.py", line 84, in health_check
+    raise ValueError(f'Unconstrained sketch: {sketch}')
+ValueError: Unconstrained sketch: {'constraints': [{'c': 0, 'expression': '2 * oobb_hole_radius_3d1_radius', 'id': 'k1', 'name': 'DiameterDimension', 'param': 'd9', 'type': 'diameter', 'value': 6.2}], 'curves': [{'center': 'c1.center', 'center_at': [17.4, 0.0], 'construction': False, 'fixed': False, 'fully_constrained': False, 'id': 'c1', 'radius': 3.1, 'type': 'circle'}], 'dof': 2, 'failing': [], 'fully_constrained': False, 'id': 4, 'links': [], 'name': 'oobb_hole_radius_3d1_positions', 'plane': {'origin': [0.0, 0.0, -0.01], 'x_dir': [1.0, 0.0, 0.0], 'y_dir': [0.0, 1.0, 0.0]}, 'points': [{'at': [0.0, 0.0], 'fixed': True, 'fully_constrained': True, 'id': 'origin', 'link': None, 'world': [0.0, 0.0, -0.01]}, {'at': [17.4, 0.0], 'fixed': False, 'fully_constrained': False, 'id': 'c1.center', 'link': None, 'world': [17.4, 0.0, -0.01]}], 'profiles': [{'area_mm2': 30.190705400997913, 'centroid_sketch': [17.4, 1.9498387601837452e-16], 'curves': ['c1'], 'holes': [], 'index': 0}], 'status': 'solved', 'visible': False, 'wires': []}

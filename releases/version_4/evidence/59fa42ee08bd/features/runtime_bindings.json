@@ -1,0 +1,2375 @@
+{
+  "direct_000_oobb_cylinder_00": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 1.3895,
+        "name": "direct_000_oobb_cylinder_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 1.4964,
+        "name": "direct_000_oobb_cylinder_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_00_radius",
+      "height": "direct_000_oobb_cylinder_00_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_01": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 0.9384,
+        "name": "direct_000_oobb_cylinder_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 1.0597,
+        "name": "direct_000_oobb_cylinder_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_01_radius",
+      "height": "direct_000_oobb_cylinder_01_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_02": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 7,
+        "ms": 1.1907,
+        "name": "direct_000_oobb_cylinder_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 7,
+        "ms": 0.7765,
+        "name": "direct_000_oobb_cylinder_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_02_radius",
+      "height": "direct_000_oobb_cylinder_02_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_03": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 10,
+        "ms": 1.081,
+        "name": "direct_000_oobb_cylinder_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 10,
+        "ms": 1.1088,
+        "name": "direct_000_oobb_cylinder_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_03_radius",
+      "height": "direct_000_oobb_cylinder_03_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_04": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 13,
+        "ms": 1.38,
+        "name": "direct_000_oobb_cylinder_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 13,
+        "ms": 0.8515,
+        "name": "direct_000_oobb_cylinder_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_04_radius",
+      "height": "direct_000_oobb_cylinder_04_depth"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_05": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 16,
+        "ms": 3.6879,
+        "name": "direct_000_revolved_profile_05_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 16,
+        "ms": 2.0527,
+        "name": "direct_000_revolved_profile_05_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_05_z_0",
+      "radius_1": "direct_000_revolved_profile_05_radius_1",
+      "z_1": "direct_000_revolved_profile_05_z_1",
+      "radius_2": "direct_000_revolved_profile_05_radius_2",
+      "z_2": "direct_000_revolved_profile_05_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_05_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_06": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 23,
+        "ms": 0.8329,
+        "name": "direct_000_oobb_cylinder_06_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 23,
+        "ms": 0.8488,
+        "name": "direct_000_oobb_cylinder_06_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_06_radius",
+      "height": "direct_000_oobb_cylinder_06_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_07": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 26,
+        "ms": 0.5268999999999999,
+        "name": "direct_000_oobb_cube_07_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 26,
+        "ms": 0.2927,
+        "name": "direct_000_oobb_cube_07_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_07_length",
+      "width": "direct_000_oobb_cube_07_width",
+      "height": "direct_000_oobb_cube_07_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_08": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 29,
+        "ms": 0.9520000000000001,
+        "name": "direct_000_oobb_cylinder_08_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 29,
+        "ms": 0.5887,
+        "name": "direct_000_oobb_cylinder_08_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_08_radius",
+      "height": "direct_000_oobb_cylinder_08_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_09": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 32,
+        "ms": 0.4993,
+        "name": "direct_000_oobb_cube_09_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 32,
+        "ms": 0.4472,
+        "name": "direct_000_oobb_cube_09_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_09_length",
+      "width": "direct_000_oobb_cube_09_width",
+      "height": "direct_000_oobb_cube_09_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_10": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 36,
+        "ms": 1.2783,
+        "name": "direct_000_oobb_cylinder_10_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 36,
+        "ms": 0.6681,
+        "name": "direct_000_oobb_cylinder_10_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_10_radius",
+      "height": "direct_000_oobb_cylinder_10_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_11": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 39,
+        "ms": 0.422,
+        "name": "direct_000_oobb_cube_11_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 39,
+        "ms": 0.27530000000000004,
+        "name": "direct_000_oobb_cube_11_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_11_length",
+      "width": "direct_000_oobb_cube_11_width",
+      "height": "direct_000_oobb_cube_11_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_12": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 43,
+        "ms": 0.7609,
+        "name": "direct_000_oobb_cylinder_12_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 43,
+        "ms": 0.8742,
+        "name": "direct_000_oobb_cylinder_12_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_12_radius",
+      "height": "direct_000_oobb_cylinder_12_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_13": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 46,
+        "ms": 0.5358999999999999,
+        "name": "direct_000_oobb_cube_13_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 46,
+        "ms": 0.3787,
+        "name": "direct_000_oobb_cube_13_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_13_length",
+      "width": "direct_000_oobb_cube_13_width",
+      "height": "direct_000_oobb_cube_13_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_14": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 50,
+        "ms": 2.0358,
+        "name": "direct_000_oobb_cylinder_14_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 50,
+        "ms": 0.6813,
+        "name": "direct_000_oobb_cylinder_14_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_14_radius",
+      "height": "direct_000_oobb_cylinder_14_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_15": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 53,
+        "ms": 0.5127,
+        "name": "direct_000_oobb_cube_15_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 53,
+        "ms": 0.3765,
+        "name": "direct_000_oobb_cube_15_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_15_length",
+      "width": "direct_000_oobb_cube_15_width",
+      "height": "direct_000_oobb_cube_15_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_16": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 57,
+        "ms": 1.2065000000000001,
+        "name": "direct_000_oobb_cylinder_16_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 57,
+        "ms": 0.7603,
+        "name": "direct_000_oobb_cylinder_16_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_16_radius",
+      "height": "direct_000_oobb_cylinder_16_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_17": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 60,
+        "ms": 0.7599,
+        "name": "direct_000_oobb_cube_17_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 60,
+        "ms": 0.335,
+        "name": "direct_000_oobb_cube_17_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_17_length",
+      "width": "direct_000_oobb_cube_17_width",
+      "height": "direct_000_oobb_cube_17_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_18": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 64,
+        "ms": 1.2124,
+        "name": "direct_000_oobb_cylinder_18_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 64,
+        "ms": 0.6279,
+        "name": "direct_000_oobb_cylinder_18_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_18_radius",
+      "height": "direct_000_oobb_cylinder_18_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_19": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 67,
+        "ms": 0.40690000000000004,
+        "name": "direct_000_oobb_cube_19_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 67,
+        "ms": 0.2924,
+        "name": "direct_000_oobb_cube_19_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_19_length",
+      "width": "direct_000_oobb_cube_19_width",
+      "height": "direct_000_oobb_cube_19_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_20": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 71,
+        "ms": 1.467,
+        "name": "direct_000_oobb_cylinder_20_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 71,
+        "ms": 0.9906999999999999,
+        "name": "direct_000_oobb_cylinder_20_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_20_radius",
+      "height": "direct_000_oobb_cylinder_20_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_21": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 74,
+        "ms": 0.5178,
+        "name": "direct_000_oobb_cube_21_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 74,
+        "ms": 0.3366,
+        "name": "direct_000_oobb_cube_21_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_21_length",
+      "width": "direct_000_oobb_cube_21_width",
+      "height": "direct_000_oobb_cube_21_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_22": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 78,
+        "ms": 1.6285,
+        "name": "direct_000_oobb_cylinder_22_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 78,
+        "ms": 0.9633,
+        "name": "direct_000_oobb_cylinder_22_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_22_radius",
+      "height": "direct_000_oobb_cylinder_22_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_23": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 81,
+        "ms": 0.5149,
+        "name": "direct_000_oobb_cube_23_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 81,
+        "ms": 0.2932,
+        "name": "direct_000_oobb_cube_23_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_23_length",
+      "width": "direct_000_oobb_cube_23_width",
+      "height": "direct_000_oobb_cube_23_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_24": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 85,
+        "ms": 1.3377000000000001,
+        "name": "direct_000_oobb_cylinder_24_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 85,
+        "ms": 0.6518,
+        "name": "direct_000_oobb_cylinder_24_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_24_radius",
+      "height": "direct_000_oobb_cylinder_24_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_25": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 88,
+        "ms": 18.4298,
+        "name": "direct_000_oobb_cube_25_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 88,
+        "ms": 0.3846,
+        "name": "direct_000_oobb_cube_25_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_25_length",
+      "width": "direct_000_oobb_cube_25_width",
+      "height": "direct_000_oobb_cube_25_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_26": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 92,
+        "ms": 0.9840999999999999,
+        "name": "direct_000_oobb_cylinder_26_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 92,
+        "ms": 0.6679,
+        "name": "direct_000_oobb_cylinder_26_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_26_radius",
+      "height": "direct_000_oobb_cylinder_26_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_27": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 95,
+        "ms": 0.5613,
+        "name": "direct_000_oobb_cube_27_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 95,
+        "ms": 0.3157,
+        "name": "direct_000_oobb_cube_27_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_27_length",
+      "width": "direct_000_oobb_cube_27_width",
+      "height": "direct_000_oobb_cube_27_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_28": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 99,
+        "ms": 1.1218000000000001,
+        "name": "direct_000_oobb_cylinder_28_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 99,
+        "ms": 0.6845,
+        "name": "direct_000_oobb_cylinder_28_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_28_radius",
+      "height": "direct_000_oobb_cylinder_28_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_29": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 102,
+        "ms": 0.5204,
+        "name": "direct_000_oobb_cube_29_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 102,
+        "ms": 0.31829999999999997,
+        "name": "direct_000_oobb_cube_29_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_29_length",
+      "width": "direct_000_oobb_cube_29_width",
+      "height": "direct_000_oobb_cube_29_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_30": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 106,
+        "ms": 0.8299,
+        "name": "direct_000_oobb_cylinder_30_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 106,
+        "ms": 0.6516,
+        "name": "direct_000_oobb_cylinder_30_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_30_radius",
+      "height": "direct_000_oobb_cylinder_30_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_31": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 109,
+        "ms": 0.4833,
+        "name": "direct_000_oobb_cube_31_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 109,
+        "ms": 0.314,
+        "name": "direct_000_oobb_cube_31_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_31_length",
+      "width": "direct_000_oobb_cube_31_width",
+      "height": "direct_000_oobb_cube_31_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_32": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 113,
+        "ms": 0.8695,
+        "name": "direct_000_oobb_cylinder_32_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 113,
+        "ms": 0.6473,
+        "name": "direct_000_oobb_cylinder_32_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_32_radius",
+      "height": "direct_000_oobb_cylinder_32_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_33": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 116,
+        "ms": 0.5249,
+        "name": "direct_000_oobb_cube_33_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 116,
+        "ms": 0.31129999999999997,
+        "name": "direct_000_oobb_cube_33_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_33_length",
+      "width": "direct_000_oobb_cube_33_width",
+      "height": "direct_000_oobb_cube_33_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_34": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 120,
+        "ms": 0.8696,
+        "name": "direct_000_oobb_cylinder_34_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 120,
+        "ms": 0.6396999999999999,
+        "name": "direct_000_oobb_cylinder_34_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_34_radius",
+      "height": "direct_000_oobb_cylinder_34_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_35": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 123,
+        "ms": 0.6497999999999999,
+        "name": "direct_000_oobb_cube_35_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 123,
+        "ms": 0.2764,
+        "name": "direct_000_oobb_cube_35_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_35_length",
+      "width": "direct_000_oobb_cube_35_width",
+      "height": "direct_000_oobb_cube_35_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_36": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 127,
+        "ms": 1.0042,
+        "name": "direct_000_oobb_cylinder_36_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 127,
+        "ms": 0.6941999999999999,
+        "name": "direct_000_oobb_cylinder_36_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_36_radius",
+      "height": "direct_000_oobb_cylinder_36_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_37": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 130,
+        "ms": 6.513599999999999,
+        "name": "direct_000_oobb_cube_37_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 130,
+        "ms": 0.2631,
+        "name": "direct_000_oobb_cube_37_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_37_length",
+      "width": "direct_000_oobb_cube_37_width",
+      "height": "direct_000_oobb_cube_37_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_38": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 134,
+        "ms": 1.1354,
+        "name": "direct_000_oobb_cylinder_38_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 134,
+        "ms": 0.9936999999999999,
+        "name": "direct_000_oobb_cylinder_38_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_38_radius",
+      "height": "direct_000_oobb_cylinder_38_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_39": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 137,
+        "ms": 0.5878,
+        "name": "direct_000_oobb_cube_39_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 137,
+        "ms": 0.3435,
+        "name": "direct_000_oobb_cube_39_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_39_length",
+      "width": "direct_000_oobb_cube_39_width",
+      "height": "direct_000_oobb_cube_39_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_40": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 141,
+        "ms": 0.8087,
+        "name": "direct_000_oobb_cylinder_40_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 141,
+        "ms": 0.6513,
+        "name": "direct_000_oobb_cylinder_40_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_40_radius",
+      "height": "direct_000_oobb_cylinder_40_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_41": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 144,
+        "ms": 0.5885,
+        "name": "direct_000_oobb_cube_41_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 144,
+        "ms": 0.2765,
+        "name": "direct_000_oobb_cube_41_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_41_length",
+      "width": "direct_000_oobb_cube_41_width",
+      "height": "direct_000_oobb_cube_41_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_42": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 148,
+        "ms": 1.0070000000000001,
+        "name": "direct_000_oobb_cylinder_42_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 148,
+        "ms": 1.0337,
+        "name": "direct_000_oobb_cylinder_42_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_42_radius",
+      "height": "direct_000_oobb_cylinder_42_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_43": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 151,
+        "ms": 0.48910000000000003,
+        "name": "direct_000_oobb_cube_43_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 151,
+        "ms": 0.3513,
+        "name": "direct_000_oobb_cube_43_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_43_length",
+      "width": "direct_000_oobb_cube_43_width",
+      "height": "direct_000_oobb_cube_43_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_44": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 155,
+        "ms": 1.2436,
+        "name": "direct_000_oobb_cylinder_44_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 155,
+        "ms": 0.9145,
+        "name": "direct_000_oobb_cylinder_44_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_44_radius",
+      "height": "direct_000_oobb_cylinder_44_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_45": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 158,
+        "ms": 0.5812999999999999,
+        "name": "direct_000_oobb_cube_45_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 158,
+        "ms": 0.4911,
+        "name": "direct_000_oobb_cube_45_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_45_length",
+      "width": "direct_000_oobb_cube_45_width",
+      "height": "direct_000_oobb_cube_45_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_46": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 162,
+        "ms": 1.2471999999999999,
+        "name": "direct_000_oobb_cylinder_46_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 162,
+        "ms": 0.7451,
+        "name": "direct_000_oobb_cylinder_46_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_46_radius",
+      "height": "direct_000_oobb_cylinder_46_depth"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_47": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 164,
+        "ms": 1.8514,
+        "name": "direct_000_revolved_profile_47_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 164,
+        "ms": 1.8367,
+        "name": "direct_000_revolved_profile_47_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_47_z_0",
+      "radius_1": "direct_000_revolved_profile_47_radius_1",
+      "z_1": "direct_000_revolved_profile_47_z_1",
+      "radius_2": "direct_000_revolved_profile_47_radius_2",
+      "z_2": "direct_000_revolved_profile_47_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_47_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_48": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 167,
+        "ms": 1.2799,
+        "name": "direct_000_oobb_cylinder_48_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 167,
+        "ms": 0.6989,
+        "name": "direct_000_oobb_cylinder_48_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_48_radius",
+      "height": "direct_000_oobb_cylinder_48_depth"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_49": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 170,
+        "ms": 2.0976,
+        "name": "direct_000_revolved_profile_49_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 170,
+        "ms": 1.9108,
+        "name": "direct_000_revolved_profile_49_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_49_z_0",
+      "radius_1": "direct_000_revolved_profile_49_radius_1",
+      "z_1": "direct_000_revolved_profile_49_z_1",
+      "radius_2": "direct_000_revolved_profile_49_radius_2",
+      "z_2": "direct_000_revolved_profile_49_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_49_z_3"
+    },
+    "instances": []
+  },
+  "oobb_nut_m3_hex": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 173,
+        "ms": 0.5507,
+        "name": "oobb_nut_m3_hex_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 173,
+        "ms": 0.36069999999999997,
+        "name": "oobb_nut_m3_hex_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "oobb_nut_m3_hex_radius",
+      "height": "oobb_nut_m3_hex_depth"
+    },
+    "instances": [
+      {
+        "body": "oobb_nut_m3_hex_instance_001",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_hex_place_001"
+      },
+      {
+        "body": "oobb_nut_m3_hex_instance_002",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_hex_place_002"
+      },
+      {
+        "body": "oobb_nut_m3_hex_instance_003",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_hex_place_003"
+      },
+      {
+        "body": "oobb_nut_m3_hex_instance_004",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_hex_place_004"
+      }
+    ]
+  },
+  "oobb_nut_m3_shaft": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 176,
+        "ms": 1.346,
+        "name": "oobb_nut_m3_shaft_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 176,
+        "ms": 2.0759,
+        "name": "oobb_nut_m3_shaft_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "oobb_nut_m3_shaft_radius",
+      "height": "oobb_nut_m3_shaft_depth"
+    },
+    "instances": [
+      {
+        "body": "oobb_nut_m3_shaft_instance_001",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_shaft_place_001"
+      },
+      {
+        "body": "oobb_nut_m3_shaft_instance_002",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_shaft_place_002"
+      },
+      {
+        "body": "oobb_nut_m3_shaft_instance_003",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_shaft_place_003"
+      },
+      {
+        "body": "oobb_nut_m3_shaft_instance_004",
+        "source_id": "direct_000",
+        "placement_feature": "oobb_nut_m3_shaft_place_004"
+      }
+    ]
+  },
+  "direct_000_oobb_cube_52": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 193,
+        "ms": 0.6289,
+        "name": "direct_000_oobb_cube_52_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 193,
+        "ms": 0.6086,
+        "name": "direct_000_oobb_cube_52_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_52_length",
+      "width": "direct_000_oobb_cube_52_width",
+      "height": "direct_000_oobb_cube_52_depth"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_53": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 196,
+        "ms": 2.225,
+        "name": "direct_000_revolved_profile_53_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 196,
+        "ms": 1.6951,
+        "name": "direct_000_revolved_profile_53_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_53_z_0",
+      "radius_1": "direct_000_revolved_profile_53_radius_1",
+      "z_1": "direct_000_revolved_profile_53_z_1",
+      "radius_2": "direct_000_revolved_profile_53_radius_2",
+      "z_2": "direct_000_revolved_profile_53_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_53_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_54": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 199,
+        "ms": 2.4175999999999997,
+        "name": "direct_000_revolved_profile_54_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 199,
+        "ms": 1.6826,
+        "name": "direct_000_revolved_profile_54_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_54_z_0",
+      "radius_1": "direct_000_revolved_profile_54_radius_1",
+      "z_1": "direct_000_revolved_profile_54_z_1",
+      "radius_2": "direct_000_revolved_profile_54_radius_2",
+      "z_2": "direct_000_revolved_profile_54_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_54_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_55": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 202,
+        "ms": 1.8631,
+        "name": "direct_000_revolved_profile_55_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 202,
+        "ms": 1.7664,
+        "name": "direct_000_revolved_profile_55_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_55_z_0",
+      "radius_1": "direct_000_revolved_profile_55_radius_1",
+      "z_1": "direct_000_revolved_profile_55_z_1",
+      "radius_2": "direct_000_revolved_profile_55_radius_2",
+      "z_2": "direct_000_revolved_profile_55_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_55_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_56": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 205,
+        "ms": 1.9584,
+        "name": "direct_000_revolved_profile_56_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 205,
+        "ms": 1.8654,
+        "name": "direct_000_revolved_profile_56_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_56_z_0",
+      "radius_1": "direct_000_revolved_profile_56_radius_1",
+      "z_1": "direct_000_revolved_profile_56_z_1",
+      "radius_2": "direct_000_revolved_profile_56_radius_2",
+      "z_2": "direct_000_revolved_profile_56_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_56_z_3"
+    },
+    "instances": []
+  },
+  "direct_000_revolved_profile_57": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 208,
+        "ms": 1.8745,
+        "name": "direct_000_revolved_profile_57_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 208,
+        "ms": 1.7763,
+        "name": "direct_000_revolved_profile_57_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "0",
+      "z_0": "direct_000_revolved_profile_57_z_0",
+      "radius_1": "direct_000_revolved_profile_57_radius_1",
+      "z_1": "direct_000_revolved_profile_57_z_1",
+      "radius_2": "direct_000_revolved_profile_57_radius_2",
+      "z_2": "direct_000_revolved_profile_57_z_2",
+      "radius_3": "0",
+      "z_3": "direct_000_revolved_profile_57_z_3"
+    },
+    "instances": []
+  }
+}

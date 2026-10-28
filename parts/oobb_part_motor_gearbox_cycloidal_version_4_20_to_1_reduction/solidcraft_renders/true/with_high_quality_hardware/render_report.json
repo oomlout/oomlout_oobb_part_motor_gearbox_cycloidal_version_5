@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "version": "version_4",
+  "part_count": 15,
+  "hardware_count": 84,
+  "high_quality_hardware_count": 79,
+  "verification": {
+    "video": {
+      "width": 1200,
+      "height": 1200,
+      "avg_frame_rate": "24/1",
+      "duration": "15.000000",
+      "nb_read_frames": "360"
+    },
+    "unique_rendered_frames": 360,
+    "gif_frames": 180,
+    "review_sheet": "animation_review.png",
+    "status": "passed"
+  },
+  "hardware_geometry": "shared high_quality_hardware native models: helical threads, races, balls and cages; parametric motor, coupler and posts",
+  "ai_required": false,
+  "scad_required": false,
+  "files": {
+    "solidcraft_exploded.blend": "e78ee0cd937f154aaaf2078a1d8c8d6f0dffc4c0dc200af3b28272366af46ea4",
+    "solidcraft_exploded.gif": "758674ce2c5e38066d0c00dc2905557624ffcdbbe40ce46462a3ae045fc157d0",
+    "solidcraft_exploded.mp4": "45d41a2ec54ca57213e941353b120f6fdcbbcbf9764586450f8ea01a4a55873d",
+    "solidcraft_exploded.png": "44a10a7e39080700d312f30d7639e02e310410d19affdb5f64a617ffcf999598",
+    "solidcraft_exploded_key.png": "2e6ca34d1690702fe627de617de96c887962c8cea64a69a3a9d8ac434387dbd8"
+  }
+}

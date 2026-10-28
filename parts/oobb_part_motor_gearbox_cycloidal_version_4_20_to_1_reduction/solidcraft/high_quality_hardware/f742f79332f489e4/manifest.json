@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "fingerprint": "f742f79332f489e4edaafdfee11dfd8c2a17ed574d7d6392f61ef82026050437",
+  "spec": {
+    "family": "socket_cap",
+    "parameters": {
+      "length": 12.0,
+      "diameter": 3,
+      "head_diameter": 5.5,
+      "head_height": 3,
+      "hex_af": 2.5,
+      "hex_depth": 1.3,
+      "bevel": 0.2,
+      "tip_chamfer": 0.25,
+      "thread_length": 11.5
+    },
+    "designation": "M3x0.5",
+    "pitch": 0.5
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 73980,
+    "bounds_mm": [
+      [
+        -2.75,
+        -2.75,
+        -12.0
+      ],
+      [
+        2.75,
+        2.75,
+        3.0
+      ]
+    ],
+    "thread_pitch_mm": 0.5,
+    "thread_half_turn_error_mm": 6.445054920867221e-07,
+    "radius_range_mm": [
+      1.2293670177459664,
+      1.499999999999934
+    ]
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "5f4f28d852651973d2653b9f2fe319404526e8113dd563898fc2a65fda806f3e",
+    "hardware.stl": "4345b64bc51829598d26574184843331b5fd95dfaccd5d85cccb8b9adf2b8459"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+  "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\03a882e2c4de573c\\manifest.json"
+}

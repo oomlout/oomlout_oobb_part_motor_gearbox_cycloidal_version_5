@@ -1,0 +1,224 @@
+{
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_001_oobb_cylinder_00_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cylinder_00_radius",
+        "expression": "36.15 mm",
+        "comment": "direct_001"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 36.15
+        },
+        "dimensions": {
+          "diameter": "2 * direct_001_oobb_cylinder_00_radius"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cylinder_00_depth",
+        "expression": "9.2 mm",
+        "comment": "direct_001"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_001_oobb_cylinder_00_profile",
+        "distance": "direct_001_oobb_cylinder_00_depth",
+        "operation": "new",
+        "name": "direct_001_oobb_cylinder_00_extrude",
+        "body_name": "direct_001_oobb_cylinder_00_body"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_31d2_radius",
+        "expression": "31.2 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_31d2_depth",
+        "expression": "9.219999999999999 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_32d6_radius",
+        "expression": "32.6 mm",
+        "comment": "direct_007"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_32d6_depth",
+        "expression": "7.22 mm",
+        "comment": "direct_007"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_31d2_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 31.2,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_31d2_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_31d2_positions",
+        "distance": "oobb_hole_radius_31d2_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_001_oobb_cylinder_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 15
+        },
+        "name": "oobb_hole_radius_31d2_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_31d2",
+        "features": [
+          "oobb_hole_radius_31d2_positions",
+          "oobb_hole_radius_31d2_flat_bottom_cut"
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_32d6_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 32.6,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_32d6_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_32d6_positions",
+        "distance": "oobb_hole_radius_32d6_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_001_oobb_cylinder_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 22
+        },
+        "name": "oobb_hole_radius_32d6_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_32d6",
+        "features": [
+          "oobb_hole_radius_32d6_positions",
+          "oobb_hole_radius_32d6_flat_bottom_cut"
+        ]
+      }
+    }
+  ]
+}

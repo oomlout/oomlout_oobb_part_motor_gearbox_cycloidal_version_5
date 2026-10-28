@@ -1,0 +1,8534 @@
+{
+  "active_sketch": null,
+  "bodies": [
+    {
+      "area_mm2": 1515.5517096313579,
+      "bbox": {
+        "max": [
+          7.000000000000001,
+          22.000000000000004,
+          3.000000000000013
+        ],
+        "min": [
+          -7.0,
+          -22.00000000000001,
+          0.0
+        ]
+      },
+      "center_of_mass": [
+        -2.4850230599291287e-05,
+        -0.13832018176122524,
+        1.4832867465288775
+      ],
+      "edges": 35,
+      "face_types": {
+        "cone": 1,
+        "cylinder": 9,
+        "plane": 6
+      },
+      "faces": 16,
+      "kernel": {
+        "edges": 81,
+        "faces": 30,
+        "shells": 1,
+        "vertices": 53
+      },
+      "name": "boundary_000",
+      "vertices": 27,
+      "visible": true,
+      "volume_mm3": 1398.1617882277708
+    }
+  ],
+  "dirty": false,
+  "hidden_origin": [],
+  "marker": 46,
+  "metadata": {},
+  "name": "generated",
+  "params": [
+    {
+      "comment": "Uniform native dimension scale; recipe dimensions remain in Python/YAML",
+      "error": null,
+      "expression": "1 mm",
+      "model": false,
+      "name": "profile_unit",
+      "unit": "mm",
+      "value": 1.0
+    }
+  ],
+  "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\36abf81831aa\\surfaces\\generated.solidcraft",
+  "redo": 0,
+  "revision": 1,
+  "selection": [],
+  "sketches": [
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 3,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 13,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 5,
+          "id": "k4",
+          "name": "Coincident",
+          "p": 19,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 7,
+          "id": "k5",
+          "name": "Coincident",
+          "p": 25,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 8,
+          "id": "k6",
+          "name": "Coincident",
+          "p": 29,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 10,
+          "id": "k7",
+          "name": "Coincident",
+          "p": 35,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 11,
+          "id": "k8",
+          "name": "Coincident",
+          "p": 39,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 12,
+          "id": "k9",
+          "name": "Coincident",
+          "p": 43,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 13,
+          "id": "k10",
+          "name": "Coincident",
+          "p": 47,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 14,
+          "id": "k11",
+          "name": "Coincident",
+          "p": 51,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 15,
+          "id": "k12",
+          "name": "Coincident",
+          "p": 55,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 16,
+          "id": "k13",
+          "name": "Coincident",
+          "p": 59,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 17,
+          "id": "k14",
+          "name": "Coincident",
+          "p": 63,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 18,
+          "id": "k15",
+          "name": "Coincident",
+          "p": 67,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 19,
+          "id": "k16",
+          "name": "Coincident",
+          "p": 71,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 20,
+          "id": "k17",
+          "name": "Coincident",
+          "p": 75,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 21,
+          "id": "k18",
+          "name": "Coincident",
+          "p": 79,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 22,
+          "id": "k19",
+          "name": "Coincident",
+          "p": 83,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 23,
+          "id": "k20",
+          "name": "Coincident",
+          "p": 87,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 24,
+          "id": "k21",
+          "name": "Coincident",
+          "p": 91,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 4.999999999999989,
+          "start": "p1",
+          "start_at": [
+            -7.0,
+            -17.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 5.000000000000014,
+          "start": "p4",
+          "start_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            2.0,
+            -22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p7",
+          "start_at": [
+            -2.0,
+            -22.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "construction": false,
+          "end": "p10",
+          "end_at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 5.0000000000000036,
+          "start": "p9",
+          "start_at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p13",
+          "end_at": [
+            7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p12",
+          "start_at": [
+            7.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a4.center",
+          "center_at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "construction": false,
+          "end": "p15",
+          "end_at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a4",
+          "radius": 5.0,
+          "start": "p14",
+          "start_at": [
+            7.0,
+            17.0
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p18",
+          "end_at": [
+            2.0,
+            22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p17",
+          "start_at": [
+            -2.0,
+            22.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a5.center",
+          "center_at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "construction": false,
+          "end": "p20",
+          "end_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a5",
+          "radius": 5.0000000000000355,
+          "start": "p19",
+          "start_at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a6.center",
+          "center_at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "construction": false,
+          "end": "p23",
+          "end_at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a6",
+          "radius": 5.000000000000004,
+          "start": "p22",
+          "start_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p26",
+          "end_at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p25",
+          "start_at": [
+            -7.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a7.center",
+          "center_at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p28",
+          "end_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a7",
+          "radius": 3.249999999999991,
+          "start": "p27",
+          "start_at": [
+            3.25,
+            -15.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a8.center",
+          "center_at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p31",
+          "end_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a8",
+          "radius": 3.24999999999999,
+          "start": "p30",
+          "start_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a9.center",
+          "center_at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "construction": false,
+          "end": "p34",
+          "end_at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a9",
+          "radius": 3.249999999999989,
+          "start": "p33",
+          "start_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a10.center",
+          "center_at": [
+            4.9960036108132044e-15,
+            7.499999999999997
+          ],
+          "construction": false,
+          "end": "p37",
+          "end_at": [
+            -1.7999999999999925,
+            10.617691453623973
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a10",
+          "radius": 3.599999999999995,
+          "start": "p36",
+          "start_at": [
+            3.6,
+            7.499999999999998
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a11.center",
+          "center_at": [
+            2.220446049250313e-15,
+            7.499999999999997
+          ],
+          "construction": false,
+          "end": "p40",
+          "end_at": [
+            -1.799999999999995,
+            4.382308546376024
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a11",
+          "radius": 3.5999999999999943,
+          "start": "p39",
+          "start_at": [
+            -1.7999999999999925,
+            10.617691453623973
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a12.center",
+          "center_at": [
+            3.885780586188048e-15,
+            7.499999999999998
+          ],
+          "construction": false,
+          "end": "p43",
+          "end_at": [
+            3.6,
+            7.499999999999997
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a12",
+          "radius": 3.5999999999999956,
+          "start": "p42",
+          "start_at": [
+            -1.799999999999995,
+            4.382308546376024
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a13.center",
+          "center_at": [
+            -7.216449660063518e-15,
+            3.774758283725532e-15
+          ],
+          "construction": false,
+          "end": "p46",
+          "end_at": [
+            -1.6250000000000113,
+            2.8145825622994365
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a13",
+          "radius": 3.250000000000008,
+          "start": "p45",
+          "start_at": [
+            3.250000000000001,
+            3.6637359812630166e-15
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a14.center",
+          "center_at": [
+            -7.549516567451064e-15,
+            3.133770721597677e-15
+          ],
+          "construction": false,
+          "end": "p49",
+          "end_at": [
+            -1.6250000000000135,
+            -2.814582562299429
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a14",
+          "radius": 3.250000000000009,
+          "start": "p48",
+          "start_at": [
+            -1.6250000000000113,
+            2.8145825622994365
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a15.center",
+          "center_at": [
+            -8.104628079763643e-15,
+            3.9968028886505635e-15
+          ],
+          "construction": false,
+          "end": "p52",
+          "end_at": [
+            3.250000000000001,
+            2.867715561817235e-15
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a15",
+          "radius": 3.250000000000009,
+          "start": "p51",
+          "start_at": [
+            -1.6250000000000135,
+            -2.814582562299429
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a16.center",
+          "center_at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "construction": false,
+          "end": "p55",
+          "end_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a16",
+          "radius": 1.7999999999999998,
+          "start": "p54",
+          "start_at": [
+            1.8,
+            -7.5
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a17.center",
+          "center_at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "construction": false,
+          "end": "p58",
+          "end_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a17",
+          "radius": 1.8000000000000005,
+          "start": "p57",
+          "start_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a18.center",
+          "center_at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "construction": false,
+          "end": "p61",
+          "end_at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a18",
+          "radius": 1.8000000000000018,
+          "start": "p60",
+          "start_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a19.center",
+          "center_at": [
+            5.773159728050814e-15,
+            14.999999999999996
+          ],
+          "construction": false,
+          "end": "p64",
+          "end_at": [
+            -1.624999999999991,
+            17.814582562299417
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a19",
+          "radius": 3.2499999999999942,
+          "start": "p63",
+          "start_at": [
+            3.25,
+            14.999999999999996
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a20.center",
+          "center_at": [
+            6.661338147750939e-15,
+            14.999999999999996
+          ],
+          "construction": false,
+          "end": "p67",
+          "end_at": [
+            -1.624999999999993,
+            12.185417437700576
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a20",
+          "radius": 3.2499999999999947,
+          "start": "p66",
+          "start_at": [
+            -1.624999999999991,
+            17.814582562299417
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a21.center",
+          "center_at": [
+            3.774758283725532e-15,
+            14.999999999999998
+          ],
+          "construction": false,
+          "end": "p70",
+          "end_at": [
+            3.25,
+            14.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a21",
+          "radius": 3.249999999999996,
+          "start": "p69",
+          "start_at": [
+            -1.624999999999993,
+            12.185417437700576
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 1,
+      "links": [],
+      "name": "boundary_000_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          3.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -6.3301270189221945,
+            -19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -6.3301270189221945,
+            -19.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            -2.00000000000001,
+            -17.000000000000004,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -2.000000000000001,
+            -22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            -21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            -21.82962913144534,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -1.9999999999999944,
+            -16.999999999999986,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -2.0,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -2.0,
+            -22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            2.0,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            2.0,
+            -22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            1.9999999999999991,
+            -22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p10",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932737,
+            -20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p11",
+          "link": null,
+          "world": [
+            5.535533905932737,
+            -20.535533905932738,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            1.9999999999999982,
+            -16.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p12",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p13",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p14",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p15",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932738,
+            20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p16",
+          "link": null,
+          "world": [
+            5.535533905932738,
+            20.535533905932738,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a4.center",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -2.0,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p17",
+          "link": null,
+          "world": [
+            -2.0,
+            22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            2.0,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p18",
+          "link": null,
+          "world": [
+            2.0,
+            22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p19",
+          "link": null,
+          "world": [
+            -1.9999999999999998,
+            22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p20",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p21",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            21.82962913144534,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a5.center",
+          "link": null,
+          "world": [
+            -1.9999999999999911,
+            16.999999999999964,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p22",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p23",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -6.330127018922193,
+            19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p24",
+          "link": null,
+          "world": [
+            -6.330127018922193,
+            19.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a6.center",
+          "link": null,
+          "world": [
+            -1.999999999999993,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p25",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p26",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p27",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p28",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000049,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p29",
+          "link": null,
+          "world": [
+            1.6250000000000049,
+            -12.185417437700583,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a7.center",
+          "link": null,
+          "world": [
+            9.103828801926284e-15,
+            -15.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p30",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p31",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.249999999999983,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p32",
+          "link": null,
+          "world": [
+            -3.249999999999983,
+            -15.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a8.center",
+          "link": null,
+          "world": [
+            7.105427357601002e-15,
+            -15.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p33",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p34",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000022,
+            -17.81458256229942
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p35",
+          "link": null,
+          "world": [
+            1.6250000000000022,
+            -17.81458256229942,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a9.center",
+          "link": null,
+          "world": [
+            9.992007221626409e-15,
+            -15.000000000000004,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.6,
+            7.499999999999998
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p36",
+          "link": null,
+          "world": [
+            3.6,
+            7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.7999999999999925,
+            10.617691453623973
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p37",
+          "link": null,
+          "world": [
+            -1.7999999999999925,
+            10.617691453623973,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.8000000000000027,
+            10.617691453623973
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p38",
+          "link": null,
+          "world": [
+            1.8000000000000027,
+            10.617691453623973,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            4.9960036108132044e-15,
+            7.499999999999997
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a10.center",
+          "link": null,
+          "world": [
+            4.9960036108132044e-15,
+            7.499999999999997,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.7999999999999925,
+            10.617691453623973
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p39",
+          "link": null,
+          "world": [
+            -1.7999999999999925,
+            10.617691453623973,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.799999999999995,
+            4.382308546376024
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p40",
+          "link": null,
+          "world": [
+            -1.799999999999995,
+            4.382308546376024,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.599999999999991,
+            7.499999999999998
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p41",
+          "link": null,
+          "world": [
+            -3.599999999999991,
+            7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            2.220446049250313e-15,
+            7.499999999999997
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a11.center",
+          "link": null,
+          "world": [
+            2.220446049250313e-15,
+            7.499999999999997,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.799999999999995,
+            4.382308546376024
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p42",
+          "link": null,
+          "world": [
+            -1.799999999999995,
+            4.382308546376024,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.6,
+            7.499999999999997
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p43",
+          "link": null,
+          "world": [
+            3.6,
+            7.499999999999997,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.7999999999999998,
+            4.382308546376022
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p44",
+          "link": null,
+          "world": [
+            1.7999999999999998,
+            4.382308546376022,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.885780586188048e-15,
+            7.499999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a12.center",
+          "link": null,
+          "world": [
+            3.885780586188048e-15,
+            7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.250000000000001,
+            3.6637359812630166e-15
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p45",
+          "link": null,
+          "world": [
+            3.250000000000001,
+            3.6637359812630166e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000113,
+            2.8145825622994365
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p46",
+          "link": null,
+          "world": [
+            -1.6250000000000113,
+            2.8145825622994365,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.624999999999997,
+            2.8145825622994365
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p47",
+          "link": null,
+          "world": [
+            1.624999999999997,
+            2.8145825622994365,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.216449660063518e-15,
+            3.774758283725532e-15
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a13.center",
+          "link": null,
+          "world": [
+            -7.216449660063518e-15,
+            3.774758283725532e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000113,
+            2.8145825622994365
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p48",
+          "link": null,
+          "world": [
+            -1.6250000000000113,
+            2.8145825622994365,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000135,
+            -2.814582562299429
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p49",
+          "link": null,
+          "world": [
+            -1.6250000000000135,
+            -2.814582562299429,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.250000000000016,
+            4.061746190985907e-15
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p50",
+          "link": null,
+          "world": [
+            -3.250000000000016,
+            4.061746190985907e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -7.549516567451064e-15,
+            3.133770721597677e-15
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a14.center",
+          "link": null,
+          "world": [
+            -7.549516567451064e-15,
+            3.133770721597677e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000135,
+            -2.814582562299429
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p51",
+          "link": null,
+          "world": [
+            -1.6250000000000135,
+            -2.814582562299429,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.250000000000001,
+            2.867715561817235e-15
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p52",
+          "link": null,
+          "world": [
+            3.250000000000001,
+            2.867715561817235e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.6249999999999942,
+            -2.8145825622994307
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p53",
+          "link": null,
+          "world": [
+            1.6249999999999942,
+            -2.8145825622994307,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -8.104628079763643e-15,
+            3.9968028886505635e-15
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a15.center",
+          "link": null,
+          "world": [
+            -8.104628079763643e-15,
+            3.9968028886505635e-15,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p54",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p55",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            0.9000000000000002,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p56",
+          "link": null,
+          "world": [
+            0.9000000000000002,
+            -5.94115427318801,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a16.center",
+          "link": null,
+          "world": [
+            3.3306690738754696e-16,
+            -7.499999999999999,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p57",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p58",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p59",
+          "link": null,
+          "world": [
+            -1.8,
+            -7.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a17.center",
+          "link": null,
+          "world": [
+            7.771561172376096e-16,
+            -7.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p60",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p61",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            0.8999999999999988,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p62",
+          "link": null,
+          "world": [
+            0.8999999999999988,
+            -9.05884572681199,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a18.center",
+          "link": null,
+          "world": [
+            -9.992007221626409e-16,
+            -7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            14.999999999999996
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p63",
+          "link": null,
+          "world": [
+            3.25,
+            14.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.624999999999991,
+            17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p64",
+          "link": null,
+          "world": [
+            -1.624999999999991,
+            17.814582562299417,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.625000000000003,
+            17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p65",
+          "link": null,
+          "world": [
+            1.625000000000003,
+            17.814582562299417,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            5.773159728050814e-15,
+            14.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a19.center",
+          "link": null,
+          "world": [
+            5.773159728050814e-15,
+            14.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.624999999999991,
+            17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p66",
+          "link": null,
+          "world": [
+            -1.624999999999991,
+            17.814582562299417,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.624999999999993,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p67",
+          "link": null,
+          "world": [
+            -1.624999999999993,
+            12.185417437700576,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -3.2499999999999885,
+            14.999999999999996
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p68",
+          "link": null,
+          "world": [
+            -3.2499999999999885,
+            14.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            6.661338147750939e-15,
+            14.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a20.center",
+          "link": null,
+          "world": [
+            6.661338147750939e-15,
+            14.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            -1.624999999999993,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p69",
+          "link": null,
+          "world": [
+            -1.624999999999993,
+            12.185417437700576,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            14.999999999999996
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p70",
+          "link": null,
+          "world": [
+            3.25,
+            14.999999999999996,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000004,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p71",
+          "link": null,
+          "world": [
+            1.6250000000000004,
+            12.185417437700576,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.774758283725532e-15,
+            14.999999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a21.center",
+          "link": null,
+          "world": [
+            3.774758283725532e-15,
+            14.999999999999998,
+            3.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 444.0967981409637,
+          "centroid_sketch": [
+            -4.589978948442003e-06,
+            -0.5157031201427437
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "l1",
+            "a3",
+            "l2",
+            "a4",
+            "l3",
+            "a5",
+            "a6",
+            "l4"
+          ],
+          "holes": [
+            [
+              "a7",
+              "a8",
+              "a9"
+            ],
+            [
+              "a10",
+              "a11",
+              "a12"
+            ],
+            [
+              "a13",
+              "a14",
+              "a15"
+            ],
+            [
+              "a16",
+              "a17",
+              "a18"
+            ],
+            [
+              "a19",
+              "a20",
+              "a21"
+            ]
+          ],
+          "index": 0
+        },
+        {
+          "area_mm2": 33.18307240354199,
+          "centroid_sketch": [
+            1.0454029034224741e-14,
+            -15.000000000000002
+          ],
+          "curves": [
+            "a7",
+            "a8",
+            "a9"
+          ],
+          "holes": [],
+          "index": 1
+        },
+        {
+          "area_mm2": 40.71504079052361,
+          "centroid_sketch": [
+            3.913480438402426e-15,
+            7.499999999999994
+          ],
+          "curves": [
+            "a10",
+            "a11",
+            "a12"
+          ],
+          "holes": [],
+          "index": 2
+        },
+        {
+          "area_mm2": 33.18307240354237,
+          "centroid_sketch": [
+            -7.74959292120857e-15,
+            3.638548792728397e-15
+          ],
+          "curves": [
+            "a13",
+            "a14",
+            "a15"
+          ],
+          "holes": [],
+          "index": 3
+        },
+        {
+          "area_mm2": 10.178760197630936,
+          "centroid_sketch": [
+            4.857194174268613e-16,
+            -7.500000000000004
+          ],
+          "curves": [
+            "a16",
+            "a17",
+            "a18"
+          ],
+          "holes": [],
+          "index": 4
+        },
+        {
+          "area_mm2": 33.183072403542056,
+          "centroid_sketch": [
+            4.781853622271838e-15,
+            14.999999999999984
+          ],
+          "curves": [
+            "a19",
+            "a20",
+            "a21"
+          ],
+          "holes": [],
+          "index": 5
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 4.999999999999989,
+          "start": "p1",
+          "start_at": [
+            -7.0,
+            -17.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 5.000000000000014,
+          "start": "p4",
+          "start_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 3,
+      "links": [],
+      "name": "boundary_001_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -6.3301270189221945,
+            -19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -6.3301270189221945,
+            -19.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            -2.00000000000001,
+            -17.000000000000004,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -2.000000000000001,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            -21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            -21.82962913144534,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -1.9999999999999944,
+            -16.999999999999986,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 2,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 11,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 3.249999999999991,
+          "start": "p1",
+          "start_at": [
+            3.25,
+            -15.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 3.24999999999999,
+          "start": "p4",
+          "start_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 3.249999999999989,
+          "start": "p7",
+          "start_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 6,
+      "links": [],
+      "name": "boundary_002_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000049,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            1.6250000000000049,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            9.103828801926284e-15,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.249999999999983,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.249999999999983,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            7.105427357601002e-15,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000022,
+            -17.81458256229942
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            1.6250000000000022,
+            -17.81458256229942,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            9.992007221626409e-15,
+            -15.000000000000004,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 33.18307240354199,
+          "centroid_sketch": [
+            1.0454029034224741e-14,
+            -15.000000000000002
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            -2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            -2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            -2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            -2.0
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 9,
+      "links": [],
+      "name": "boundary_003_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          -22.0,
+          0.0
+        ],
+        "x_dir": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "y_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -2.0,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            2.0,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            2.0,
+            -22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -2.0,
+            -22.0,
+            3.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 12.0,
+          "centroid_sketch": [
+            1.5,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 3,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 13,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 4,
+          "id": "k4",
+          "name": "Coincident",
+          "p": 17,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k5",
+          "name": "Coincident",
+          "p": 23,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 8,
+          "id": "k6",
+          "name": "Coincident",
+          "p": 29,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 10,
+          "id": "k7",
+          "name": "Coincident",
+          "p": 35,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 11,
+          "id": "k8",
+          "name": "Coincident",
+          "p": 39,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 12,
+          "id": "k9",
+          "name": "Coincident",
+          "p": 43,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 13,
+          "id": "k10",
+          "name": "Coincident",
+          "p": 47,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 14,
+          "id": "k11",
+          "name": "Coincident",
+          "p": 51,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 15,
+          "id": "k12",
+          "name": "Coincident",
+          "p": 55,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 16,
+          "id": "k13",
+          "name": "Coincident",
+          "p": 59,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 17,
+          "id": "k14",
+          "name": "Coincident",
+          "p": 63,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 18,
+          "id": "k15",
+          "name": "Coincident",
+          "p": 67,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 19,
+          "id": "k16",
+          "name": "Coincident",
+          "p": 71,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 20,
+          "id": "k17",
+          "name": "Coincident",
+          "p": 75,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 21,
+          "id": "k18",
+          "name": "Coincident",
+          "p": 79,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 22,
+          "id": "k19",
+          "name": "Coincident",
+          "p": 83,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 23,
+          "id": "k20",
+          "name": "Coincident",
+          "p": 87,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 24,
+          "id": "k21",
+          "name": "Coincident",
+          "p": 91,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 4.999999999999989,
+          "start": "p1",
+          "start_at": [
+            -7.0,
+            -17.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 5.000000000000014,
+          "start": "p4",
+          "start_at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p7",
+          "start_at": [
+            -7.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "construction": false,
+          "end": "p10",
+          "end_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 5.0000000000000355,
+          "start": "p9",
+          "start_at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a4.center",
+          "center_at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "construction": false,
+          "end": "p13",
+          "end_at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a4",
+          "radius": 5.000000000000004,
+          "start": "p12",
+          "start_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p16",
+          "end_at": [
+            2.0,
+            22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p15",
+          "start_at": [
+            -2.0,
+            22.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a5.center",
+          "center_at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "construction": false,
+          "end": "p18",
+          "end_at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a5",
+          "radius": 5.0,
+          "start": "p17",
+          "start_at": [
+            7.0,
+            17.0
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p21",
+          "end_at": [
+            7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p20",
+          "start_at": [
+            7.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a6.center",
+          "center_at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "construction": false,
+          "end": "p23",
+          "end_at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a6",
+          "radius": 5.0000000000000036,
+          "start": "p22",
+          "start_at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "type": "arc"
+        },
+        {
+          "construction": false,
+          "end": "p26",
+          "end_at": [
+            2.0,
+            -22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p25",
+          "start_at": [
+            -2.0,
+            -22.0
+          ],
+          "type": "line"
+        },
+        {
+          "center": "a7.center",
+          "center_at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p28",
+          "end_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a7",
+          "radius": 3.249999999999991,
+          "start": "p27",
+          "start_at": [
+            3.25,
+            -15.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a8.center",
+          "center_at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "construction": false,
+          "end": "p31",
+          "end_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a8",
+          "radius": 3.24999999999999,
+          "start": "p30",
+          "start_at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a9.center",
+          "center_at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "construction": false,
+          "end": "p34",
+          "end_at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a9",
+          "radius": 3.249999999999989,
+          "start": "p33",
+          "start_at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a10.center",
+          "center_at": [
+            2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "construction": false,
+          "end": "p37",
+          "end_at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a10",
+          "radius": 3.25,
+          "start": "p36",
+          "start_at": [
+            3.25,
+            0.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a11.center",
+          "center_at": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16
+          ],
+          "construction": false,
+          "end": "p40",
+          "end_at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a11",
+          "radius": 3.25,
+          "start": "p39",
+          "start_at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a12.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "construction": false,
+          "end": "p43",
+          "end_at": [
+            3.25,
+            -7.960204194457795e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a12",
+          "radius": 3.2500000000000004,
+          "start": "p42",
+          "start_at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a13.center",
+          "center_at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "construction": false,
+          "end": "p46",
+          "end_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a13",
+          "radius": 1.7999999999999998,
+          "start": "p45",
+          "start_at": [
+            1.8,
+            -7.5
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a14.center",
+          "center_at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "construction": false,
+          "end": "p49",
+          "end_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a14",
+          "radius": 1.8000000000000005,
+          "start": "p48",
+          "start_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a15.center",
+          "center_at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "construction": false,
+          "end": "p52",
+          "end_at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a15",
+          "radius": 1.8000000000000018,
+          "start": "p51",
+          "start_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a16.center",
+          "center_at": [
+            6.661338147750939e-16,
+            14.999999999999998
+          ],
+          "construction": false,
+          "end": "p55",
+          "end_at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a16",
+          "radius": 3.249999999999999,
+          "start": "p54",
+          "start_at": [
+            3.25,
+            15.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a17.center",
+          "center_at": [
+            -4.440892098500626e-15,
+            15.0
+          ],
+          "construction": false,
+          "end": "p58",
+          "end_at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a17",
+          "radius": 3.2499999999999964,
+          "start": "p57",
+          "start_at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a18.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            15.0
+          ],
+          "construction": false,
+          "end": "p61",
+          "end_at": [
+            3.25,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a18",
+          "radius": 3.2499999999999996,
+          "start": "p60",
+          "start_at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a19.center",
+          "center_at": [
+            3.3306690738754696e-16,
+            7.5
+          ],
+          "construction": false,
+          "end": "p64",
+          "end_at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a19",
+          "radius": 1.7999999999999998,
+          "start": "p63",
+          "start_at": [
+            1.8,
+            7.5
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a20.center",
+          "center_at": [
+            -7.771561172376096e-16,
+            7.5
+          ],
+          "construction": false,
+          "end": "p67",
+          "end_at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a20",
+          "radius": 1.7999999999999996,
+          "start": "p66",
+          "start_at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a21.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            7.500000000000001
+          ],
+          "construction": false,
+          "end": "p70",
+          "end_at": [
+            1.8,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a21",
+          "radius": 1.8000000000000005,
+          "start": "p69",
+          "start_at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 12,
+      "links": [],
+      "name": "boundary_004_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -6.3301270189221945,
+            -19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -6.3301270189221945,
+            -19.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.00000000000001,
+            -17.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            -2.00000000000001,
+            -17.000000000000004,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.500000000000002,
+            -21.33012701892219
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -4.500000000000002,
+            -21.33012701892219,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.000000000000001,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -2.000000000000001,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            -21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            -21.82962913144534,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999944,
+            -16.999999999999986
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -1.9999999999999944,
+            -16.999999999999986,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            -1.9999999999999998,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p10",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p11",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            21.82962913144534,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            -1.9999999999999911,
+            16.999999999999964,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p12",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p13",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -6.330127018922193,
+            19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p14",
+          "link": null,
+          "world": [
+            -6.330127018922193,
+            19.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a4.center",
+          "link": null,
+          "world": [
+            -1.999999999999993,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.0,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p15",
+          "link": null,
+          "world": [
+            -2.0,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p16",
+          "link": null,
+          "world": [
+            2.0,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p17",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p18",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932738,
+            20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p19",
+          "link": null,
+          "world": [
+            5.535533905932738,
+            20.535533905932738,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a5.center",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p20",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p21",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p22",
+          "link": null,
+          "world": [
+            1.9999999999999991,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p23",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932737,
+            -20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p24",
+          "link": null,
+          "world": [
+            5.535533905932737,
+            -20.535533905932738,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a6.center",
+          "link": null,
+          "world": [
+            1.9999999999999982,
+            -16.999999999999996,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.0,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p25",
+          "link": null,
+          "world": [
+            -2.0,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p26",
+          "link": null,
+          "world": [
+            2.0,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p27",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p28",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000049,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p29",
+          "link": null,
+          "world": [
+            1.6250000000000049,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            9.103828801926284e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a7.center",
+          "link": null,
+          "world": [
+            9.103828801926284e-15,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999865,
+            -12.185417437700583
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p30",
+          "link": null,
+          "world": [
+            -1.6249999999999865,
+            -12.185417437700583,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p31",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.249999999999983,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p32",
+          "link": null,
+          "world": [
+            -3.249999999999983,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.105427357601002e-15,
+            -15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a8.center",
+          "link": null,
+          "world": [
+            7.105427357601002e-15,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999885,
+            -17.814582562299417
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p33",
+          "link": null,
+          "world": [
+            -1.6249999999999885,
+            -17.814582562299417,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p34",
+          "link": null,
+          "world": [
+            3.25,
+            -15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000022,
+            -17.81458256229942
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p35",
+          "link": null,
+          "world": [
+            1.6250000000000022,
+            -17.81458256229942,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            9.992007221626409e-15,
+            -15.000000000000004
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a9.center",
+          "link": null,
+          "world": [
+            9.992007221626409e-15,
+            -15.000000000000004,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p36",
+          "link": null,
+          "world": [
+            3.25,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p37",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            2.814582562299426,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000004,
+            2.8145825622994254
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p38",
+          "link": null,
+          "world": [
+            1.6250000000000004,
+            2.8145825622994254,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a10.center",
+          "link": null,
+          "world": [
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p39",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            2.814582562299426,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p40",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            -2.814582562299425,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.25,
+            3.9801020972288977e-16
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p41",
+          "link": null,
+          "world": [
+            -3.25,
+            3.9801020972288977e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a11.center",
+          "link": null,
+          "world": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p42",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            -2.814582562299425,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -7.960204194457795e-16
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p43",
+          "link": null,
+          "world": [
+            3.25,
+            -7.960204194457795e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6249999999999978,
+            -2.8145825622994267
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p44",
+          "link": null,
+          "world": [
+            1.6249999999999978,
+            -2.8145825622994267,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a12.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p45",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p46",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.9000000000000002,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p47",
+          "link": null,
+          "world": [
+            0.9000000000000002,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a13.center",
+          "link": null,
+          "world": [
+            3.3306690738754696e-16,
+            -7.499999999999999,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p48",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p49",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p50",
+          "link": null,
+          "world": [
+            -1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a14.center",
+          "link": null,
+          "world": [
+            7.771561172376096e-16,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p51",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p52",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.8999999999999988,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p53",
+          "link": null,
+          "world": [
+            0.8999999999999988,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a15.center",
+          "link": null,
+          "world": [
+            -9.992007221626409e-16,
+            -7.499999999999998,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p54",
+          "link": null,
+          "world": [
+            3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p55",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000004,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p56",
+          "link": null,
+          "world": [
+            1.6250000000000004,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            6.661338147750939e-16,
+            14.999999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a16.center",
+          "link": null,
+          "world": [
+            6.661338147750939e-16,
+            14.999999999999998,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p57",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p58",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            12.185417437700576,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p59",
+          "link": null,
+          "world": [
+            -3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.440892098500626e-15,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a17.center",
+          "link": null,
+          "world": [
+            -4.440892098500626e-15,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p60",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            12.185417437700576,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p61",
+          "link": null,
+          "world": [
+            3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6249999999999978,
+            12.185417437700574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p62",
+          "link": null,
+          "world": [
+            1.6249999999999978,
+            12.185417437700574,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a18.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p63",
+          "link": null,
+          "world": [
+            1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p64",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.9000000000000002,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p65",
+          "link": null,
+          "world": [
+            0.9000000000000002,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.3306690738754696e-16,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a19.center",
+          "link": null,
+          "world": [
+            3.3306690738754696e-16,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p66",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p67",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            5.941154273188011,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p68",
+          "link": null,
+          "world": [
+            -1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.771561172376096e-16,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a20.center",
+          "link": null,
+          "world": [
+            -7.771561172376096e-16,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p69",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            5.941154273188011,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p70",
+          "link": null,
+          "world": [
+            1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.8999999999999988,
+            5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p71",
+          "link": null,
+          "world": [
+            0.8999999999999988,
+            5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            7.500000000000001
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a21.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            7.500000000000001,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 474.63307873385645,
+          "centroid_sketch": [
+            -4.294675288686083e-06,
+            -7.425297829581516e-15
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "l4",
+            "a6",
+            "l3",
+            "a5",
+            "l2",
+            "a3",
+            "a4",
+            "l1"
+          ],
+          "holes": [
+            [
+              "a7",
+              "a8",
+              "a9"
+            ],
+            [
+              "a10",
+              "a11",
+              "a12"
+            ],
+            [
+              "a13",
+              "a14",
+              "a15"
+            ],
+            [
+              "a16",
+              "a17",
+              "a18"
+            ],
+            [
+              "a19",
+              "a20",
+              "a21"
+            ]
+          ],
+          "index": 0
+        },
+        {
+          "area_mm2": 33.18307240354199,
+          "centroid_sketch": [
+            1.0454029034224741e-14,
+            -15.000000000000002
+          ],
+          "curves": [
+            "a7",
+            "a8",
+            "a9"
+          ],
+          "holes": [],
+          "index": 1
+        },
+        {
+          "area_mm2": 33.183072403542184,
+          "centroid_sketch": [
+            2.8115424937295854e-16,
+            2.4796242826642875e-16
+          ],
+          "curves": [
+            "a10",
+            "a11",
+            "a12"
+          ],
+          "holes": [],
+          "index": 2
+        },
+        {
+          "area_mm2": 10.178760197630936,
+          "centroid_sketch": [
+            4.857194174268613e-16,
+            -7.500000000000004
+          ],
+          "curves": [
+            "a13",
+            "a14",
+            "a15"
+          ],
+          "holes": [],
+          "index": 3
+        },
+        {
+          "area_mm2": 33.18307240354217,
+          "centroid_sketch": [
+            5.600771158143855e-16,
+            14.999999999999996
+          ],
+          "curves": [
+            "a16",
+            "a17",
+            "a18"
+          ],
+          "holes": [],
+          "index": 4
+        },
+        {
+          "area_mm2": 10.178760197630929,
+          "centroid_sketch": [
+            9.095869240203389e-18,
+            7.499999999999996
+          ],
+          "curves": [
+            "a19",
+            "a20",
+            "a21"
+          ],
+          "holes": [],
+          "index": 5
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            3.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            3.0,
+            17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            0.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            0.0,
+            -17.0
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 15,
+      "links": [],
+      "name": "boundary_005_profile",
+      "plane": {
+        "origin": [
+          -7.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "y_dir": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            -7.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 102.0,
+          "centroid_sketch": [
+            1.5,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l4",
+            "l3",
+            "l2"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 5.0000000000000036,
+          "start": "p1",
+          "start_at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 18,
+      "links": [],
+      "name": "boundary_006_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999991,
+            -22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            1.9999999999999991,
+            -22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932737,
+            -20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            5.535533905932737,
+            -20.535533905932738,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.9999999999999982,
+            -16.999999999999996
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            1.9999999999999982,
+            -16.999999999999996,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            1.8,
+            -1.1
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            3.6,
+            -3.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": true,
+          "end": "p4",
+          "end_at": [
+            0.0,
+            -1.1
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p3",
+          "start_at": [
+            4.440892098500626e-15,
+            -3.0
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 21,
+      "links": [],
+      "name": "boundary_007_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          7.499999999999998,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            7.499999999999998,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.6,
+            -3.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            3.6,
+            7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -1.1
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            1.8,
+            7.499999999999998,
+            1.1
+          ]
+        },
+        {
+          "at": [
+            4.440892098500626e-15,
+            -3.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            4.440892098500626e-15,
+            7.499999999999998,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -1.1
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            0.0,
+            7.499999999999998,
+            1.1
+          ]
+        }
+      ],
+      "profiles": [],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 2,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 11,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 3.25,
+          "start": "p1",
+          "start_at": [
+            3.25,
+            0.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 3.25,
+          "start": "p4",
+          "start_at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            3.25,
+            -7.960204194457795e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 3.2500000000000004,
+          "start": "p7",
+          "start_at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 24,
+      "links": [],
+      "name": "boundary_008_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            3.25,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            2.814582562299426,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000004,
+            2.8145825622994254
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            1.6250000000000004,
+            2.8145825622994254,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            2.220446049250313e-16,
+            4.440892098500626e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            2.814582562299426
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            2.814582562299426,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            -2.814582562299425,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.25,
+            3.9801020972288977e-16
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.25,
+            3.9801020972288977e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            4.440892098500626e-16,
+            -1.3279959606500697e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            -2.814582562299425
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            -2.814582562299425,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            -7.960204194457795e-16
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            3.25,
+            -7.960204194457795e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6249999999999978,
+            -2.8145825622994267
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            1.6249999999999978,
+            -2.8145825622994267,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            4.440892098500626e-16,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 33.183072403542184,
+          "centroid_sketch": [
+            2.8115424937295854e-16,
+            2.4796242826642875e-16
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 5.0000000000000355,
+          "start": "p1",
+          "start_at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 5.000000000000004,
+          "start": "p4",
+          "start_at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 27,
+      "links": [],
+      "name": "boundary_009_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999998,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            -1.9999999999999998,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.2940952255126033,
+            21.82962913144534
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -3.2940952255126033,
+            21.82962913144534,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.9999999999999911,
+            16.999999999999964
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            -1.9999999999999911,
+            16.999999999999964,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.499999999999999,
+            21.330127018922195
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -4.499999999999999,
+            21.330127018922195,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -6.330127018922193,
+            19.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -6.330127018922193,
+            19.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.999999999999993,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -1.999999999999993,
+            17.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 2,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 11,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 1.7999999999999998,
+          "start": "p1",
+          "start_at": [
+            1.8,
+            -7.5
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 1.8000000000000005,
+          "start": "p4",
+          "start_at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 1.8000000000000018,
+          "start": "p7",
+          "start_at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 30,
+      "links": [],
+      "name": "boundary_010_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.9000000000000002,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            0.9000000000000002,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.3306690738754696e-16,
+            -7.499999999999999
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            3.3306690738754696e-16,
+            -7.499999999999999,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            -5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            -5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.771561172376096e-16,
+            -7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            7.771561172376096e-16,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            1.8,
+            -7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.8999999999999988,
+            -9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            0.8999999999999988,
+            -9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -9.992007221626409e-16,
+            -7.499999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            -9.992007221626409e-16,
+            -7.499999999999998,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 10.178760197630936,
+          "centroid_sketch": [
+            4.857194174268613e-16,
+            -7.500000000000004
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            3.0,
+            17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            0.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            -17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            0.0,
+            -17.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            3.0,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            -17.0
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 33,
+      "links": [],
+      "name": "boundary_011_profile",
+      "plane": {
+        "origin": [
+          7.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "y_dir": [
+          0.0,
+          -1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            7.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            7.0,
+            -17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            3.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 102.0,
+          "centroid_sketch": [
+            1.5,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 2,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 11,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            6.661338147750939e-16,
+            14.999999999999998
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 3.249999999999999,
+          "start": "p1",
+          "start_at": [
+            3.25,
+            15.0
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -4.440892098500626e-15,
+            15.0
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 3.2499999999999964,
+          "start": "p4",
+          "start_at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            15.0
+          ],
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            3.25,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 3.2499999999999996,
+          "start": "p7",
+          "start_at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 35,
+      "links": [],
+      "name": "boundary_012_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6250000000000004,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            1.6250000000000004,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            6.661338147750939e-16,
+            14.999999999999998
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            6.661338147750939e-16,
+            14.999999999999998,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6249999999999993,
+            17.814582562299424
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -1.6249999999999993,
+            17.814582562299424,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            12.185417437700576,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -4.440892098500626e-15,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -4.440892098500626e-15,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.6250000000000013,
+            12.185417437700576
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -1.6250000000000013,
+            12.185417437700576,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.25,
+            15.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            3.25,
+            15.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.6249999999999978,
+            12.185417437700574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            1.6249999999999978,
+            12.185417437700574,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            15.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            15.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 33.18307240354217,
+          "centroid_sketch": [
+            5.600771158143855e-16,
+            14.999999999999996
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 1,
+          "id": "k2",
+          "name": "Coincident",
+          "p": 7,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 2,
+          "id": "k3",
+          "name": "Coincident",
+          "p": 11,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            3.3306690738754696e-16,
+            7.5
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 1.7999999999999998,
+          "start": "p1",
+          "start_at": [
+            1.8,
+            7.5
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a2.center",
+          "center_at": [
+            -7.771561172376096e-16,
+            7.5
+          ],
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2",
+          "radius": 1.7999999999999996,
+          "start": "p4",
+          "start_at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "type": "arc"
+        },
+        {
+          "center": "a3.center",
+          "center_at": [
+            -2.220446049250313e-16,
+            7.500000000000001
+          ],
+          "construction": false,
+          "end": "p8",
+          "end_at": [
+            1.8,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3",
+          "radius": 1.8000000000000005,
+          "start": "p7",
+          "start_at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 38,
+      "links": [],
+      "name": "boundary_013_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.9000000000000002,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            0.9000000000000002,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.3306690738754696e-16,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            3.3306690738754696e-16,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.8999999999999996,
+            9.05884572681199
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -0.8999999999999996,
+            9.05884572681199,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            5.941154273188011,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            -1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -7.771561172376096e-16,
+            7.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a2.center",
+          "link": null,
+          "world": [
+            -7.771561172376096e-16,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -0.9000000000000008,
+            5.941154273188011
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            -0.9000000000000008,
+            5.941154273188011,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            7.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p8",
+          "link": null,
+          "world": [
+            1.8,
+            7.5,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.8999999999999988,
+            5.94115427318801
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p9",
+          "link": null,
+          "world": [
+            0.8999999999999988,
+            5.94115427318801,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.220446049250313e-16,
+            7.500000000000001
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a3.center",
+          "link": null,
+          "world": [
+            -2.220446049250313e-16,
+            7.500000000000001,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 10.178760197630929,
+          "centroid_sketch": [
+            9.095869240203389e-18,
+            7.499999999999996
+          ],
+          "curves": [
+            "a1",
+            "a2",
+            "a3"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            -2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            -2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            -2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            -2.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            2.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            2.0
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 41,
+      "links": [],
+      "name": "boundary_014_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          22.0,
+          0.0
+        ],
+        "x_dir": [
+          0.0,
+          0.0,
+          1.0
+        ],
+        "y_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            2.0,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            -2.0,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -2.0,
+            22.0,
+            3.0
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            2.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            2.0,
+            22.0,
+            3.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 12.0,
+          "centroid_sketch": [
+            1.5,
+            0.0
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "c": 0,
+          "id": "k1",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        }
+      ],
+      "curves": [
+        {
+          "center": "a1.center",
+          "center_at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1",
+          "radius": 5.0,
+          "start": "p1",
+          "start_at": [
+            7.0,
+            17.0
+          ],
+          "type": "arc"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 43,
+      "links": [],
+      "name": "boundary_015_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          -0.0
+        ],
+        "y_dir": [
+          -0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            7.0,
+            17.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            7.0,
+            17.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            22.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            22.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            5.535533905932738,
+            20.535533905932738
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            5.535533905932738,
+            20.535533905932738,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.0000000000000004,
+            17.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "a1.center",
+          "link": null,
+          "world": [
+            2.0000000000000004,
+            17.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [],
+      "status": "solved",
+      "visible": true,
+      "wires": []
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.7718,
+      "name": "boundary_000_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 0.1728,
+      "name": "boundary_000",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 0.0608,
+      "name": "boundary_001_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 0.0608,
+      "name": "boundary_001",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 0.0552,
+      "name": "ReverseNormal1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 0.0965,
+      "name": "boundary_002_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 0.0382,
+      "name": "boundary_002",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 0.032799999999999996,
+      "name": "ReverseNormal2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 0.0466,
+      "name": "boundary_003_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 0.0223,
+      "name": "boundary_003",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 0.0161,
+      "name": "ReverseNormal3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 0.6885,
+      "name": "boundary_004_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 0.08670000000000001,
+      "name": "boundary_004",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 0.056499999999999995,
+      "name": "ReverseNormal4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 0.044700000000000004,
+      "name": "boundary_005_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 0.0183,
+      "name": "boundary_005",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 0.0152,
+      "name": "ReverseNormal5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 0.0347,
+      "name": "boundary_006_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 0.0233,
+      "name": "boundary_006",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 0.0153,
+      "name": "ReverseNormal6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 0.027200000000000002,
+      "name": "boundary_007_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 0.058499999999999996,
+      "name": "boundary_007",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceRevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 0.030199999999999998,
+      "name": "ReverseNormal7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 0.0968,
+      "name": "boundary_008_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 0.043300000000000005,
+      "name": "boundary_008",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 0.0359,
+      "name": "ReverseNormal8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 0.0517,
+      "name": "boundary_009_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 0.0313,
+      "name": "boundary_009",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 0.0239,
+      "name": "ReverseNormal9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 0.08600000000000001,
+      "name": "boundary_010_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 0.0376,
+      "name": "boundary_010",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 0.0324,
+      "name": "ReverseNormal10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 0.0482,
+      "name": "boundary_011_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 0.031,
+      "name": "boundary_011",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 35,
+      "ms": 0.10160000000000001,
+      "name": "boundary_012_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 36,
+      "ms": 0.0624,
+      "name": "boundary_012",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 37,
+      "ms": 0.036399999999999995,
+      "name": "ReverseNormal11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 38,
+      "ms": 0.0964,
+      "name": "boundary_013_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 39,
+      "ms": 0.039799999999999995,
+      "name": "boundary_013",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 40,
+      "ms": 0.0335,
+      "name": "ReverseNormal12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 41,
+      "ms": 0.0494,
+      "name": "boundary_014_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 42,
+      "ms": 0.0281,
+      "name": "boundary_014",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "PatchFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 43,
+      "ms": 0.0337,
+      "name": "boundary_015_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 44,
+      "ms": 0.0265,
+      "name": "boundary_015",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "SurfaceExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 45,
+      "ms": 0.0201,
+      "name": "ReverseNormal13",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ReverseNormalFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 46,
+      "ms": 4.9562,
+      "name": "Stitch1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "StitchFeature",
+      "warning": null
+    }
+  ],
+  "undo": 0,
+  "units": "mm"
+}

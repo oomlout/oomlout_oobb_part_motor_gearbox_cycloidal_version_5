@@ -1,0 +1,330 @@
+{
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_cube_00_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_length",
+        "expression": "49.0 mm",
+        "comment": "direct_000"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_width",
+        "expression": "29.0 mm",
+        "comment": "direct_000"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            24.5,
+            14.5
+          ],
+          "corner": [
+            49.0,
+            29.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_000_oobb_cube_00_length",
+          "height": "direct_000_oobb_cube_00_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_depth",
+        "expression": "5.0 mm",
+        "comment": "direct_000"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_cube_00_profile",
+        "distance": "direct_000_oobb_cube_00_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_cube_00_extrude",
+        "body_name": "direct_000_oobb_cube_00_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_cube_00_body"
+        ],
+        "translate": [
+          -24.5,
+          -14.5,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_3d1_radius",
+        "expression": "3.1 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_3d1_depth",
+        "expression": "5.02 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_10d7_radius",
+        "expression": "10.7 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_10d7_depth",
+        "expression": "5.02 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_11d6_radius",
+        "expression": "11.6 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_11d6_depth",
+        "expression": "4.22 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_3d1_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "17.4 mm",
+            "0 mm"
+          ],
+          "radius": 3.1,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_3d1_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_3d1_positions",
+        "distance": "oobb_hole_radius_3d1_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 19
+        },
+        "name": "oobb_hole_radius_3d1_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_3d1",
+        "features": [
+          "oobb_hole_radius_3d1_positions",
+          "oobb_hole_radius_3d1_flat_bottom_cut"
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_10d7_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 10.7,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_10d7_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_10d7_positions",
+        "distance": "oobb_hole_radius_10d7_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 26
+        },
+        "name": "oobb_hole_radius_10d7_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_10d7",
+        "features": [
+          "oobb_hole_radius_10d7_positions",
+          "oobb_hole_radius_10d7_flat_bottom_cut"
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": 0.7999999999999998,
+        "name": "oobb_hole_radius_11d6_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 11.6,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_11d6_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_11d6_positions",
+        "distance": "oobb_hole_radius_11d6_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 33
+        },
+        "name": "oobb_hole_radius_11d6_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_11d6",
+        "features": [
+          "oobb_hole_radius_11d6_positions",
+          "oobb_hole_radius_11d6_flat_bottom_cut"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "direct_003_revolved_profile_00": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 39.051,
+        "name": "direct_003_revolved_profile_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 2,
+        "ms": 9.5571,
+        "name": "direct_003_revolved_profile_00_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "direct_003_revolved_profile_00_radius_0",
+      "z_0": "0",
+      "radius_1": "0",
+      "z_1": "0",
+      "radius_2": "0",
+      "z_2": "direct_003_revolved_profile_00_z_2",
+      "radius_3": "direct_003_revolved_profile_00_radius_3",
+      "z_3": "direct_003_revolved_profile_00_z_3",
+      "radius_4": "direct_003_revolved_profile_00_radius_4",
+      "z_4": "direct_003_revolved_profile_00_z_4",
+      "radius_5": "direct_003_revolved_profile_00_radius_5",
+      "z_5": "direct_003_revolved_profile_00_z_5",
+      "radius_6": "direct_003_revolved_profile_00_radius_6",
+      "z_6": "direct_003_revolved_profile_00_z_6",
+      "radius_7": "direct_003_revolved_profile_00_radius_7",
+      "z_7": "direct_003_revolved_profile_00_z_7",
+      "radius_8": "direct_003_revolved_profile_00_radius_8",
+      "z_8": "direct_003_revolved_profile_00_z_8"
+    },
+    "instances": []
+  },
+  "direct_006_revolved_profile_01": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 4.464799999999999,
+        "name": "direct_006_revolved_profile_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 4,
+        "ms": 3.4766,
+        "name": "direct_006_revolved_profile_01_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "direct_006_revolved_profile_01_radius_0",
+      "z_0": "0",
+      "radius_1": "0",
+      "z_1": "0",
+      "radius_2": "0",
+      "z_2": "direct_006_revolved_profile_01_z_2",
+      "radius_3": "direct_006_revolved_profile_01_radius_3",
+      "z_3": "direct_006_revolved_profile_01_z_3",
+      "radius_4": "direct_006_revolved_profile_01_radius_4",
+      "z_4": "direct_006_revolved_profile_01_z_4"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cylinder_02": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 7,
+        "ms": 1.4469,
+        "name": "direct_000_oobb_cylinder_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 7,
+        "ms": 0.9487,
+        "name": "direct_000_oobb_cylinder_02_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius": "direct_000_oobb_cylinder_02_radius",
+      "height": "direct_000_oobb_cylinder_02_depth"
+    },
+    "instances": []
+  },
+  "direct_000_oobb_cube_03": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 9,
+        "ms": 0.5241,
+        "name": "direct_000_oobb_cube_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 9,
+        "ms": 0.4534,
+        "name": "direct_000_oobb_cube_03_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "ExtrudeFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "length": "direct_000_oobb_cube_03_length",
+      "width": "direct_000_oobb_cube_03_width",
+      "height": "direct_000_oobb_cube_03_depth"
+    },
+    "instances": []
+  },
+  "direct_009_revolved_profile_04": {
+    "generated": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 14,
+        "ms": 8.1684,
+        "name": "direct_009_revolved_profile_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "reopened": [
+      {
+        "boolean_diagnostics": {
+          "events": [],
+          "truncated": false
+        },
+        "error": null,
+        "id": 14,
+        "ms": 6.8708,
+        "name": "direct_009_revolved_profile_04_extrude",
+        "rolled_back": false,
+        "suppressed": false,
+        "type": "RevolveFeature",
+        "warning": null
+      }
+    ],
+    "parameters": {
+      "radius_0": "direct_009_revolved_profile_04_radius_0",
+      "z_0": "direct_009_revolved_profile_04_z_0",
+      "radius_1": "0",
+      "z_1": "direct_009_revolved_profile_04_z_1",
+      "radius_2": "0",
+      "z_2": "direct_009_revolved_profile_04_z_2",
+      "radius_3": "direct_009_revolved_profile_04_radius_3",
+      "z_3": "direct_009_revolved_profile_04_z_3",
+      "radius_4": "direct_009_revolved_profile_04_radius_4",
+      "z_4": "direct_009_revolved_profile_04_z_4",
+      "radius_5": "direct_009_revolved_profile_04_radius_5",
+      "z_5": "direct_009_revolved_profile_04_z_5",
+      "radius_6": "direct_009_revolved_profile_04_radius_6",
+      "z_6": "direct_009_revolved_profile_04_z_6",
+      "radius_7": "direct_009_revolved_profile_04_radius_7",
+      "z_7": "direct_009_revolved_profile_04_z_7"
+    },
+    "instances": []
+  }
+}

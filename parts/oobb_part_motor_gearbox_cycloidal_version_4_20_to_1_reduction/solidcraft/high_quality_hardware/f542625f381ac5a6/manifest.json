@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "fingerprint": "f542625f381ac5a6cdbe669628399239887db1e2c4e287fa6bd336c0ad7724e0",
+  "spec": {
+    "family": "bearing",
+    "closure": "open",
+    "ball_count": 21,
+    "detail": {
+      "cage_scale": 0.3535353535353536,
+      "window_encloses_relief": true
+    },
+    "parameters": {
+      "bore": 10.0,
+      "outside": 15.0,
+      "width": 4.0,
+      "edge": 0.2,
+      "pitch_radius": 6.25,
+      "ball_radius": 0.7000000000000001,
+      "groove_radius": 0.7175,
+      "inner_shoulder": 5.795,
+      "outer_shoulder": 6.705
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 25,
+    "triangles": 270918,
+    "bounds_mm": [
+      [
+        -7.5,
+        -7.5,
+        -2.0
+      ],
+      [
+        7.5,
+        7.5,
+        2.0
+      ]
+    ],
+    "rolling_elements": 21,
+    "bore_mm": 10.0,
+    "outside_mm": 15.0,
+    "width_mm": 4.0
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "436726e418400c7a2df012bb6c1705a0f3208f7248dfa7535bf7181a71216faa",
+    "hardware.stl": "d1fe738fce782ec042c321d5fdb1497c8eaf57c5a0405bac8cf494d69941730d"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction"
+}

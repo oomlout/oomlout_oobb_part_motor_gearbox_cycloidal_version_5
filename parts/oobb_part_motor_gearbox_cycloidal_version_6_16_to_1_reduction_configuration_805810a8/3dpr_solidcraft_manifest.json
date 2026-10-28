@@ -1,0 +1,239 @@
+{
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8",
+  "mode": "3dpr",
+  "piece": "print_layout",
+  "status": "success",
+  "construction": "native",
+  "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\aa31e8042871\\build_manifest.json",
+  "body_count": 8,
+  "placement_count": 8,
+  "reopened": true,
+  "published_files": [
+    {
+      "file": "3dpr.solidcraft",
+      "sha256": "5715a21a26a8d83f0c7350cce5084acc7046aa5b78f36604ec21bcf1533cb701"
+    },
+    {
+      "file": "3dpr_solidcraft_measurements.json",
+      "sha256": "e257f7db46b3d8da83f29333543481a58a0d37f589cf68c5dac408184281f595"
+    },
+    {
+      "file": "3dpr_solidcraft.stl",
+      "sha256": "18d5215ecc6f265cd191ed089a9717556644d65a67dcd58f8dc5e1cc9f870865"
+    },
+    {
+      "file": "3dpr.step",
+      "sha256": "a6e7fe5850e1312896052555d63c50503f331654e96e410de888b016e27c5a48"
+    },
+    {
+      "file": "3dpr_solidcraft.png",
+      "sha256": "c0bd041f1f08e21b691bd99d73d9b15003ae2340d6d4eea0484d6b7668bbeb4b"
+    }
+  ],
+  "piece_links": {
+    "motor_mount": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\motor_mount.solidcraft",
+    "pin_front": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\pin_front.solidcraft",
+    "rotor_a": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\rotor_a.solidcraft",
+    "rotor_b": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\rotor_b.solidcraft",
+    "eccentric_hub_lower": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\eccentric_hub_lower.solidcraft",
+    "eccentric_hub_upper": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\eccentric_hub_upper.solidcraft",
+    "output_casing_lower": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\output_casing_lower.solidcraft",
+    "output_casing_upper": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\output_casing_upper.solidcraft"
+  },
+  "layout_mesh_verification": {
+    "body_count": 8,
+    "watertight": true,
+    "placement_bounds_checked": true,
+    "method": "exported STEP placement boxes, independent placed rotor geometry, and translated accepted native piece meshes",
+    "sources": [
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\output_casing_lower.stl",
+        "sha256": "6d009c66d440e31a1d99b3531998f72a06489590e569f30736509a71dde71ac6",
+        "translation_mm": [
+          52.0,
+          52.0,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\output_casing_upper.stl",
+        "sha256": "a85cf09ad7bf0c734120e08758410c6da2579d06fb50cabcb45060faf7e75afb",
+        "translation_mm": [
+          164.0,
+          52.0,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\motor_mount.stl",
+        "sha256": "b230ee54f420aa5a302595bc03c00ab289ee807a7a1cc7d52ea75bff3c931ab6",
+        "translation_mm": [
+          37.0,
+          149.0,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\rotor_a.stl",
+        "sha256": "c91504c7e2bf1aef9a7de109a0afa285a278eef5a5d75d837ae6483a74b4ec75",
+        "translation_mm": [
+          111.4,
+          141.4,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\rotor_b.stl",
+        "sha256": "cf633b484ac85c9839ce49e8075b8ddaa3e5106b2dfda08c87694f5cf4cbde85",
+        "translation_mm": [
+          178.20000000000002,
+          141.4,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\pin_front.stl",
+        "sha256": "da6f99a80fb1ec515364de2eb7509b599760a33bc8e587f28d78ac091b926622",
+        "translation_mm": [
+          26.5,
+          220.5,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\eccentric_hub_lower.stl",
+        "sha256": "2f07e86adaf3bdc998c06ce401468877216ee59726045f74a0bb1f08a40a0e9a",
+        "translation_mm": [
+          72.0,
+          205.0,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_16_to_1_reduction_configuration_805810a8\\solidcraft\\3dpr\\eccentric_hub_upper.stl",
+        "sha256": "6fff4a1e9cb64cb225e810b34d7cb36a1979677e2eef8c87f0e2da588d0b499d",
+        "translation_mm": [
+          101.7,
+          204.7,
+          0
+        ]
+      }
+    ],
+    "placed_step_checks": [
+      {
+        "part": "rotor_a",
+        "valid": true,
+        "linear_tolerance_mm": 0.05,
+        "bounds_error_mm": 1.0000508154917043e-07,
+        "volume_error_mm3": 5.029505700804293e-10,
+        "comparison_method": "valid_solid_bounds_volume_with_separate_native_mesh_check"
+      },
+      {
+        "part": "rotor_b",
+        "valid": true,
+        "linear_tolerance_mm": 0.05,
+        "bounds_error_mm": 1.000079521418229e-07,
+        "volume_error_mm3": 2.191882231272757e-10,
+        "comparison_method": "valid_solid_bounds_volume_with_separate_native_mesh_check"
+      }
+    ],
+    "native_reported_boxes": [
+      {
+        "max": [
+          104.0,
+          104.00000000000001,
+          12.750000000035586
+        ],
+        "min": [
+          -7.105427357601002e-15,
+          -1.4210854715202004e-14,
+          -6.0663345202e-15
+        ]
+      },
+      {
+        "max": [
+          216.0,
+          104.0,
+          13.850000000000044
+        ],
+        "min": [
+          112.0,
+          -1.4210854715202004e-14,
+          -2.7755575615628914e-16
+        ]
+      },
+      {
+        "max": [
+          74.0,
+          186.0,
+          24.6
+        ],
+        "min": [
+          -1.4210854715202004e-14,
+          111.99999999999999,
+          -4.440892098500626e-16
+        ]
+      },
+      {
+        "max": [
+          138.47740489920338,
+          168.86792359738493,
+          5.000000000000001
+        ],
+        "min": [
+          83.80000000000001,
+          113.93207640261508,
+          0.0
+        ]
+      },
+      {
+        "max": [
+          205.8,
+          168.86792359738496,
+          5.000000000000005
+        ],
+        "min": [
+          151.12259510079664,
+          113.93207640261507,
+          -6.661338147750939e-16
+        ]
+      },
+      {
+        "max": [
+          53.0,
+          246.9998458903631,
+          8.100000000000023
+        ],
+        "min": [
+          0.0,
+          194.0001541096369,
+          -5.551115123125783e-17
+        ]
+      },
+      {
+        "max": [
+          83.00000000000003,
+          216.0,
+          25.02
+        ],
+        "min": [
+          60.99999999999999,
+          194.0000000000001,
+          0.0
+        ]
+      },
+      {
+        "max": [
+          109.60002991704279,
+          213.99986632067385,
+          14.75000000000006
+        ],
+        "min": [
+          91.00002991707714,
+          195.4000992454483,
+          -1.734723475976807e-18
+        ]
+      }
+    ]
+  }
+}

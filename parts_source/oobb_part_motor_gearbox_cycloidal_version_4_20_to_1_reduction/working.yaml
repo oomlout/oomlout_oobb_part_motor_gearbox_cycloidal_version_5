@@ -1,0 +1,54 @@
+architecture: captured_6810
+disc_gap: 0.5
+guide_pin_count: 6
+guide_pin_diameter: 6
+lobe_eccentricity_ratio: 0.91
+lobe_radius: 2.1
+motor_hole_pitch: 31
+motor_screw_length: 6
+oobb_details:
+  oobb_type: cycloidal
+  run_scad: true
+  run_solidcraft: true
+  architecture: captured_6810
+  disc_gap: 0.5
+  guide_pin_count: 6
+  guide_pin_diameter: 6
+  lobe_eccentricity_ratio: 0.91
+  lobe_radius: 2.1
+  motor_hole_pitch: 31
+  motor_screw_length: 6
+  oobb_name: version_4
+  radius_offset: 1.85
+  reduction: 20
+  reduction_text: 20_to_1
+  rotor_thickness: 7
+  shaft_radius_name: m5
+  style: version_4
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: motor_gearbox
+  taxonomy_4: cycloidal
+  taxonomy_5: version_4
+  taxonomy_6: 20_to_1_reduction
+radius_offset: 1.85
+reduction: 20
+reduction_text: 20_to_1
+rotor_thickness: 7
+shaft_radius_name: m5
+style: version_4
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: motor_gearbox
+taxonomy_4: cycloidal
+taxonomy_5: version_4
+taxonomy_6: 20_to_1_reduction
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

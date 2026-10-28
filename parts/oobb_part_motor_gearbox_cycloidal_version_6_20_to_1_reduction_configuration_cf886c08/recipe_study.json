@@ -1,0 +1,77 @@
+{
+  "status": "recipe_fit_passed",
+  "values": {
+    "reduction": 20,
+    "automatic_pitch": 1,
+    "radius_buffer": 0.0,
+    "contact_pitch_radius": 31.15,
+    "contact_radius": 3.0,
+    "eccentricity": 1,
+    "profile_clearance": 0.2,
+    "casing_wall": 2.0,
+    "disc_thickness": 6,
+    "disc_gap": 0.5,
+    "standoff_radius": 2.7,
+    "standoff_pitch_radius": 19.5,
+    "guide_radius": 1.5,
+    "guide_pitch_radius": 18.2,
+    "reference_bearing": 6810,
+    "top_bearing": 6703,
+    "bottom_bearing": 6803,
+    "input_angle": 0.0,
+    "reference_underlay": 1,
+    "amber_clearance": 0.1
+  },
+  "resolved_values": {
+    "reduction": 20,
+    "automatic_pitch": 1,
+    "radius_buffer": 0.0,
+    "contact_pitch_radius": 29.55,
+    "contact_radius": 3.0,
+    "eccentricity": 1,
+    "profile_clearance": 0.2,
+    "casing_wall": 2.0,
+    "disc_thickness": 6,
+    "disc_gap": 0.5,
+    "standoff_radius": 2.7,
+    "standoff_pitch_radius": 19.5,
+    "guide_radius": 1.5,
+    "guide_pitch_radius": 18.2,
+    "reference_bearing": 6810,
+    "top_bearing": 6703,
+    "bottom_bearing": 6803,
+    "input_angle": 0.0,
+    "reference_underlay": 1,
+    "amber_clearance": 0.1
+  },
+  "diameter_mm": 69.2,
+  "height_mm": 33.1,
+  "pitch_sizing": {
+    "mode": "automatic",
+    "limits_mm": {
+      "lobe_shape": 22.22222222222222,
+      "rotor_features": 27.099999999999998,
+      "support_tracks": 29.55,
+      "pin_spacing": 25.569812885998648,
+      "centre_bearings": 19.3,
+      "analytic_undercut": 29.55
+    },
+    "limiting_feature": "support_tracks",
+    "selected_pitch_radius": 29.55,
+    "rounding_increment_mm": 0.05
+  },
+  "sampling": {
+    "rotor_a": {
+      "regenerate": true,
+      "reason": "Fixed profile sampling error 0.0214912 mm exceeds tolerance; regenerate/resample"
+    },
+    "rotor_b": {
+      "regenerate": true,
+      "reason": "Fixed profile sampling error 0.0214912 mm exceeds tolerance; regenerate/resample"
+    }
+  },
+  "note": "Diagnostic only: no new native CAD acceptance and no active-selection change.",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction_configuration_cf886c08",
+  "revision": "configuration_cf886c08",
+  "attempt": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\parametric_v6\\updates\\configuration_cf886c08"
+}

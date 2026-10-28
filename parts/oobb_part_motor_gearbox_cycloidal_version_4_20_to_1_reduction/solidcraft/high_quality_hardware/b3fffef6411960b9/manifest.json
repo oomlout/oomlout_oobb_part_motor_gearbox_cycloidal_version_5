@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "fingerprint": "b3fffef6411960b9f64abe2c1515d9a339ed6145ab580da004b627fc85178948",
+  "spec": {
+    "family": "bolt",
+    "parameters": {
+      "length": 40.0,
+      "diameter": 6,
+      "head_af": 10,
+      "head_height": 4,
+      "bevel": 0.4,
+      "tip_chamfer": 0.4,
+      "runout": 0.8
+    },
+    "designation": "M6x1",
+    "pitch": 1
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 128688,
+    "bounds_mm": [
+      [
+        -5.773502826690674,
+        -5.0,
+        -40.0
+      ],
+      [
+        5.773502826690674,
+        5.0,
+        4.0
+      ]
+    ],
+    "thread_pitch_mm": 1,
+    "thread_half_turn_error_mm": 0.00023812024657665631,
+    "radius_range_mm": [
+      2.457896691177822,
+      2.9999999999994027
+    ]
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "3768aa13aae9073642a33c4af403e27b5e89d4dca12b17908a2659d8b1399f85",
+    "hardware.stl": "ec2fc7dae7c89645cc13449f03e1869d74770ea46c93ebcdadbbed479c1b97f7"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction"
+}

@@ -1,0 +1,64 @@
+architecture: simple_6810
+direct_stack_layout: base_grub
+disc_gap: 0.5
+drive_connection: grub_nut
+guide_pin_count: 6
+guide_pin_diameter: 3
+lobe_eccentricity_ratio: 0.9
+lobe_radius: 3.0
+motor_hole_pitch: 31
+motor_screw_length: 6
+oobb_details:
+  architecture: simple_6810
+  direct_stack_layout: base_grub
+  disc_gap: 0.5
+  drive_connection: grub_nut
+  guide_pin_count: 6
+  guide_pin_diameter: 3
+  lobe_eccentricity_ratio: 0.9
+  lobe_radius: 3.0
+  motor_hole_pitch: 31
+  motor_screw_length: 6
+  oobb_name: version_6
+  oobb_type: cycloidal
+  pitch_radius_increment: 0.05
+  post_fasteners: true
+  radius_offset: 1.4
+  reduction: 20
+  reduction_text: 20_to_1
+  rotor_thickness: 5
+  run_scad: false
+  run_solidcraft: true
+  shaft_radius_name: m5
+  split_output_casing: true
+  style: version_6
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: motor_gearbox
+  taxonomy_4: cycloidal
+  taxonomy_5: version_6
+  taxonomy_6: 20_to_1_reduction
+pitch_radius_increment: 0.05
+post_fasteners: true
+radius_offset: 1.4
+reduction: 20
+reduction_text: 20_to_1
+rotor_thickness: 5
+shaft_radius_name: m5
+split_output_casing: true
+style: version_6
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: motor_gearbox
+taxonomy_4: cycloidal
+taxonomy_5: version_6
+taxonomy_6: 20_to_1_reduction
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

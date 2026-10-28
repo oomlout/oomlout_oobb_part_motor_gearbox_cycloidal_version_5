@@ -1,0 +1,222 @@
+{
+  "results": {
+    "true/motor_mount": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\motor_mount_manifest.json",
+      "native_feature_count": 1205,
+      "native_sketch_count": 488,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 82.12014976624414,
+        "observed_volume_change_mm3": 82.12124377727741,
+        "changed": true
+      }
+    },
+    "true/output_casing_lower": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\output_casing_lower_manifest.json",
+      "native_feature_count": 2856,
+      "native_sketch_count": 1090,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 63.32418753367892,
+        "observed_volume_change_mm3": 63.3228901532093,
+        "changed": true
+      }
+    },
+    "true/output_casing_upper": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\output_casing_upper_manifest.json",
+      "native_feature_count": 1652,
+      "native_sketch_count": 626,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 67.07106333014235,
+        "observed_volume_change_mm3": 67.06964025503476,
+        "changed": true
+      }
+    },
+    "true/pin_front": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\pin_front_manifest.json",
+      "native_feature_count": 30,
+      "native_sketch_count": 10,
+      "imported_geometry": false,
+      "native_method": "features",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.3323703883361304,
+        "observed_volume_change_mm3": 1.3323552050933358,
+        "changed": true
+      }
+    },
+    "true/rotor_a": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\rotor_a_manifest.json",
+      "native_feature_count": 43,
+      "native_sketch_count": 15,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.6571644413470494,
+        "observed_volume_change_mm3": 1.6571644416453637,
+        "changed": true
+      }
+    },
+    "true/rotor_b": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\rotor_b_manifest.json",
+      "native_feature_count": 43,
+      "native_sketch_count": 15,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.6571644413706963,
+        "observed_volume_change_mm3": 1.6571644411487796,
+        "changed": true
+      }
+    },
+    "true/eccentric_hub_lower": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_lower_manifest.json",
+      "native_feature_count": 301,
+      "native_sketch_count": 118,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 14.367576605904105,
+        "observed_volume_change_mm3": 14.367066782408983,
+        "changed": true
+      }
+    },
+    "true/eccentric_hub_upper": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_upper_manifest.json",
+      "native_feature_count": 16,
+      "native_sketch_count": 5,
+      "imported_geometry": false,
+      "native_method": "features",
+      "edit_response": {
+        "expected_volume_change_mm3": -5.574023759601687,
+        "observed_volume_change_mm3": -5.574078647224269,
+        "changed": true
+      }
+    },
+    "3dpr/motor_mount": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\motor_mount_manifest.json",
+      "native_feature_count": 2115,
+      "native_sketch_count": 828,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 79.225250486601,
+        "observed_volume_change_mm3": 79.2265270372227,
+        "changed": true
+      }
+    },
+    "3dpr/output_casing_lower": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\output_casing_lower_manifest.json",
+      "native_feature_count": 3396,
+      "native_sketch_count": 1290,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 62.4630315364484,
+        "observed_volume_change_mm3": 62.46182886086535,
+        "changed": true
+      }
+    },
+    "3dpr/output_casing_upper": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\output_casing_upper_manifest.json",
+      "native_feature_count": 1652,
+      "native_sketch_count": 626,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 66.23870041672126,
+        "observed_volume_change_mm3": 66.23738939108443,
+        "changed": true
+      }
+    },
+    "3dpr/pin_front": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\pin_front_manifest.json",
+      "native_feature_count": 30,
+      "native_sketch_count": 10,
+      "imported_geometry": false,
+      "native_method": "features",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.3323703883379494,
+        "observed_volume_change_mm3": 1.3323552050842409,
+        "changed": true
+      }
+    },
+    "3dpr/rotor_a": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\rotor_a_manifest.json",
+      "native_feature_count": 43,
+      "native_sketch_count": 15,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.6571644413470494,
+        "observed_volume_change_mm3": 1.6571644416453637,
+        "changed": true
+      }
+    },
+    "3dpr/rotor_b": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\rotor_b_manifest.json",
+      "native_feature_count": 43,
+      "native_sketch_count": 15,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 1.6571644413706963,
+        "observed_volume_change_mm3": 1.6571644411487796,
+        "changed": true
+      }
+    },
+    "3dpr/eccentric_hub_lower": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\eccentric_hub_lower_manifest.json",
+      "native_feature_count": 459,
+      "native_sketch_count": 180,
+      "imported_geometry": false,
+      "native_method": "surfaces",
+      "edit_response": {
+        "expected_volume_change_mm3": 14.254123022431486,
+        "observed_volume_change_mm3": 14.253610498910348,
+        "changed": true
+      }
+    },
+    "3dpr/eccentric_hub_upper": {
+      "status": "passed",
+      "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction\\solidcraft\\3dpr\\eccentric_hub_upper_manifest.json",
+      "native_feature_count": 16,
+      "native_sketch_count": 5,
+      "imported_geometry": false,
+      "native_method": "features",
+      "edit_response": {
+        "expected_volume_change_mm3": -5.574023759601687,
+        "observed_volume_change_mm3": -5.574078647224269,
+        "changed": true
+      }
+    }
+  },
+  "reference": "current_native_recipe",
+  "policy_version": 1,
+  "requested_modes": [
+    "true",
+    "3dpr"
+  ],
+  "selection_filter": "",
+  "coverage_complete": true,
+  "missing": [],
+  "status": "passed"
+}

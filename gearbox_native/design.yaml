@@ -1,0 +1,8 @@
+# Historical recipe/reference overrides. These do not drive native V7.
+# Edit gearbox_controls.solidcraft in SolidCraft's Parameters menu for V7.
+# They override catalogue/default values for SolidCraft only; SCAD is independent.
+# Active defaults live in simple_defaults.yaml. Keep variant values in
+# verbose working_oomp_populate.py or override them here for local iteration.
+# Examples: rotor_thickness: 5.2, disc_gap: 0.6, bearing_seat_clearance: 0.15
+# Motor-side 6810 is locked; eccentric bearings are 6703, front shaft is 6701.
+parameters: {}

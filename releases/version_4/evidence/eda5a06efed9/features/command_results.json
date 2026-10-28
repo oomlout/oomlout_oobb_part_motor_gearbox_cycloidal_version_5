@@ -1,0 +1,2480 @@
+[
+  {
+    "index": 0,
+    "source_id": "direct_002",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_002_oobb_cylinder_00_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_002_oobb_cylinder_00_profile",
+      "projected": null,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 1,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_oobb_cylinder_00_radius",
+      "expression": "7.700000000000001 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 7.700000000000001,
+      "name": "direct_002_oobb_cylinder_00_radius",
+      "unit": "mm",
+      "value": 7.700000000000001
+    }
+  },
+  {
+    "index": 2,
+    "source_id": "direct_002",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 7.700000000000001
+      },
+      "dimensions": {
+        "diameter": "2 * direct_002_oobb_cylinder_00_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_002_oobb_cylinder_00_radius",
+          "measured": 15.4,
+          "param": "d2",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 3,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_oobb_cylinder_00_depth",
+      "expression": "7.75 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 7.75,
+      "name": "direct_002_oobb_cylinder_00_depth",
+      "unit": "mm",
+      "value": 7.75
+    }
+  },
+  {
+    "index": 4,
+    "source_id": "direct_002",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 5,
+    "source_id": "direct_002",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 6,
+    "source_id": "direct_002",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_002_oobb_cylinder_00_profile",
+      "distance": "direct_002_oobb_cylinder_00_depth",
+      "operation": "new",
+      "name": "direct_002_oobb_cylinder_00_extrude",
+      "body_name": "direct_002_oobb_cylinder_00_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "feature": 2,
+      "ms": 2.0853,
+      "name": "direct_002_oobb_cylinder_00_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 7,
+    "source_id": "direct_005",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_005_oobb_cylinder_01_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_005_oobb_cylinder_01_profile",
+      "projected": null,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 8,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_oobb_cylinder_01_radius",
+      "expression": "9.9 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 9.9,
+      "name": "direct_005_oobb_cylinder_01_radius",
+      "unit": "mm",
+      "value": 9.9
+    }
+  },
+  {
+    "index": 9,
+    "source_id": "direct_005",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 9.9
+      },
+      "dimensions": {
+        "diameter": "2 * direct_005_oobb_cylinder_01_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_005_oobb_cylinder_01_radius",
+          "measured": 19.8,
+          "param": "d5",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 10,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_oobb_cylinder_01_depth",
+      "expression": "4.2 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 4.2,
+      "name": "direct_005_oobb_cylinder_01_depth",
+      "unit": "mm",
+      "value": 4.2
+    }
+  },
+  {
+    "index": 11,
+    "source_id": "direct_005",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 12,
+    "source_id": "direct_005",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 13,
+    "source_id": "direct_005",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_005_oobb_cylinder_01_profile",
+      "distance": "direct_005_oobb_cylinder_01_depth",
+      "operation": "new",
+      "name": "direct_005_oobb_cylinder_01_extrude",
+      "body_name": "direct_005_oobb_cylinder_01_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "feature": 4,
+      "ms": 1.4836999999999998,
+      "name": "direct_005_oobb_cylinder_01_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 14,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "translate": [
+        1.85,
+        0,
+        1.8999999999999986
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "changed_bodies": [
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "created_bodies": [],
+      "feature": 5,
+      "ms": 0.08,
+      "name": "Move1",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 15,
+    "source_id": "direct_008",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_008_oobb_cylinder_02_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_008_oobb_cylinder_02_profile",
+      "projected": null,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 16,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_oobb_cylinder_02_radius",
+      "expression": "10.8 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 10.8,
+      "name": "direct_008_oobb_cylinder_02_radius",
+      "unit": "mm",
+      "value": 10.8
+    }
+  },
+  {
+    "index": 17,
+    "source_id": "direct_008",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 10.8
+      },
+      "dimensions": {
+        "diameter": "2 * direct_008_oobb_cylinder_02_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_008_oobb_cylinder_02_radius",
+          "measured": 21.6,
+          "param": "d11",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 18,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_oobb_cylinder_02_depth",
+      "expression": "1.8999999999999986 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 1.8999999999999986,
+      "name": "direct_008_oobb_cylinder_02_depth",
+      "unit": "mm",
+      "value": 1.8999999999999986
+    }
+  },
+  {
+    "index": 19,
+    "source_id": "direct_008",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 20,
+    "source_id": "direct_008",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 21,
+    "source_id": "direct_008",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_008_oobb_cylinder_02_profile",
+      "distance": "direct_008_oobb_cylinder_02_depth",
+      "operation": "new",
+      "name": "direct_008_oobb_cylinder_02_extrude",
+      "body_name": "direct_008_oobb_cylinder_02_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "feature": 7,
+      "ms": 1.5046,
+      "name": "direct_008_oobb_cylinder_02_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 22,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "translate": [
+        1.85,
+        0,
+        0.0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "changed_bodies": [
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "created_bodies": [],
+      "feature": 8,
+      "ms": 0.0603,
+      "name": "Move2",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 23,
+    "source_id": "direct_010",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_010_oobb_cylinder_03_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_010_oobb_cylinder_03_profile",
+      "projected": null,
+      "sketch": 9
+    }
+  },
+  {
+    "index": 24,
+    "source_id": "direct_010",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_010_oobb_cylinder_03_radius",
+      "expression": "4.9 mm",
+      "comment": "direct_010"
+    },
+    "reply": {
+      "display_value": 4.9,
+      "name": "direct_010_oobb_cylinder_03_radius",
+      "unit": "mm",
+      "value": 4.9
+    }
+  },
+  {
+    "index": 25,
+    "source_id": "direct_010",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 4.9
+      },
+      "dimensions": {
+        "diameter": "2 * direct_010_oobb_cylinder_03_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_010_oobb_cylinder_03_radius",
+          "measured": 9.8,
+          "param": "d17",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 26,
+    "source_id": "direct_010",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_010_oobb_cylinder_03_depth",
+      "expression": "2.02 mm",
+      "comment": "direct_010"
+    },
+    "reply": {
+      "display_value": 2.02,
+      "name": "direct_010_oobb_cylinder_03_depth",
+      "unit": "mm",
+      "value": 2.02
+    }
+  },
+  {
+    "index": 27,
+    "source_id": "direct_010",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 28,
+    "source_id": "direct_010",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 9
+    }
+  },
+  {
+    "index": 29,
+    "source_id": "direct_010",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_010_oobb_cylinder_03_profile",
+      "distance": "direct_010_oobb_cylinder_03_depth",
+      "operation": "new",
+      "name": "direct_010_oobb_cylinder_03_extrude",
+      "body_name": "direct_010_oobb_cylinder_03_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "feature": 10,
+      "ms": 1.3960000000000001,
+      "name": "direct_010_oobb_cylinder_03_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 30,
+    "source_id": "direct_010",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_010_oobb_cube_04_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_010_oobb_cube_04_profile",
+      "projected": null,
+      "sketch": 11
+    }
+  },
+  {
+    "index": 31,
+    "source_id": "direct_010",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_010_oobb_cube_04_length",
+      "expression": "20.0 mm",
+      "comment": "direct_010"
+    },
+    "reply": {
+      "display_value": 20.0,
+      "name": "direct_010_oobb_cube_04_length",
+      "unit": "mm",
+      "value": 20.0
+    }
+  },
+  {
+    "index": 32,
+    "source_id": "direct_010",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_010_oobb_cube_04_width",
+      "expression": "20.0 mm",
+      "comment": "direct_010"
+    },
+    "reply": {
+      "display_value": 20.0,
+      "name": "direct_010_oobb_cube_04_width",
+      "unit": "mm",
+      "value": 20.0
+    }
+  },
+  {
+    "index": 33,
+    "source_id": "direct_010",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.rectangle.center",
+      "params": {
+        "center": [
+          10.0,
+          10.0
+        ],
+        "corner": [
+          20.0,
+          20.0
+        ]
+      },
+      "dimensions": {
+        "width": "direct_010_oobb_cube_04_length",
+        "height": "direct_010_oobb_cube_04_width"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5",
+        "k6"
+      ],
+      "corners": {
+        "bottom_left": "p1",
+        "bottom_right": "p2",
+        "top_left": "p4",
+        "top_right": "p3"
+      },
+      "created": {
+        "constraints": [
+          "k1",
+          "k2",
+          "k3",
+          "k4",
+          "k5",
+          "k6"
+        ],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6"
+        ],
+        "dimensions": [
+          "k7",
+          "k8"
+        ],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "dimensions": {
+        "height": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k7"
+            ],
+            "points": []
+          },
+          "expression": "direct_010_oobb_cube_04_width",
+          "measured": 20.0,
+          "param": "d20",
+          "sketch": {
+            "dof": 1,
+            "solved": true
+          },
+          "type": "LinearDimension",
+          "unit": "mm"
+        },
+        "width": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k8"
+            ],
+            "points": []
+          },
+          "expression": "direct_010_oobb_cube_04_length",
+          "measured": 20.0,
+          "param": "d21",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "LinearDimension",
+          "unit": "mm"
+        }
+      },
+      "sides": {
+        "bottom": "l1",
+        "left": "l4",
+        "right": "l2",
+        "top": "l3"
+      },
+      "sketch": {
+        "dof": 2,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 34,
+    "source_id": "direct_010",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_010_oobb_cube_04_depth",
+      "expression": "2.05 mm",
+      "comment": "direct_010"
+    },
+    "reply": {
+      "display_value": 2.05,
+      "name": "direct_010_oobb_cube_04_depth",
+      "unit": "mm",
+      "value": 2.05
+    }
+  },
+  {
+    "index": 35,
+    "source_id": "direct_010",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 36,
+    "source_id": "direct_010",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 11
+    }
+  },
+  {
+    "index": 37,
+    "source_id": "direct_010",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_010_oobb_cube_04_profile",
+      "distance": "direct_010_oobb_cube_04_depth",
+      "operation": "new",
+      "name": "direct_010_oobb_cube_04_extrude",
+      "body_name": "direct_010_oobb_cube_04_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_010_oobb_cube_04_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_010_oobb_cube_04_body"
+      ],
+      "feature": 12,
+      "ms": 0.6272,
+      "name": "direct_010_oobb_cube_04_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 38,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_010_oobb_cube_04_body"
+      ],
+      "translate": [
+        4.300000000000001,
+        -10.0,
+        -0.01
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_010_oobb_cube_04_body"
+      ],
+      "changed_bodies": [
+        "direct_010_oobb_cube_04_body"
+      ],
+      "created_bodies": [],
+      "feature": 13,
+      "ms": 0.0798,
+      "name": "Move3",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 39,
+    "source_id": "boolean_difference",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_010_oobb_cylinder_03_body",
+      "tools": [
+        "direct_010_oobb_cube_04_body"
+      ],
+      "operation": "cut"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "changed_bodies": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "created_bodies": [],
+      "feature": 14,
+      "ms": 5.9785,
+      "name": "Combine1",
+      "removed_bodies": [
+        "direct_010_oobb_cube_04_body"
+      ],
+      "warning": null
+    }
+  },
+  {
+    "index": 40,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "translate": [
+        0,
+        0,
+        7.75
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "changed_bodies": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "created_bodies": [],
+      "feature": 15,
+      "ms": 0.07150000000000001,
+      "name": "Move4",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 41,
+    "source_id": "direct_009",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_009_oobb_cylinder_05_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_009_oobb_cylinder_05_profile",
+      "projected": null,
+      "sketch": 16
+    }
+  },
+  {
+    "index": 42,
+    "source_id": "direct_009",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_009_oobb_cylinder_05_radius",
+      "expression": "5.050000000000001 mm",
+      "comment": "direct_009"
+    },
+    "reply": {
+      "display_value": 5.050000000000001,
+      "name": "direct_009_oobb_cylinder_05_radius",
+      "unit": "mm",
+      "value": 5.050000000000001
+    }
+  },
+  {
+    "index": 43,
+    "source_id": "direct_009",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 5.050000000000001
+      },
+      "dimensions": {
+        "diameter": "2 * direct_009_oobb_cylinder_05_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_009_oobb_cylinder_05_radius",
+          "measured": 10.1,
+          "param": "d30",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 44,
+    "source_id": "direct_009",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_009_oobb_cylinder_05_depth",
+      "expression": "2.17 mm",
+      "comment": "direct_009"
+    },
+    "reply": {
+      "display_value": 2.17,
+      "name": "direct_009_oobb_cylinder_05_depth",
+      "unit": "mm",
+      "value": 2.17
+    }
+  },
+  {
+    "index": 45,
+    "source_id": "direct_009",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 46,
+    "source_id": "direct_009",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 16
+    }
+  },
+  {
+    "index": 47,
+    "source_id": "direct_009",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_009_oobb_cylinder_05_profile",
+      "distance": "direct_009_oobb_cylinder_05_depth",
+      "operation": "new",
+      "name": "direct_009_oobb_cylinder_05_extrude",
+      "body_name": "direct_009_oobb_cylinder_05_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "feature": 17,
+      "ms": 1.5031,
+      "name": "direct_009_oobb_cylinder_05_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 48,
+    "source_id": "direct_009",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_009_oobb_cube_06_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_009_oobb_cube_06_profile",
+      "projected": null,
+      "sketch": 18
+    }
+  },
+  {
+    "index": 49,
+    "source_id": "direct_009",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_009_oobb_cube_06_length",
+      "expression": "20.0 mm",
+      "comment": "direct_009"
+    },
+    "reply": {
+      "display_value": 20.0,
+      "name": "direct_009_oobb_cube_06_length",
+      "unit": "mm",
+      "value": 20.0
+    }
+  },
+  {
+    "index": 50,
+    "source_id": "direct_009",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_009_oobb_cube_06_width",
+      "expression": "20.0 mm",
+      "comment": "direct_009"
+    },
+    "reply": {
+      "display_value": 20.0,
+      "name": "direct_009_oobb_cube_06_width",
+      "unit": "mm",
+      "value": 20.0
+    }
+  },
+  {
+    "index": 51,
+    "source_id": "direct_009",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.rectangle.center",
+      "params": {
+        "center": [
+          10.0,
+          10.0
+        ],
+        "corner": [
+          20.0,
+          20.0
+        ]
+      },
+      "dimensions": {
+        "width": "direct_009_oobb_cube_06_length",
+        "height": "direct_009_oobb_cube_06_width"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1",
+        "k2",
+        "k3",
+        "k4",
+        "k5",
+        "k6"
+      ],
+      "corners": {
+        "bottom_left": "p1",
+        "bottom_right": "p2",
+        "top_left": "p4",
+        "top_right": "p3"
+      },
+      "created": {
+        "constraints": [
+          "k1",
+          "k2",
+          "k3",
+          "k4",
+          "k5",
+          "k6"
+        ],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6"
+        ],
+        "dimensions": [
+          "k7",
+          "k8"
+        ],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "dimensions": {
+        "height": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k7"
+            ],
+            "points": []
+          },
+          "expression": "direct_009_oobb_cube_06_width",
+          "measured": 20.0,
+          "param": "d33",
+          "sketch": {
+            "dof": 1,
+            "solved": true
+          },
+          "type": "LinearDimension",
+          "unit": "mm"
+        },
+        "width": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k8"
+            ],
+            "points": []
+          },
+          "expression": "direct_009_oobb_cube_06_length",
+          "measured": 20.0,
+          "param": "d34",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "LinearDimension",
+          "unit": "mm"
+        }
+      },
+      "sides": {
+        "bottom": "l1",
+        "left": "l4",
+        "right": "l2",
+        "top": "l3"
+      },
+      "sketch": {
+        "dof": 2,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 52,
+    "source_id": "direct_009",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_009_oobb_cube_06_depth",
+      "expression": "2.1999999999999997 mm",
+      "comment": "direct_009"
+    },
+    "reply": {
+      "display_value": 2.1999999999999997,
+      "name": "direct_009_oobb_cube_06_depth",
+      "unit": "mm",
+      "value": 2.1999999999999997
+    }
+  },
+  {
+    "index": 53,
+    "source_id": "direct_009",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 54,
+    "source_id": "direct_009",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 18
+    }
+  },
+  {
+    "index": 55,
+    "source_id": "direct_009",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_009_oobb_cube_06_profile",
+      "distance": "direct_009_oobb_cube_06_depth",
+      "operation": "new",
+      "name": "direct_009_oobb_cube_06_extrude",
+      "body_name": "direct_009_oobb_cube_06_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_009_oobb_cube_06_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_009_oobb_cube_06_body"
+      ],
+      "feature": 19,
+      "ms": 0.5537,
+      "name": "direct_009_oobb_cube_06_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 56,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_009_oobb_cube_06_body"
+      ],
+      "translate": [
+        4.449999999999999,
+        -10.0,
+        -0.01
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_009_oobb_cube_06_body"
+      ],
+      "changed_bodies": [
+        "direct_009_oobb_cube_06_body"
+      ],
+      "created_bodies": [],
+      "feature": 20,
+      "ms": 0.0817,
+      "name": "Move5",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 57,
+    "source_id": "boolean_difference",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_009_oobb_cylinder_05_body",
+      "tools": [
+        "direct_009_oobb_cube_06_body"
+      ],
+      "operation": "cut"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "changed_bodies": [
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "created_bodies": [],
+      "feature": 21,
+      "ms": 5.8636,
+      "name": "Combine2",
+      "removed_bodies": [
+        "direct_009_oobb_cube_06_body"
+      ],
+      "warning": null
+    }
+  },
+  {
+    "index": 58,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "translate": [
+        0,
+        0,
+        -0.01
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "changed_bodies": [
+        "direct_009_oobb_cylinder_05_body"
+      ],
+      "created_bodies": [],
+      "feature": 22,
+      "ms": 0.06849999999999999,
+      "name": "Move6",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 59,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_z_0",
+      "expression": "-0.01 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_013_revolved_profile_07_z_0",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 60,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_radius_1",
+      "expression": "3.05 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": 3.05,
+      "name": "direct_013_revolved_profile_07_radius_1",
+      "unit": "mm",
+      "value": 3.05
+    }
+  },
+  {
+    "index": 61,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_z_1",
+      "expression": "-0.01 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_013_revolved_profile_07_z_1",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 62,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_radius_2",
+      "expression": "3.05 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": 3.05,
+      "name": "direct_013_revolved_profile_07_radius_2",
+      "unit": "mm",
+      "value": 3.05
+    }
+  },
+  {
+    "index": 63,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_z_2",
+      "expression": "0.26 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": 0.26,
+      "name": "direct_013_revolved_profile_07_z_2",
+      "unit": "mm",
+      "value": 0.26
+    }
+  },
+  {
+    "index": 64,
+    "source_id": "direct_013",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_013_revolved_profile_07_z_3",
+      "expression": "0.26 mm",
+      "comment": "direct_013"
+    },
+    "reply": {
+      "display_value": 0.26,
+      "name": "direct_013_revolved_profile_07_z_3",
+      "unit": "mm",
+      "value": 0.26
+    }
+  },
+  {
+    "index": 65,
+    "source_id": "direct_013",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_013_revolved_profile_07_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_013_revolved_profile_07_profile",
+      "projected": null,
+      "sketch": 23
+    }
+  },
+  {
+    "index": 66,
+    "source_id": "direct_013",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_013_revolved_profile_07_z_0)"
+        ],
+        [
+          "direct_013_revolved_profile_07_radius_1",
+          "-(direct_013_revolved_profile_07_z_1)"
+        ],
+        [
+          "direct_013_revolved_profile_07_radius_2",
+          "-(direct_013_revolved_profile_07_z_2)"
+        ],
+        [
+          "0",
+          "-(direct_013_revolved_profile_07_z_3)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 67,
+    "source_id": "direct_013",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 68,
+    "source_id": "direct_013",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 23
+    }
+  },
+  {
+    "index": 69,
+    "source_id": "direct_013",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_013_revolved_profile_07_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_013_revolved_profile_07_extrude",
+      "body_name": "direct_013_revolved_profile_07_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_013_revolved_profile_07_body"
+      ],
+      "feature": 24,
+      "ms": 2.2201999999999997,
+      "name": "direct_013_revolved_profile_07_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 70,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_013_revolved_profile_07_body"
+      ],
+      "translate": [
+        4.898587196589413e-16,
+        8.0,
+        0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body"
+      ],
+      "changed_bodies": [
+        "direct_013_revolved_profile_07_body"
+      ],
+      "created_bodies": [],
+      "feature": 25,
+      "ms": 1.8256,
+      "name": "Move7",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 71,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_z_0",
+      "expression": "-0.01 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_016_revolved_profile_08_z_0",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 72,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_radius_1",
+      "expression": "3.05 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": 3.05,
+      "name": "direct_016_revolved_profile_08_radius_1",
+      "unit": "mm",
+      "value": 3.05
+    }
+  },
+  {
+    "index": 73,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_z_1",
+      "expression": "-0.01 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_016_revolved_profile_08_z_1",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 74,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_radius_2",
+      "expression": "3.05 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": 3.05,
+      "name": "direct_016_revolved_profile_08_radius_2",
+      "unit": "mm",
+      "value": 3.05
+    }
+  },
+  {
+    "index": 75,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_z_2",
+      "expression": "0.26 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": 0.26,
+      "name": "direct_016_revolved_profile_08_z_2",
+      "unit": "mm",
+      "value": 0.26
+    }
+  },
+  {
+    "index": 76,
+    "source_id": "direct_016",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_016_revolved_profile_08_z_3",
+      "expression": "0.26 mm",
+      "comment": "direct_016"
+    },
+    "reply": {
+      "display_value": 0.26,
+      "name": "direct_016_revolved_profile_08_z_3",
+      "unit": "mm",
+      "value": 0.26
+    }
+  },
+  {
+    "index": 77,
+    "source_id": "direct_016",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_016_revolved_profile_08_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_016_revolved_profile_08_profile",
+      "projected": null,
+      "sketch": 26
+    }
+  },
+  {
+    "index": 78,
+    "source_id": "direct_016",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_016_revolved_profile_08_z_0)"
+        ],
+        [
+          "direct_016_revolved_profile_08_radius_1",
+          "-(direct_016_revolved_profile_08_z_1)"
+        ],
+        [
+          "direct_016_revolved_profile_08_radius_2",
+          "-(direct_016_revolved_profile_08_z_2)"
+        ],
+        [
+          "0",
+          "-(direct_016_revolved_profile_08_z_3)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 79,
+    "source_id": "direct_016",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 80,
+    "source_id": "direct_016",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 26
+    }
+  },
+  {
+    "index": 81,
+    "source_id": "direct_016",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_016_revolved_profile_08_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_016_revolved_profile_08_extrude",
+      "body_name": "direct_016_revolved_profile_08_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_016_revolved_profile_08_body"
+      ],
+      "feature": 27,
+      "ms": 1.9195,
+      "name": "direct_016_revolved_profile_08_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 82,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_016_revolved_profile_08_body"
+      ],
+      "translate": [
+        -1.4695761589768238e-15,
+        -8.0,
+        0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body"
+      ],
+      "changed_bodies": [
+        "direct_016_revolved_profile_08_body"
+      ],
+      "created_bodies": [],
+      "feature": 28,
+      "ms": 1.7557,
+      "name": "Move8",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 83,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_z_0",
+      "expression": "-0.01 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_019_revolved_profile_09_z_0",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 84,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_radius_1",
+      "expression": "3.25 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": 3.25,
+      "name": "direct_019_revolved_profile_09_radius_1",
+      "unit": "mm",
+      "value": 3.25
+    }
+  },
+  {
+    "index": 85,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_z_1",
+      "expression": "-0.01 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": -0.01,
+      "name": "direct_019_revolved_profile_09_z_1",
+      "unit": "mm",
+      "value": -0.01
+    }
+  },
+  {
+    "index": 86,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_radius_2",
+      "expression": "3.25 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": 3.25,
+      "name": "direct_019_revolved_profile_09_radius_2",
+      "unit": "mm",
+      "value": 3.25
+    }
+  },
+  {
+    "index": 87,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_z_2",
+      "expression": "9.86 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": 9.86,
+      "name": "direct_019_revolved_profile_09_z_2",
+      "unit": "mm",
+      "value": 9.86
+    }
+  },
+  {
+    "index": 88,
+    "source_id": "direct_019",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_019_revolved_profile_09_z_3",
+      "expression": "9.86 mm",
+      "comment": "direct_019"
+    },
+    "reply": {
+      "display_value": 9.86,
+      "name": "direct_019_revolved_profile_09_z_3",
+      "unit": "mm",
+      "value": 9.86
+    }
+  },
+  {
+    "index": 89,
+    "source_id": "direct_019",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_019_revolved_profile_09_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_019_revolved_profile_09_profile",
+      "projected": null,
+      "sketch": 29
+    }
+  },
+  {
+    "index": 90,
+    "source_id": "direct_019",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_019_revolved_profile_09_z_0)"
+        ],
+        [
+          "direct_019_revolved_profile_09_radius_1",
+          "-(direct_019_revolved_profile_09_z_1)"
+        ],
+        [
+          "direct_019_revolved_profile_09_radius_2",
+          "-(direct_019_revolved_profile_09_z_2)"
+        ],
+        [
+          "0",
+          "-(direct_019_revolved_profile_09_z_3)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 91,
+    "source_id": "direct_019",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 92,
+    "source_id": "direct_019",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 29
+    }
+  },
+  {
+    "index": 93,
+    "source_id": "direct_019",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_019_revolved_profile_09_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_019_revolved_profile_09_extrude",
+      "body_name": "direct_019_revolved_profile_09_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_005_oobb_cylinder_01_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_019_revolved_profile_09_body"
+      ],
+      "feature": 30,
+      "ms": 2.0339,
+      "name": "direct_019_revolved_profile_09_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 94,
+    "source_id": "boolean_union",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_002_oobb_cylinder_00_body",
+      "tools": [
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "operation": "join"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_008_oobb_cylinder_02_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "changed_bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 31,
+      "ms": 39.385000000000005,
+      "name": "Combine3",
+      "removed_bodies": [
+        "direct_005_oobb_cylinder_01_body"
+      ],
+      "warning": null
+    }
+  },
+  {
+    "index": 95,
+    "source_id": "boolean_union",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_002_oobb_cylinder_00_body",
+      "tools": [
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "operation": "join"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_010_oobb_cylinder_03_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "changed_bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 32,
+      "ms": 61.980399999999996,
+      "name": "Combine4",
+      "removed_bodies": [
+        "direct_008_oobb_cylinder_02_body"
+      ],
+      "warning": null
+    }
+  },
+  {
+    "index": 96,
+    "source_id": "boolean_union",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_002_oobb_cylinder_00_body",
+      "tools": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "operation": "join"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body",
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "changed_bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 33,
+      "ms": 305.4085,
+      "name": "Combine5",
+      "removed_bodies": [
+        "direct_010_oobb_cylinder_03_body"
+      ],
+      "warning": null
+    }
+  },
+  {
+    "index": 97,
+    "source_id": "boolean_difference",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_002_oobb_cylinder_00_body",
+      "tools": [
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "operation": "cut"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "changed_bodies": [
+        "direct_002_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 34,
+      "ms": 87.3181,
+      "name": "Combine6",
+      "removed_bodies": [
+        "direct_009_oobb_cylinder_05_body",
+        "direct_013_revolved_profile_07_body",
+        "direct_016_revolved_profile_08_body",
+        "direct_019_revolved_profile_09_body"
+      ],
+      "warning": null
+    }
+  }
+]

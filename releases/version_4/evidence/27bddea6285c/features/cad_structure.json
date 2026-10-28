@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction__coupling_drive",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_nut_m6_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m6_hex_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_nut_m6_hex_radius",
+        "height": "oobb_nut_m6_hex_depth"
+      }
+    }
+  ],
+  "sketch_count": 11,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

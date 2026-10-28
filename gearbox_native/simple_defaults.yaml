@@ -1,0 +1,68 @@
+# Consolidated V6: motor mount + integral posts, one front carrier, two cams.
+architecture: simple_6810
+drive_connection: flanged_coupler
+# Direct-drive settings are separate so the previous flanged recipe remains usable.
+direct_drive_bottom_clearance: 0.5
+direct_drive_depth: 9.0
+direct_drive_radius: 11.0
+direct_drive_clearance: 0.25
+direct_shaft_clearance: 0.05
+direct_shaft_endplay: 0.2
+direct_grub_length: 8.0
+direct_grub_height: 4.5
+direct_grub_angle: 0.0
+direct_nut_inner_radius: 5.0
+direct_nut_clearance: 0.15
+direct_nut_floor: 0.6
+direct_key_roof_clearance: 0.2
+direct_hub_bolt_length: 8.0
+direct_guide_bolt_length: 20.0
+direct_stack_layout: raised
+# Base-grub layout: fit the drive before lowering the motor plate over it.
+direct_base_clearance: 0.5
+direct_base_grub_height: 4.0
+direct_base_front_web: 0.8
+direct_base_hub_bolt_length: 4.0
+direct_base_top_clearance: 0.2
+# Short radial transition needs slicer support underneath the casing lobe band.
+direct_base_ramp_depth: 0.6
+bearing_output: '6810'
+bearing_eccentric: '6703'
+bearing_shaft: '6701'
+radius_offset: 1.25
+pitch_radius_increment: 0.5  # Catalogue variants may use finer automatic sizing.
+lobe_radius: null  # Auto: reference radius * reference reduction / reduction.
+lobe_reference_radius: 1.65
+lobe_reference_reduction: 20
+casing_wall: 2.0
+split_output_casing: false
+casing_ramp_layer_height: 0.25
+front_retainer_depth: 0.0
+guide_pin_pitch_radius: 17.4
+post_pitch_radius: 21.0
+rotor_thickness: 5.0
+disc_gap: 0.5
+flange_depth: 11.0
+flange_web: 3.0
+drive_flange_depth: 3.5
+coupling_screw_length: 6.0
+hub_bolt_length: 20.0
+guide_bolt_length: 35.0
+guide_socket_floor: 1.4
+guide_nut_rotation: 0
+guide_head_depth: 3.0
+post_register_depth: 1.0
+post_register_clearance: 0.15
+post_fasteners: false
+post_fastener_radius: 2.7
+post_fastener_pitch_radius: 18.55
+post_fastener_register_radius: 2.3
+post_fastener_register_depth: 1.6
+post_fastener_socket_floor: 2.6
+post_fastener_length: 25.0
+post_fastener_screw_clearance: 0.2
+post_fastener_nut_rotation: 30.0
+post_fastener_min_wall: 0.8
+eccentric_lip_radius: 10.7
+eccentric_shoulder_radius: 9.3
+samples_per_lobe: 24

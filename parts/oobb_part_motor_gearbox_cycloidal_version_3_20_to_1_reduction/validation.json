@@ -1,0 +1,325 @@
+{
+  "reduction": 20,
+  "meshes": [
+    {
+      "part": "motor_mount",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -44.5,
+          -44.5,
+          0.0
+        ],
+        [
+          44.5,
+          44.5,
+          14.0
+        ]
+      ],
+      "volume_mm3": 34841.202513442004
+    },
+    {
+      "part": "output_casing",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -43.5,
+          -43.5,
+          0.0
+        ],
+        [
+          43.5,
+          43.5,
+          50.0
+        ]
+      ],
+      "volume_mm3": 76998.58304083244
+    },
+    {
+      "part": "output_cover",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -43.5,
+          -43.5,
+          0.0
+        ],
+        [
+          43.5,
+          43.5,
+          10.2
+        ]
+      ],
+      "volume_mm3": 11035.532698897025
+    },
+    {
+      "part": "pin_rear",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -28.0,
+          -28.0,
+          0.0
+        ],
+        [
+          28.0,
+          28.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 11947.048345711091
+    },
+    {
+      "part": "pin_front",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -28.0,
+          -28.0,
+          0.0
+        ],
+        [
+          28.0,
+          28.0,
+          10.0
+        ]
+      ],
+      "volume_mm3": 16289.180638105818
+    },
+    {
+      "part": "rotor_a",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -38.04999999701977,
+          -37.93749891221523,
+          0.0
+        ],
+        [
+          37.60062588006258,
+          37.93749891221523,
+          7.0
+        ]
+      ],
+      "volume_mm3": 22823.11042244632
+    },
+    {
+      "part": "rotor_b",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -37.60062588006258,
+          -37.93749891221523,
+          0.0
+        ],
+        [
+          38.04999999701977,
+          37.93749891221523,
+          7.0
+        ]
+      ],
+      "volume_mm3": 22823.110422446323
+    },
+    {
+      "part": "eccentric_hub_lower",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -15.700000000000001,
+          -15.700000000000001,
+          0.0
+        ],
+        [
+          15.700000000000001,
+          15.700000000000001,
+          38.8
+        ]
+      ],
+      "volume_mm3": 10426.72393592549
+    },
+    {
+      "part": "eccentric_hub_upper",
+      "watertight": true,
+      "solid_count": 1,
+      "bounds_mm": [
+        [
+          -12.75,
+          -12.75,
+          0.0
+        ],
+        [
+          12.75,
+          12.75,
+          28.400000000000002
+        ]
+      ],
+      "volume_mm3": 5640.569280816587
+    },
+    {
+      "part": "3dpr",
+      "watertight": true,
+      "solid_count": 9,
+      "bounds_mm": [
+        [
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          205.0,
+          310.4,
+          50.0
+        ]
+      ],
+      "volume_mm3": 212825.06129862298
+    }
+  ],
+  "motion_frames": 73,
+  "motion_collisions": 0,
+  "bore_sections": [
+    {
+      "part": "rotor_a",
+      "checked_bores": 7,
+      "z_mm": 1
+    },
+    {
+      "part": "rotor_b",
+      "checked_bores": 7,
+      "z_mm": 1
+    },
+    {
+      "part": "pin_rear",
+      "checked_bores": 7,
+      "z_mm": 3
+    },
+    {
+      "part": "pin_front",
+      "checked_bores": 7,
+      "z_mm": 3
+    },
+    {
+      "part": "output_casing",
+      "checked_bores": 5,
+      "z_mm": 1
+    },
+    {
+      "part": "output_cover",
+      "checked_bores": 5,
+      "z_mm": 1
+    },
+    {
+      "part": "motor_mount",
+      "checked_bores": 5,
+      "z_mm": 1
+    },
+    {
+      "part": "eccentric_hub_lower",
+      "checked_bores": 3,
+      "z_mm": 14.5
+    },
+    {
+      "part": "eccentric_hub_upper",
+      "checked_bores": 1,
+      "z_mm": 1
+    }
+  ],
+  "fit_coupons": [
+    {
+      "name": "fit_eccentric_bearings",
+      "solid_count": 3,
+      "watertight": true
+    },
+    {
+      "name": "fit_shaft_bearings",
+      "solid_count": 3,
+      "watertight": true
+    },
+    {
+      "name": "fit_output_bearings",
+      "solid_count": 3,
+      "watertight": true
+    },
+    {
+      "name": "fit_drive_bearings",
+      "solid_count": 3,
+      "watertight": true
+    },
+    {
+      "name": "fit_m5_axle",
+      "solid_count": 1,
+      "watertight": true
+    },
+    {
+      "name": "fit_journals",
+      "solid_count": 9,
+      "watertight": true
+    },
+    {
+      "name": "fit_nema17_mount",
+      "solid_count": 1,
+      "watertight": true
+    },
+    {
+      "name": "fit_hub_key",
+      "solid_count": 2,
+      "watertight": true
+    },
+    {
+      "name": "fit_coupling_flange",
+      "solid_count": 1,
+      "watertight": true
+    }
+  ],
+  "installation_poses": 9,
+  "eccentric_bearing_insertion_poses": 18,
+  "hub_joint_insertion_poses": 9,
+  "bottom_nut_insertion_poses": 9,
+  "flange_nut_insertion": "all 2 continuous 20 mm side-loading sweeps clear",
+  "grub_access": "both 1.8 mm diameter tool paths clear at service angle",
+  "scad_sha256": {
+    "3dpr.scad": "418484f31e0247cbbd3dc18072eec6a2213244f69bded66e02c15277e761989a",
+    "animation.scad": "75f0c22778d566729f5b0e98ad1b186bca6cc463257d6f0c6c46d6de78b1b8ea",
+    "assembly.scad": "1fb8b0781eb4873f9be2db878d74447129ae0e980be6692f10adbb3f22fec83a",
+    "bearing_installation_check.scad": "83d0d3a57ce769bb070bf9c3d3bc4bdd6a9abe12cd8760c988abab5a099c8643",
+    "eccentric_hub_lower.scad": "229459bf80020a574e1f73aae5c2d83964054881c63f3467fbf0452d3a2a976d",
+    "eccentric_hub_upper.scad": "81639cca85014b5d259cbb260a700c77694e42bc49b69736bb39fc0baff3efbf",
+    "exploded.scad": "d906b7a67d4cd12f9dc77da13de94aae74ba9e0916b648e6080ae442846c9259",
+    "fit_check.scad": "8f7305aae03bf5bcf679665bfafd950b56059742d28c3b0419c75662e6518568",
+    "fit_coupling_flange.scad": "802238d53b3a0598272f98510b680649d80aa0614578f22c35d0fb7845fb8976",
+    "fit_drive_bearings.scad": "aa0208ff4eabceab1443f27bde5485661f3117a34099206d1eb6e3ec00a0ecc7",
+    "fit_eccentric_bearings.scad": "43bfe6086f2f5c3e0b8a04cc2665719a2f923c06d9766825200f67cd732a6b15",
+    "fit_hub_key.scad": "66319f730f4a1808d46891233b2102864521ebb626e95d079ba21f74c4c765da",
+    "fit_journals.scad": "3c0e19291c6023f1605277f6acdd82e02dde9938e819798d723a852e98b3f9b1",
+    "fit_m5_axle.scad": "9f1a8c5eccc39f75a35fe59df7759d817f85258c45724f68d2b6680b4dd14197",
+    "fit_nema17_mount.scad": "3bb58dc61a9cb7a0d475d181ae6a2bda5d4d3b08f9d8c51904d42a858fb520f6",
+    "fit_output_bearings.scad": "0482d273a8a7c2e77151d203579a84450171c9eab2adcc3f97679d70abc08e26",
+    "fit_shaft_bearings.scad": "f6ac1a44d5eb716a411ed977c807671458c0185bc488fef7bffe5703f76f35e2",
+    "flange_nut_installation_check.scad": "4d49e8356816540051df5c8fd5bd19012af696b81cabcb59c54e56c0c3096fe9",
+    "flange_nut_loading.scad": "d4c6ae24215b2d31e105d7b53e1646d738d308b6d7cca5a6dc191cbad0760256",
+    "grub_access_check.scad": "a22def698608b724a292f413d5eea9a84e4626bbc802b46c140432eb1b7c8254",
+    "hardware.scad": "2869a9786592d68098e8fddf02f792253c27e99c44c81ad49049f851ad1e9882",
+    "installation_check.scad": "765b5fa1d846b56a7d3b3f3b6e416a128601dcb927535663a5aa5568604556c7",
+    "joint_installation_check.scad": "b7b02754b4dbb09c7855dc5190b9c94ccb938618457afb1936f8aa3accc5a510",
+    "motion.scad": "47dd335598f0ba8e49f4abd4e16fa08cd44c6ddb929550f38fbf39e2d960d3a6",
+    "motor_drive.scad": "15d5263e3aa060cb5f9d026744be58c0bcd7cd6f3b755d5c4e2183df45f801d5",
+    "motor_mount.scad": "14983f367b56371869286c0e2bc65aad33d51fd667ae43155f33388db1d51ae0",
+    "nut_installation_check.scad": "f272a9f92ed2cda69611d1dbd65f355696d9b1c0d7c1c0e49ad68f03673e1810",
+    "nut_loading.scad": "de1b68374becd52c66ec69e242bec248008efd692977f154b2fdf1dabc09ff4a",
+    "output_casing.scad": "5f298bbcc54cb58329b710b86316696e4e4e67c1e329f4ba446bc865fd64ce65",
+    "output_cover.scad": "d50c3417aae6ea99b5076bf681687d21c6bd6452fad63e3890e17f32ab47964c",
+    "pin_front.scad": "cc8c51105a5db7355e5361abf2fab0079f698299c0ba53608e1f851078dda3ac",
+    "pin_rear.scad": "44cd111aecd8dc62703e89adebe7f0846ba4a03a3f8efa58e875789c3ed22eca",
+    "rotor_a.scad": "42f5612a6e341a672ce3302806e311f60d80155e69a0da036a15ed08363c65cc",
+    "rotor_b.scad": "c9a9f7af4fd1787c6f0d9550209b405b3ce800f2a09d28a385b42734e11da556",
+    "section.scad": "43cfb5627214ccebfb6bf60ae57ecdccd863e73f1c646877cd87ef5eeafc8a23"
+  },
+  "status": "passed"
+}

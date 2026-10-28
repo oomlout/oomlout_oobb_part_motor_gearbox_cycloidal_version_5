@@ -1,0 +1,3508 @@
+{
+  "active_sketch": null,
+  "bodies": [
+    {
+      "area_mm2": 15493.232503944819,
+      "bbox": {
+        "max": [
+          34.000000000000085,
+          33.99980227442813,
+          18.499999999999666
+        ],
+        "min": [
+          -34.00000000000006,
+          -33.99980227442805,
+          -2.0579201470224285e-14
+        ]
+      },
+      "center_of_mass": [
+        -3.63037842661941e-09,
+        -1.0090405210456947e-10,
+        9.45863456904001
+      ],
+      "edges": 216,
+      "face_types": {
+        "cone": 3,
+        "cylinder": 17,
+        "plane": 68
+      },
+      "faces": 88,
+      "kernel": {
+        "edges": 333,
+        "faces": 122,
+        "shells": 1,
+        "vertices": 219
+      },
+      "name": "direct_001_revolved_profile_00_body",
+      "vertices": 153,
+      "visible": true,
+      "volume_mm3": 48648.03551809217
+    }
+  ],
+  "dirty": true,
+  "hidden_origin": [],
+  "marker": 63,
+  "metadata": {},
+  "name": "Untitled",
+  "params": [
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "34.0 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_radius_0",
+      "unit": "mm",
+      "value": 34.0
+    },
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "18.5 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_z_0",
+      "unit": "mm",
+      "value": 18.5
+    },
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "34.0 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_radius_1",
+      "unit": "mm",
+      "value": 34.0
+    },
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "13.7 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_radius_2",
+      "unit": "mm",
+      "value": 13.7
+    },
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "13.7 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_radius_3",
+      "unit": "mm",
+      "value": 13.7
+    },
+    {
+      "comment": "direct_001",
+      "error": null,
+      "expression": "18.5 mm",
+      "model": false,
+      "name": "direct_001_revolved_profile_00_z_3",
+      "unit": "mm",
+      "value": 18.5
+    },
+    {
+      "comment": "direct_003",
+      "error": null,
+      "expression": "5.77 mm",
+      "model": false,
+      "name": "oobb_nut_m6_hex_radius",
+      "unit": "mm",
+      "value": 5.77
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "oobb_nut_m6_hex_radius",
+      "model": true,
+      "name": "d3",
+      "unit": "mm",
+      "value": 5.77
+    },
+    {
+      "comment": "direct_003",
+      "error": null,
+      "expression": "5.3999999999999995 mm",
+      "model": false,
+      "name": "oobb_nut_m6_hex_depth",
+      "unit": "mm",
+      "value": 5.3999999999999995
+    },
+    {
+      "comment": "direct_003",
+      "error": null,
+      "expression": "3.25 mm",
+      "model": false,
+      "name": "oobb_nut_m6_round_radius",
+      "unit": "mm",
+      "value": 3.25
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2 * oobb_nut_m6_round_radius",
+      "model": true,
+      "name": "d9",
+      "unit": "mm",
+      "value": 6.5
+    },
+    {
+      "comment": "direct_003",
+      "error": null,
+      "expression": "18.52 mm",
+      "model": false,
+      "name": "oobb_nut_m6_round_depth",
+      "unit": "mm",
+      "value": 18.52
+    },
+    {
+      "comment": "direct_009",
+      "error": null,
+      "expression": "3.1734999999999998 mm",
+      "model": false,
+      "name": "oobb_nut_m3_hex_radius",
+      "unit": "mm",
+      "value": 3.1734999999999998
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "oobb_nut_m3_hex_radius",
+      "model": true,
+      "name": "d87",
+      "unit": "mm",
+      "value": 3.1734999999999998
+    },
+    {
+      "comment": "direct_009",
+      "error": null,
+      "expression": "15.600000000000001 mm",
+      "model": false,
+      "name": "oobb_nut_m3_hex_depth",
+      "unit": "mm",
+      "value": 15.600000000000001
+    },
+    {
+      "comment": "direct_009",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "oobb_nut_m3_round_radius",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "",
+      "error": null,
+      "expression": "2 * oobb_nut_m3_round_radius",
+      "model": true,
+      "name": "d93",
+      "unit": "mm",
+      "value": 3.6
+    },
+    {
+      "comment": "direct_009",
+      "error": null,
+      "expression": "18.52 mm",
+      "model": false,
+      "name": "oobb_nut_m3_round_depth",
+      "unit": "mm",
+      "value": 18.52
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_1",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_2",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_3",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "2.9 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_radius_4",
+      "unit": "mm",
+      "value": 2.9
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_4",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "10.664285714285715 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_5",
+      "unit": "mm",
+      "value": 10.664285714285715
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_013",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_013_revolved_profile_05_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_1",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_2",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_3",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "2.9 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_radius_4",
+      "unit": "mm",
+      "value": 2.9
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_4",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "10.664285714285715 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_5",
+      "unit": "mm",
+      "value": 10.664285714285715
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_016",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_016_revolved_profile_06_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_1",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "30.52 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_2",
+      "unit": "mm",
+      "value": 30.52
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "3.0 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_3",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "2.9 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_radius_4",
+      "unit": "mm",
+      "value": 2.9
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "12.0 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_4",
+      "unit": "mm",
+      "value": 12.0
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "10.664285714285715 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_5",
+      "unit": "mm",
+      "value": 10.664285714285715
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "1.8 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    },
+    {
+      "comment": "direct_019",
+      "error": null,
+      "expression": "-0.019999999999999574 mm",
+      "model": false,
+      "name": "direct_019_revolved_profile_07_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  ],
+  "path": null,
+  "redo": 0,
+  "revision": 290,
+  "selection": [],
+  "sketches": [
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            34.0,
+            -0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            34.0,
+            -18.5
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            13.7,
+            -0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            34.0,
+            -0.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            13.7,
+            -18.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            13.7,
+            -0.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            34.0,
+            -18.5
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            13.7,
+            -18.5
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 1,
+      "links": [],
+      "name": "direct_001_revolved_profile_00_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            34.0,
+            -18.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            34.0,
+            0.0,
+            18.5
+          ]
+        },
+        {
+          "at": [
+            34.0,
+            -0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            34.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            13.7,
+            -0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            13.7,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            13.7,
+            -18.5
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            13.7,
+            0.0,
+            18.5
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 375.55,
+          "centroid_sketch": [
+            23.85,
+            -9.25
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "a": 0,
+          "b": 1,
+          "id": "k1",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "id": "k2",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "id": "k3",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "id": "k4",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "id": "k5",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "c": 6,
+          "id": "k6",
+          "name": "Coincident",
+          "p": 1,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k7",
+          "name": "Coincident",
+          "p": 2,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k8",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k9",
+          "name": "Coincident",
+          "p": 4,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k10",
+          "name": "Coincident",
+          "p": 5,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k11",
+          "name": "Coincident",
+          "p": 6,
+          "type": "point_on_curve"
+        },
+        {
+          "id": "k12",
+          "name": "Coincident",
+          "p": 0,
+          "q": 7,
+          "type": "coincident"
+        },
+        {
+          "c": 6,
+          "expression": "oobb_nut_m6_hex_radius",
+          "id": "k13",
+          "name": "RadialDimension",
+          "param": "d3",
+          "type": "radius",
+          "value": 5.77
+        },
+        {
+          "id": "k14",
+          "name": "Horizontal",
+          "p": 0,
+          "q": 1,
+          "type": "horizontal_points"
+        }
+      ],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            2.8850000000000002,
+            4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            5.77,
+            0.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            -2.8849999999999985,
+            4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            2.8850000000000002,
+            4.996966579836211
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            -5.77,
+            7.066212031080227e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            -2.8849999999999985,
+            4.996966579836211
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -2.8850000000000025,
+            -4.99696657983621
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            -5.77,
+            7.066212031080227e-16
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            2.8850000000000002,
+            -4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            -2.8850000000000025,
+            -4.99696657983621
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            5.77,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            2.8850000000000002,
+            -4.996966579836211
+          ],
+          "type": "line"
+        },
+        {
+          "center": "c1.center",
+          "center_at": [
+            0.0,
+            0.0
+          ],
+          "construction": true,
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1",
+          "radius": 5.77,
+          "type": "circle"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 3,
+      "links": [],
+      "name": "oobb_nut_m6_hex_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            5.77,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            5.77,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.8850000000000002,
+            4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            2.8850000000000002,
+            4.996966579836211,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.8849999999999985,
+            4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -2.8849999999999985,
+            4.996966579836211,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -5.77,
+            7.066212031080227e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -5.77,
+            7.066212031080227e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -2.8850000000000025,
+            -4.99696657983621
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -2.8850000000000025,
+            -4.99696657983621,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            2.8850000000000002,
+            -4.996966579836211
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            2.8850000000000002,
+            -4.996966579836211,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1.center",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 86.4974914969648,
+          "centroid_sketch": [
+            0.0,
+            -1.0952806814981961e-16
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4",
+            "l5",
+            "l6"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "id": "k1",
+          "name": "Coincident",
+          "p": 0,
+          "q": 1,
+          "type": "coincident"
+        },
+        {
+          "c": 0,
+          "expression": "2 * oobb_nut_m6_round_radius",
+          "id": "k2",
+          "name": "DiameterDimension",
+          "param": "d9",
+          "type": "diameter",
+          "value": 6.5
+        }
+      ],
+      "curves": [
+        {
+          "center": "c1.center",
+          "center_at": [
+            0.0,
+            0.0
+          ],
+          "construction": false,
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1",
+          "radius": 3.25,
+          "type": "circle"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 6,
+      "links": [],
+      "name": "oobb_nut_m6_round_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1.center",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 33.18307240354219,
+          "centroid_sketch": [
+            7.586749028716676e-17,
+            -1.6184599720267836e-16
+          ],
+          "curves": [
+            "c1"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "a": 0,
+          "b": 1,
+          "id": "k1",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "id": "k2",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 2,
+          "b": 3,
+          "id": "k3",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 3,
+          "b": 4,
+          "id": "k4",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "a": 4,
+          "b": 5,
+          "id": "k5",
+          "name": "Equal",
+          "type": "equal"
+        },
+        {
+          "c": 6,
+          "id": "k6",
+          "name": "Coincident",
+          "p": 1,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k7",
+          "name": "Coincident",
+          "p": 2,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k8",
+          "name": "Coincident",
+          "p": 3,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k9",
+          "name": "Coincident",
+          "p": 4,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k10",
+          "name": "Coincident",
+          "p": 5,
+          "type": "point_on_curve"
+        },
+        {
+          "c": 6,
+          "id": "k11",
+          "name": "Coincident",
+          "p": 6,
+          "type": "point_on_curve"
+        },
+        {
+          "id": "k12",
+          "name": "Coincident",
+          "p": 0,
+          "q": 7,
+          "type": "coincident"
+        },
+        {
+          "c": 6,
+          "expression": "oobb_nut_m3_hex_radius",
+          "id": "k13",
+          "name": "RadialDimension",
+          "param": "d87",
+          "type": "radius",
+          "value": 3.1734999999999998
+        },
+        {
+          "id": "k14",
+          "name": "Horizontal",
+          "p": 0,
+          "q": 1,
+          "type": "horizontal_points"
+        }
+      ],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            1.5867500000000003,
+            2.7483316189099156
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            3.1734999999999998,
+            0.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            -1.5867499999999992,
+            2.748331618909916
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            1.5867500000000003,
+            2.7483316189099156
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            -3.1734999999999998,
+            3.886416617094125e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            -1.5867499999999992,
+            2.748331618909916
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            -1.5867500000000012,
+            -2.748331618909915
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            -3.1734999999999998,
+            3.886416617094125e-16
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            1.5867500000000003,
+            -2.7483316189099156
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            -1.5867500000000012,
+            -2.748331618909915
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            3.1734999999999998,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            1.5867500000000003,
+            -2.7483316189099156
+          ],
+          "type": "line"
+        },
+        {
+          "center": "c1.center",
+          "center_at": [
+            0.0,
+            0.0
+          ],
+          "construction": true,
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1",
+          "radius": 3.1734999999999998,
+          "type": "circle"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 37,
+      "links": [],
+      "name": "oobb_nut_m3_hex_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            3.1734999999999998,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            3.1734999999999998,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.5867500000000003,
+            2.7483316189099156
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            1.5867500000000003,
+            2.7483316189099156,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.5867499999999992,
+            2.748331618909916
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            -1.5867499999999992,
+            2.748331618909916,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -3.1734999999999998,
+            3.886416617094125e-16
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            -3.1734999999999998,
+            3.886416617094125e-16,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            -1.5867500000000012,
+            -2.748331618909915
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            -1.5867500000000012,
+            -2.748331618909915,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            1.5867500000000003,
+            -2.7483316189099156
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            1.5867500000000003,
+            -2.7483316189099156,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1.center",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 26.165491177831854,
+          "centroid_sketch": [
+            0.0,
+            2.262976614665694e-17
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4",
+            "l5",
+            "l6"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [
+        {
+          "id": "k1",
+          "name": "Coincident",
+          "p": 0,
+          "q": 1,
+          "type": "coincident"
+        },
+        {
+          "c": 0,
+          "expression": "2 * oobb_nut_m3_round_radius",
+          "id": "k2",
+          "name": "DiameterDimension",
+          "param": "d93",
+          "type": "diameter",
+          "value": 3.6
+        }
+      ],
+      "curves": [
+        {
+          "center": "c1.center",
+          "center_at": [
+            0.0,
+            0.0
+          ],
+          "construction": false,
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1",
+          "radius": 1.8,
+          "type": "circle"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 40,
+      "links": [],
+      "name": "oobb_nut_m3_round_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          1.0,
+          0.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "c1.center",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 10.17876019763093,
+          "centroid_sketch": [
+            -1.819173848040681e-17,
+            3.973757874313863e-17
+          ],
+          "curves": [
+            "c1"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            2.9,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p7",
+          "end_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l7",
+          "start": "p7",
+          "start_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 53,
+      "links": [],
+      "name": "direct_013_revolved_profile_05_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            -0.019999999999999574
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            2.9,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            10.664285714285715
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            -0.019999999999999574
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 77.93064285714286,
+          "centroid_sketch": [
+            1.3397056967932717,
+            -16.92907712461399
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4",
+            "l5",
+            "l6",
+            "l7"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            2.9,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p7",
+          "end_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l7",
+          "start": "p7",
+          "start_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 56,
+      "links": [],
+      "name": "direct_016_revolved_profile_06_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            -0.019999999999999574
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            2.9,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            10.664285714285715
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            -0.019999999999999574
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 77.93064285714286,
+          "centroid_sketch": [
+            1.3397056967932717,
+            -16.92907712461399
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4",
+            "l5",
+            "l6",
+            "l7"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    },
+    {
+      "constraints": [],
+      "curves": [
+        {
+          "construction": false,
+          "end": "p2",
+          "end_at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l1",
+          "start": "p1",
+          "start_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p3",
+          "end_at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l2",
+          "start": "p2",
+          "start_at": [
+            0.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p4",
+          "end_at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l3",
+          "start": "p3",
+          "start_at": [
+            3.0,
+            -30.52
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p5",
+          "end_at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l4",
+          "start": "p4",
+          "start_at": [
+            3.0,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p6",
+          "end_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l5",
+          "start": "p5",
+          "start_at": [
+            2.9,
+            -12.0
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p7",
+          "end_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l6",
+          "start": "p6",
+          "start_at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "type": "line"
+        },
+        {
+          "construction": false,
+          "end": "p1",
+          "end_at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": false,
+          "fully_constrained": true,
+          "id": "l7",
+          "start": "p7",
+          "start_at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "type": "line"
+        }
+      ],
+      "dof": 0,
+      "failing": [],
+      "fully_constrained": true,
+      "id": 59,
+      "links": [],
+      "name": "direct_019_revolved_profile_07_profile",
+      "plane": {
+        "origin": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "x_dir": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "y_dir": [
+          0.0,
+          0.0,
+          -1.0
+        ]
+      },
+      "points": [
+        {
+          "at": [
+            0.0,
+            0.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "origin",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p1",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            -0.019999999999999574
+          ]
+        },
+        {
+          "at": [
+            0.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p2",
+          "link": null,
+          "world": [
+            0.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -30.52
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p3",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            30.52
+          ]
+        },
+        {
+          "at": [
+            3.0,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p4",
+          "link": null,
+          "world": [
+            3.0,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            2.9,
+            -12.0
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p5",
+          "link": null,
+          "world": [
+            2.9,
+            0.0,
+            12.0
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            -10.664285714285715
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p6",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            10.664285714285715
+          ]
+        },
+        {
+          "at": [
+            1.8,
+            0.019999999999999574
+          ],
+          "fixed": true,
+          "fully_constrained": true,
+          "id": "p7",
+          "link": null,
+          "world": [
+            1.8,
+            0.0,
+            -0.019999999999999574
+          ]
+        }
+      ],
+      "profiles": [
+        {
+          "area_mm2": 77.93064285714286,
+          "centroid_sketch": [
+            1.3397056967932717,
+            -16.92907712461399
+          ],
+          "curves": [
+            "l1",
+            "l2",
+            "l3",
+            "l4",
+            "l5",
+            "l6",
+            "l7"
+          ],
+          "holes": [],
+          "index": 0
+        }
+      ],
+      "status": "solved",
+      "visible": false,
+      "wires": []
+    }
+  ],
+  "timeline": [
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 1,
+      "ms": 0.082,
+      "name": "direct_001_revolved_profile_00_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 2,
+      "ms": 14.3767,
+      "name": "direct_001_revolved_profile_00_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 3,
+      "ms": 0.07959999999999999,
+      "name": "oobb_nut_m6_hex_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 4,
+      "ms": 0.6128,
+      "name": "oobb_nut_m6_hex_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 5,
+      "ms": 0.1323,
+      "name": "oobb_nut_m6_hex_place_001",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 6,
+      "ms": 0.027800000000000002,
+      "name": "oobb_nut_m6_round_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 7,
+      "ms": 1.2666000000000002,
+      "name": "oobb_nut_m6_round_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 8,
+      "ms": 0.0609,
+      "name": "oobb_nut_m6_round_place_001",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 9,
+      "ms": 35.7875,
+      "name": "Combine1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 10,
+      "ms": 0.1098,
+      "name": "Move1",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 11,
+      "ms": 0.09809999999999999,
+      "name": "Move2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 12,
+      "ms": 0.08940000000000001,
+      "name": "oobb_nut_m6_hex_place_002",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 13,
+      "ms": 0.058699999999999995,
+      "name": "oobb_nut_m6_round_place_002",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 14,
+      "ms": 31.581199999999995,
+      "name": "Combine2",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 15,
+      "ms": 0.0987,
+      "name": "Move3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 16,
+      "ms": 0.0949,
+      "name": "Move4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 17,
+      "ms": 0.07669999999999999,
+      "name": "oobb_nut_m6_hex_place_003",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 18,
+      "ms": 0.043699999999999996,
+      "name": "oobb_nut_m6_round_place_003",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 19,
+      "ms": 33.0972,
+      "name": "Combine3",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 20,
+      "ms": 0.10890000000000001,
+      "name": "Move5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 21,
+      "ms": 0.1056,
+      "name": "Move6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 22,
+      "ms": 0.0819,
+      "name": "oobb_nut_m6_hex_place_004",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 23,
+      "ms": 0.056499999999999995,
+      "name": "oobb_nut_m6_round_place_004",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 24,
+      "ms": 32.828900000000004,
+      "name": "Combine4",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 25,
+      "ms": 0.0922,
+      "name": "Move7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 26,
+      "ms": 0.09720000000000001,
+      "name": "Move8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 27,
+      "ms": 0.0984,
+      "name": "oobb_nut_m6_hex_place_005",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 28,
+      "ms": 0.0515,
+      "name": "oobb_nut_m6_round_place_005",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 29,
+      "ms": 29.0084,
+      "name": "Combine5",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 30,
+      "ms": 0.1176,
+      "name": "Move9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 31,
+      "ms": 0.0971,
+      "name": "Move10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 32,
+      "ms": 0.0774,
+      "name": "oobb_nut_m6_hex_place_006",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 33,
+      "ms": 0.056499999999999995,
+      "name": "oobb_nut_m6_round_place_006",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 34,
+      "ms": 33.2027,
+      "name": "Combine6",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 35,
+      "ms": 0.1031,
+      "name": "Move11",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 36,
+      "ms": 0.1303,
+      "name": "Move12",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 37,
+      "ms": 0.0856,
+      "name": "oobb_nut_m3_hex_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 38,
+      "ms": 0.5675,
+      "name": "oobb_nut_m3_hex_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 39,
+      "ms": 0.0837,
+      "name": "oobb_nut_m3_hex_place_001",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 40,
+      "ms": 0.0183,
+      "name": "oobb_nut_m3_round_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 41,
+      "ms": 0.8289000000000001,
+      "name": "oobb_nut_m3_round_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "ExtrudeFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 42,
+      "ms": 0.0516,
+      "name": "oobb_nut_m3_round_place_001",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 43,
+      "ms": 27.7988,
+      "name": "Combine7",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 44,
+      "ms": 0.0993,
+      "name": "Move13",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 45,
+      "ms": 0.0836,
+      "name": "oobb_nut_m3_hex_place_002",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 46,
+      "ms": 0.07100000000000001,
+      "name": "oobb_nut_m3_round_place_002",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 47,
+      "ms": 28.2449,
+      "name": "Combine8",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 48,
+      "ms": 0.0992,
+      "name": "Move14",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 49,
+      "ms": 0.0921,
+      "name": "oobb_nut_m3_hex_place_003",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 50,
+      "ms": 0.060000000000000005,
+      "name": "oobb_nut_m3_round_place_003",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 51,
+      "ms": 26.417199999999998,
+      "name": "Combine9",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 52,
+      "ms": 0.1166,
+      "name": "Move15",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 53,
+      "ms": 0.0654,
+      "name": "direct_013_revolved_profile_05_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 54,
+      "ms": 5.6058,
+      "name": "direct_013_revolved_profile_05_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 55,
+      "ms": 5.998200000000001,
+      "name": "Move16",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 56,
+      "ms": 0.06889999999999999,
+      "name": "direct_016_revolved_profile_06_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 57,
+      "ms": 5.1202000000000005,
+      "name": "direct_016_revolved_profile_06_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 58,
+      "ms": 5.2767,
+      "name": "Move17",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 59,
+      "ms": 0.0628,
+      "name": "direct_019_revolved_profile_07_profile",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "Sketch",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 60,
+      "ms": 5.3345,
+      "name": "direct_019_revolved_profile_07_extrude",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RevolveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 61,
+      "ms": 5.0127,
+      "name": "Move18",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "MoveFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.042101409275043196,
+            "translation_mm": 0.0
+          },
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.000842028185500864,
+            "translation_mm": 0.0
+          },
+          {
+            "face_shift_mm": 0.0,
+            "rotation_rad": 0.0,
+            "strategy": "refined_tolerance",
+            "tolerance_mm": 0.000842028185500864,
+            "translation_mm": 0.0
+          }
+        ],
+        "truncated": false
+      },
+      "error": null,
+      "id": 62,
+      "ms": 5609.0174,
+      "name": "Combine10",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "CombineFeature",
+      "warning": null
+    },
+    {
+      "boolean_diagnostics": {
+        "events": [],
+        "truncated": false
+      },
+      "error": null,
+      "id": 63,
+      "ms": 0.0078,
+      "name": "hide_definition_bodies",
+      "rolled_back": false,
+      "suppressed": false,
+      "type": "RemoveFeature",
+      "warning": null
+    }
+  ],
+  "undo": 164,
+  "units": "mm"
+}

@@ -1,0 +1,8641 @@
+{
+  "native": {
+    "actual": {
+      "bodies": [
+        {
+          "area_mm2": 19716.58945218882,
+          "bbox": {
+            "max": [
+              46.10000000000006,
+              46.09999999999985,
+              27.500000000000018
+            ],
+            "min": [
+              -46.10000000000003,
+              -46.09999999999999,
+              -7.105427357601002e-15
+            ]
+          },
+          "center_of_mass": [
+            1.2925140499716621e-08,
+            -9.863064040122774e-10,
+            5.853270973482706
+          ],
+          "density_g_cm3": 1.29,
+          "edges": 54,
+          "face_types": {
+            "cylinder": 23,
+            "plane": 12
+          },
+          "faces": 35,
+          "kernel": {
+            "edges": 178,
+            "faces": 74,
+            "shells": 1,
+            "vertices": 116
+          },
+          "mass_g": 26.461202537362727,
+          "material": "Default",
+          "name": "direct_001_oobb_cylinder_00_body",
+          "vertices": 46,
+          "volume_mm3": 20512.56010648273
+        }
+      ],
+      "body_count": 1,
+      "total": {
+        "area_mm2": 19716.58945218882,
+        "edges": 54,
+        "faces": 35,
+        "mass_g": 26.461202537362727,
+        "vertices": 46,
+        "volume_mm3": 20512.56010648273
+      }
+    },
+    "reference": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20512.992492915633,
+      "area_mm2": 19716.83746518672,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        -1.6161016921871488e-14,
+        -5.3204993981469916e-14,
+        5.85343345699726
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547398,
+            36.20663626264957,
+            0.0,
+            28.53575810354772,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547174,
+            35.5,
+            0.0,
+            42.5,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            28.535758103547188,
+            0.0,
+            42.5,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "absolute_volume_error_mm3": 0.4323864329016942,
+    "volume_budget_mm3": 525.4887488838153,
+    "bounds_tolerance_mm": 0.05
+  },
+  "step": {
+    "policy_version": 1,
+    "reference": "current_native_recipe",
+    "actual": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20512.99249964407,
+      "area_mm2": 19716.837492557363,
+      "bounds_mm": [
+        -46.10000010000001,
+        -46.10000009999999,
+        -1.0000000355271367e-07,
+        46.10000010000005,
+        46.10000009999985,
+        27.500000100000012
+      ],
+      "center_of_mass_mm": [
+        -8.134646490493434e-09,
+        -8.303760159957886e-10,
+        5.853433459368885
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.6999999,
+            -40.3000001,
+            1.9999999,
+            40.3000001,
+            -30.699999899999995,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999983,
+          "diameter_mm": 9.599999999999966,
+          "axis_origin_mm": [
+            -35.5,
+            -35.500000000000014,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.3000001,
+            -40.30000010000001,
+            1.9999999,
+            -30.699999900000016,
+            -30.699999900000005,
+            27.500000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.800000000000008,
+          "diameter_mm": 9.600000000000016,
+          "axis_origin_mm": [
+            -35.5,
+            35.500000000000014,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.30000010000001,
+            30.6999999,
+            1.9999999,
+            -30.699999899999987,
+            40.30000010000002,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            35.5,
+            35.49999999999999,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.699999899999998,
+            30.699999899999987,
+            1.9999999,
+            40.3000001,
+            40.3000001,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.800000000000008,
+          "diameter_mm": 9.600000000000016,
+          "axis_origin_mm": [
+            35.50000000000001,
+            -35.50000000000001,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.6999999,
+            -35.5000001,
+            1.9999999,
+            40.3000001,
+            -30.69999990000001,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.3000001,
+            -35.50000010000001,
+            1.9999999,
+            -30.699999900000016,
+            -30.699999900000005,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            -35.499999999999986,
+            35.50000000000001,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.30000010000001,
+            35.4999999,
+            1.9999999,
+            -30.69999989999999,
+            40.30000010000002,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8000000000000185,
+          "diameter_mm": 9.600000000000037,
+          "axis_origin_mm": [
+            35.50000000000001,
+            35.499999999999964,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.699999899999998,
+            35.499999899999985,
+            1.9999999,
+            40.3000001,
+            40.30000009999999,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.599999999999994,
+          "diameter_mm": 69.19999999999999,
+          "axis_origin_mm": [
+            7.105427357601002e-15,
+            -1.4918536840364056e-14,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -34.60000009999999,
+            -34.60000010000002,
+            1.9999999,
+            34.6000001,
+            34.60000010000001,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999993,
+          "diameter_mm": 92.19999999999986,
+          "axis_origin_mm": [
+            1.1368683772161603e-13,
+            1.6967971525659742e-13,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            36.20663616264981,
+            -28.535758203547314,
+            -1e-07,
+            46.10000010000005,
+            28.535758203547257,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 6.999999999999806,
+          "diameter_mm": 13.999999999999613,
+          "axis_origin_mm": [
+            35.50000000000021,
+            -35.499999999999915,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            28.535758003547315,
+            -42.50000009999999,
+            -1e-07,
+            42.500000100000015,
+            -28.53575800354731,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999999,
+          "diameter_mm": 92.19999999999997,
+          "axis_origin_mm": [
+            2.1316282072803006e-14,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758203547083,
+            -46.10000009999999,
+            -1e-07,
+            28.53575820354732,
+            -36.20663616264989,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.000000000000045,
+          "diameter_mm": 14.00000000000009,
+          "axis_origin_mm": [
+            -35.49999999999994,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -42.5000001,
+            -42.50000010000005,
+            -1e-07,
+            -28.535758003547077,
+            -28.535758003547276,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999965,
+          "diameter_mm": 92.1999999999993,
+          "axis_origin_mm": [
+            -3.694822225952521e-13,
+            -1.5276668818842154e-13,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -46.10000010000001,
+            -28.535758203547278,
+            -1e-07,
+            -36.206636162649964,
+            28.535758203547047,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.000000000000317,
+          "diameter_mm": 14.000000000000634,
+          "axis_origin_mm": [
+            -35.49999999999969,
+            35.50000000000014,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -42.5000001,
+            28.53575800354697,
+            -1e-07,
+            -28.535758003547215,
+            42.500000099999994,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.10000000000016,
+          "diameter_mm": 92.20000000000032,
+          "axis_origin_mm": [
+            4.973799150320701e-14,
+            -3.055333763768431e-13,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758203547218,
+            36.206636162649794,
+            -1e-07,
+            28.53575820354735,
+            46.10000009999985,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 6.999999999999964,
+          "diameter_mm": 13.999999999999927,
+          "axis_origin_mm": [
+            35.50000000000004,
+            35.50000000000001,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            28.53575800354732,
+            28.535758003547123,
+            -1e-07,
+            42.500000100000015,
+            42.50000009999998,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -32.6000001,
+            -32.6000001000487,
+            4.999999899999999,
+            32.60000010000001,
+            32.6000001,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 28.500000000000004,
+          "diameter_mm": 57.00000000000001,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.50000009999999,
+            -28.500000100000015,
+            -1.0000000020164023e-07,
+            28.500000100000022,
+            28.500000100000022,
+            5.000000100000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            33.699999899999995,
+            -37.300000100000005,
+            24.999999899999995,
+            37.3000001,
+            -33.699999899999995,
+            27.500000100000012
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            32.4999999,
+            -38.5000001,
+            -1.0000000355271367e-07,
+            38.5000001,
+            -32.4999999,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -37.300000100000005,
+            -37.300000100000005,
+            24.999999899999995,
+            -33.6999999,
+            -33.699999899999995,
+            27.500000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -38.5000001,
+            -38.50000010000001,
+            -1e-07,
+            -32.4999999,
+            -32.4999999,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -37.300000100000005,
+            33.699999899999995,
+            24.999999899999995,
+            -33.6999999,
+            37.300000100000005,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -38.5000001120313,
+            32.4999999,
+            -1e-07,
+            -32.4999999,
+            38.5000001,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            33.699999899999995,
+            33.699999899999995,
+            24.999999899999995,
+            37.3000001,
+            37.300000100000005,
+            27.50000009999972
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            32.49999987172623,
+            32.4999999,
+            -1.0000000054913139e-07,
+            38.5000001,
+            38.5000001,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            40.3,
+            -30.699999999999996,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -30.70000000000001,
+            -30.700000000000014,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -30.69999999999999,
+            40.30000000000001,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            40.3,
+            40.3,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            -9.4739031435e-14,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            34.6,
+            34.6,
+            12.399999999999972
+          ],
+          "normal": [
+            0.0,
+            -4.6205813742e-16,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            46.10000000000007,
+            46.09999999999986,
+            1.999999999999988
+          ],
+          "normal": [
+            1.1559805896e-16,
+            1.9266343161e-17,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -46.10000000000001,
+            46.099999999999866,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            15.275000000124525,
+            26.457076085850098,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            36.70000000020564,
+            -33.42153903100779,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -34.29999999979436,
+            -33.42153903100779,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -34.29999999979436,
+            37.57846096899221,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            36.70000000020564,
+            37.57846096899221,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "expected": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20512.992492915633,
+      "area_mm2": 19716.83746518672,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        -1.6161016921871488e-14,
+        -5.3204993981469916e-14,
+        5.85343345699726
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547398,
+            36.20663626264957,
+            0.0,
+            28.53575810354772,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547174,
+            35.5,
+            0.0,
+            42.5,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            28.535758103547188,
+            0.0,
+            42.5,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "comparison_method": "valid_solid_bounds_volume_and_sampled_boundary",
+    "bounds_error_mm": 1.0000005090660125e-07,
+    "volume_error_mm3": 6.728438165737316e-06,
+    "volume_budget_mm3": 102.56496246457817,
+    "boundary_samples": [
+      {
+        "samples": 715,
+        "max_distance_mm": 6.16741886005914e-07
+      },
+      {
+        "samples": 550,
+        "max_distance_mm": 2.8273767327391397e-08
+      }
+    ],
+    "linear_tolerance_mm": 0.05,
+    "volume_relative_tolerance": 0.005
+  },
+  "stl": {
+    "validator": "trimesh 5.1.0 / Open CASCADE point distance",
+    "units": "mm (implicit STL coordinates)",
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "body_count": 1,
+    "euler_number": -8,
+    "bounds_mm": [
+      [
+        -46.099998474121094,
+        -46.099998474121094,
+        0.0
+      ],
+      [
+        46.099998474121094,
+        46.099998474121094,
+        27.5
+      ]
+    ],
+    "volume_mm3": 20507.33520085439,
+    "triangles": 14636,
+    "surface_budget_mm": 0.1,
+    "maximum_sample_distance_mm": 0.018271152357262094,
+    "distance_method": "trimmed surface projection upper bound with exact extrema fallback",
+    "sample_count": 400,
+    "volume_budget_mm3": 1971.683746518672,
+    "volume_error_mm3": 5.6572920612416056
+  },
+  "reopened": {
+    "actual": {
+      "bodies": [
+        {
+          "area_mm2": 19716.58945218882,
+          "bbox": {
+            "max": [
+              46.10000000000006,
+              46.09999999999985,
+              27.500000000000018
+            ],
+            "min": [
+              -46.10000000000003,
+              -46.09999999999999,
+              -7.105427357601002e-15
+            ]
+          },
+          "center_of_mass": [
+            1.2925140499716621e-08,
+            -9.863064040122774e-10,
+            5.853270973482706
+          ],
+          "density_g_cm3": 1.29,
+          "edges": 54,
+          "face_types": {
+            "cylinder": 23,
+            "plane": 12
+          },
+          "faces": 35,
+          "kernel": {
+            "edges": 178,
+            "faces": 74,
+            "shells": 1,
+            "vertices": 116
+          },
+          "mass_g": 26.461202537362727,
+          "material": "Default",
+          "name": "direct_001_oobb_cylinder_00_body",
+          "vertices": 46,
+          "volume_mm3": 20512.56010648273
+        }
+      ],
+      "body_count": 1,
+      "total": {
+        "area_mm2": 19716.58945218882,
+        "edges": 54,
+        "faces": 35,
+        "mass_g": 26.461202537362727,
+        "vertices": 46,
+        "volume_mm3": 20512.56010648273
+      }
+    },
+    "reference": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20512.992492915633,
+      "area_mm2": 19716.83746518672,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        -1.6161016921871488e-14,
+        -5.3204993981469916e-14,
+        5.85343345699726
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547398,
+            36.20663626264957,
+            0.0,
+            28.53575810354772,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547174,
+            35.5,
+            0.0,
+            42.5,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            28.535758103547188,
+            0.0,
+            42.5,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "absolute_volume_error_mm3": 0.4323864329016942,
+    "volume_budget_mm3": 525.4887488838153,
+    "bounds_tolerance_mm": 0.05
+  },
+  "native_edit": {
+    "actual": {
+      "bodies": [
+        {
+          "area_mm2": 19717.88846243674,
+          "bbox": {
+            "max": [
+              46.10000000000002,
+              46.09999847917549,
+              27.500000000000018
+            ],
+            "min": [
+              -46.10000000000008,
+              -46.09999999999999,
+              -2.842170943040401e-14
+            ]
+          },
+          "center_of_mass": [
+            0.0022927119791462777,
+            0.002292649924428458,
+            5.852971891949944
+          ],
+          "density_g_cm3": 1.29,
+          "edges": 54,
+          "face_types": {
+            "cylinder": 23,
+            "plane": 12
+          },
+          "faces": 35,
+          "kernel": {
+            "edges": 178,
+            "faces": 74,
+            "shells": 1,
+            "vertices": 116
+          },
+          "mass_g": 26.462833337916095,
+          "material": "Default",
+          "name": "direct_001_oobb_cylinder_00_body",
+          "vertices": 46,
+          "volume_mm3": 20513.824292958212
+        }
+      ],
+      "body_count": 1,
+      "total": {
+        "area_mm2": 19717.88846243674,
+        "edges": 54,
+        "faces": 35,
+        "mass_g": 26.462833337916095,
+        "vertices": 46,
+        "volume_mm3": 20513.824292958212
+      }
+    },
+    "reference": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20514.25663026095,
+      "area_mm2": 19718.136469000405,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        0.0022926717340009217,
+        0.002292671733971262,
+        5.853134376869891
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547415,
+            36.20663626264981,
+            0.0,
+            28.51715393951213,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.51715393951213,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.51715393951213,
+            35.5,
+            0.0,
+            42.519999999999996,
+            42.519999999999996,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            28.51715393951213,
+            0.0,
+            42.519999999999996,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "absolute_volume_error_mm3": 0.43233730273641413,
+    "volume_budget_mm3": 525.5233696433593,
+    "bounds_tolerance_mm": 0.05
+  },
+  "edit_response": {
+    "expected_volume_change_mm3": 1.2641373453152482,
+    "observed_volume_change_mm3": 1.2641864754805283,
+    "changed": true
+  },
+  "edited_step": {
+    "policy_version": 1,
+    "reference": "current_native_recipe",
+    "actual": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20514.256683189902,
+      "area_mm2": 19718.136508322288,
+      "bounds_mm": [
+        -46.10000010000008,
+        -46.10000009999999,
+        -1.0000002842170943e-07,
+        46.100000100000024,
+        46.100000100000045,
+        27.500000100000012
+      ],
+      "center_of_mass_mm": [
+        0.0022926852571324924,
+        0.0022926348588470694,
+        5.853134372589108
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.6999999,
+            -40.3000001,
+            1.9999999,
+            40.3000001,
+            -30.699999899999995,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999983,
+          "diameter_mm": 9.599999999999966,
+          "axis_origin_mm": [
+            -35.5,
+            -35.500000000000014,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.3000001,
+            -40.30000010000001,
+            1.9999999,
+            -30.699999900000016,
+            -30.699999900000005,
+            27.500000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.800000000000008,
+          "diameter_mm": 9.600000000000016,
+          "axis_origin_mm": [
+            -35.5,
+            35.500000000000014,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.30000010000001,
+            30.6999999,
+            1.9999999,
+            -30.699999899999987,
+            40.30000010000002,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            35.5,
+            35.49999999999999,
+            27.5
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.699999899999998,
+            30.699999899999987,
+            1.9999999,
+            40.3000001,
+            40.3000001,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.800000000000008,
+          "diameter_mm": 9.600000000000016,
+          "axis_origin_mm": [
+            35.50000000000001,
+            -35.50000000000001,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.6999999,
+            -35.5000001,
+            1.9999999,
+            40.3000001,
+            -30.69999990000001,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.3000001,
+            -35.50000010000001,
+            1.9999999,
+            -30.699999900000016,
+            -30.699999900000005,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.799999999999997,
+          "diameter_mm": 9.599999999999994,
+          "axis_origin_mm": [
+            -35.499999999999986,
+            35.50000000000001,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -40.30000010000001,
+            35.4999999,
+            1.9999999,
+            -30.69999989999999,
+            40.30000010000002,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8000000000000185,
+          "diameter_mm": 9.600000000000037,
+          "axis_origin_mm": [
+            35.50000000000001,
+            35.499999999999964,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            30.699999899999998,
+            35.499999899999985,
+            1.9999999,
+            40.3000001,
+            40.30000009999999,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.599999999999994,
+          "diameter_mm": 69.19999999999999,
+          "axis_origin_mm": [
+            7.105427357601002e-15,
+            -1.4918536840364056e-14,
+            12.399999999999972
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -34.60000009999999,
+            -34.60000010000002,
+            1.9999999,
+            34.6000001,
+            34.60000010000001,
+            12.400000099999975
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999979,
+          "diameter_mm": 92.19999999999958,
+          "axis_origin_mm": [
+            1.9895196601282805e-13,
+            -4.809714831397239e-15,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            36.20663616264973,
+            -28.535758203547402,
+            -1e-07,
+            46.100000100000024,
+            28.51715403951236,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 6.999999999999806,
+          "diameter_mm": 13.999999999999613,
+          "axis_origin_mm": [
+            35.50000000000021,
+            -35.499999999999915,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            28.535758003547315,
+            -42.50000009999999,
+            -1e-07,
+            42.50000010000002,
+            -28.535758003547393,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999999,
+          "diameter_mm": 92.19999999999997,
+          "axis_origin_mm": [
+            2.1316282072803006e-14,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758203547083,
+            -46.10000009999999,
+            -1e-07,
+            28.53575820354732,
+            -36.20663616264989,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.000000000000045,
+          "diameter_mm": 14.00000000000009,
+          "axis_origin_mm": [
+            -35.49999999999994,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -42.5000001,
+            -42.50000010000005,
+            -1e-07,
+            -28.535758003547077,
+            -28.53575800354748,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.10000000000027,
+          "diameter_mm": 92.20000000000054,
+          "axis_origin_mm": [
+            2.4868995751603507e-13,
+            -3.552713678800501e-15,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -46.10000010000008,
+            -28.53575820354766,
+            -1e-07,
+            -36.20663616264968,
+            28.535758203547346,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.000000000000126,
+          "diameter_mm": 14.000000000000252,
+          "axis_origin_mm": [
+            -35.49999999999988,
+            35.50000000000005,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -42.500000100000015,
+            28.535758003547343,
+            -1e-07,
+            -28.535758003547123,
+            42.50000010000004,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.09999999999962,
+          "diameter_mm": 92.19999999999924,
+          "axis_origin_mm": [
+            -6.039613253960852e-14,
+            4.050093593832571e-13,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758203547125,
+            36.20663616265001,
+            -1e-07,
+            28.517154039511983,
+            46.100000100000045,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02000000000004,
+          "diameter_mm": 14.04000000000008,
+          "axis_origin_mm": [
+            35.499999999999964,
+            35.49999999999995,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            28.51715383951198,
+            28.517153839512357,
+            -1e-07,
+            42.52000010000001,
+            42.5200001,
+            2.0000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -32.6000001,
+            -32.6000001000487,
+            4.999999899999999,
+            32.60000010000001,
+            32.6000001,
+            12.400000099999973
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 28.500000000000004,
+          "diameter_mm": 57.00000000000001,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.50000009999999,
+            -28.500000099999998,
+            -1.0000000000173472e-07,
+            28.50000010000002,
+            28.500000100000005,
+            5.000000100000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            33.699999899999995,
+            -37.300000100000005,
+            24.999999899999995,
+            37.3000001,
+            -33.699999899999995,
+            27.500000100000012
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            32.49999989999999,
+            -38.5000001,
+            -1e-07,
+            38.5000001,
+            -32.4999999,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -37.300000100000005,
+            -37.300000100000005,
+            24.999999899999995,
+            -33.6999999,
+            -33.699999899999995,
+            27.500000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -38.5000001,
+            -38.5000001,
+            -1e-07,
+            -32.4999999,
+            -32.4999999,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -37.300000100000005,
+            33.699999899999995,
+            24.999999899999995,
+            -33.6999999,
+            37.300000100000005,
+            27.50000010000001
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -38.5000001,
+            32.4999999,
+            -1e-07,
+            -32.4999999,
+            38.5000001,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 1.799999999999998,
+          "diameter_mm": 3.599999999999996,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            33.699999899999995,
+            33.699999899999995,
+            24.999999899999995,
+            37.3000001,
+            37.300000100000005,
+            27.50000009999972
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            32.4999999,
+            32.4999999,
+            -1.0000002842170943e-07,
+            38.5000001,
+            38.5000001,
+            25.000000100000005
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_REVERSED"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            40.3,
+            -30.699999999999996,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -30.70000000000001,
+            -30.700000000000014,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -30.69999999999999,
+            40.30000000000001,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            40.3,
+            40.3,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            -9.4739031435e-14,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            34.6,
+            34.6,
+            12.399999999999972
+          ],
+          "normal": [
+            0.0,
+            -4.6205813742e-16,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            46.10000000000002,
+            46.10205034676472,
+            1.9999999999998985
+          ],
+          "normal": [
+            6.7191371772e-16,
+            4.985055435e-16,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -46.100000000000065,
+            46.102050346764685,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            15.275000000124525,
+            26.457076085850098,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            36.70000000020564,
+            -33.42153903100779,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -34.29999999979436,
+            -33.42153903100779,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -34.29999999979436,
+            37.57846096899221,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            36.70000000020564,
+            37.57846096899221,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            -1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "expected": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20514.25663026095,
+      "area_mm2": 19718.136469000405,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        0.0022926717340009217,
+        0.002292671733971262,
+        5.853134376869891
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547415,
+            36.20663626264981,
+            0.0,
+            28.51715393951213,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.51715393951213,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.51715393951213,
+            35.5,
+            0.0,
+            42.519999999999996,
+            42.519999999999996,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            28.51715393951213,
+            0.0,
+            42.519999999999996,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "comparison_method": "valid_solid_bounds_volume_and_sampled_boundary",
+    "bounds_error_mm": 1.0000007932831068e-07,
+    "volume_error_mm3": 5.292895366437733e-05,
+    "volume_budget_mm3": 102.57128315130474,
+    "boundary_samples": [
+      {
+        "samples": 715,
+        "max_distance_mm": 6.16741886005914e-07
+      },
+      {
+        "samples": 550,
+        "max_distance_mm": 4.870063658527899e-11
+      }
+    ],
+    "linear_tolerance_mm": 0.05,
+    "volume_relative_tolerance": 0.005
+  },
+  "edited_reopened": {
+    "actual": {
+      "bodies": [
+        {
+          "area_mm2": 19717.88846243674,
+          "bbox": {
+            "max": [
+              46.10000000000002,
+              46.09999847917549,
+              27.500000000000018
+            ],
+            "min": [
+              -46.10000000000008,
+              -46.09999999999999,
+              -2.842170943040401e-14
+            ]
+          },
+          "center_of_mass": [
+            0.0022927119791462777,
+            0.002292649924428458,
+            5.852971891949944
+          ],
+          "density_g_cm3": 1.29,
+          "edges": 54,
+          "face_types": {
+            "cylinder": 23,
+            "plane": 12
+          },
+          "faces": 35,
+          "kernel": {
+            "edges": 178,
+            "faces": 74,
+            "shells": 1,
+            "vertices": 116
+          },
+          "mass_g": 26.462833337916095,
+          "material": "Default",
+          "name": "direct_001_oobb_cylinder_00_body",
+          "vertices": 46,
+          "volume_mm3": 20513.824292958212
+        }
+      ],
+      "body_count": 1,
+      "total": {
+        "area_mm2": 19717.88846243674,
+        "edges": 54,
+        "faces": 35,
+        "mass_g": 26.462833337916095,
+        "vertices": 46,
+        "volume_mm3": 20513.824292958212
+      }
+    },
+    "reference": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20514.25663026095,
+      "area_mm2": 19718.136469000405,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        0.0022926717340009217,
+        0.002292671733971262,
+        5.853134376869891
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547415,
+            36.20663626264981,
+            0.0,
+            28.51715393951213,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.51715393951213,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.51715393951213,
+            35.5,
+            0.0,
+            42.519999999999996,
+            42.519999999999996,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.02,
+          "diameter_mm": 14.04,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.221291130910394,
+            28.51715393951213,
+            0.0,
+            42.519999999999996,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "absolute_volume_error_mm3": 0.43233730273641413,
+    "volume_budget_mm3": 525.5233696433593,
+    "bounds_tolerance_mm": 0.05
+  },
+  "definition_edits": {},
+  "step_reimport": {
+    "actual": {
+      "bodies": [
+        {
+          "area_mm2": 19716.63026103271,
+          "bbox": {
+            "max": [
+              46.100000000000044,
+              46.09999999999985,
+              27.5
+            ],
+            "min": [
+              -46.10000000000002,
+              -46.09999999999999,
+              -1.7763568394002505e-15
+            ]
+          },
+          "center_of_mass": [
+            2.2108732749820262e-07,
+            1.518046754273929e-08,
+            5.853235351193657
+          ],
+          "density_g_cm3": 1.29,
+          "edges": 69,
+          "face_types": {
+            "cylinder": 23,
+            "plane": 12
+          },
+          "faces": 35,
+          "kernel": {
+            "edges": 143,
+            "faces": 39,
+            "shells": 1,
+            "vertices": 116
+          },
+          "mass_g": 26.461354976498388,
+          "material": "Default",
+          "name": "direct_001_oobb_cylinder_00_body",
+          "vertices": 50,
+          "volume_mm3": 20512.67827635534
+        }
+      ],
+      "body_count": 1,
+      "total": {
+        "area_mm2": 19716.63026103271,
+        "edges": 69,
+        "faces": 35,
+        "mass_g": 26.461354976498388,
+        "vertices": 50,
+        "volume_mm3": 20512.67827635534
+      }
+    },
+    "reference": {
+      "valid": true,
+      "solid_count": 1,
+      "volume_mm3": 20512.992492915633,
+      "area_mm2": 19716.83746518672,
+      "bounds_mm": [
+        -46.1,
+        -46.1,
+        0.0,
+        46.1,
+        46.1,
+        27.5
+      ],
+      "center_of_mass_mm": [
+        -1.6161016921871488e-14,
+        -5.3204993981469916e-14,
+        5.85343345699726
+      ],
+      "cylindrical_faces": [
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            -40.3,
+            2.0,
+            40.3,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -35.5,
+            0.0,
+            42.5,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547188,
+            -42.5,
+            0.0,
+            42.5,
+            -35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            -37.3,
+            25.0,
+            37.3,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -28.535758103547188,
+            0.0,
+            46.1,
+            -1.1291243488138598e-14,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547394,
+            -46.1,
+            0.0,
+            28.535758103547188,
+            -36.20663626264983,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -28.535758103547398,
+            36.20663626264957,
+            0.0,
+            28.53575810354772,
+            46.1,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            -1.1291243488138598e-14,
+            0.0,
+            46.1,
+            28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 46.1,
+          "diameter_mm": 92.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -46.1,
+            -28.535758103547362,
+            0.0,
+            -36.20663626264985,
+            28.535758103547327,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 34.6,
+          "diameter_mm": 69.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -34.6,
+            -34.6,
+            2.0,
+            34.6,
+            34.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            -38.5,
+            0.0,
+            38.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            -42.5,
+            0.0,
+            -28.535758103547188,
+            -28.535758103547188,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            30.7,
+            30.7,
+            2.0,
+            40.3,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -42.5,
+            28.535758103547188,
+            0.0,
+            -28.535758103547188,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            28.535758103547174,
+            35.5,
+            0.0,
+            42.5,
+            42.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 7.0,
+          "diameter_mm": 14.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            36.20663626264999,
+            28.535758103547188,
+            0.0,
+            42.5,
+            35.5,
+            2.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            30.7,
+            2.0,
+            -30.7,
+            40.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 4.8,
+          "diameter_mm": 9.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "axis_direction": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "face_bounds_mm": [
+            -40.3,
+            -40.3,
+            2.0,
+            -30.7,
+            -30.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 28.5,
+          "diameter_mm": 57.0,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -28.5,
+            -28.5,
+            0.0,
+            28.5,
+            28.5,
+            5.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 32.6,
+          "diameter_mm": 65.2,
+          "axis_origin_mm": [
+            0.0,
+            0.0,
+            12.42
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -32.6,
+            -32.6,
+            5.0,
+            32.6,
+            32.6,
+            12.4
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            -38.5,
+            0.0,
+            -32.5,
+            -32.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            33.7,
+            33.7,
+            25.0,
+            37.3,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -38.5,
+            32.5,
+            0.0,
+            -32.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 3.0,
+          "diameter_mm": 6.0,
+          "axis_origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            32.5,
+            32.5,
+            0.0,
+            38.5,
+            38.5,
+            25.0
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            33.7,
+            25.0,
+            -33.7,
+            37.3,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        },
+        {
+          "radius_mm": 1.8,
+          "diameter_mm": 3.6,
+          "axis_origin_mm": [
+            -35.5,
+            -35.5,
+            60.0
+          ],
+          "axis_direction": [
+            -0.0,
+            -0.0,
+            -1.0
+          ],
+          "face_bounds_mm": [
+            -37.3,
+            -37.3,
+            25.0,
+            -33.7,
+            -33.7,
+            27.5
+          ],
+          "orientation": "TopAbs_Orientation.TopAbs_FORWARD"
+        }
+      ],
+      "planar_faces": [
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            2.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            12.4
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            0.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            27.5
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            0.0,
+            0.0,
+            5.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            -35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        },
+        {
+          "origin_mm": [
+            -35.5,
+            35.5,
+            25.0
+          ],
+          "normal": [
+            0.0,
+            0.0,
+            1.0
+          ]
+        }
+      ],
+      "toroidal_faces": []
+    },
+    "absolute_volume_error_mm3": 0.31421656029488076,
+    "volume_budget_mm3": 525.4887488838153,
+    "bounds_tolerance_mm": 0.05
+  }
+}

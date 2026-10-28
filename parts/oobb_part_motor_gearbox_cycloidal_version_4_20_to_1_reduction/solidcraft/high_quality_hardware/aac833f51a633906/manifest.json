@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "fingerprint": "aac833f51a6339068fd33f2a639ad8073b41c485cdd508a5473eb4f09827cf4f",
+  "spec": {
+    "family": "nut",
+    "designation": "M6x1",
+    "pitch": 1,
+    "parameters": {
+      "diameter": 6,
+      "tap_diameter": 5,
+      "head_af": 10,
+      "height": 5,
+      "bevel": 0.4,
+      "mouth_radius": 3.25
+    }
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 6746,
+    "bounds_mm": [
+      [
+        -5.773502826690674,
+        -5.0,
+        -8.326672684688674e-17
+      ],
+      [
+        5.773502826690674,
+        5.0,
+        5.0
+      ]
+    ],
+    "thread_pitch_mm": 1,
+    "thread_half_turn_error_mm": 0.0006238041314188258,
+    "radius_range_mm": [
+      2.5,
+      2.9974309479420485
+    ]
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "ddb7adcf8fd3f38cd390fff4971215f8be1f70cb39362925dc0537105c2a332e",
+    "hardware.stl": "dbfda4df753f23611294efba2f39d6c7c816257eb32054da7a039116bdb4ea40"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction"
+}

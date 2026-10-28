@@ -1,0 +1,18 @@
+function ax(p,a)=[p[0],p[1]*cos(a)-p[2]*sin(a),p[1]*sin(a)+p[2]*cos(a)];
+function ay(p,a)=[p[0]*cos(a)+p[2]*sin(a),p[1],-p[0]*sin(a)+p[2]*cos(a)];
+function az(p,a)=[p[0]*cos(a)-p[1]*sin(a),p[0]*sin(a)+p[1]*cos(a),p[2]];
+function screen(p)=ax(ay(az(p-$vpt,-$vpr[2]),-$vpr[1]),-$vpr[0]);
+module annotation_line(a,b) {hull(){translate(a) circle(r=.25,$fn=12);translate(b) circle(r=.25,$fn=12);}}
+if(is_undef(show_labels)||show_labels) color("#253746") translate($vpt) rotate($vpr) translate([0,0,250]) linear_extrude(.1) {
+    color("#253746") for(row=annotation_rows) {
+        p=screen(row[2]); left=row[3]; y=row[4];
+        x=left?-335:195; join=left?-105:180;
+        annotation_line([p[0],p[1]],[join,y]);
+        annotation_line([join,y],[left?-175:190,y]);
+        translate([p[0],p[1]]) circle(r=.9,$fn=16);
+        translate([x,y+2]) text(row[0],size=5.8,font="Liberation Sans:style=Bold");
+        translate([x,y-5.5]) text(row[1],size=4.1,font="Liberation Sans");
+    }
+    color("#253746") translate([-335,203]) text("VERSION 4  /  EXPLODED PART NAMES",size=8,font="Liberation Sans:style=Bold");
+    color("#526779") translate([-335,190]) text("Printed parts: left     Hardware: right     Dimensions: mm",size=4.8,font="Liberation Sans");
+}

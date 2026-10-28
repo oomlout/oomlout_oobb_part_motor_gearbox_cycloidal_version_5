@@ -1,0 +1,1528 @@
+[
+  {
+    "index": 0,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_0",
+      "expression": "24.9 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 24.9,
+      "name": "direct_002_revolved_profile_00_radius_0",
+      "unit": "mm",
+      "value": 24.9
+    }
+  },
+  {
+    "index": 1,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_0",
+      "expression": "10.5 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 10.5,
+      "name": "direct_002_revolved_profile_00_z_0",
+      "unit": "mm",
+      "value": 10.5
+    }
+  },
+  {
+    "index": 2,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_1",
+      "expression": "24.9 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 24.9,
+      "name": "direct_002_revolved_profile_00_radius_1",
+      "unit": "mm",
+      "value": 24.9
+    }
+  },
+  {
+    "index": 3,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_2",
+      "expression": "13.15 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 13.15,
+      "name": "direct_002_revolved_profile_00_radius_2",
+      "unit": "mm",
+      "value": 13.15
+    }
+  },
+  {
+    "index": 4,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_3",
+      "expression": "13.15 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 13.15,
+      "name": "direct_002_revolved_profile_00_radius_3",
+      "unit": "mm",
+      "value": 13.15
+    }
+  },
+  {
+    "index": 5,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_3",
+      "expression": "1.16 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 1.16,
+      "name": "direct_002_revolved_profile_00_z_3",
+      "unit": "mm",
+      "value": 1.16
+    }
+  },
+  {
+    "index": 6,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_4",
+      "expression": "12.0 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 12.0,
+      "name": "direct_002_revolved_profile_00_radius_4",
+      "unit": "mm",
+      "value": 12.0
+    }
+  },
+  {
+    "index": 7,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_4",
+      "expression": "1.16 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 1.16,
+      "name": "direct_002_revolved_profile_00_z_4",
+      "unit": "mm",
+      "value": 1.16
+    }
+  },
+  {
+    "index": 8,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_5",
+      "expression": "12.0 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 12.0,
+      "name": "direct_002_revolved_profile_00_radius_5",
+      "unit": "mm",
+      "value": 12.0
+    }
+  },
+  {
+    "index": 9,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_5",
+      "expression": "6.3 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 6.3,
+      "name": "direct_002_revolved_profile_00_z_5",
+      "unit": "mm",
+      "value": 6.3
+    }
+  },
+  {
+    "index": 10,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_6",
+      "expression": "13.6 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 13.6,
+      "name": "direct_002_revolved_profile_00_radius_6",
+      "unit": "mm",
+      "value": 13.6
+    }
+  },
+  {
+    "index": 11,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_6",
+      "expression": "6.3 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 6.3,
+      "name": "direct_002_revolved_profile_00_z_6",
+      "unit": "mm",
+      "value": 6.3
+    }
+  },
+  {
+    "index": 12,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_radius_7",
+      "expression": "13.6 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 13.6,
+      "name": "direct_002_revolved_profile_00_radius_7",
+      "unit": "mm",
+      "value": 13.6
+    }
+  },
+  {
+    "index": 13,
+    "source_id": "direct_002",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_002_revolved_profile_00_z_7",
+      "expression": "10.5 mm",
+      "comment": "direct_002"
+    },
+    "reply": {
+      "display_value": 10.5,
+      "name": "direct_002_revolved_profile_00_z_7",
+      "unit": "mm",
+      "value": 10.5
+    }
+  },
+  {
+    "index": 14,
+    "source_id": "direct_002",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_002_revolved_profile_00_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_002_revolved_profile_00_profile",
+      "projected": null,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 15,
+    "source_id": "direct_002",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "direct_002_revolved_profile_00_radius_0",
+          "-(direct_002_revolved_profile_00_z_0)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_1",
+          "-(0)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_2",
+          "-(0)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_3",
+          "-(direct_002_revolved_profile_00_z_3)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_4",
+          "-(direct_002_revolved_profile_00_z_4)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_5",
+          "-(direct_002_revolved_profile_00_z_5)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_6",
+          "-(direct_002_revolved_profile_00_z_6)"
+        ],
+        [
+          "direct_002_revolved_profile_00_radius_7",
+          "-(direct_002_revolved_profile_00_z_7)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6",
+          "l7",
+          "l8"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7",
+          "p8"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7",
+        "l8"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 16,
+    "source_id": "direct_002",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 17,
+    "source_id": "direct_002",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 18,
+    "source_id": "direct_002",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_002_revolved_profile_00_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_002_revolved_profile_00_extrude",
+      "body_name": "direct_002_revolved_profile_00_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_002_revolved_profile_00_body"
+      ],
+      "feature": 2,
+      "ms": 33.9507,
+      "name": "direct_002_revolved_profile_00_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 19,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_0",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_005_revolved_profile_01_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 20,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_1",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_005_revolved_profile_01_z_1",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 21,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_radius_2",
+      "expression": "3.0 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_005_revolved_profile_01_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 22,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_2",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_005_revolved_profile_01_z_2",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 23,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_radius_3",
+      "expression": "3.0 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_005_revolved_profile_01_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 24,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_3",
+      "expression": "10.3 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_005_revolved_profile_01_z_3",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 25,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_radius_4",
+      "expression": "3.6 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 3.6,
+      "name": "direct_005_revolved_profile_01_radius_4",
+      "unit": "mm",
+      "value": 3.6
+    }
+  },
+  {
+    "index": 26,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_4",
+      "expression": "10.3 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_005_revolved_profile_01_z_4",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 27,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_radius_5",
+      "expression": "1.8 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_005_revolved_profile_01_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 28,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_5",
+      "expression": "8.4 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 8.4,
+      "name": "direct_005_revolved_profile_01_z_5",
+      "unit": "mm",
+      "value": 8.4
+    }
+  },
+  {
+    "index": 29,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_radius_6",
+      "expression": "1.8 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_005_revolved_profile_01_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 30,
+    "source_id": "direct_005",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_005_revolved_profile_01_z_6",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_005"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_005_revolved_profile_01_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 31,
+    "source_id": "direct_005",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_005_revolved_profile_01_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_005_revolved_profile_01_profile",
+      "projected": null,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 32,
+    "source_id": "direct_005",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_005_revolved_profile_01_z_0)"
+        ],
+        [
+          "0",
+          "-(direct_005_revolved_profile_01_z_1)"
+        ],
+        [
+          "direct_005_revolved_profile_01_radius_2",
+          "-(direct_005_revolved_profile_01_z_2)"
+        ],
+        [
+          "direct_005_revolved_profile_01_radius_3",
+          "-(direct_005_revolved_profile_01_z_3)"
+        ],
+        [
+          "direct_005_revolved_profile_01_radius_4",
+          "-(direct_005_revolved_profile_01_z_4)"
+        ],
+        [
+          "direct_005_revolved_profile_01_radius_5",
+          "-(direct_005_revolved_profile_01_z_5)"
+        ],
+        [
+          "direct_005_revolved_profile_01_radius_6",
+          "-(direct_005_revolved_profile_01_z_6)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6",
+          "l7"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 33,
+    "source_id": "direct_005",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 34,
+    "source_id": "direct_005",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 35,
+    "source_id": "direct_005",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_005_revolved_profile_01_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_005_revolved_profile_01_extrude",
+      "body_name": "direct_005_revolved_profile_01_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_005_revolved_profile_01_body"
+      ],
+      "feature": 4,
+      "ms": 6.9774,
+      "name": "direct_005_revolved_profile_01_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 36,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_005_revolved_profile_01_body"
+      ],
+      "translate": [
+        16.5,
+        0.0,
+        0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body"
+      ],
+      "changed_bodies": [
+        "direct_005_revolved_profile_01_body"
+      ],
+      "created_bodies": [],
+      "feature": 5,
+      "ms": 6.0691,
+      "name": "Move1",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 37,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_0",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_008_revolved_profile_02_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 38,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_1",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_008_revolved_profile_02_z_1",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 39,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_radius_2",
+      "expression": "3.0 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_008_revolved_profile_02_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 40,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_2",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_008_revolved_profile_02_z_2",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 41,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_radius_3",
+      "expression": "3.0 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_008_revolved_profile_02_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 42,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_3",
+      "expression": "10.3 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_008_revolved_profile_02_z_3",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 43,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_radius_4",
+      "expression": "3.6 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 3.6,
+      "name": "direct_008_revolved_profile_02_radius_4",
+      "unit": "mm",
+      "value": 3.6
+    }
+  },
+  {
+    "index": 44,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_4",
+      "expression": "10.3 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_008_revolved_profile_02_z_4",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 45,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_radius_5",
+      "expression": "1.8 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_008_revolved_profile_02_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 46,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_5",
+      "expression": "8.4 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 8.4,
+      "name": "direct_008_revolved_profile_02_z_5",
+      "unit": "mm",
+      "value": 8.4
+    }
+  },
+  {
+    "index": 47,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_radius_6",
+      "expression": "1.8 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_008_revolved_profile_02_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 48,
+    "source_id": "direct_008",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_008_revolved_profile_02_z_6",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_008"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_008_revolved_profile_02_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 49,
+    "source_id": "direct_008",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_008_revolved_profile_02_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_008_revolved_profile_02_profile",
+      "projected": null,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 50,
+    "source_id": "direct_008",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_008_revolved_profile_02_z_0)"
+        ],
+        [
+          "0",
+          "-(direct_008_revolved_profile_02_z_1)"
+        ],
+        [
+          "direct_008_revolved_profile_02_radius_2",
+          "-(direct_008_revolved_profile_02_z_2)"
+        ],
+        [
+          "direct_008_revolved_profile_02_radius_3",
+          "-(direct_008_revolved_profile_02_z_3)"
+        ],
+        [
+          "direct_008_revolved_profile_02_radius_4",
+          "-(direct_008_revolved_profile_02_z_4)"
+        ],
+        [
+          "direct_008_revolved_profile_02_radius_5",
+          "-(direct_008_revolved_profile_02_z_5)"
+        ],
+        [
+          "direct_008_revolved_profile_02_radius_6",
+          "-(direct_008_revolved_profile_02_z_6)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6",
+          "l7"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 51,
+    "source_id": "direct_008",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 52,
+    "source_id": "direct_008",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 53,
+    "source_id": "direct_008",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_008_revolved_profile_02_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_008_revolved_profile_02_extrude",
+      "body_name": "direct_008_revolved_profile_02_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_008_revolved_profile_02_body"
+      ],
+      "feature": 7,
+      "ms": 6.4731,
+      "name": "direct_008_revolved_profile_02_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 54,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_008_revolved_profile_02_body"
+      ],
+      "translate": [
+        -8.249999999999996,
+        14.289419162443238,
+        0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body"
+      ],
+      "changed_bodies": [
+        "direct_008_revolved_profile_02_body"
+      ],
+      "created_bodies": [],
+      "feature": 8,
+      "ms": 5.4576,
+      "name": "Move2",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 55,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_0",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_011_revolved_profile_03_z_0",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 56,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_1",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_011_revolved_profile_03_z_1",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 57,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_radius_2",
+      "expression": "3.0 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_011_revolved_profile_03_radius_2",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 58,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_2",
+      "expression": "10.620000000000001 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 10.620000000000001,
+      "name": "direct_011_revolved_profile_03_z_2",
+      "unit": "mm",
+      "value": 10.620000000000001
+    }
+  },
+  {
+    "index": 59,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_radius_3",
+      "expression": "3.0 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 3.0,
+      "name": "direct_011_revolved_profile_03_radius_3",
+      "unit": "mm",
+      "value": 3.0
+    }
+  },
+  {
+    "index": 60,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_3",
+      "expression": "10.3 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_011_revolved_profile_03_z_3",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 61,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_radius_4",
+      "expression": "3.6 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 3.6,
+      "name": "direct_011_revolved_profile_03_radius_4",
+      "unit": "mm",
+      "value": 3.6
+    }
+  },
+  {
+    "index": 62,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_4",
+      "expression": "10.3 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 10.3,
+      "name": "direct_011_revolved_profile_03_z_4",
+      "unit": "mm",
+      "value": 10.3
+    }
+  },
+  {
+    "index": 63,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_radius_5",
+      "expression": "1.8 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_011_revolved_profile_03_radius_5",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 64,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_5",
+      "expression": "8.4 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 8.4,
+      "name": "direct_011_revolved_profile_03_z_5",
+      "unit": "mm",
+      "value": 8.4
+    }
+  },
+  {
+    "index": 65,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_radius_6",
+      "expression": "1.8 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": 1.8,
+      "name": "direct_011_revolved_profile_03_radius_6",
+      "unit": "mm",
+      "value": 1.8
+    }
+  },
+  {
+    "index": 66,
+    "source_id": "direct_011",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_011_revolved_profile_03_z_6",
+      "expression": "-0.019999999999999574 mm",
+      "comment": "direct_011"
+    },
+    "reply": {
+      "display_value": -0.019999999999999574,
+      "name": "direct_011_revolved_profile_03_z_6",
+      "unit": "mm",
+      "value": -0.019999999999999574
+    }
+  },
+  {
+    "index": 67,
+    "source_id": "direct_011",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XZ",
+      "name": "direct_011_revolved_profile_03_profile"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_011_revolved_profile_03_profile",
+      "projected": null,
+      "sketch": 9
+    }
+  },
+  {
+    "index": 68,
+    "source_id": "direct_011",
+    "command": "sketch.line",
+    "params": {
+      "points": [
+        [
+          "0",
+          "-(direct_011_revolved_profile_03_z_0)"
+        ],
+        [
+          "0",
+          "-(direct_011_revolved_profile_03_z_1)"
+        ],
+        [
+          "direct_011_revolved_profile_03_radius_2",
+          "-(direct_011_revolved_profile_03_z_2)"
+        ],
+        [
+          "direct_011_revolved_profile_03_radius_3",
+          "-(direct_011_revolved_profile_03_z_3)"
+        ],
+        [
+          "direct_011_revolved_profile_03_radius_4",
+          "-(direct_011_revolved_profile_03_z_4)"
+        ],
+        [
+          "direct_011_revolved_profile_03_radius_5",
+          "-(direct_011_revolved_profile_03_z_5)"
+        ],
+        [
+          "direct_011_revolved_profile_03_radius_6",
+          "-(direct_011_revolved_profile_03_z_6)"
+        ]
+      ],
+      "closed": true,
+      "infer": false
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "l1",
+          "l2",
+          "l3",
+          "l4",
+          "l5",
+          "l6",
+          "l7"
+        ],
+        "dimensions": [],
+        "points": [
+          "p1",
+          "p2",
+          "p3",
+          "p4",
+          "p5",
+          "p6",
+          "p7"
+        ]
+      },
+      "curves": [
+        "l1",
+        "l2",
+        "l3",
+        "l4",
+        "l5",
+        "l6",
+        "l7"
+      ],
+      "sketch": {
+        "dof": 0,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 69,
+    "source_id": "direct_011",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 70,
+    "source_id": "direct_011",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 9
+    }
+  },
+  {
+    "index": 71,
+    "source_id": "direct_011",
+    "command": "solid.revolve",
+    "params": {
+      "sketch": "direct_011_revolved_profile_03_profile",
+      "axis": "Z",
+      "angle": "360 deg",
+      "operation": "new",
+      "name": "direct_011_revolved_profile_03_extrude",
+      "body_name": "direct_011_revolved_profile_03_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body",
+        "direct_011_revolved_profile_03_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_011_revolved_profile_03_body"
+      ],
+      "feature": 10,
+      "ms": 6.5614,
+      "name": "direct_011_revolved_profile_03_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 72,
+    "source_id": "group_transform",
+    "command": "solid.move",
+    "params": {
+      "bodies": [
+        "direct_011_revolved_profile_03_body"
+      ],
+      "translate": [
+        -8.250000000000007,
+        -14.289419162443235,
+        0
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body",
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body",
+        "direct_011_revolved_profile_03_body"
+      ],
+      "changed_bodies": [
+        "direct_011_revolved_profile_03_body"
+      ],
+      "created_bodies": [],
+      "feature": 11,
+      "ms": 5.8126999999999995,
+      "name": "Move3",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 73,
+    "source_id": "boolean_difference",
+    "command": "solid.combine",
+    "params": {
+      "target": "direct_002_revolved_profile_00_body",
+      "tools": [
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body",
+        "direct_011_revolved_profile_03_body"
+      ],
+      "operation": "cut"
+    },
+    "reply": {
+      "bodies": [
+        "direct_002_revolved_profile_00_body"
+      ],
+      "changed_bodies": [
+        "direct_002_revolved_profile_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 12,
+      "ms": 9653.2627,
+      "name": "Combine1",
+      "removed_bodies": [
+        "direct_005_revolved_profile_01_body",
+        "direct_008_revolved_profile_02_body",
+        "direct_011_revolved_profile_03_body"
+      ],
+      "warning": null
+    }
+  }
+]

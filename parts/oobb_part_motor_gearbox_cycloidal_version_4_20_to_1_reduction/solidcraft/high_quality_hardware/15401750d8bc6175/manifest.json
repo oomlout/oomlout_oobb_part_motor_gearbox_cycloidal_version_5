@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "fingerprint": "15401750d8bc6175964267e9ae8f3b08a85b4316852c9bf93f43cf3c745aac21",
+  "spec": {
+    "family": "bolt",
+    "parameters": {
+      "length": 40.0,
+      "diameter": 6,
+      "head_af": 10,
+      "head_height": 4,
+      "bevel": 0.4,
+      "tip_chamfer": 0.4,
+      "runout": 0.8,
+      "thread_length": 18
+    },
+    "designation": "M6x1",
+    "pitch": 1
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 58584,
+    "bounds_mm": [
+      [
+        -5.773502826690674,
+        -5.0,
+        -40.0
+      ],
+      [
+        5.773502826690674,
+        5.0,
+        4.0
+      ]
+    ],
+    "thread_pitch_mm": 1,
+    "thread_half_turn_error_mm": 2.2462731021910542e-06,
+    "radius_range_mm": [
+      2.4587340354919256,
+      2.9999999999992917
+    ]
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "b2a63b445ee295ef205888d8a599c93915180fa7a1b44299432b3da2a33e1e4c",
+    "hardware.stl": "d8ad192a99f8ef983e976ebafac2f9fcc2b9f7feda4922d96be747cf756eb002"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+  "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\9c20d512e3e21149\\manifest.json"
+}

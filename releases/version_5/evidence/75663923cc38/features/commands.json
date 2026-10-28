@@ -1,0 +1,1809 @@
+{
+  "commands": [
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_0",
+        "expression": "24.9 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_0",
+        "expression": "8.100000000000001 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_1",
+        "expression": "24.9 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_1",
+        "expression": "0.8 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_2",
+        "expression": "26.5 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_2",
+        "expression": "0.8 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_3",
+        "expression": "26.5 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_4",
+        "expression": "7.5 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_5",
+        "expression": "7.5 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_5",
+        "expression": "3.9000000000000012 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_6",
+        "expression": "9.1 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_6",
+        "expression": "3.9000000000000012 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_radius_7",
+        "expression": "9.1 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_002_revolved_profile_00_z_7",
+        "expression": "8.100000000000001 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_002_revolved_profile_00_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "direct_002_revolved_profile_00_radius_0",
+            "-(direct_002_revolved_profile_00_z_0)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_1",
+            "-(direct_002_revolved_profile_00_z_1)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_2",
+            "-(direct_002_revolved_profile_00_z_2)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_3",
+            "-(0)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_4",
+            "-(0)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_5",
+            "-(direct_002_revolved_profile_00_z_5)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_6",
+            "-(direct_002_revolved_profile_00_z_6)"
+          ],
+          [
+            "direct_002_revolved_profile_00_radius_7",
+            "-(direct_002_revolved_profile_00_z_7)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_002_revolved_profile_00_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_002_revolved_profile_00_extrude",
+        "body_name": "direct_002_revolved_profile_00_body"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_005_revolved_profile_01_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_005"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_005_revolved_profile_01_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_005_revolved_profile_01_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_005_revolved_profile_01_z_1)"
+          ],
+          [
+            "direct_005_revolved_profile_01_radius_2",
+            "-(direct_005_revolved_profile_01_z_2)"
+          ],
+          [
+            "direct_005_revolved_profile_01_radius_3",
+            "-(direct_005_revolved_profile_01_z_3)"
+          ],
+          [
+            "direct_005_revolved_profile_01_radius_4",
+            "-(direct_005_revolved_profile_01_z_4)"
+          ],
+          [
+            "direct_005_revolved_profile_01_radius_5",
+            "-(direct_005_revolved_profile_01_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_005_revolved_profile_01_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_005_revolved_profile_01_extrude",
+        "body_name": "direct_005_revolved_profile_01_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_005_revolved_profile_01_body"
+        ],
+        "translate": [
+          15.068842025849232,
+          8.699999999999998,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_008_revolved_profile_02_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_008"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_008_revolved_profile_02_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_008_revolved_profile_02_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_008_revolved_profile_02_z_1)"
+          ],
+          [
+            "direct_008_revolved_profile_02_radius_2",
+            "-(direct_008_revolved_profile_02_z_2)"
+          ],
+          [
+            "direct_008_revolved_profile_02_radius_3",
+            "-(direct_008_revolved_profile_02_z_3)"
+          ],
+          [
+            "direct_008_revolved_profile_02_radius_4",
+            "-(direct_008_revolved_profile_02_z_4)"
+          ],
+          [
+            "direct_008_revolved_profile_02_radius_5",
+            "-(direct_008_revolved_profile_02_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_008_revolved_profile_02_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_008_revolved_profile_02_extrude",
+        "body_name": "direct_008_revolved_profile_02_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_008_revolved_profile_02_body"
+        ],
+        "translate": [
+          1.0654427152581972e-15,
+          17.4,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_011_revolved_profile_03_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_011"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_011_revolved_profile_03_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_011_revolved_profile_03_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_011_revolved_profile_03_z_1)"
+          ],
+          [
+            "direct_011_revolved_profile_03_radius_2",
+            "-(direct_011_revolved_profile_03_z_2)"
+          ],
+          [
+            "direct_011_revolved_profile_03_radius_3",
+            "-(direct_011_revolved_profile_03_z_3)"
+          ],
+          [
+            "direct_011_revolved_profile_03_radius_4",
+            "-(direct_011_revolved_profile_03_z_4)"
+          ],
+          [
+            "direct_011_revolved_profile_03_radius_5",
+            "-(direct_011_revolved_profile_03_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_011_revolved_profile_03_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_011_revolved_profile_03_extrude",
+        "body_name": "direct_011_revolved_profile_03_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_011_revolved_profile_03_body"
+        ],
+        "translate": [
+          -15.068842025849232,
+          8.699999999999998,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_014_revolved_profile_04_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_014"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_014_revolved_profile_04_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_014_revolved_profile_04_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_014_revolved_profile_04_z_1)"
+          ],
+          [
+            "direct_014_revolved_profile_04_radius_2",
+            "-(direct_014_revolved_profile_04_z_2)"
+          ],
+          [
+            "direct_014_revolved_profile_04_radius_3",
+            "-(direct_014_revolved_profile_04_z_3)"
+          ],
+          [
+            "direct_014_revolved_profile_04_radius_4",
+            "-(direct_014_revolved_profile_04_z_4)"
+          ],
+          [
+            "direct_014_revolved_profile_04_radius_5",
+            "-(direct_014_revolved_profile_04_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_014_revolved_profile_04_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_014_revolved_profile_04_extrude",
+        "body_name": "direct_014_revolved_profile_04_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_014_revolved_profile_04_body"
+        ],
+        "translate": [
+          -15.06884202584923,
+          -8.700000000000001,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_017_revolved_profile_05_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_017"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_017_revolved_profile_05_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_017_revolved_profile_05_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_017_revolved_profile_05_z_1)"
+          ],
+          [
+            "direct_017_revolved_profile_05_radius_2",
+            "-(direct_017_revolved_profile_05_z_2)"
+          ],
+          [
+            "direct_017_revolved_profile_05_radius_3",
+            "-(direct_017_revolved_profile_05_z_3)"
+          ],
+          [
+            "direct_017_revolved_profile_05_radius_4",
+            "-(direct_017_revolved_profile_05_z_4)"
+          ],
+          [
+            "direct_017_revolved_profile_05_radius_5",
+            "-(direct_017_revolved_profile_05_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_017_revolved_profile_05_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_017_revolved_profile_05_extrude",
+        "body_name": "direct_017_revolved_profile_05_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_017_revolved_profile_05_body"
+        ],
+        "translate": [
+          -3.1963281457745915e-15,
+          -17.4,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_0",
+        "expression": "-18.6 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_1",
+        "expression": "254.6 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_2",
+        "expression": "254.6 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_3",
+        "expression": "1.4 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_4",
+        "expression": "1.4 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_020_revolved_profile_06_z_5",
+        "expression": "-18.6 mm",
+        "comment": "direct_020"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_020_revolved_profile_06_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_020_revolved_profile_06_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_020_revolved_profile_06_z_1)"
+          ],
+          [
+            "direct_020_revolved_profile_06_radius_2",
+            "-(direct_020_revolved_profile_06_z_2)"
+          ],
+          [
+            "direct_020_revolved_profile_06_radius_3",
+            "-(direct_020_revolved_profile_06_z_3)"
+          ],
+          [
+            "direct_020_revolved_profile_06_radius_4",
+            "-(direct_020_revolved_profile_06_z_4)"
+          ],
+          [
+            "direct_020_revolved_profile_06_radius_5",
+            "-(direct_020_revolved_profile_06_z_5)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_020_revolved_profile_06_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_020_revolved_profile_06_extrude",
+        "body_name": "direct_020_revolved_profile_06_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_020_revolved_profile_06_body"
+        ],
+        "translate": [
+          15.068842025849227,
+          -8.700000000000006,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_0",
+        "expression": "-22.4 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_1",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_2",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_3",
+        "expression": "2.6 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_4",
+        "expression": "2.6 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_5",
+        "expression": "1.76 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_6",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_6",
+        "expression": "1.76 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_7",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_7",
+        "expression": "-0.01 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_8",
+        "expression": "1.8 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_8",
+        "expression": "-0.01 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_radius_9",
+        "expression": "1.8 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_022_revolved_profile_07_z_9",
+        "expression": "-22.4 mm",
+        "comment": "direct_022"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_022_revolved_profile_07_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_022_revolved_profile_07_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_022_revolved_profile_07_z_1)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_2",
+            "-(direct_022_revolved_profile_07_z_2)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_3",
+            "-(direct_022_revolved_profile_07_z_3)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_4",
+            "-(direct_022_revolved_profile_07_z_4)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_5",
+            "-(direct_022_revolved_profile_07_z_5)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_6",
+            "-(direct_022_revolved_profile_07_z_6)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_7",
+            "-(direct_022_revolved_profile_07_z_7)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_8",
+            "-(direct_022_revolved_profile_07_z_8)"
+          ],
+          [
+            "direct_022_revolved_profile_07_radius_9",
+            "-(direct_022_revolved_profile_07_z_9)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_022_revolved_profile_07_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_022_revolved_profile_07_extrude",
+        "body_name": "direct_022_revolved_profile_07_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_022_revolved_profile_07_body"
+        ],
+        "translate": [
+          18.55,
+          0.0,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_0",
+        "expression": "-22.4 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_1",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_2",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_3",
+        "expression": "2.6 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_4",
+        "expression": "2.6 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_5",
+        "expression": "1.76 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_6",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_6",
+        "expression": "1.76 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_7",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_7",
+        "expression": "-0.01 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_8",
+        "expression": "1.8 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_8",
+        "expression": "-0.01 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_radius_9",
+        "expression": "1.8 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_025_revolved_profile_08_z_9",
+        "expression": "-22.4 mm",
+        "comment": "direct_025"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_025_revolved_profile_08_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_025_revolved_profile_08_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_025_revolved_profile_08_z_1)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_2",
+            "-(direct_025_revolved_profile_08_z_2)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_3",
+            "-(direct_025_revolved_profile_08_z_3)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_4",
+            "-(direct_025_revolved_profile_08_z_4)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_5",
+            "-(direct_025_revolved_profile_08_z_5)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_6",
+            "-(direct_025_revolved_profile_08_z_6)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_7",
+            "-(direct_025_revolved_profile_08_z_7)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_8",
+            "-(direct_025_revolved_profile_08_z_8)"
+          ],
+          [
+            "direct_025_revolved_profile_08_radius_9",
+            "-(direct_025_revolved_profile_08_z_9)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_025_revolved_profile_08_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_025_revolved_profile_08_extrude",
+        "body_name": "direct_025_revolved_profile_08_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_025_revolved_profile_08_body"
+        ],
+        "translate": [
+          -9.274999999999997,
+          16.06477124020134,
+          0
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_0",
+        "expression": "-22.4 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_1",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_2",
+        "expression": "3.0 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_2",
+        "expression": "255.79999999999998 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_3",
+        "expression": "3.0 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_3",
+        "expression": "2.6 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_4",
+        "expression": "1.8 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_4",
+        "expression": "2.6 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_5",
+        "expression": "1.8 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_5",
+        "expression": "1.76 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_6",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_6",
+        "expression": "1.76 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_7",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_7",
+        "expression": "-0.01 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_8",
+        "expression": "1.8 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_8",
+        "expression": "-0.01 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_radius_9",
+        "expression": "1.8 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_028_revolved_profile_09_z_9",
+        "expression": "-22.4 mm",
+        "comment": "direct_028"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XZ",
+        "name": "direct_028_revolved_profile_09_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0",
+            "-(direct_028_revolved_profile_09_z_0)"
+          ],
+          [
+            "0",
+            "-(direct_028_revolved_profile_09_z_1)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_2",
+            "-(direct_028_revolved_profile_09_z_2)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_3",
+            "-(direct_028_revolved_profile_09_z_3)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_4",
+            "-(direct_028_revolved_profile_09_z_4)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_5",
+            "-(direct_028_revolved_profile_09_z_5)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_6",
+            "-(direct_028_revolved_profile_09_z_6)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_7",
+            "-(direct_028_revolved_profile_09_z_7)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_8",
+            "-(direct_028_revolved_profile_09_z_8)"
+          ],
+          [
+            "direct_028_revolved_profile_09_radius_9",
+            "-(direct_028_revolved_profile_09_z_9)"
+          ]
+        ],
+        "closed": true,
+        "infer": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.revolve",
+      "params": {
+        "sketch": "direct_028_revolved_profile_09_profile",
+        "axis": "Z",
+        "angle": "360 deg",
+        "operation": "new",
+        "name": "direct_028_revolved_profile_09_extrude",
+        "body_name": "direct_028_revolved_profile_09_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_028_revolved_profile_09_body"
+        ],
+        "translate": [
+          -9.27500000000001,
+          -16.064771240201335,
+          0
+        ]
+      }
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_002_revolved_profile_00_body",
+        "tools": [
+          "direct_005_revolved_profile_01_body",
+          "direct_008_revolved_profile_02_body",
+          "direct_011_revolved_profile_03_body",
+          "direct_014_revolved_profile_04_body",
+          "direct_017_revolved_profile_05_body",
+          "direct_020_revolved_profile_06_body",
+          "direct_022_revolved_profile_07_body",
+          "direct_025_revolved_profile_08_body",
+          "direct_028_revolved_profile_09_body"
+        ],
+        "operation": "cut"
+      }
+    }
+  ]
+}

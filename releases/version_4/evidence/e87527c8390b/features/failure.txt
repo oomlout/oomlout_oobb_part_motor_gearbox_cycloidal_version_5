@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\gearbox_native\export.py", line 47, in render_piece
+    outcome=render_thing(local,plan=plan,output_dir=folder,export_stl=True,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 126, in render_thing
+    original = check_health(client, output / "native_inspection.json")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\gearbox_native\acceptance.py", line 81, in health_check
+    raise ValueError(f'Native retry exceeds the project allowance: {feature}')
+ValueError: Native retry exceeds the project allowance: {'boolean_diagnostics': {'events': [{'face_shift_mm': 0.0, 'rotation_rad': 0.0, 'strategy': 'refined_tolerance', 'tolerance_mm': 0.057118342178526633, 'translation_mm': 0.0}, {'face_shift_mm': 0.0, 'rotation_rad': 2e-06, 'strategy': 'tool_nudge', 'tolerance_mm': 0.0, 'translation_mm': 0.00022996500008119425}], 'truncated': False}, 'error': None, 'id': 48, 'ms': 9935.797, 'name': 'Combine4', 'rolled_back': False, 'suppressed': False, 'type': 'CombineFeature', 'warning': 'Boolean retry: tool displacement 2.299650e-4 mm, rotation 2.000000e-6 rad'}

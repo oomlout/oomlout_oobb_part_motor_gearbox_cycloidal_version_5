@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "frames": 192,
+  "fps": 12,
+  "duration_seconds": 16.0,
+  "input_turns": 12,
+  "output_turns": 1,
+  "unique_frames": 192,
+  "camera": {
+    "explode": 12,
+    "target": [
+      0,
+      0,
+      -18.5
+    ],
+    "rotation": [
+      65,
+      0,
+      25
+    ],
+    "distance": 1250
+  },
+  "size": [
+    960,
+    1600
+  ],
+  "scad_sha256": {
+    "3dpr.scad": "1ba1057a2c51bb63dfd659244b6f96443184d60e0e63bb413dd97d37e0fda68b",
+    "animation.scad": "d29b1f833932a5dc2b5a3432e93dd404940d88d3c269ce80609c942def78d391",
+    "assembly.scad": "d2a498c294e9fdc728d5ed9b2eba83dd8d79983a7208fbce524aa36469b1618d",
+    "eccentric_hub.scad": "68888dc39ab57d920b3fea31fb695e32f7e70f18e0f605b531dc0b38cf63a5f7",
+    "exploded.scad": "5aaddda8858217b5423ef06b46e8a421e4b1fc56779e7e1f14db667dbcdcb218",
+    "fit_check.scad": "95e24a2e0151b4f1a3e6c380e17580a22a699f89fd029e729f8735fdddd5d041",
+    "fit_eccentric_bearings.scad": "3e3c610a1249a0263128d99728844bf4288201fbf503e9bacc83380d55b4f4df",
+    "fit_journals.scad": "145f4560eec28e09d1a75a5d541917f02b600733436bf544c53a602ee18dc9f1",
+    "fit_m5_axle.scad": "9f1a8c5eccc39f75a35fe59df7759d817f85258c45724f68d2b6680b4dd14197",
+    "fit_nema17_mount.scad": "3bb58dc61a9cb7a0d475d181ae6a2bda5d4d3b08f9d8c51904d42a858fb520f6",
+    "fit_output_bearings.scad": "0482d273a8a7c2e77151d203579a84450171c9eab2adcc3f97679d70abc08e26",
+    "fit_shaft_bearings.scad": "f6ac1a44d5eb716a411ed977c807671458c0185bc488fef7bffe5703f76f35e2",
+    "hardware.scad": "eca26cecc5c89d47f5fe1f79d6189c12c0a4d490489a83fd9db8c9ee41626ea8",
+    "installation_check.scad": "765b5fa1d846b56a7d3b3f3b6e416a128601dcb927535663a5aa5568604556c7",
+    "motion.scad": "18ceac9d34c04a0e4e6c2c8e4256ed2475b24e69ab1bfdfa039f3b7e91a7896f",
+    "motor_mount.scad": "2deb9006219616217ec6c286b7988023988db807851b94d1798589889a3b17d0",
+    "output_casing.scad": "c6c46a40db1fc6f11414f3cc93ebc1974f633cee8fac222343414bf1dbc76488",
+    "output_cover.scad": "158ebde81c7ed2b6bb292e1f4cad3aa4b7fc6fbdd2f459cc89d9403e7d10f030",
+    "pin_front.scad": "0b1a78665ac617bfb04628d139e075c081989149d28a75b4f221257b0de4bdd5",
+    "pin_rear.scad": "187bc4580ba9ba1c2adee676526bb013470be6ca5eafbdeceecbddb04cbe9079",
+    "rotor_a.scad": "54e537b64bdd2bacab0757b05e5924d21ec14926e47045c65f3076e4c8dc5b5e",
+    "rotor_b.scad": "8086499607ea67a88f2c8e334c36dc5e9c82fb3813b97a7eb319ecefb1c2e7c4",
+    "section.scad": "43cfb5627214ccebfb6bf60ae57ecdccd863e73f1c646877cd87ef5eeafc8a23"
+  }
+}

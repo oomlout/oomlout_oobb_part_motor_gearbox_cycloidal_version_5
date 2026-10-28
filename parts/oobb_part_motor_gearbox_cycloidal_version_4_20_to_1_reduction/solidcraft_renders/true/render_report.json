@@ -1,0 +1,31 @@
+{
+  "status": "rendered",
+  "frames": 360,
+  "fps": 24,
+  "duration_seconds": 15,
+  "part_count": 15,
+  "source": "verified native SolidCraft meshes",
+  "mode": "true",
+  "scad_required": false,
+  "animation": "assembly separation, 20 input turns / 1 output turn while exploded, reassembly",
+  "verification": {
+    "video": {
+      "width": 1200,
+      "height": 1200,
+      "avg_frame_rate": "24/1",
+      "duration": "15.000000",
+      "nb_read_frames": "360"
+    },
+    "unique_rendered_frames": 360,
+    "gif_frames": 180,
+    "review_sheet": "animation_review.png",
+    "status": "passed"
+  },
+  "files": {
+    "solidcraft_exploded.blend": "08a865eece2b35ef53aa1daf0c16743d5acf607c2fde936914d92e4d6620d1c9",
+    "solidcraft_exploded.gif": "83bfda3d69a8c97b35e52c9e2b49bbd6488030d028edc5663987f52a1f6976bd",
+    "solidcraft_exploded.mp4": "d6b15110cc1d1e144ca9b273b09a17a2ffb392b5b1943dedeb2a876827cfc6c8",
+    "solidcraft_exploded.png": "9aeb306f2092e6cd7e25727a732fc81a77648710e73188a6af37890cbfa231d0",
+    "solidcraft_exploded_key.png": "9557635c069e31ebd02f5c7b9c510107329b722df9e1172f25d8206632756ec8"
+  }
+}

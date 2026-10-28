@@ -1,0 +1,51 @@
+{
+  "status": "passed",
+  "fingerprint": "64d9930a1bd6040e3e3cac496d1b0a515d3affb4618e081b46ad1ef65079f60c",
+  "spec": {
+    "family": "countersunk",
+    "parameters": {
+      "length": 6,
+      "diameter": 3,
+      "head_diameter": 6,
+      "head_height": 1.7,
+      "rim_height": 0.2,
+      "hex_af": 2,
+      "hex_depth": 1.1,
+      "tip_chamfer": 0.25,
+      "thread_length": 3.8
+    },
+    "designation": "M3x0.5",
+    "pitch": 0.5
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 37776,
+    "bounds_mm": [
+      [
+        -3.0,
+        -2.9987587928771973,
+        -6.0
+      ],
+      [
+        3.0,
+        2.9987587928771973,
+        -5.266181777842025e-31
+      ]
+    ],
+    "thread_pitch_mm": 0.5,
+    "thread_half_turn_error_mm": 0.00017878521515868329,
+    "radius_range_mm": [
+      1.2287364944836598,
+      1.5
+    ]
+  },
+  "method": "shared high_quality_hardware native authoring recipes",
+  "hashes": {
+    "hardware.solidcraft": "71bf1d733661a877d2e9983d20f69beebe3e2e47d5458013e304381b83821776",
+    "hardware.stl": "88025f79552bf5fa5732d6e719f87c4a5af7dc53d62dcbcc7b9bd24c6607f163"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction"
+}

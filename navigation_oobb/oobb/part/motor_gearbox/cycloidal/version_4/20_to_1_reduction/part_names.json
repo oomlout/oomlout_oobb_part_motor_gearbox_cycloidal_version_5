@@ -1,0 +1,292 @@
+[
+  {
+    "name": "Motor faceplate",
+    "detail": "motor_mount",
+    "anchor": [
+      -20,
+      0,
+      -125
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Rear pin carrier",
+    "detail": "pin_rear",
+    "anchor": [
+      -20,
+      0,
+      -61
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Front pin carrier",
+    "detail": "pin_front",
+    "anchor": [
+      -20,
+      0,
+      135
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Front bearing hub",
+    "detail": "front_bearing_hub",
+    "anchor": [
+      -20,
+      0,
+      167
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Output cover",
+    "detail": "output_cover",
+    "anchor": [
+      -20,
+      0,
+      210
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Disc A lower",
+    "detail": "rotor_a_lower",
+    "anchor": [
+      -20,
+      0,
+      -15.0
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Disc A upper",
+    "detail": "rotor_a_upper",
+    "anchor": [
+      -20,
+      0,
+      24.5
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Disc B lower",
+    "detail": "rotor_b_lower",
+    "anchor": [
+      -20,
+      0,
+      64.5
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Disc B upper",
+    "detail": "rotor_b_upper",
+    "anchor": [
+      -20,
+      0,
+      104.0
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Output lobe ring",
+    "detail": "output_casing",
+    "anchor": [
+      164,
+      0,
+      30
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Output casing base",
+    "detail": "output_base",
+    "anchor": [
+      158,
+      0,
+      -34.6
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Lower wiggle shaft",
+    "detail": "eccentric_hub_lower",
+    "anchor": [
+      -84,
+      0,
+      0
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Coupling drive plate",
+    "detail": "coupling_drive",
+    "anchor": [
+      -84,
+      0,
+      -32
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Upper wiggle shaft",
+    "detail": "eccentric_hub_upper",
+    "anchor": [
+      -84,
+      0,
+      110
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Coupling nut collar",
+    "detail": "coupling_collar",
+    "anchor": [
+      -84,
+      0,
+      -65
+    ],
+    "side": "left"
+  },
+  {
+    "name": "Casing bearings",
+    "detail": "2 x 6810 / 50 x 65 x 7",
+    "anchor": [
+      29,
+      0,
+      178.1
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Eccentric bearings",
+    "detail": "2 x 6704 / 20 x 27 x 4",
+    "anchor": [
+      9,
+      0,
+      86.0
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Front shaft bearing",
+    "detail": "6704 / 20 x 27 x 4",
+    "anchor": [
+      9,
+      0,
+      180.5
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Disc bearing rows",
+    "detail": "12 x 6700 / 10 x 15 x 4",
+    "anchor": [
+      21,
+      0,
+      6.5
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Fixed guide bolts",
+    "detail": "6 x M6 x 40 + nuts",
+    "anchor": [
+      21,
+      0,
+      182.2
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Carrier spacers",
+    "detail": "3 steel tubes / 6 OD x 3.2 ID x 15.5",
+    "anchor": [
+      29,
+      0,
+      110
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Disc screws",
+    "detail": "6 x M3 x 6 countersunk + nuts",
+    "anchor": [
+      30,
+      0,
+      115.4
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Hub joining bolt",
+    "detail": "M6 x 35 + captive M6 nut",
+    "anchor": [
+      -84,
+      0,
+      143.2
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Flange coupling",
+    "detail": "M5 bore / flange UP at 24 mm",
+    "anchor": [
+      0,
+      0,
+      -78
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Flange screws",
+    "detail": "2 x M3 x 12 + side-loaded nuts",
+    "anchor": [
+      8,
+      0,
+      -6.5
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Motor screws",
+    "detail": "4 x M3 x 6 countersunk",
+    "anchor": [
+      15.5,
+      15.5,
+      -122.0
+    ],
+    "side": "right"
+  },
+  {
+    "name": "NEMA 17 motor",
+    "detail": "5 mm shaft",
+    "anchor": [
+      0,
+      0,
+      -176
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Support fasteners",
+    "detail": "3 x M3x25 rear; 3 x M3x25 posts; 3 x M3x16 hub",
+    "anchor": [
+      16.5,
+      0,
+      191.0
+    ],
+    "side": "right"
+  },
+  {
+    "name": "Casing screws",
+    "detail": "4 x M3x35 socket caps; clamp cover / ring / base",
+    "anchor": [
+      35.5,
+      35.5,
+      222.0
+    ],
+    "side": "right"
+  }
+]

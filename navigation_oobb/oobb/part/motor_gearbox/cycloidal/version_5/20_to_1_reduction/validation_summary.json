@@ -1,0 +1,96 @@
+{
+  "design": "V5 three-unit OOBB tabs with full-length wall backing and integrated M3 clamps",
+  "status": "CAD and 16 affected tests passed; physical print testing pending",
+  "dimensions_mm": {
+    "core_diameter": 72.3,
+    "tab_span": 104.0,
+    "casing_depth": 26.6,
+    "half_depths": [
+      12.75,
+      13.850000000000001
+    ],
+    "maximum_height_above_motor": 32.0,
+    "tab_depth_each_half": 3,
+    "assembled_tab_depth": 6
+  },
+  "casing_joint": {
+    "screws": "4 M3x6 countersunk",
+    "nuts": "4 M3",
+    "nut_overhang": true,
+    "location": "one M3 midpoint hole per OOBB tab"
+  },
+  "mounting_tabs": {
+    "quantity_per_half": 4,
+    "units": 3,
+    "length_mm": 44,
+    "M6_holes_per_tab": 3,
+    "M3_holes_per_tab": 2,
+    "M6_pitch_mm": 15,
+    "M3_midpoint_offset_mm": 7.5,
+    "full_length_wall_connection": true,
+    "separate_join_lugs": false
+  },
+  "print_orientation": "middle joining face on bed; bearing seats up",
+  "casing_slicer_support_required": false,
+  "bearing_lands_full_annular_backing": true,
+  "native_documents": 16,
+  "native_layouts": 2,
+  "fit_samples": [
+    "fit_6703_and_M3_orbit",
+    "fit_6701_shaft",
+    "fit_6810_case_lip",
+    "fit_M3_grub_and_5mm_shaft",
+    "fit_M3_standoff_lower",
+    "fit_M3_standoff_socket",
+    "fit_casing_clamp_lower",
+    "fit_casing_clamp_upper",
+    "fit_casing_OOBB_tab"
+  ],
+  "motion": {
+    "poses": 143,
+    "intersection_tests": 14797,
+    "collisions": 0
+  },
+  "installation": {
+    "stages": 8,
+    "poses": 200,
+    "collisions": 0
+  },
+  "fastener_access": {
+    "tests": 897,
+    "collisions": 0
+  },
+  "animation": {
+    "frames": 360,
+    "seconds": 15,
+    "hardware_items": 40
+  },
+  "tests": {
+    "affected_tests_passed": 16,
+    "previous_full_suite_failures": 9,
+    "details": "Affected split-casing, migration, alternative reductions and three-mm-lobe tests passed. The previous full suite had nine unrelated failures; it was not rerun for this change."
+  },
+  "mathematical_rotors_unchanged": true,
+  "acceptance_policy_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "sealed_releases": {
+    "status": "passed",
+    "releases": {
+      "version_1": {
+        "checked_files": 55
+      },
+      "version_2": {
+        "checked_files": 105
+      },
+      "version_3": {
+        "checked_files": 145
+      },
+      "version_4": {
+        "checked_files": 2593
+      }
+    },
+    "violations": []
+  },
+  "physical_test_required": true,
+  "continuous_motion_proof": false,
+  "previous_design_checkpoint": "outputs\\v5_two_wide_tabs"
+}

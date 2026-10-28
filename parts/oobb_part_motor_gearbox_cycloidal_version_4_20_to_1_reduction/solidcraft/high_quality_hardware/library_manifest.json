@@ -1,0 +1,888 @@
+[
+  {
+    "model": "bearing_guide",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\7b53066ad6d5e7b4",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\bearing_guide.solidcraft",
+    "status": "passed",
+    "fingerprint": "7b53066ad6d5e7b48bad391f0be78e5d0988104a096f5db19b27682e89b3b9ab",
+    "spec": {
+      "family": "bearing",
+      "closure": "open",
+      "ball_count": 21,
+      "detail": {
+        "cage_scale": 0.3535353535353536,
+        "window_encloses_relief": true
+      },
+      "parameters": {
+        "bore": 10.0,
+        "outside": 15.0,
+        "width": 4.0,
+        "edge": 0.2,
+        "pitch_radius": 6.25,
+        "ball_radius": 0.7000000000000001,
+        "groove_radius": 0.7175,
+        "inner_shoulder": 5.795,
+        "outer_shoulder": 6.705
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 25,
+      "triangles": 270918,
+      "bounds_mm": [
+        [
+          -7.5,
+          -7.5,
+          -2.0
+        ],
+        [
+          7.5,
+          7.5,
+          2.0
+        ]
+      ],
+      "rolling_elements": 21,
+      "bore_mm": 10.0,
+      "outside_mm": 15.0,
+      "width_mm": 4.0
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "436726e418400c7a2df012bb6c1705a0f3208f7248dfa7535bf7181a71216faa",
+      "hardware.stl": "d1fe738fce782ec042c321d5fdb1497c8eaf57c5a0405bac8cf494d69941730d"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\a711e755e169d3b0\\manifest.json"
+  },
+  {
+    "model": "bearing_eccentric",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\4b90f3772cd240fc",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\bearing_eccentric.solidcraft",
+    "status": "passed",
+    "fingerprint": "4b90f3772cd240fcb643a46ff4a49eb2df6cdf6302e4959325ec41c5a4c7aa7d",
+    "spec": {
+      "family": "bearing",
+      "closure": "open",
+      "ball_count": 28,
+      "detail": {
+        "cage_scale": 0.49494949494949503,
+        "window_encloses_relief": true
+      },
+      "parameters": {
+        "bore": 20.0,
+        "outside": 27.0,
+        "width": 4.0,
+        "edge": 0.2,
+        "pitch_radius": 11.75,
+        "ball_radius": 0.9800000000000001,
+        "groove_radius": 1.0045,
+        "inner_shoulder": 11.113,
+        "outer_shoulder": 12.387
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 32,
+      "triangles": 348966,
+      "bounds_mm": [
+        [
+          -13.5,
+          -13.5,
+          -2.0
+        ],
+        [
+          13.5,
+          13.5,
+          2.0
+        ]
+      ],
+      "rolling_elements": 28,
+      "bore_mm": 20.0,
+      "outside_mm": 27.0,
+      "width_mm": 4.0
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "7eddd95dbb43850cf1407d738f33c4f7b04a8a0ef72ea46b2237efdf5b4195c3",
+      "hardware.stl": "b80e38af5cf9c1810ad58986af12f8580ab842c925a62f13212cbd5cc15b4f05"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3832a0c73bdfb32c\\manifest.json"
+  },
+  {
+    "model": "bearing_output",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\729f1ba5ab3d2d82",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\bearing_output.solidcraft",
+    "status": "passed",
+    "fingerprint": "729f1ba5ab3d2d825c7ee6d76b9433c03b2782a1f7e03f393d82635137c618e6",
+    "spec": {
+      "family": "bearing",
+      "closure": "open",
+      "ball_count": 32,
+      "detail": {
+        "cage_scale": 0.9898989898989901,
+        "window_encloses_relief": true
+      },
+      "parameters": {
+        "bore": 50.0,
+        "outside": 65.0,
+        "width": 7.0,
+        "edge": 0.3,
+        "pitch_radius": 28.75,
+        "ball_radius": 1.9600000000000002,
+        "groove_radius": 2.009,
+        "inner_shoulder": 27.476,
+        "outer_shoulder": 30.024
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 36,
+      "triangles": 1292216,
+      "bounds_mm": [
+        [
+          -32.5,
+          -32.5,
+          -3.5
+        ],
+        [
+          32.5,
+          32.5,
+          3.5
+        ]
+      ],
+      "rolling_elements": 32,
+      "bore_mm": 50.0,
+      "outside_mm": 65.0,
+      "width_mm": 7.0
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "aad45047dbea1de21cfa36af6b1742307d31a8ceece72ef0b8719e48a522888f",
+      "hardware.stl": "d4ac916f8807c412f29fce9ae90d4c726f63250b40137ac4f3a04e7894bc1f5d"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\9a1b63298189a12e\\manifest.json"
+  },
+  {
+    "model": "screw_disc",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\b2666c2555b1b64b",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_disc.solidcraft",
+    "status": "passed",
+    "fingerprint": "b2666c2555b1b64b18573ca57582b3411694549fff9ff545963170528eb0011e",
+    "spec": {
+      "family": "countersunk",
+      "parameters": {
+        "length": 6.0,
+        "diameter": 3,
+        "head_diameter": 6,
+        "head_height": 1.7,
+        "rim_height": 0.2,
+        "hex_af": 2,
+        "hex_depth": 1.1,
+        "tip_chamfer": 0.25,
+        "thread_length": 3.8
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 37776,
+      "bounds_mm": [
+        [
+          -3.0,
+          -2.9987587928771973,
+          -6.0
+        ],
+        [
+          3.0,
+          2.9987587928771973,
+          -5.266181777842025e-31
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 0.00017878521515868329,
+      "radius_range_mm": [
+        1.2287364944836598,
+        1.5
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "8dbd3260288149f637790adddceb0129cd4d328aa57bdfaea53b2d534c62e0b2",
+      "hardware.stl": "88025f79552bf5fa5732d6e719f87c4a5af7dc53d62dcbcc7b9bd24c6607f163"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\031f8be7e1194e68\\manifest.json"
+  },
+  {
+    "model": "nut_m3",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\7bf6b59e51a8356f",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\nut_m3.solidcraft",
+    "status": "passed",
+    "fingerprint": "7bf6b59e51a8356f3e870199af7cf1262fc98c8381fde806b14cf2f0b87b911b",
+    "spec": {
+      "family": "nut",
+      "template": "nut_hex_parametric",
+      "parameters": {
+        "diameter": 3,
+        "tap_diameter": 2.5,
+        "head_af": 5.5,
+        "height": 2.4,
+        "bevel": 0.25,
+        "mouth_radius": 1.65
+      },
+      "edit": [
+        "height",
+        2.6
+      ],
+      "drive": "external_hex",
+      "sources": [
+        "https://www.accu.co.uk/api/product-datasheet?id=268686"
+      ],
+      "existing_asset": "nut_m3_hex",
+      "pitch": 0.5,
+      "designation": "M3x0.5"
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 6706,
+      "bounds_mm": [
+        [
+          -3.175426483154297,
+          -2.75,
+          5.551115123125783e-17
+        ],
+        [
+          3.175426483154297,
+          2.75,
+          2.4000000953674316
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 0.00040661863998892045,
+      "radius_range_mm": [
+        1.2499999999999996,
+        1.498102157126939
+      ]
+    },
+    "method": "verified saved high-quality library item",
+    "hashes": {
+      "hardware.solidcraft": "696185e09172fb46891404c8a87fe915a31a89234673c0111c33e07679149ba3",
+      "hardware.stl": "f938e6f7555677ead95da74e48717b94b608e9815db460a1de80bbd1fba65533"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3d69f200c0e064af\\manifest.json"
+  },
+  {
+    "model": "bearing_shaft",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\6b6c3b98b818a2c4",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\bearing_shaft.solidcraft",
+    "status": "passed",
+    "fingerprint": "6b6c3b98b818a2c42077010168ad5207b36e5920b07118edfdf849770b5d4604",
+    "spec": {
+      "family": "bearing",
+      "closure": "open",
+      "ball_count": 28,
+      "detail": {
+        "cage_scale": 0.49494949494949503,
+        "window_encloses_relief": true
+      },
+      "parameters": {
+        "bore": 20.0,
+        "outside": 27.0,
+        "width": 4.0,
+        "edge": 0.2,
+        "pitch_radius": 11.75,
+        "ball_radius": 0.9800000000000001,
+        "groove_radius": 1.0045,
+        "inner_shoulder": 11.113,
+        "outer_shoulder": 12.387
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 32,
+      "triangles": 348966,
+      "bounds_mm": [
+        [
+          -13.5,
+          -13.5,
+          -2.0
+        ],
+        [
+          13.5,
+          13.5,
+          2.0
+        ]
+      ],
+      "rolling_elements": 28,
+      "bore_mm": 20.0,
+      "outside_mm": 27.0,
+      "width_mm": 4.0
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "7eddd95dbb43850cf1407d738f33c4f7b04a8a0ef72ea46b2237efdf5b4195c3",
+      "hardware.stl": "b80e38af5cf9c1810ad58986af12f8580ab842c925a62f13212cbd5cc15b4f05"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3832a0c73bdfb32c\\manifest.json"
+  },
+  {
+    "model": "screw_guide",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\15401750d8bc6175",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_guide.solidcraft",
+    "status": "passed",
+    "fingerprint": "15401750d8bc6175964267e9ae8f3b08a85b4316852c9bf93f43cf3c745aac21",
+    "spec": {
+      "family": "bolt",
+      "parameters": {
+        "length": 40.0,
+        "diameter": 6,
+        "head_af": 10,
+        "head_height": 4,
+        "bevel": 0.4,
+        "tip_chamfer": 0.4,
+        "runout": 0.8,
+        "thread_length": 18
+      },
+      "designation": "M6x1",
+      "pitch": 1
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 58584,
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          -40.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          4.0
+        ]
+      ],
+      "thread_pitch_mm": 1,
+      "thread_half_turn_error_mm": 2.2462731021910542e-06,
+      "radius_range_mm": [
+        2.4587340354919256,
+        2.9999999999992917
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "b2a63b445ee295ef205888d8a599c93915180fa7a1b44299432b3da2a33e1e4c",
+      "hardware.stl": "d8ad192a99f8ef983e976ebafac2f9fcc2b9f7feda4922d96be747cf756eb002"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\9c20d512e3e21149\\manifest.json"
+  },
+  {
+    "model": "nut_m6",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\e50c722536fcdd06",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\nut_m6.solidcraft",
+    "status": "passed",
+    "fingerprint": "e50c722536fcdd066ef222747d6eb603266efb8c778e3cd0f35ead690a00a7b9",
+    "spec": {
+      "family": "nut",
+      "designation": "M6x1",
+      "pitch": 1,
+      "parameters": {
+        "diameter": 6,
+        "tap_diameter": 5,
+        "head_af": 10,
+        "height": 5,
+        "bevel": 0.4,
+        "mouth_radius": 3.25
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 6746,
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          -8.326672684688674e-17
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          5.0
+        ]
+      ],
+      "thread_pitch_mm": 1,
+      "thread_half_turn_error_mm": 0.0006238041314188258,
+      "radius_range_mm": [
+        2.5,
+        2.9974309479420485
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "ddb7adcf8fd3f38cd390fff4971215f8be1f70cb39362925dc0537105c2a332e",
+      "hardware.stl": "dbfda4df753f23611294efba2f39d6c7c816257eb32054da7a039116bdb4ea40"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\64a3bf02bddc5043\\manifest.json"
+  },
+  {
+    "model": "screw_post",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\769aa11e9a7351ec",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_post.solidcraft",
+    "status": "passed",
+    "fingerprint": "769aa11e9a7351ec3ed08d8a2796863a4c7779ac4a75ecd0b67d15b46fbb2e58",
+    "spec": {
+      "family": "countersunk",
+      "parameters": {
+        "length": 25.0,
+        "diameter": 3,
+        "head_diameter": 6,
+        "head_height": 1.7,
+        "rim_height": 0.2,
+        "hex_af": 2,
+        "hex_depth": 1.1,
+        "tip_chamfer": 0.25,
+        "thread_length": 18
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 109578,
+      "bounds_mm": [
+        [
+          -3.0,
+          -2.9987587928771973,
+          -25.0
+        ],
+        [
+          3.0,
+          2.9987587928771973,
+          0.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 2.9543726176584073e-07,
+      "radius_range_mm": [
+        1.2293670177459277,
+        1.499999999999814
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "fc3e859724e443f900b5d4e035a8fb9e8749b2a9dd26fbb344a752da4b421a66",
+      "hardware.stl": "35b6f7a8eb068f4878ab2a2cc42b41a86860ca42d599488b11fcbe68db9ab706"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\00e03078795cf8d9\\manifest.json"
+  },
+  {
+    "model": "screw_deck",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\769aa11e9a7351ec",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_deck.solidcraft",
+    "status": "passed",
+    "fingerprint": "769aa11e9a7351ec3ed08d8a2796863a4c7779ac4a75ecd0b67d15b46fbb2e58",
+    "spec": {
+      "family": "countersunk",
+      "parameters": {
+        "length": 25.0,
+        "diameter": 3,
+        "head_diameter": 6,
+        "head_height": 1.7,
+        "rim_height": 0.2,
+        "hex_af": 2,
+        "hex_depth": 1.1,
+        "tip_chamfer": 0.25,
+        "thread_length": 18
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 109578,
+      "bounds_mm": [
+        [
+          -3.0,
+          -2.9987587928771973,
+          -25.0
+        ],
+        [
+          3.0,
+          2.9987587928771973,
+          0.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 2.9543726176584073e-07,
+      "radius_range_mm": [
+        1.2293670177459277,
+        1.499999999999814
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "fc3e859724e443f900b5d4e035a8fb9e8749b2a9dd26fbb344a752da4b421a66",
+      "hardware.stl": "35b6f7a8eb068f4878ab2a2cc42b41a86860ca42d599488b11fcbe68db9ab706"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\00e03078795cf8d9\\manifest.json"
+  },
+  {
+    "model": "screw_front_hub",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\1b6748fde6a4f71b",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_front_hub.solidcraft",
+    "status": "passed",
+    "fingerprint": "1b6748fde6a4f71b653a17f6d166d829789817cb089e3370fc3163d4ab42755e",
+    "spec": {
+      "family": "countersunk",
+      "parameters": {
+        "length": 16.0,
+        "diameter": 3,
+        "head_diameter": 6,
+        "head_height": 1.7,
+        "rim_height": 0.2,
+        "hex_af": 2,
+        "hex_depth": 1.1,
+        "tip_chamfer": 0.25,
+        "thread_length": 13.8
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 102822,
+      "bounds_mm": [
+        [
+          -3.0,
+          -2.9987587928771973,
+          -16.0
+        ],
+        [
+          3.0,
+          2.9987587928771973,
+          0.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 5.676648901498105e-05,
+      "radius_range_mm": [
+        1.229168173927775,
+        1.4999999999998967
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "564e12ccbd9936957e96cc859964c4d04724edeab2e52fa8befc2d36560bf98b",
+      "hardware.stl": "289253527de1d31a9b12c9439716e74c151bebc587050eec6fa80d2be71125d9"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3ab24d31e9ba8655\\manifest.json"
+  },
+  {
+    "model": "screw_housing",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\805dd4234aa88b73",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_housing.solidcraft",
+    "status": "passed",
+    "fingerprint": "805dd4234aa88b7359f9002f5bb03cbbd5cfe27c3bf5ac2d6f90a9e533c3fb12",
+    "spec": {
+      "family": "socket_cap",
+      "parameters": {
+        "length": 35.0,
+        "diameter": 3,
+        "head_diameter": 5.5,
+        "head_height": 3,
+        "hex_af": 2.5,
+        "hex_depth": 1.3,
+        "bevel": 0.2,
+        "tip_chamfer": 0.25,
+        "thread_length": 18
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 109786,
+      "bounds_mm": [
+        [
+          -2.75,
+          -2.75,
+          -35.0
+        ],
+        [
+          2.75,
+          2.75,
+          3.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 2.9543723512048814e-07,
+      "radius_range_mm": [
+        1.229367017745962,
+        1.4999999999999993
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "5c956428bed539aacd44579943739d26f3bf00d888d72924b9c6d7a19ccf68b5",
+      "hardware.stl": "1d37a205b397447fd783a69bc273f97a9a88134ab727ef5e0931930fca20f93b"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\05b5dd165cd33d85\\manifest.json"
+  },
+  {
+    "model": "screw_motor",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3cf370957aacb8d5",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_motor.solidcraft",
+    "status": "passed",
+    "fingerprint": "3cf370957aacb8d5d4aa461b2a162456d5772ec7c89445d5f089e261f8075c29",
+    "spec": {
+      "family": "countersunk",
+      "parameters": {
+        "length": 6.0,
+        "diameter": 3,
+        "head_diameter": 6,
+        "head_height": 1.7,
+        "rim_height": 0.2,
+        "hex_af": 2,
+        "hex_depth": 1.1,
+        "tip_chamfer": 0.25,
+        "thread_length": 3.8
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 37776,
+      "bounds_mm": [
+        [
+          -3.0,
+          -2.9987587928771973,
+          -6.0
+        ],
+        [
+          3.0,
+          2.9987587928771973,
+          -5.266181777842025e-31
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 0.00017878521515868329,
+      "radius_range_mm": [
+        1.2287364944836598,
+        1.5
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "8dbd3260288149f637790adddceb0129cd4d328aa57bdfaea53b2d534c62e0b2",
+      "hardware.stl": "88025f79552bf5fa5732d6e719f87c4a5af7dc53d62dcbcc7b9bd24c6607f163"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\031f8be7e1194e68\\manifest.json"
+  },
+  {
+    "model": "grub",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\165e1e6d96d8beb3",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\grub.solidcraft",
+    "status": "passed",
+    "fingerprint": "165e1e6d96d8beb3d31dffc0458a417d3a33976b862c20281eea0b9c4635f587",
+    "spec": {
+      "family": "grub",
+      "designation": "M3x0.5",
+      "pitch": 0.5,
+      "parameters": {
+        "length": 3,
+        "diameter": 3,
+        "hex_af": 1.5,
+        "hex_depth": 1,
+        "tip_chamfer": 0.15,
+        "thread_length": 2.7
+      }
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 26244,
+      "bounds_mm": [
+        [
+          -1.5,
+          -1.5,
+          -3.0
+        ],
+        [
+          1.5,
+          1.5,
+          0.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 0.0003611045259750423,
+      "radius_range_mm": [
+        1.227176714715227,
+        1.5000000000000002
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "4143aca20a67f8bdfe03fbb0d6571a206f493bc3ca67afe74ba60e43899f2cef",
+      "hardware.stl": "f8a502bfb82bd39eded86d3630312e8f340debcf9e62a4cf3d728fc83b910a87"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\5999ddbb07606dc8\\manifest.json"
+  },
+  {
+    "model": "screw_flange",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\f742f79332f489e4",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_flange.solidcraft",
+    "status": "passed",
+    "fingerprint": "f742f79332f489e4edaafdfee11dfd8c2a17ed574d7d6392f61ef82026050437",
+    "spec": {
+      "family": "socket_cap",
+      "parameters": {
+        "length": 12.0,
+        "diameter": 3,
+        "head_diameter": 5.5,
+        "head_height": 3,
+        "hex_af": 2.5,
+        "hex_depth": 1.3,
+        "bevel": 0.2,
+        "tip_chamfer": 0.25,
+        "thread_length": 11.5
+      },
+      "designation": "M3x0.5",
+      "pitch": 0.5
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 73980,
+      "bounds_mm": [
+        [
+          -2.75,
+          -2.75,
+          -12.0
+        ],
+        [
+          2.75,
+          2.75,
+          3.0
+        ]
+      ],
+      "thread_pitch_mm": 0.5,
+      "thread_half_turn_error_mm": 6.445054920867221e-07,
+      "radius_range_mm": [
+        1.2293670177459664,
+        1.499999999999934
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "5f4f28d852651973d2653b9f2fe319404526e8113dd563898fc2a65fda806f3e",
+      "hardware.stl": "4345b64bc51829598d26574184843331b5fd95dfaccd5d85cccb8b9adf2b8459"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\03a882e2c4de573c\\manifest.json"
+  },
+  {
+    "model": "screw_hub",
+    "path": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\577f07b7d9723b36",
+    "named_native": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\named\\screw_hub.solidcraft",
+    "status": "passed",
+    "fingerprint": "577f07b7d9723b3636e91a34d51aff2331ea99568808e0e454fc82510df4fdbe",
+    "spec": {
+      "family": "bolt",
+      "parameters": {
+        "length": 35.0,
+        "diameter": 6,
+        "head_af": 10,
+        "head_height": 4,
+        "bevel": 0.4,
+        "tip_chamfer": 0.4,
+        "runout": 0.8
+      },
+      "designation": "M6x1",
+      "pitch": 1
+    },
+    "validation": {
+      "status": "passed",
+      "watertight": true,
+      "body_count": 1,
+      "triangles": 125882,
+      "bounds_mm": [
+        [
+          -5.773502826690674,
+          -5.0,
+          -35.0
+        ],
+        [
+          5.773502826690674,
+          5.0,
+          4.0
+        ]
+      ],
+      "thread_pitch_mm": 1,
+      "thread_half_turn_error_mm": 0.0002684435497282145,
+      "radius_range_mm": [
+        2.457782362602013,
+        3.0
+      ]
+    },
+    "method": "shared high_quality_hardware native authoring recipes",
+    "hashes": {
+      "hardware.solidcraft": "b8c7cfd72d5165d715b810998e6aaee0fe7fc8abf9df72dd6f4a7541a3f1a120",
+      "hardware.stl": "43acbb8ebfee88162245c4aece5f5cf218709c079d19856ad53eb11dbbe71fbe"
+    },
+    "scope": "native editable presentation and STL; not certified STEP",
+    "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+    "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\35c4502cc6b09aa3\\manifest.json"
+  }
+]

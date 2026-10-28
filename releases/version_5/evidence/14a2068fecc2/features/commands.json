@@ -1,0 +1,841 @@
+{
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_cylinder_00_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cylinder_00_radius",
+        "expression": "11.0 mm",
+        "comment": "direct_000"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 11.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_cylinder_00_radius"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cylinder_00_depth",
+        "expression": "9.0 mm",
+        "comment": "direct_000"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_cylinder_00_profile",
+        "distance": "direct_000_oobb_cylinder_00_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_cylinder_00_extrude",
+        "body_name": "direct_000_oobb_cylinder_00_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_cylinder_00_body"
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "angle": 90.0
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_01_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_width",
+        "expression": "6.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            3.25
+          ],
+          "corner": [
+            3.5,
+            6.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_01_length",
+          "height": "direct_004_m3_01_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_01_profile",
+        "distance": "direct_004_m3_01_depth",
+        "operation": "new",
+        "name": "direct_004_m3_01_extrude",
+        "body_name": "direct_004_m3_01_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "translate": [
+          -1.75,
+          -3.25,
+          -0.3
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_02_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_width",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            1.75
+          ],
+          "corner": [
+            3.5,
+            3.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_02_length",
+          "height": "direct_004_m3_02_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_02_profile",
+        "distance": "direct_004_m3_02_depth",
+        "operation": "new",
+        "name": "direct_004_m3_02_extrude",
+        "body_name": "direct_004_m3_02_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_02_body"
+        ],
+        "translate": [
+          -1.75,
+          -1.75,
+          -0.6
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_03_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_width",
+        "expression": "6.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            3.25
+          ],
+          "corner": [
+            3.5,
+            6.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_03_length",
+          "height": "direct_004_m3_03_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_03_profile",
+        "distance": "direct_004_m3_03_depth",
+        "operation": "new",
+        "name": "direct_004_m3_03_extrude",
+        "body_name": "direct_004_m3_03_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_03_body"
+        ],
+        "translate": [
+          -1.75,
+          -3.25,
+          2.8
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_04_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_width",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            1.75
+          ],
+          "corner": [
+            3.5,
+            3.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_04_length",
+          "height": "direct_004_m3_04_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_04_profile",
+        "distance": "direct_004_m3_04_depth",
+        "operation": "new",
+        "name": "direct_004_m3_04_extrude",
+        "body_name": "direct_004_m3_04_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_04_body"
+        ],
+        "translate": [
+          -1.75,
+          -1.75,
+          3.0999999999999996
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_05_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_length",
+        "expression": "20.0 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_width",
+        "expression": "7.223999999999999 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            10.0,
+            3.6119999999999997
+          ],
+          "corner": [
+            20.0,
+            7.223999999999999
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_05_length",
+          "height": "direct_004_m3_05_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_depth",
+        "expression": "2.8 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_05_profile",
+        "distance": "direct_004_m3_05_depth",
+        "operation": "new",
+        "name": "direct_004_m3_05_extrude",
+        "body_name": "direct_004_m3_05_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_05_body"
+        ],
+        "translate": [
+          0.0,
+          -3.6119999999999997,
+          0
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "oobb_nut_m3_hex_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_nut_m3_hex_radius",
+        "expression": "3.6119999999999997 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.polygon.inscribed",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 3.6119999999999997,
+          "sides": 6,
+          "angle": 0
+        },
+        "dimensions": {
+          "radius": "oobb_nut_m3_hex_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.constraint.horizontal_vertical",
+      "params": {
+        "points": [
+          "origin",
+          {
+            "binding": "last_draw_first_point"
+          }
+        ],
+        "mode": "horizontal"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_nut_m3_hex_depth",
+        "expression": "2.8 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_nut_m3_hex_profile",
+        "distance": "oobb_nut_m3_hex_depth",
+        "operation": "new",
+        "name": "oobb_nut_m3_hex_extrude",
+        "body_name": "oobb_nut_m3_hex_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_nut_m3_hex_body"
+        ],
+        "copy": true,
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 61
+        },
+        "name": "oobb_nut_m3_hex_place_001"
+      }
+    },
+    {
+      "command": "body.rename",
+      "params": {
+        "body": {
+          "binding": "created_body",
+          "command_index": 61
+        },
+        "name": "oobb_nut_m3_hex_instance_001"
+      }
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_004_m3_01_body",
+        "tools": [
+          "direct_004_m3_02_body",
+          "direct_004_m3_03_body",
+          "direct_004_m3_04_body",
+          "direct_004_m3_05_body",
+          "oobb_nut_m3_hex_instance_001"
+        ],
+        "operation": "join"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "angle": 90
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "translate": [
+          5.0,
+          0,
+          4.0
+        ]
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_oobb_cube_07_profile",
+        "offset": 0
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_length",
+        "expression": "12.0 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_width",
+        "expression": "3.6 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            6.0,
+            1.8
+          ],
+          "corner": [
+            12.0,
+            3.6
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_oobb_cube_07_length",
+          "height": "direct_004_oobb_cube_07_width"
+        }
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_depth",
+        "expression": "3.6 mm",
+        "comment": "direct_004"
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_oobb_cube_07_profile",
+        "distance": "direct_004_oobb_cube_07_depth",
+        "operation": "new",
+        "name": "direct_004_oobb_cube_07_extrude",
+        "body_name": "direct_004_oobb_cube_07_body"
+      }
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_oobb_cube_07_body"
+        ],
+        "translate": [
+          0.0,
+          -1.8,
+          2.2
+        ]
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d55_radius",
+        "expression": "2.55 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d55_depth",
+        "expression": "9.02 mm",
+        "comment": "direct_002"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_2d55_positions"
+      }
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 2.55,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_2d55_radius"
+        }
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_2d55_positions",
+        "distance": "oobb_hole_radius_2d55_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cylinder_00_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 82
+        },
+        "name": "oobb_hole_radius_2d55_flat_bottom_cut"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_2d55",
+        "features": [
+          "oobb_hole_radius_2d55_positions",
+          "oobb_hole_radius_2d55_flat_bottom_cut"
+        ]
+      }
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_cylinder_00_body",
+        "tools": [
+          "direct_004_m3_01_body",
+          "direct_004_oobb_cube_07_body"
+        ],
+        "operation": "cut"
+      }
+    },
+    {
+      "command": "solid.remove",
+      "params": {
+        "bodies": [
+          "oobb_nut_m3_hex_body"
+        ]
+      }
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 86
+        },
+        "name": "hide_definition_bodies"
+      }
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_nut_m3_hex definition",
+        "features": [
+          "oobb_nut_m3_hex_profile",
+          "oobb_nut_m3_hex_extrude"
+        ]
+      }
+    }
+  ]
+}

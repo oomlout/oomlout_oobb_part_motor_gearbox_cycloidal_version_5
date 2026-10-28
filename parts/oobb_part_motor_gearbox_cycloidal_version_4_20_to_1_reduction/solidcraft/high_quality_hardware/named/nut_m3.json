@@ -1,0 +1,61 @@
+{
+  "model": "nut_m3",
+  "cache": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\7bf6b59e51a8356f",
+  "status": "passed",
+  "fingerprint": "7bf6b59e51a8356f3e870199af7cf1262fc98c8381fde806b14cf2f0b87b911b",
+  "spec": {
+    "family": "nut",
+    "template": "nut_hex_parametric",
+    "parameters": {
+      "diameter": 3,
+      "tap_diameter": 2.5,
+      "head_af": 5.5,
+      "height": 2.4,
+      "bevel": 0.25,
+      "mouth_radius": 1.65
+    },
+    "edit": [
+      "height",
+      2.6
+    ],
+    "drive": "external_hex",
+    "sources": [
+      "https://www.accu.co.uk/api/product-datasheet?id=268686"
+    ],
+    "existing_asset": "nut_m3_hex",
+    "pitch": 0.5,
+    "designation": "M3x0.5"
+  },
+  "validation": {
+    "status": "passed",
+    "watertight": true,
+    "body_count": 1,
+    "triangles": 6706,
+    "bounds_mm": [
+      [
+        -3.175426483154297,
+        -2.75,
+        5.551115123125783e-17
+      ],
+      [
+        3.175426483154297,
+        2.75,
+        2.4000000953674316
+      ]
+    ],
+    "thread_pitch_mm": 0.5,
+    "thread_half_turn_error_mm": 0.00040661863998892045,
+    "radius_range_mm": [
+      1.2499999999999996,
+      1.498102157126939
+    ]
+  },
+  "method": "verified saved high-quality library item",
+  "hashes": {
+    "hardware.solidcraft": "696185e09172fb46891404c8a87fe915a31a89234673c0111c33e07679149ba3",
+    "hardware.stl": "f938e6f7555677ead95da74e48717b94b608e9815db460a1de80bbd1fba65533"
+  },
+  "scope": "native editable presentation and STL; not certified STEP",
+  "bearing_internals": "illustrative internals, not a bearing-manufacturer reconstruction",
+  "revalidated_from": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\high_quality_hardware\\3d69f200c0e064af\\manifest.json"
+}
