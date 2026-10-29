@@ -6,6 +6,9 @@ from oobb_solidcraft.backend import require_ok
 from gearbox_native.project import PROJECT,VERSION,require_editable
 from gearbox_native.native_exports import export
 
+NATIVE_NAME = 'native_v' + VERSION.split('_')[-1]
+VERSION_LABEL = 'V' + VERSION.split('_')[-1]
+
 
 def sha(path):return hashlib.sha256(Path(path).read_bytes()).hexdigest()
 
@@ -30,30 +33,37 @@ def publish(part,source,views,overrides,source_sha):
    sampling=export_record['sampling'],parameters=values,part_names=list(export_record['parts']),
    print_mesh=export_record['print_mesh'],note=export_record['note'])
  (part/'native_export_verification.json').write_text(json.dumps(summary,indent=2)+'\n',encoding='utf-8',newline='\n')
- shutil.copyfile(PROJECT/'NATIVE_V8.md',part/'EDITING_PARAMETERS.md')
+ shutil.copyfile(PROJECT/f'NATIVE_{VERSION_LABEL}.md',part/'EDITING_PARAMETERS.md')
  bearing_guide=PROJECT/'parts/oobb_part_motor_gearbox_cycloidal_version_7_20_to_1_reduction/CASING_BEARINGS.md'
- bearing_text=bearing_guide.read_text(encoding='utf-8').replace('version_7','version_8').replace('V7','V8')
+ bearing_text=bearing_guide.read_text(encoding='utf-8').replace('version_7',VERSION).replace('V7',VERSION_LABEL)
  bearing_text=bearing_text.replace('project-root `gearbox_controls.solidcraft`','`gearbox_controls.solidcraft` for your chosen variant')
  bearing_text=bearing_text.replace('from `6810`',f"from `{int(values['casing_bearing'])}`")
  bearing_text=bearing_text.replace('EDITING_PARAMETERS.md#automatic-oobb-tab-positions','EDITING_PARAMETERS.md#three-piece-casing-and-printing')
+ if 'output_footprint_guard' in values:
+  start=bearing_text.index('The selection drives')
+  end=bearing_text.index('**`casing_fit_checks=0`**')
+  bearing_text=bearing_text[:start]+('V9 is designed around **6808** casing bearings. Keep this selection for the checked 5×5 design. '
+   'Bearing seats, journals and axial dimensions remain linked, but the output outline and mounting positions stay fixed at 74×74 mm. '
+   'The catalogue below is retained for reference; other bearing combinations are unverified and may exceed the native footprint guards. '
+   'See [the editing guide](EDITING_PARAMETERS.md#output-mounting-and-printing).\n\n')+bearing_text[end:]
  (part/'CASING_BEARINGS.md').write_text(bearing_text,encoding='utf-8',newline='\n')
  (part/'native_configuration.json').write_text(json.dumps(dict(version=VERSION,source_master='gearbox_controls.solidcraft',
     source_master_sha256=source_sha,parameters=overrides,geometry_implementation='shared native feature graph',
     editable_master=str(part/'gearbox_controls.solidcraft')),indent=2)+'\n',encoding='utf-8',newline='\n')
  ratio=int(values['reduction'])
- (part/'README.md').write_text(f'''# Native V8 — {ratio}:1
+ (part/'README.md').write_text(f'''# Native {VERSION_LABEL} — {ratio}:1
 
 Edit [gearbox_controls.solidcraft](gearbox_controls.solidcraft) in SolidCraft's
 Parameters menu. [Editing instructions](EDITING_PARAMETERS.md) explain the
 controls and print orientations. This preset uses the same feature graph as
-the other V8 presets, with exposed parameter overrides only.
+the other {VERSION_LABEL} presets, with exposed parameter overrides only.
 
 | Dimension | Value |
 |---|---:|
 | Contact radius | {values['contact_radius']:g} mm |
 | Eccentricity | {values['eccentricity']:g} mm |
 | Casing bearing | {values['casing_bearing']:g} |
-| Casing core diameter | {2*values['casing_radius']:g} mm |
+| Minimum circular casing envelope | {2*values['casing_radius']:g} mm |
 | OOBB grid | {values['tab_plate_size']:g} × {values['tab_plate_size']:g} |
 | Tab footprint | {2*(values['tab_radius']+7):g} × {2*(values['tab_radius']+7):g} mm |
 | Guide screws | {int(values['guide_count'])} × M{2*values['guide_radius']:g} × {values['guide_screw_length']:g} mm |
@@ -72,7 +82,7 @@ checked; physical printing and load testing are still needed.
  nav=PROJECT/'navigation_oobb/oobb/part/motor_gearbox/cycloidal'/VERSION/f'{ratio}_to_1_reduction'
  require_editable(nav);nav.mkdir(parents=True,exist_ok=True)
  (nav/'active_part.json').write_text(json.dumps(dict(version=VERSION,part_id=part.name,path=part.relative_to(PROJECT).as_posix()),indent=2)+'\n',encoding='utf-8')
- (nav/'README.md').write_text(f'# Native V8 — {ratio}:1\n\n[Parts and editing instructions](../../../../../../../parts/{part.name}/README.md)\n',encoding='utf-8')
+ (nav/'README.md').write_text(f'# Native {VERSION_LABEL} — {ratio}:1\n\n[Parts and editing instructions](../../../../../../../parts/{part.name}/README.md)\n',encoding='utf-8')
 
 
 def main(output=None,evidence=None):
@@ -80,14 +90,15 @@ def main(output=None,evidence=None):
  source=PROJECT/'gearbox_controls.solidcraft';digest=sha(source)
  with zipfile.ZipFile(source) as z:document=json.loads(z.read('document.json'))
  favorites=set(document['favorites'])
- assert any(c.get('name')=='output_casing_lobes' for c in document['components']),'V8 three-piece master must be published first'
+ assert any(c.get('name')=='output_casing_lobes' for c in document['components']),'A three-piece native master must be published first'
  options=working_oomp_populate.get_options()
  for option in options:
   unknown=set(option.get('native_parameters',{}))-favorites
   if unknown:raise ValueError(f'Variant changes non-exposed parameters: {unknown}')
  working_oomp_populate.main()
- working_oomp.main(part_filter=f'cycloidal_{VERSION}_',wait_for_completion=True)
- folder=Path(output or PROJECT/f'outputs/native_v8/catalogue_{uuid.uuid4().hex[:8]}').resolve();folder.mkdir(parents=True,exist_ok=False)
+ for option in options:
+  working_oomp.main(part_filter=working_oomp_populate.build_oomp_id(option),wait_for_completion=True)
+ folder=Path(output or PROJECT/f'outputs/{NATIVE_NAME}/catalogue_{uuid.uuid4().hex[:8]}').resolve();folder.mkdir(parents=True,exist_ok=False)
  evidence=Path(evidence).resolve() if evidence else folder
  for option in options:
   part_id=working_oomp_populate.build_oomp_id(option);part=PROJECT/'parts'/part_id;require_editable(part)
@@ -98,7 +109,7 @@ def main(output=None,evidence=None):
     require_ok(client.execute('parameters.change',changes=changes))
     require_ok(client.call('save',dict(path=str(native))))
   else:shutil.copyfile(source,native)
-  views=case/'exports';export(native,views,PROJECT/'solidcraft/native_v8_profile.json',evidence/part_id/'export')
+  views=case/'exports';export(native,views,PROJECT/f'solidcraft/{NATIVE_NAME}_profile.json',evidence/part_id/'export')
   assert sha(source)==digest,'The working master changed; retain generated outputs without publishing over concurrent edits'
   publish(part,native,views,changes,digest)
  print('Published populate variants:',[o['reduction'] for o in options],flush=True)

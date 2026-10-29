@@ -88,19 +88,19 @@ def get_parts(kwargs, oomp_mode):
 
 def get_version_1(thing, **kwargs):
     raise ValueError(
-        "Version 1 is sealed; use version_8 or inspect releases/version_1."
+        "Version 1 is sealed; use version_9 or inspect releases/version_1."
     )
 
 
 def get_version_2(thing, **kwargs):
     raise ValueError(
-        "Version 2 is sealed; use version_8 or inspect releases/version_2."
+        "Version 2 is sealed; use version_9 or inspect releases/version_2."
     )
 
 
 def get_version_3(thing, **kwargs):
     raise ValueError(
-        "Version 3 is sealed; use version_8 or inspect releases/version_3."
+        "Version 3 is sealed; use version_9 or inspect releases/version_3."
     )
 
 

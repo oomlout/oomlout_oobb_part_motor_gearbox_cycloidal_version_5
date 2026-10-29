@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "construction": "native",
+  "native_only": true,
+  "version": "version_9",
+  "external_piece_links": false,
+  "canonical_master": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction\\gearbox_controls.solidcraft",
+  "snapshot": true,
+  "geometry": "manufacturing clearances",
+  "native_parameter_overrides": {
+    "reduction": "20"
+  },
+  "source_master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "source_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "export_evidence": "native_export_verification.json",
+  "inherited_from": "releases/version_8/release.json"
+}

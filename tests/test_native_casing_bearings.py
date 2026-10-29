@@ -21,7 +21,7 @@ def test_all_published_native_views_include_the_bearing_control():
             document=json.loads(archive.read('document.json'))
         assert {'casing_bearing','casing_fit_checks'}<=set(document['favorites'])
         params={p['name']:p['expr'] for p in document['params']}
-        assert params['casing_bearing']=='6810'
+        assert params['casing_bearing']=='6808'
         assert params['casing_fit_checks']=='0'
         assert 'casing_width' in params['front_depth']
         assert 'casing_od' in params['casing_radius']

@@ -1,4 +1,4 @@
-"""Verbose catalogue/reference recipe; native V8 parameters live in its CAD file."""
+"""Verbose catalogue/reference recipe; native V9 parameters live in its CAD file."""
 import copy
 from oomp_populate_helper import build_oomp_id, write_extras
 
@@ -6,18 +6,18 @@ from oomp_populate_helper import build_oomp_id, write_extras
 def get_options(reductions=None):
     options = []
 
-    # Versions 1–7 are sealed in releases/. Version 8 starts from the accepted native baseline.
+    # Versions 1–8 are sealed in releases/. Version 9 starts from the accepted native baseline.
     # Add another option block here for another reduction.
     if True:
         option = {}
-        option["style"] = "version_8"
+        option["style"] = "version_9"
         option["architecture"] = "simple_6810"
         option["drive_connection"] = "grub_nut"
         option["direct_stack_layout"] = "base_grub"
-        option["reduction"] = 20 / 1
+        option["reduction"] = 35 / 1
         option["reduction_text"] = f"{int(option['reduction'])}_to_1"
-        option["lobe_radius"] = 3.0  # 6 mm contact diameter; None enables reduction-based sizing.
-        option["radius_offset"] = 1.40
+        option["lobe_radius"] = 1.5  # Contact RADIUS: 3 mm diameter.
+        option["radius_offset"] = 0.70
         option["pitch_radius_increment"] = 0.05
         option["post_fasteners"] = True
         option["split_output_casing"] = True
@@ -30,12 +30,23 @@ def get_options(reductions=None):
         option["motor_hole_pitch"] = 31
         option["motor_screw_length"] = 6
         option["native_parameters"] = {
-            "reduction": "20",
+            "reduction": "35",
+            "casing_bearing": "6808",
+            "bottom_bearing": "6702",
+            "top_bearing": "6702",
+            "eccentricity": "0.7 mm",
+            "contact_radius": "1.5 mm",
+            "guide_screw_length": "25 mm",
+            "standoff_radius": "2.7 mm",
+            "guide_radius": "1.5 mm",
+            "guide_outer_radius": "1.5 mm",
+            "guide_count": "6",
+            "automatic_internal_positions": "1",
         }
         options.append(copy.deepcopy(option))
 
     # This variant is made only by editing favourite native SolidCraft parameters.
-    # It shares the complete V8 feature graph with the 20:1 master.
+    # It shares the complete V9 feature graph with the 35:1 master.
     if True:
         option = copy.deepcopy(options[0])
         option["reduction"] = 10 / 1
@@ -74,10 +85,10 @@ def get_options(reductions=None):
             options.append(option)
 
     for option in options:
-        if option.get("style") in ("version_1", "version_2", "version_3", "version_4", "version_5", "version_6", "version_7"):
+        if option.get("style") in ("version_1", "version_2", "version_3", "version_4", "version_5", "version_6", "version_7", "version_8"):
             version = option["style"].split("_")[-1]
             raise ValueError(
-                f"Version {version} is sealed; use version_8 for new designs."
+                f"Version {version} is sealed; use version_9 for new designs."
             )
         reduction = float(option.get("reduction", 12))
         if not reduction.is_integer() or reduction < 3:
@@ -91,7 +102,7 @@ def get_options(reductions=None):
         option["taxonomy_4"] = "cycloidal"
 
         value_name = "style"
-        value = option.get(value_name, "version_8")
+        value = option.get(value_name, "version_9")
         option["taxonomy_5"] = f"{value}"
 
         value_name = "reduction_text"
@@ -100,7 +111,7 @@ def get_options(reductions=None):
 
         oobb_details = {}
         value_name = "style"
-        value = option.get(value_name, "version_8")
+        value = option.get(value_name, "version_9")
         oobb_details["oobb_name"] = value
         oobb_details.update(copy.deepcopy(option))
         oobb_details["oobb_type"] = "cycloidal"

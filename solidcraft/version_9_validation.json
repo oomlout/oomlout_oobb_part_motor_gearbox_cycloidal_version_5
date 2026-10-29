@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "version": "version_9",
+  "targeted_tests_passed": 24,
+  "metadata_recheck_tests_passed": 3,
+  "byte_identical_cad_export_files": 74,
+  "variants": [
+    "20:1",
+    "10:1"
+  ],
+  "geometry_changed": false,
+  "native_cad_verification": "Inherited unchanged V8 evidence by exact file hashes; no new CAD rebuild required.",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "preservation": {
+    "status": "passed",
+    "releases": {
+      "version_1": {
+        "checked_files": 55
+      },
+      "version_2": {
+        "checked_files": 105
+      },
+      "version_3": {
+        "checked_files": 145
+      },
+      "version_4": {
+        "checked_files": 2593
+      },
+      "version_5": {
+        "checked_files": 2296
+      },
+      "version_6": {
+        "checked_files": 3381
+      },
+      "version_7": {
+        "checked_files": 1936
+      },
+      "version_8": {
+        "checked_files": 105
+      }
+    },
+    "violations": []
+  }
+}

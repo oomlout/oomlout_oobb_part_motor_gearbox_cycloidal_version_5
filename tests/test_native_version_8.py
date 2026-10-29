@@ -1,34 +1,38 @@
-"""V8 is an independent editable continuation of sealed native V7."""
+"""Sealed V8 preserves the accepted three-piece native gearbox revision."""
 import hashlib,json,zipfile
 import pytest
 from gearbox_native.project import PROJECT,VERSION,active_part,require_editable,require_legacy_authoring
+
+def v8_part():
+ return PROJECT/'parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction'
 
 def read(p):return json.loads(p.read_text(encoding='utf-8'))
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 
 def test_v8_retains_provenance_and_unchanged_acceptance():
  b=read(PROJECT/'solidcraft/version_8_baseline.json')
- assert VERSION=='version_8' and not b['mechanical_changes']
- assert active_part().name==b['part_id'] and not (active_part()/'SEALED.json').exists()
+ assert not b['mechanical_changes']
+ assert v8_part().name==b['part_id'] and (v8_part()/'SEALED.json').exists()
  parent=PROJECT/'parts'/b['parent_part_id']
  assert (parent/'SEALED.json').exists()
  for name,digest in b['inherited_files_sha256'].items():
   assert sha(parent/name)==digest
- assert len(list((active_part()/'native_parts').glob('*.stl')))==9
+ assert len(list((v8_part()/'native_parts').glob('*.stl')))==9
  current=read(PROJECT/'solidcraft/native_v8.json')
- assert sha(PROJECT/'gearbox_controls.solidcraft')==current['master_sha256']
+ assert sha(v8_part()/'gearbox_controls.solidcraft')==current['master_sha256']
  assert current['initial_sha256']==b['master_sha256']
  assert sha(PROJECT/'gearbox_native/acceptance.py')==b['acceptance_sha256']
 
 def test_v8_export_and_population_route_away_from_sealed_versions():
  import working_oomp_populate as populate
- assert populate.get_options()[0]['style']=='version_8'
+ assert populate.get_options()[0]['style']==VERSION
  with pytest.raises(ValueError,match='sealed'):populate.get_options([{'style':'version_7'}])
  with pytest.raises(ValueError,match='native-only'):require_legacy_authoring()
  with pytest.raises(ValueError,match='Sealed'):require_editable(PROJECT/'parts'/read(PROJECT/'solidcraft/version_8_baseline.json')['parent_part_id'])
  profile=read(PROJECT/'solidcraft/native_v8_profile.json')
  assert profile['definition']['profile_tolerance']<=.005
- assert read(PROJECT/'solidcraft/active_design.json')['verification']=='solidcraft/native_v8.json'
+ with pytest.raises(ValueError,match='sealed'):populate.get_options([{'style':'version_8'}])
+ with pytest.raises(ValueError,match='Sealed'):require_editable(v8_part())
 
 def test_v7_archive_has_current_master_and_verification():
  r=read(PROJECT/'releases/version_7/release.json')
@@ -44,10 +48,10 @@ def native(path):
 
 
 def test_compact_variant_changes_only_exposed_native_parameters():
- from working_oomp_populate import get_options,build_oomp_id
- a=native(PROJECT/'gearbox_controls.solidcraft')
- for option in get_options():
-  part=PROJECT/'parts'/build_oomp_id(option);b=native(part/'gearbox_controls.solidcraft')
+ variants=read(PROJECT/'solidcraft/native_v8.json')['variants']
+ a=native(v8_part()/'gearbox_controls.solidcraft')
+ for option in variants.values():
+  part=PROJECT/'parts'/option['part_id'];b=native(part/'gearbox_controls.solidcraft')
   pa={p['name']:p['expr'] for p in a['params']};pb={p['name']:p['expr'] for p in b['params']}
   changed={k for k in pa if pa[k]!=pb[k]}
   assert changed<=set(a['favorites'])
@@ -59,7 +63,7 @@ def test_compact_variant_changes_only_exposed_native_parameters():
   clean=lambda d:[{k:v for k,v in f.items() if k!='sketch'} for f in d['features']]
   assert clean(a)==clean(b)
   assert len(list((part/'native_parts').glob('*.stl')))==9
- compact=next(o for o in get_options() if o['reduction']==10)
+ compact=variants['10']
  assert compact['native_parameters']['contact_radius']=='1.5 mm'
 
 

@@ -1,0 +1,92 @@
+architecture: simple_6810
+automatic_pitch: 1
+bearing_eccentric_bottom: '6703'
+bearing_eccentric_top: '6703'
+casing_wall: 2.0
+direct_stack_layout: base_grub
+disc_gap: 0.5
+drive_connection: grub_nut
+guide_bolt_radius_name: m3
+guide_pin_count: 6
+guide_pin_diameter: 3.0
+guide_pin_pitch_radius: 17.4
+lobe_clearance: 0.2
+lobe_eccentricity_ratio: 0.9
+lobe_radius: 3.0
+motor_hole_pitch: 31
+motor_screw_length: 6
+native_parameters:
+  reduction: '20'
+oobb_details:
+  architecture: simple_6810
+  automatic_pitch: 1
+  bearing_eccentric_bottom: '6703'
+  bearing_eccentric_top: '6703'
+  casing_wall: 2.0
+  direct_stack_layout: base_grub
+  disc_gap: 0.5
+  drive_connection: grub_nut
+  guide_bolt_radius_name: m3
+  guide_pin_count: 6
+  guide_pin_diameter: 3.0
+  guide_pin_pitch_radius: 17.4
+  lobe_clearance: 0.2
+  lobe_eccentricity_ratio: 0.9
+  lobe_radius: 3.0
+  motor_hole_pitch: 31
+  motor_screw_length: 6
+  native_parameters:
+    reduction: '20'
+  oobb_name: version_9
+  oobb_type: cycloidal
+  pitch_radius: 31.15
+  pitch_radius_buffer: 0.0
+  pitch_radius_increment: 0.05
+  post_fasteners: true
+  post_pitch_radius: 18.55
+  post_radius: 2.7
+  radius_offset: 1.4
+  reduction: 20
+  reduction_text: 20_to_1
+  reference_bearing: '6810'
+  rotor_thickness: 5.0
+  run_scad: false
+  run_solidcraft: true
+  shaft_radius_name: m5
+  split_output_casing: true
+  style: version_9
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: motor_gearbox
+  taxonomy_4: cycloidal
+  taxonomy_5: version_9
+  taxonomy_6: 20_to_1_reduction
+pitch_radius: 31.15
+pitch_radius_buffer: 0.0
+pitch_radius_increment: 0.05
+post_fasteners: true
+post_pitch_radius: 18.55
+post_radius: 2.7
+radius_offset: 1.4
+reduction: 20
+reduction_text: 20_to_1
+reference_bearing: '6810'
+rotor_thickness: 5.0
+shaft_radius_name: m5
+split_output_casing: true
+style: version_9
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: motor_gearbox
+taxonomy_4: cycloidal
+taxonomy_5: version_9
+taxonomy_6: 20_to_1_reduction
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

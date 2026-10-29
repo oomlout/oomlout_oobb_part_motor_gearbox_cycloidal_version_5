@@ -5,7 +5,9 @@ from gearbox_native.project import PROJECT,active_part
 
 
 def test_native_views_share_the_odd_plate_formula():
-    for path in [PROJECT/'gearbox_controls.solidcraft',*(active_part()/(name+'.solidcraft') for name in ('true','exploded','3dpr'))]:
+    # The automatic odd-plate rule belongs to sealed V8. V9 deliberately fixes 5x5.
+    part=PROJECT/'parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction'
+    for path in [part/(name+'.solidcraft') for name in ('gearbox_controls','true','exploded','3dpr')]:
         with zipfile.ZipFile(path) as archive:document=json.loads(archive.read('document.json'))
         params={p['name']:p['expr'] for p in document['params']}
         assert 'tab_plate_size' in params['tab_radius']

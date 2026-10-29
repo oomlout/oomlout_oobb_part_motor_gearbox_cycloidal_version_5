@@ -1,0 +1,333 @@
+{
+  "version": "version_9",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction",
+  "parent_release": "releases/version_8/release.json",
+  "mechanical_changes": false,
+  "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "variants": {
+    "20": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction",
+      "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+      "native_parameters": {
+        "reduction": "20"
+      }
+    },
+    "10": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction",
+      "master_sha256": "3f8055d1c58db458b9310ceae784f98c0c43ea96f3044d94590be70830c308d2",
+      "native_parameters": {
+        "reduction": "10",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.9 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "0 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      }
+    }
+  },
+  "inherited_files": {
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr.png",
+      "sha256": "049fa132203fe646c2234c6be5f86b04df97e00878a9dde21159d36268f8d026"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr.solidcraft",
+      "sha256": "7ff46bd914a12eb548c0c60378b80f049efa30163e88286836d0cc58d91523dc"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr.step",
+      "sha256": "7d28abfe78e1aee67bd1638ae41e94e0e26fcaa3acaeef4d08d28e9f32d02f29"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr.stl",
+      "sha256": "113cde596fb8ba8599ef9d465388a48c2c33fee5ff47f6f0e8f1abc0f10455f7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr_solidcraft.png",
+      "sha256": "049fa132203fe646c2234c6be5f86b04df97e00878a9dde21159d36268f8d026"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/3dpr_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/3dpr_solidcraft.stl",
+      "sha256": "113cde596fb8ba8599ef9d465388a48c2c33fee5ff47f6f0e8f1abc0f10455f7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded.png",
+      "sha256": "c645d32ebd1429a00c6e6e0918d413b94f74ed168916683ba88e4817eed695ce"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded.solidcraft",
+      "sha256": "c72e35a99818484c6fd8ec806f5761c3d424b7076d0472cf6240c371626acd17"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded.step",
+      "sha256": "0f6a1ea3570814fc3dd380f7f3de12abe0f2302a8ddba964c0f12625a934ce2e"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded.stl",
+      "sha256": "58e6e89b037c8b656fa9dc09e079379f8daadce3e158489d5c9a9bcc4cec85e7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded_solidcraft.png",
+      "sha256": "c645d32ebd1429a00c6e6e0918d413b94f74ed168916683ba88e4817eed695ce"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/exploded_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/exploded_solidcraft.stl",
+      "sha256": "58e6e89b037c8b656fa9dc09e079379f8daadce3e158489d5c9a9bcc4cec85e7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/gearbox_controls.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/gearbox_controls.solidcraft",
+      "sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true.png",
+      "sha256": "d98e6a4fe7c34ee8152ad3a2283e01d87dc4ac7b6c5cb8cc2ff5b7392dd31a7c"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true.solidcraft",
+      "sha256": "a761ec94b94962c0a6b63f26a7f1c9d03c10a6953d7006c0e188c8b1d245ef4a"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true.step",
+      "sha256": "d448c754ccd07118192022945193990e2d69bded73cd66b42b37747e7e353f89"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true.stl",
+      "sha256": "bb6797303dcaa78def55da5f263e6e5f287be74fd500a05cf0519f078d563628"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true_solidcraft.png",
+      "sha256": "d98e6a4fe7c34ee8152ad3a2283e01d87dc4ac7b6c5cb8cc2ff5b7392dd31a7c"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/true_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/true_solidcraft.stl",
+      "sha256": "bb6797303dcaa78def55da5f263e6e5f287be74fd500a05cf0519f078d563628"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/eccentric_hub_lower.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/eccentric_hub_lower.step",
+      "sha256": "b80b9dd0deacc1bc80f41fe935e864699ecb3e8171f888e162331405c3c53336"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/eccentric_hub_lower.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/eccentric_hub_lower.stl",
+      "sha256": "b0afc736babb3e60f360114902e71eec7b21fe135df468507e8bd3cb87fa5942"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/eccentric_hub_upper.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/eccentric_hub_upper.step",
+      "sha256": "14e7ded6e153b714f527f7f005aa323047b7469cd5a88e00af754fcb6bf95617"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/eccentric_hub_upper.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/eccentric_hub_upper.stl",
+      "sha256": "4d93ae91935edc1c4857c4197caae7a5cbeef5aaac3a4f2cde87a5efbf6a473d"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/motor_mount.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/motor_mount.step",
+      "sha256": "cdf0ef984c068b4b320baeadd43e4064fa4a6c3757331c85c28fc3ea58ebc319"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/motor_mount.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/motor_mount.stl",
+      "sha256": "b5bffc3d3ee7a5351f1b54e9c195140808371893ef174348aa1327a82078ac51"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_lobes.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_lobes.step",
+      "sha256": "25333a5927ee4f28cd05ca7c71047e201d473bc81b6668114ca08fa2470200a2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_lobes.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_lobes.stl",
+      "sha256": "fae60458f72e1c1867a76b30bbb452e02852fe977abcaff76d788fe17e6622fa"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_lower.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_lower.step",
+      "sha256": "35e04a7d431bcab89b01b60d089a7376491cf10c7dd0387d35d4a349dc572603"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_lower.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_lower.stl",
+      "sha256": "8558e92b53fa292607e172f6d3e32844977028937ce71c2493f6ae7e74f93a32"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_upper.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_upper.step",
+      "sha256": "6f7f885df000c11ee59512fd0cf050fd25eba0b4a94dffc27c543c0d77f7d3eb"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/output_casing_upper.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/output_casing_upper.stl",
+      "sha256": "7fdc5423a78f76ae1667b9c71a1e3903ef59b3a588812a1d5bcfb6e00168a499"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/pin_front.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/pin_front.step",
+      "sha256": "4cc2685be42fd00ddf8df8bd795c284691e796a05f34cdbffa6035b8a9d5289a"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/pin_front.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/pin_front.stl",
+      "sha256": "9c6ccf714d585798fed61da7bcbc242c32ede7c9e9ba0e638080b8f7f50aa2fa"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/rotor_a.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/rotor_a.step",
+      "sha256": "bd6a0682e6e9536afb4eae5c528fdf557493a91baeeef0a2fa1041836a764907"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/rotor_a.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/rotor_a.stl",
+      "sha256": "1dc14d53c26227e83a957c9d6d8519f744a17daaf86b4e0e74978e0eff8ae3eb"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/rotor_b.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/rotor_b.step",
+      "sha256": "c3ede409071123975fd91c923454e8f83aee678a34d3812544506fe2960e7ac2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_20_to_1_reduction/native_parts/rotor_b.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction/native_parts/rotor_b.stl",
+      "sha256": "2f8064eed570e2817a1e452fff47f6044704b75b57cfa620d95a7ab83cab878b"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr.png",
+      "sha256": "34448275bd00adda2f5de1ea6624c5a424ae4e22cc952dc6b5ca0b2b956725e6"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr.solidcraft",
+      "sha256": "1f8285d8f33ca36ccaa279e50efede235cf673a40a6accd868786bca177b228a"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr.step",
+      "sha256": "b9a5acbb55535452e17e9bba94b3ee01aaf5654583d4ceda7f13963178c563dd"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr.stl",
+      "sha256": "9e8846848cc5894bd5e5cbc48c8a0e8c3de8fe10c23a1ab19b9fcb65cf21bdb3"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr_solidcraft.png",
+      "sha256": "34448275bd00adda2f5de1ea6624c5a424ae4e22cc952dc6b5ca0b2b956725e6"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/3dpr_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/3dpr_solidcraft.stl",
+      "sha256": "9e8846848cc5894bd5e5cbc48c8a0e8c3de8fe10c23a1ab19b9fcb65cf21bdb3"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded.png",
+      "sha256": "acd96472a3d30a893462a9299e460b1ffb915fa65c4ed5293aafac272a3ab1b4"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded.solidcraft",
+      "sha256": "d0e825be2c8c61f2d1f997bdd88349f7b8669358cce592953ad97d750ce500e5"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded.step",
+      "sha256": "54cb35f702ab3b0c6f51e1169686d22411aaa30fdbec26534deae38f9394fde8"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded.stl",
+      "sha256": "8148139c67f2423df5dcbf5cf96eda1427cb69a9043eee6a7f3e889c15507b8b"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded_solidcraft.png",
+      "sha256": "acd96472a3d30a893462a9299e460b1ffb915fa65c4ed5293aafac272a3ab1b4"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/exploded_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/exploded_solidcraft.stl",
+      "sha256": "8148139c67f2423df5dcbf5cf96eda1427cb69a9043eee6a7f3e889c15507b8b"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/gearbox_controls.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/gearbox_controls.solidcraft",
+      "sha256": "3f8055d1c58db458b9310ceae784f98c0c43ea96f3044d94590be70830c308d2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true.png",
+      "sha256": "79e7ad215151f190e69ad3ea4a360af38caa502a324245d107617e2b9b0c8245"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true.solidcraft": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true.solidcraft",
+      "sha256": "e7c5188d8c2dfd4951a8a56e75da525356a104f2f46365d1c628f8be56e765c9"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true.step",
+      "sha256": "abe6bbc9c45f3664d376e0d3ef6b36c2d84be91de86559856db56e7016d71581"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true.stl",
+      "sha256": "cb200d0bb5b5b394059edc9fc1be7e1ab25846f96d909b00d2b4cf271c994ea2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true_solidcraft.png": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true_solidcraft.png",
+      "sha256": "79e7ad215151f190e69ad3ea4a360af38caa502a324245d107617e2b9b0c8245"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/true_solidcraft.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/true_solidcraft.stl",
+      "sha256": "cb200d0bb5b5b394059edc9fc1be7e1ab25846f96d909b00d2b4cf271c994ea2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/eccentric_hub_lower.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/eccentric_hub_lower.step",
+      "sha256": "fd77df417f5af8f2100126fd32c4788c3fce9150130744d52738ff52f4d8bf8e"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/eccentric_hub_lower.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/eccentric_hub_lower.stl",
+      "sha256": "81306228855d16b0b1950c30707b840c703c6082418b207cfa656dff56e9c7e0"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/eccentric_hub_upper.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/eccentric_hub_upper.step",
+      "sha256": "fdf6bca8257626e64278533c714394cc39adcefd6e80d3dd0f233b2190773605"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/eccentric_hub_upper.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/eccentric_hub_upper.stl",
+      "sha256": "ba3672f12b56dddbf73a2dcdb9d356521b5e7feb59e2144a85e180ef314e80ac"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/motor_mount.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/motor_mount.step",
+      "sha256": "3abf145596967efa10dab483533c5324f09c46a5d5f04dbf3198ba08e1205f74"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/motor_mount.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/motor_mount.stl",
+      "sha256": "152b7c460c926703a61b3dd7db8cdf5a8af53d007645c63759c9cafc9350f8a2"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_lobes.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_lobes.step",
+      "sha256": "596727b778b4f8bd8815575613e645c10a920097668bbb160ff693df1574e102"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_lobes.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_lobes.stl",
+      "sha256": "590f60f9e725a41571a12e6b59f179e341e34b8650fd300980d90103f5926555"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_lower.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_lower.step",
+      "sha256": "e88cd53b0934f1d31f5f6f51fb7df214ffdbb8ace944f31a2fb9edbc9038087f"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_lower.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_lower.stl",
+      "sha256": "ed39830a9b07ce4341f37ac80b748258eaa5ad4a1230c1abf606ce5adc24cf8a"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_upper.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_upper.step",
+      "sha256": "09429cfd157d77cdb042fa64f5ebd0a3f620dc27573074ae0f3077f3ed20d592"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/output_casing_upper.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/output_casing_upper.stl",
+      "sha256": "24bcbf28f1b241ab59827e2738b119da38c9bf95e92303972f0505d4fdd19d73"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/pin_front.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/pin_front.step",
+      "sha256": "c2f0390d462be841f953959cca0b41c3f39360f08e8860e925adfeced3ec6494"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/pin_front.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/pin_front.stl",
+      "sha256": "54850f39c02ca821e19f175bb2a31b4c16dcf0d11cd2c3a17fb2ef7e0a0b4241"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/rotor_a.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/rotor_a.step",
+      "sha256": "dc939b0577a8a351f8a7d50aefec4ebb0c6cb617bc33170de141c06f677c14fc"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/rotor_a.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/rotor_a.stl",
+      "sha256": "b89c29bee8d7be66ac93f1bfa9c2b553bbef84f292415860a71ab1ce9cdb47c0"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/rotor_b.step": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/rotor_b.step",
+      "sha256": "02aa42b6286fc9a9136d6a0382929d018dc2fc591098843ddc3992a5e8de65b7"
+    },
+    "parts/oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction/native_parts/rotor_b.stl": {
+      "source": "parts/oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction/native_parts/rotor_b.stl",
+      "sha256": "aa4b35a49338cacfc4486a7f5741d423a208c7dc5a7f7cb6be310d258f5a3466"
+    }
+  }
+}

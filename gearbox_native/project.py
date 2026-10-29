@@ -3,8 +3,8 @@ from pathlib import Path
 import json
 import os
 
-VERSION = "version_8"
-PART_ID = f"oobb_part_motor_gearbox_cycloidal_{VERSION}_20_to_1_reduction"
+VERSION = "version_9"
+PART_ID = f"oobb_part_motor_gearbox_cycloidal_{VERSION}_35_to_1_reduction"
 PROJECT = Path(__file__).resolve().parents[1]
 
 

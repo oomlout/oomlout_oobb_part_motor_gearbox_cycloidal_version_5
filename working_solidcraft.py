@@ -37,15 +37,15 @@ OOBB_DETAILS = _detail_keys()
 
 
 def get_version_4(thing, **kwargs):
-    raise ValueError("Version 4 is sealed; use version_8")
+    raise ValueError("Version 4 is sealed; use version_9")
 
 
 def get_version_5(thing, **kwargs):
-    raise ValueError("Version 5 is sealed; use version_8")
+    raise ValueError("Version 5 is sealed; use version_9")
 
 
 def get_version_6(thing, **kwargs):
-    raise ValueError("Version 6 is sealed; use version_8")
+    raise ValueError("Version 6 is sealed; use version_9")
 
 
 def get_version_7(thing, **kwargs):
@@ -75,8 +75,8 @@ def get_version_7(thing, **kwargs):
 
 def get_cycloidal(thing, **kwargs):
     # V7 remains readable for reference tests; main blocks legacy writes.
-    if kwargs.get("style", "version_8") not in ("version_7", "version_8"):
-        raise ValueError("Only V7 reference and V8 recipes are supported; earlier versions are sealed")
+    if kwargs.get("style", "version_9") not in ("version_7", "version_8", "version_9"):
+        raise ValueError("Only V7/V8 reference and V9 recipes are supported; earlier versions are sealed")
     return get_version_7(thing, **kwargs)
 
 

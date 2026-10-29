@@ -1,0 +1,56 @@
+{
+  "version": "version_9",
+  "state": "native-only",
+  "master": "gearbox_controls.solidcraft",
+  "initial_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "master_sha256": "689681e2b5a1b94502db5e4e5943df17d4bce1e4c86ab4170c1c02cdc334c042",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction",
+  "profile": "solidcraft/native_v9_profile.json",
+  "baseline": "solidcraft/version_9_baseline.json",
+  "parent_release": "releases/version_8/release.json",
+  "variants": {
+    "35": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction",
+      "master_sha256": "689681e2b5a1b94502db5e4e5943df17d4bce1e4c86ab4170c1c02cdc334c042",
+      "native_parameters": {
+        "reduction": "35",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.7 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "2.7 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      }
+    },
+    "10": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction",
+      "master_sha256": "e7bf695ddbbbd7181de3b9dff0d9586c4e9fcf4d36c3c6d26d397849f7cf0805",
+      "native_parameters": {
+        "reduction": "10",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.9 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "0 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      }
+    }
+  },
+  "component_count": 9,
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "inherited_verification": "solidcraft/native_v8_three_piece_verification.json",
+  "setup_verification": "solidcraft/version_9_validation.json",
+  "revision": "35:1, 6808, fixed 5x5 full-width output and named shaft fits",
+  "verification": "solidcraft/native_v9_5x5_verification.json",
+  "revision_validation": "solidcraft/version_9_revision_validation.json"
+}

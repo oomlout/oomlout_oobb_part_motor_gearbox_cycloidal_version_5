@@ -1,0 +1,21 @@
+{
+  "version": "version_9",
+  "source_master": "gearbox_controls.solidcraft",
+  "source_master_sha256": "689681e2b5a1b94502db5e4e5943df17d4bce1e4c86ab4170c1c02cdc334c042",
+  "parameters": {
+    "reduction": "35",
+    "casing_bearing": "6808",
+    "bottom_bearing": "6702",
+    "top_bearing": "6702",
+    "eccentricity": "0.7 mm",
+    "contact_radius": "1.5 mm",
+    "guide_screw_length": "25 mm",
+    "standoff_radius": "2.7 mm",
+    "guide_radius": "1.5 mm",
+    "guide_outer_radius": "1.5 mm",
+    "guide_count": "6",
+    "automatic_internal_positions": "1"
+  },
+  "geometry_implementation": "shared native feature graph",
+  "editable_master": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction\\gearbox_controls.solidcraft"
+}
