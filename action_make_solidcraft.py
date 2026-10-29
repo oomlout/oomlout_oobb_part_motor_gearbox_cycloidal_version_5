@@ -5,7 +5,7 @@ def main(**kwargs):
     from gearbox_native.project import native_only
     if native_only():
         from action_export_native import main as export_native
-        return export_native([])
+        return export_native(['--populate'])
     kwargs["run_oomp_populate"] = True
     kwargs["run_oomp"] = True
     kwargs["run_action"] = False

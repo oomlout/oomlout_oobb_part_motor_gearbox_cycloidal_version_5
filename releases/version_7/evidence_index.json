@@ -1,0 +1,74 @@
+{
+  "archive": "version_7.zip",
+  "reports": {
+    "build/native_v7/assembly_03/assembly_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/assembly_03/assembly_verification.json"
+    },
+    "build/native_v7/assembly_03/guard_checks/guards.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/assembly_03/guard_checks/guards.json"
+    },
+    "build/native_v7/assembly_03/m6_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/assembly_03/m6_verification.json"
+    },
+    "build/native_v7/assembly_03/manual_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/assembly_03/manual_verification.json"
+    },
+    "build/native_v7/assembly_03/views_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/assembly_03/views_verification.json"
+    },
+    "build/native_v7/casing_bearings_02/assembly_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/casing_bearings_02/assembly_verification.json"
+    },
+    "build/native_v7/casing_bearings_02/casing_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/casing_bearings_02/casing_verification.json"
+    },
+    "build/native_v7/casing_bearings_02/seat_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/casing_bearings_02/seat_verification.json"
+    },
+    "build/native_v7/casing_bearings_views_01/export.json": {
+      "status": "native_export_checked",
+      "archive_entry": "build/native_v7/casing_bearings_views_01/export.json"
+    },
+    "build/native_v7/casing_selector/verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/casing_selector/verification.json"
+    },
+    "build/native_v7/odd_oobb_tab_rule/verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/odd_oobb_tab_rule/verification.json"
+    },
+    "build/native_v7/odd_oobb_tabs_01/casing_verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/odd_oobb_tabs_01/casing_verification.json"
+    },
+    "build/native_v7/odd_oobb_tabs_01/default_tab_geometry.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/odd_oobb_tabs_01/default_tab_geometry.json"
+    },
+    "build/native_v7/odd_oobb_tabs_01/tab_geometry.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/odd_oobb_tabs_01/tab_geometry.json"
+    },
+    "build/native_v7/odd_oobb_tabs_views_01/export.json": {
+      "status": "native_export_checked",
+      "archive_entry": "build/native_v7/odd_oobb_tabs_views_01/export.json"
+    },
+    "build/native_v7/presentation_01/export.json": {
+      "status": "native_export_checked",
+      "archive_entry": "build/native_v7/presentation_01/export.json"
+    },
+    "build/native_v7/rotor_10/verification.json": {
+      "status": "passed",
+      "archive_entry": "build/native_v7/rotor_10/verification.json"
+    }
+  },
+  "note": "Complete JSON records are in the archive at their original build paths."
+}

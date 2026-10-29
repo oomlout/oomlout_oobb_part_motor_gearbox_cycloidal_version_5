@@ -25,7 +25,7 @@ def test_all_published_native_views_include_the_bearing_control():
         assert params['casing_fit_checks']=='0'
         assert 'casing_width' in params['front_depth']
         assert 'casing_od' in params['casing_radius']
-        assert len(document['components'])==8
+        assert len(document['components'])==9
         assert all(f['type'] in {'sketch','extrude','revolve','combine','move'} for f in document['features'])
 
 

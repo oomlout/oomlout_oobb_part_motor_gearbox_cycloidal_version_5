@@ -2,7 +2,10 @@
 import hashlib,json,zipfile
 from pathlib import Path
 import pytest,yaml
-from gearbox_native.project import PROJECT,VERSION,active_part
+from gearbox_native.project import PROJECT
+
+def active_part():
+    return PROJECT/"parts/oobb_part_motor_gearbox_cycloidal_version_7_20_to_1_reduction"
 from gearbox_native.export import geometry_digest
 from oobb_solidcraft.compiler import compile_thing
 from oobb_solidcraft.construction import build_thing
@@ -10,8 +13,8 @@ from oobb_solidcraft.construction import build_thing
 
 def test_inherited_native_parts_are_byte_identical_and_immutable_provenance_exists():
     baseline=json.loads((PROJECT/'solidcraft/version_7_baseline.json').read_text())
-    assert VERSION=='version_7' and len(baseline['inherited_documents'])==16
-    assert not (active_part()/'SEALED.json').exists()
+    assert len(baseline['inherited_documents'])==16
+    assert (active_part()/'SEALED.json').exists()
     for key,expected in baseline['inherited_documents'].items():
         mode,name=key.split('/');path=active_part()/'solidcraft'/mode/(name+'.solidcraft')
         record=json.loads(path.with_name(name+'_manifest.json').read_text())

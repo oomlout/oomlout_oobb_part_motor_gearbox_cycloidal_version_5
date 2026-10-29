@@ -1,4 +1,4 @@
-"""Verify sealed V1–V6 archives, catalogue artifacts and native evidence."""
+"""Verify sealed V1–V7 archives, catalogue artifacts and native evidence."""
 import hashlib
 import json
 from pathlib import Path
@@ -13,7 +13,7 @@ def sha(path):
 
 def main():
     report = dict(status='passed', releases={}, violations=[])
-    for number in (1, 2, 3, 4, 5, 6):
+    for number in (1, 2, 3, 4, 5, 6, 7):
         folder = PROJECT/'releases'/f'version_{number}'
         manifest = json.loads((folder/'release.json').read_text())
         expected = {folder/manifest['archive']: manifest['archive_sha256']}

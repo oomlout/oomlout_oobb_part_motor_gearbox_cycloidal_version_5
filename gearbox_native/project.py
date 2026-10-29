@@ -3,7 +3,7 @@ from pathlib import Path
 import json
 import os
 
-VERSION = "version_7"
+VERSION = "version_8"
 PART_ID = f"oobb_part_motor_gearbox_cycloidal_{VERSION}_20_to_1_reduction"
 PROJECT = Path(__file__).resolve().parents[1]
 
@@ -26,11 +26,11 @@ def require_editable(folder):
 
 
 def native_only():
-    """The marker is installed only after the one-document V7 is verified."""
-    return (PROJECT / 'solidcraft/native_v7.json').exists()
+    """The active native marker protects the master."""
+    return (PROJECT / f'solidcraft/native_v{VERSION.split("_")[-1]}.json').exists()
 
 
 def require_legacy_authoring():
     if native_only():
-        raise ValueError('V7 is native-only. Edit gearbox_controls.solidcraft in the Parameters menu. '
+        raise ValueError(f'{VERSION} is native-only. Edit gearbox_controls.solidcraft in the Parameters menu. '
                          'Use action_export_native.py for exports; legacy regeneration cannot replace the native master.')

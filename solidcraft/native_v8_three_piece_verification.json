@@ -1,0 +1,609 @@
+{
+  "status": "passed",
+  "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "cases": {
+    "baseline": {
+      "status": "passed",
+      "changes": {
+        "reduction": "20",
+        "standoff_radius": "2.7 mm",
+        "guide_count": "6",
+        "guide_outer_radius": "1.5 mm",
+        "guide_radius": "1.5 mm",
+        "eccentricity": "1.4 mm",
+        "casing_bearing": "6810",
+        "bottom_bearing": "6703",
+        "top_bearing": "6703",
+        "contact_radius": "3.0 mm",
+        "guide_screw_length": "20 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 20.0,
+        "contact_radius": 3.0,
+        "tab_plate_size": 7.0,
+        "guide_screw_length": 20.0,
+        "casing_radius": 36.150000000000006,
+        "lobe_band_radius": 36.150000000000006,
+        "pitch": 31.150000000000002,
+        "guide_pitch": 16.7,
+        "guide_count": 6.0,
+        "guide_outer_radius": 1.5,
+        "posts_enabled": 1.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.002321517226697395,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0839403232957745
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.06122693917238338
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.02363216887945568
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08187210250101565
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.012409547714405741
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08764514572246702
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.010756925125908073
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08985796589601551
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.004498569104675069
+        }
+      },
+      "reopens": 2,
+      "maximum_intersection_mm3": 0,
+      "maximum_motion_overlap_mm3": 0
+    },
+    "ratio_16": {
+      "status": "passed",
+      "changes": {
+        "reduction": "16",
+        "standoff_radius": "2.7 mm",
+        "guide_count": "6",
+        "guide_outer_radius": "1.5 mm",
+        "guide_radius": "1.5 mm",
+        "eccentricity": "1.4 mm",
+        "casing_bearing": "6810",
+        "bottom_bearing": "6703",
+        "top_bearing": "6703",
+        "contact_radius": "3.0 mm",
+        "guide_screw_length": "20 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 16.0,
+        "contact_radius": 3.0,
+        "tab_plate_size": 7.0,
+        "guide_screw_length": 20.0,
+        "casing_radius": 34.6,
+        "lobe_band_radius": 34.55,
+        "pitch": 29.55,
+        "guide_pitch": 16.7,
+        "guide_count": 6.0,
+        "guide_outer_radius": 1.5,
+        "posts_enabled": 1.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.0019114991175694725,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08916868227991842
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0922256230133877
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.02363216887999875
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08187210250101565
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.010711491709183585
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08208267089863286
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.010756925125908073
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08985796589601551
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.004498569104675069
+        }
+      }
+    },
+    "guide_spacers": {
+      "status": "passed",
+      "changes": {
+        "reduction": "20",
+        "standoff_radius": "0 mm",
+        "guide_count": "4",
+        "guide_outer_radius": "2 mm",
+        "guide_radius": "1.5 mm",
+        "eccentricity": "1.4 mm",
+        "casing_bearing": "6810",
+        "bottom_bearing": "6703",
+        "top_bearing": "6703",
+        "contact_radius": "3.0 mm",
+        "guide_screw_length": "20 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 20.0,
+        "contact_radius": 3.0,
+        "tab_plate_size": 7.0,
+        "guide_screw_length": 20.0,
+        "casing_radius": 36.150000000000006,
+        "lobe_band_radius": 36.150000000000006,
+        "pitch": 31.150000000000002,
+        "guide_pitch": 17.2,
+        "guide_count": 4.0,
+        "guide_outer_radius": 2.0,
+        "posts_enabled": 0.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.002321517226697395,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0839403232957745
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.06122693917238338
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.02363216887945568
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0500003883014437
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.012244876168460173
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08764514572246702
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.01075744351442722
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08985796589601551
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.004498569104675069
+        }
+      }
+    },
+    "M6_guides": {
+      "status": "passed",
+      "changes": {
+        "reduction": "20",
+        "standoff_radius": "0 mm",
+        "guide_count": "3",
+        "guide_outer_radius": "3 mm",
+        "guide_radius": "3 mm",
+        "eccentricity": "0.5 mm",
+        "casing_bearing": "6810",
+        "bottom_bearing": "6703",
+        "top_bearing": "6703",
+        "contact_radius": "3.0 mm",
+        "guide_screw_length": "20 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 20.0,
+        "contact_radius": 3.0,
+        "tab_plate_size": 7.0,
+        "guide_screw_length": 20.0,
+        "casing_radius": 34.6,
+        "lobe_band_radius": 31.700000000000003,
+        "pitch": 26.700000000000003,
+        "guide_pitch": 17.3,
+        "guide_count": 3.0,
+        "guide_outer_radius": 3.0,
+        "posts_enabled": 0.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.0009756496070160118,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08916868227991842
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.038741350843823
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.02363216887999875
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.07763793365298574
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.009325912285534666
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.07197376167951774
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.010799820619437874
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.01666673024495502
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.004618187236424958
+        }
+      }
+    },
+    "large_lobes": {
+      "status": "passed",
+      "changes": {
+        "reduction": "24",
+        "standoff_radius": "2.7 mm",
+        "guide_count": "6",
+        "guide_outer_radius": "1.5 mm",
+        "guide_radius": "1.5 mm",
+        "eccentricity": "1.4 mm",
+        "casing_bearing": "6810",
+        "bottom_bearing": "6703",
+        "top_bearing": "6703",
+        "contact_radius": "3.0 mm",
+        "guide_screw_length": "20 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 24.0,
+        "contact_radius": 3.0,
+        "tab_plate_size": 9.0,
+        "guide_screw_length": 20.0,
+        "casing_radius": 42.35,
+        "lobe_band_radius": 42.35,
+        "pitch": 37.35,
+        "guide_pitch": 16.7,
+        "guide_count": 6.0,
+        "guide_outer_radius": 1.5,
+        "posts_enabled": 1.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.0023250338880537076,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08126203640402845
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.06152248141917005
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0316068034241198
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08187210250101565
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.016903257450769593
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.06871145399998269
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.010756925125933037
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08985796589601551
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.004498569104675069
+        }
+      }
+    },
+    "compact_10": {
+      "status": "passed",
+      "changes": {
+        "reduction": "10",
+        "standoff_radius": "0 mm",
+        "guide_count": "6",
+        "guide_outer_radius": "1.5 mm",
+        "guide_radius": "1.5 mm",
+        "eccentricity": "0.9 mm",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "automatic_internal_positions": "1"
+      },
+      "dimensions": {
+        "reduction": 10.0,
+        "contact_radius": 1.5,
+        "tab_plate_size": 7.0,
+        "guide_screw_length": 25.0,
+        "casing_radius": 28.1,
+        "lobe_band_radius": 25.900000000000002,
+        "pitch": 22.400000000000002,
+        "guide_pitch": 15.2,
+        "guide_count": 6.0,
+        "guide_outer_radius": 1.5,
+        "posts_enabled": 0.0,
+        "join_screw_length": 20.0,
+        "join_head_recess": 5.800000000000004
+      },
+      "sampling": {
+        "max_sampled_chord_error_mm": 0.0013468769879550907,
+        "tolerance_mm": 0.005,
+        "checks_per_span": 15,
+        "point_count": 103
+      },
+      "parts": {
+        "output_casing_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08394032329602354
+        },
+        "output_casing_lobes": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.023632168880765126
+        },
+        "output_casing_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.02363174580215032
+        },
+        "motor_mount": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.03800996100364499
+        },
+        "rotor_a": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.0083228782723232
+        },
+        "rotor_b": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.008323163041796509
+        },
+        "pin_front": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.008631336563752354
+        },
+        "eccentric_hub_lower": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08925806071685266
+        },
+        "eccentric_hub_upper": {
+          "valid": true,
+          "watertight": true,
+          "maximum_sample_distance_mm": 0.08473173043696297
+        }
+      },
+      "reopens": 2,
+      "maximum_intersection_mm3": 0,
+      "maximum_motion_overlap_mm3": 0
+    }
+  },
+  "hardware": {
+    "baseline": {
+      "status": "passed",
+      "check_count": 278,
+      "maximum_overlap_mm3": 0
+    },
+    "compact_10": {
+      "status": "passed",
+      "check_count": 278,
+      "maximum_overlap_mm3": 0
+    }
+  },
+  "long_clamp": {
+    "status": "passed",
+    "changes": {
+      "casing_bearing": "6820"
+    },
+    "parameters": {
+      "casing_width": 13.0,
+      "housing_top": 43.800000000000004,
+      "join_screw_length": 30.0,
+      "join_head_recess": 7.800000000000004,
+      "join_head_seat": 36.0,
+      "upper_split_z": 29.500000000000004
+    },
+    "mesh": {
+      "validator": "trimesh 5.1.0 / Open CASCADE point distance",
+      "units": "mm (implicit STL coordinates)",
+      "watertight": true,
+      "consistent_winding": true,
+      "positive_volume": true,
+      "body_count": 1,
+      "euler_number": -48,
+      "bounds_mm": [
+        [
+          -82.0,
+          -82.0,
+          29.5
+        ],
+        [
+          82.0,
+          82.0,
+          43.79999923706055
+        ]
+      ],
+      "volume_mm3": 53461.49209851414,
+      "triangles": 11188,
+      "surface_budget_mm": 0.1,
+      "maximum_sample_distance_mm": 0.038049449416089856,
+      "distance_method": "trimmed surface projection upper bound with exact extrema fallback",
+      "sample_count": 400,
+      "volume_budget_mm3": 2821.1978126441168,
+      "volume_error_mm3": 83.09813915220002
+    },
+    "note": "Clamp geometry and native health only; no full mechanism fit certification for 6820."
+  },
+  "variants": {
+    "20": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction",
+      "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+      "native_parameters": {
+        "reduction": "20"
+      }
+    },
+    "10": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction",
+      "master_sha256": "3f8055d1c58db458b9310ceae784f98c0c43ea96f3044d94590be70830c308d2",
+      "native_parameters": {
+        "reduction": "10",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.9 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "0 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      }
+    }
+  },
+  "evidence_archive": "solidcraft/evidence/v8_three_piece.zip",
+  "evidence_sha256": "e93bec6ddd7c1858f9bfef62285352dcd305aecb32233c779a8cb670f3ac10c2",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "physical_print_load_tested": false
+}

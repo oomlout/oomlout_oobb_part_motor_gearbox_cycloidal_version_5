@@ -1,4 +1,4 @@
-"""Export the saved native V7; this does not rebuild or modify the source design."""
+"""Export the saved active native design; this does not rebuild or modify the source design."""
 import json
 from pathlib import Path
 import subprocess

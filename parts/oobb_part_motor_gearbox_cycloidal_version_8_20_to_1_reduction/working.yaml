@@ -1,0 +1,344 @@
+architecture: simple_6810
+automatic_pitch: 1
+bearing_eccentric_bottom: '6703'
+bearing_eccentric_top: '6703'
+bip_39_2_word_array:
+- pen
+- shove
+bip_39_2_word_no_space: penshove
+bip_39_2_word_space: pen shove
+bip_39_2_word_underscore: pen_shove
+bip_39_3_word_array:
+- pen
+- shove
+- cloth
+bip_39_3_word_no_space: penshovecloth
+bip_39_3_word_space: pen shove cloth
+bip_39_3_word_underscore: pen_shove_cloth
+bip_39_full_array:
+- pen
+- shove
+- cloth
+- energy
+- during
+- floor
+- mobile
+- judge
+- comic
+- merry
+- unfold
+- copper
+bip_39_full_no_space: penshoveclothenergyduringfloormobilejudgecomicmerryunfoldcopper
+bip_39_full_space: pen shove cloth energy during floor mobile judge comic merry unfold
+    copper
+bip_39_full_underscore: pen_shove_cloth_energy_during_floor_mobile_judge_comic_merry_unfold_copper
+casing_wall: 2.0
+direct_stack_layout: base_grub
+directory: parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+disc_gap: 0.5
+drive_connection: grub_nut
+guide_bolt_radius_name: m3
+guide_pin_count: 6
+guide_pin_diameter: 3.0
+guide_pin_pitch_radius: 17.4
+id: oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+id_no_class: oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+id_no_size: oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+id_no_type: oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+lobe_clearance: 0.2
+lobe_eccentricity_ratio: 0.9
+lobe_radius: 3.0
+md5: a278e0af250442b2e39bc52e5177b497
+md5_10: a278e0af25
+md5_10_upper: A278E0AF25
+md5_5: a278e
+md5_5_upper: A278E
+md5_6: a278e0
+md5_6_alpha: 6c7vk
+md5_6_alpha_upper: 6C7VK
+md5_6_upper: A278E0
+motor_hole_pitch: 31
+motor_screw_length: 6
+name: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+name_no_class: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+name_no_size: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+name_no_type: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+name_proper: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+name_space: oobb part motor gearbox cycloidal version 8 20 to 1 reduction
+name_upper: OOBB PART MOTOR GEARBOX CYCLOIDAL VERSION 8 20 TO 1 REDUCTION
+native_parameters:
+    reduction: '20'
+oobb_details:
+    architecture: simple_6810
+    automatic_pitch: 1
+    bearing_eccentric_bottom: '6703'
+    bearing_eccentric_top: '6703'
+    casing_wall: 2.0
+    direct_stack_layout: base_grub
+    disc_gap: 0.5
+    drive_connection: grub_nut
+    guide_bolt_radius_name: m3
+    guide_pin_count: 6
+    guide_pin_diameter: 3.0
+    guide_pin_pitch_radius: 17.4
+    lobe_clearance: 0.2
+    lobe_eccentricity_ratio: 0.9
+    lobe_radius: 3.0
+    motor_hole_pitch: 31
+    motor_screw_length: 6
+    native_parameters:
+        reduction: '20'
+    oobb_name: version_8
+    oobb_type: cycloidal
+    pitch_radius: 31.15
+    pitch_radius_buffer: 0.0
+    pitch_radius_increment: 0.05
+    post_fasteners: true
+    post_pitch_radius: 18.55
+    post_radius: 2.7
+    radius_offset: 1.4
+    reduction: 20
+    reduction_text: 20_to_1
+    reference_bearing: '6810'
+    rotor_thickness: 5.0
+    run_scad: false
+    run_solidcraft: true
+    shaft_radius_name: m5
+    split_output_casing: true
+    style: version_8
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: motor_gearbox
+    taxonomy_4: cycloidal
+    taxonomy_5: version_8
+    taxonomy_6: 20_to_1_reduction
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            architecture: simple_6810
+            automatic_pitch: 1
+            bearing_eccentric_bottom: '6703'
+            bearing_eccentric_top: '6703'
+            casing_wall: 2.0
+            direct_stack_layout: base_grub
+            directory: parts\oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+            disc_gap: 0.5
+            drive_connection: grub_nut
+            guide_bolt_radius_name: m3
+            guide_pin_count: 6
+            guide_pin_diameter: 3.0
+            guide_pin_pitch_radius: 17.4
+            lobe_clearance: 0.2
+            lobe_eccentricity_ratio: 0.9
+            lobe_radius: 3.0
+            motor_hole_pitch: 31
+            motor_screw_length: 6
+            name: oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+            name_proper: Oobb Part Motor Gearbox Cycloidal Version 8 20 To 1 Reduction
+            name_space: oobb part motor gearbox cycloidal version 8 20 to 1 reduction
+            name_upper: OOBB PART MOTOR GEARBOX CYCLOIDAL VERSION 8 20 TO 1 REDUCTION
+            native_parameters:
+                reduction: '20'
+            oobb_details:
+                architecture: simple_6810
+                automatic_pitch: 1
+                bearing_eccentric_bottom: '6703'
+                bearing_eccentric_top: '6703'
+                casing_wall: 2.0
+                direct_stack_layout: base_grub
+                disc_gap: 0.5
+                drive_connection: grub_nut
+                guide_bolt_radius_name: m3
+                guide_pin_count: 6
+                guide_pin_diameter: 3.0
+                guide_pin_pitch_radius: 17.4
+                lobe_clearance: 0.2
+                lobe_eccentricity_ratio: 0.9
+                lobe_radius: 3.0
+                motor_hole_pitch: 31
+                motor_screw_length: 6
+                native_parameters:
+                    reduction: '20'
+                oobb_name: version_8
+                oobb_type: cycloidal
+                pitch_radius: 31.15
+                pitch_radius_buffer: 0.0
+                pitch_radius_increment: 0.05
+                post_fasteners: true
+                post_pitch_radius: 18.55
+                post_radius: 2.7
+                radius_offset: 1.4
+                reduction: 20
+                reduction_text: 20_to_1
+                reference_bearing: '6810'
+                rotor_thickness: 5.0
+                run_scad: false
+                run_solidcraft: true
+                shaft_radius_name: m5
+                split_output_casing: true
+                style: version_8
+                taxonomy_1: oobb
+                taxonomy_2: part
+                taxonomy_3: motor_gearbox
+                taxonomy_4: cycloidal
+                taxonomy_5: version_8
+                taxonomy_6: 20_to_1_reduction
+            pitch_radius: 31.15
+            pitch_radius_buffer: 0.0
+            pitch_radius_increment: 0.05
+            post_fasteners: true
+            post_pitch_radius: 18.55
+            post_radius: 2.7
+            radius_offset: 1.4
+            reduction: 20
+            reduction_text: 20_to_1
+            reference_bearing: '6810'
+            rotor_thickness: 5.0
+            shaft_radius_name: m5
+            split_output_casing: true
+            style: version_8
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: part
+            taxonomy_3: motor_gearbox
+            taxonomy_4: cycloidal
+            taxonomy_5: version_8
+            taxonomy_6: 20_to_1_reduction
+            taxonomy_7: ''
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction
+part_filter: cycloidal_version_8_
+pitch_radius: 31.15
+pitch_radius_buffer: 0.0
+pitch_radius_increment: 0.05
+post_fasteners: true
+post_pitch_radius: 18.55
+post_radius: 2.7
+radius_offset: 1.4
+reduction: 20
+reduction_text: 20_to_1
+reference_bearing: '6810'
+rotor_thickness: 5.0
+shaft_radius_name: m5
+split_output_casing: true
+style: version_8
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: motor_gearbox
+taxonomy_3_capital: Motor Gearbox
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: mo
+taxonomy_3_length_3: mot
+taxonomy_3_length_4: moto
+taxonomy_3_length_5: motor
+taxonomy_3_upper: MOTOR_GEARBOX
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: MO
+taxonomy_3_upper_length_3: MOT
+taxonomy_3_upper_length_4: MOTO
+taxonomy_3_upper_length_5: MOTOR
+taxonomy_4: cycloidal
+taxonomy_4_capital: Cycloidal
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: cy
+taxonomy_4_length_3: cyc
+taxonomy_4_length_4: cycl
+taxonomy_4_length_5: cyclo
+taxonomy_4_upper: CYCLOIDAL
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CY
+taxonomy_4_upper_length_3: CYC
+taxonomy_4_upper_length_4: CYCL
+taxonomy_4_upper_length_5: CYCLO
+taxonomy_5: version_8
+taxonomy_5_capital: Version 8
+taxonomy_5_first_letter: v
+taxonomy_5_first_letter_upper: V
+taxonomy_5_length_1: v
+taxonomy_5_length_2: ve
+taxonomy_5_length_3: ver
+taxonomy_5_length_4: vers
+taxonomy_5_length_5: versi
+taxonomy_5_upper: VERSION_8
+taxonomy_5_upper_length_1: V
+taxonomy_5_upper_length_2: VE
+taxonomy_5_upper_length_3: VER
+taxonomy_5_upper_length_4: VERS
+taxonomy_5_upper_length_5: VERSI
+taxonomy_6: 20_to_1_reduction
+taxonomy_6_capital: 20 To 1 Reduction
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '20'
+taxonomy_6_length_3: '20_'
+taxonomy_6_length_4: 20_t
+taxonomy_6_length_5: 20_to
+taxonomy_6_upper: 20_TO_1_REDUCTION
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '20'
+taxonomy_6_upper_length_3: '20_'
+taxonomy_6_upper_length_4: 20_T
+taxonomy_6_upper_length_5: 20_TO
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''
