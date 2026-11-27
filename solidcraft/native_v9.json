@@ -1,0 +1,91 @@
+{
+  "version": "version_9",
+  "state": "native-only",
+  "master": "gearbox_controls.solidcraft",
+  "initial_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "master_sha256": "8fe92bfc789eaa59f29ad14428c120b8a5f03372dcb87321919528cbddd28b65",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction",
+  "profile": "solidcraft/native_v9_profile.json",
+  "baseline": "solidcraft/version_9_baseline.json",
+  "parent_release": "releases/version_8/release.json",
+  "variants": {
+    "35": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction",
+      "master_sha256": "8fe92bfc789eaa59f29ad14428c120b8a5f03372dcb87321919528cbddd28b65",
+      "source_master": "gearbox_controls.solidcraft",
+      "source_master_sha256": "8fe92bfc789eaa59f29ad14428c120b8a5f03372dcb87321919528cbddd28b65",
+      "native_parameters": {
+        "reduction": "35",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.7 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "2.7 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      },
+      "component_count": 11
+    },
+    "10": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_10_to_1_reduction",
+      "master_sha256": "ad2736ec09a63ae33d35583c22cc0e1985ab19fa641e18dc5471120f8a4e8be6",
+      "source_master": "gearbox_controls.solidcraft",
+      "source_master_sha256": "8fe92bfc789eaa59f29ad14428c120b8a5f03372dcb87321919528cbddd28b65",
+      "native_parameters": {
+        "reduction": "10",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.9 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "0 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      },
+      "component_count": 11
+    },
+    "35_bearing": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_9_35_to_1_reduction_bearing_input",
+      "master_sha256": "1a660a291e059c92189173d86a91497de54a7b09f44bd92967fd0c332cb11918",
+      "source_master": "gearbox_bearing_controls.solidcraft",
+      "source_master_sha256": "1a660a291e059c92189173d86a91497de54a7b09f44bd92967fd0c332cb11918",
+      "native_parameters": {
+        "reduction": "35",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.7 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "2.7 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      },
+      "component_count": 14
+    }
+  },
+  "component_count": 11,
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "inherited_verification": "solidcraft/native_v8_three_piece_verification.json",
+  "setup_verification": "solidcraft/version_9_validation.json",
+  "revision": "Four flat-print eccentric hub halves and M3 x 35 axial tie in the 35:1 bearing input",
+  "verification": "solidcraft/native_v9_split_verification.json",
+  "revision_validation": "solidcraft/version_9_split_validation.json",
+  "previous_verification": "solidcraft/native_v9_5x5_verification.json",
+  "previous_motor_verification": "solidcraft/native_v9_motor_retrofit.json",
+  "bearing_master": "gearbox_bearing_controls.solidcraft",
+  "bearing_master_sha256": "1a660a291e059c92189173d86a91497de54a7b09f44bd92967fd0c332cb11918",
+  "previous_revision_validation": "solidcraft/version_9_drive_validation.json",
+  "previous_drive_verification": "solidcraft/native_v9_drive_verification.json",
+  "previous_holder_verification": "solidcraft/native_v9_holder_verification.json",
+  "previous_holder_validation": "solidcraft/version_9_holder_validation.json"
+}

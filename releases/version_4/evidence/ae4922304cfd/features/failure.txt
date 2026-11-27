@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 119, in render_thing
+    require_ok(reply)
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 18, in require_ok
+    raise RuntimeError(str(result))
+RuntimeError: {'tool_error': True, 'detail': 'boolean Cut: the operation failed: no result'}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\gearbox_native\export.py", line 47, in render_piece
+    outcome=render_thing(local,plan=plan,output_dir=folder,export_stl=export_stl,
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 121, in render_thing
+    raise RuntimeError(f"Command {index} source {plan['commands'][index]['source_id']}: {error}") from error
+RuntimeError: Command 355 source boolean_difference: {'tool_error': True, 'detail': 'boolean Cut: the operation failed: no result'}

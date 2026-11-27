@@ -1,0 +1,21 @@
+{
+  "version": "version_8",
+  "status": "verified editable baseline",
+  "mechanical_changes": false,
+  "byte_identical_native_and_export_files": 29,
+  "targeted_tests_passed": 15,
+  "sealed_releases_verified": [
+    "version_1",
+    "version_2",
+    "version_3",
+    "version_4",
+    "version_5",
+    "version_6",
+    "version_7"
+  ],
+  "master_sha256": "cd6d7c8061c77c1a4d3485daadbc71813c517c7dbcbe1731b2b7717d17c72766",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "native_rebuild_required": false,
+  "verification": "Inherited native verification retained because every CAD and manufacturing file is byte-identical.",
+  "evidence_storage": "Full V7 JSON evidence is in releases/version_7/version_7.zip at original build paths. Duplicate ignored build health dumps and exports were removed after SHA-256 comparison against that archive to free disk space."
+}

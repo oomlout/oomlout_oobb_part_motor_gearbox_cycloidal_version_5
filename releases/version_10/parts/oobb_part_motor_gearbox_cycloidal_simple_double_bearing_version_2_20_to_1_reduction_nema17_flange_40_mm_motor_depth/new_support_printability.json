@@ -1,0 +1,36 @@
+{
+  "identical_joiners": true,
+  "joiner_count": 3,
+  "spacing_degrees": 120,
+  "screws_per_end_per_joiner": 2,
+  "printability": {
+    "rear_output_joiner_1": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "rear_output_joiner_2": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "rear_output_joiner_3": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "rear_output_extension": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.193,
+      "at_print_z_mm": 0.201
+    }
+  }
+}

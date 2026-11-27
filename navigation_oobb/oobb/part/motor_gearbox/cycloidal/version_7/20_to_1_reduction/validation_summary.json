@@ -1,0 +1,23 @@
+{
+  "version": "version_7",
+  "status": "verified editable baseline",
+  "mechanical_changes": false,
+  "parent_release": "releases/version_6/release.json",
+  "parent_part_id": "oobb_part_motor_gearbox_cycloidal_version_6_20_to_1_reduction_configuration_3d9262f6",
+  "native_part_documents": 16,
+  "byte_identical_inherited_documents": 16,
+  "native_layouts": 2,
+  "fit_samples": 9,
+  "targeted_tests_passed": 32,
+  "layout_validation": "fresh V7 links, native reopening, STEP placement checks and watertight print layout",
+  "fit_validation": {
+    "source": "Inherited accepted V6 evidence; identical native part bytes and recipe geometry verified",
+    "sampled_poses": 143,
+    "collisions": 0,
+    "installation_collisions": 0,
+    "fastener_access_collisions": 0
+  },
+  "next_work": "SolidCraft-only design: parameters edited in its Parameters menu must propagate through the complete gearbox without an external Update action.",
+  "native_only_redesign_started": false,
+  "acceptance_policy_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311"
+}

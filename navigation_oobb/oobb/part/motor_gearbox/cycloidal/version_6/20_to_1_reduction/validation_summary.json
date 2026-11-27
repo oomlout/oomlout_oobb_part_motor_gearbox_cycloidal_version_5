@@ -1,0 +1,50 @@
+{
+  "version": "version_6",
+  "parent_release": "releases/version_5/release.json",
+  "status": "verified editable baseline",
+  "mechanical_changes": false,
+  "geometry": "Byte-identical accepted V5 native part documents; fresh V6-linked layouts",
+  "targeted_tests_passed": 23,
+  "native_documents": 16,
+  "native_layouts": 2,
+  "fit_samples": [
+    "fit_6703_and_M3_orbit",
+    "fit_6701_shaft",
+    "fit_6810_case_lip",
+    "fit_M3_grub_and_5mm_shaft",
+    "fit_M3_standoff_lower",
+    "fit_M3_standoff_socket",
+    "fit_casing_clamp_lower",
+    "fit_casing_clamp_upper",
+    "fit_casing_OOBB_tab"
+  ],
+  "sampled_motion_poses": 143,
+  "collisions": 0,
+  "installation_collisions": 0,
+  "fastener_access_collisions": 0,
+  "continuous_motion_proof": false,
+  "physical_test_required": true,
+  "prior_full_suite_note": "Nine unrelated failures were recorded during V5 development; this transition ran the 23 relevant tests.",
+  "acceptance_policy_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "sealed_releases": {
+    "status": "passed",
+    "releases": {
+      "version_1": {
+        "checked_files": 55
+      },
+      "version_2": {
+        "checked_files": 105
+      },
+      "version_3": {
+        "checked_files": 145
+      },
+      "version_4": {
+        "checked_files": 2593
+      },
+      "version_5": {
+        "checked_files": 2296
+      }
+    },
+    "violations": []
+  }
+}

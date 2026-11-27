@@ -1,0 +1,33 @@
+{
+  "blender": "5.2.2 LTS",
+  "engine": "CYCLES",
+  "samples": 48,
+  "device": "GPU",
+  "source_sha256": "f3d0817951e27895224561482ba7cfcaf369594b9eef8abde3662613c78dfc34",
+  "studio_sha256": "f310a128c0ddcd7e911ec16213f164199a314506bfb9d4c110452242bd5199a3",
+  "frames": [
+    "square",
+    "rounded",
+    "printed",
+    "installation",
+    "in_use",
+    "housing",
+    "core",
+    "shaft",
+    "bench",
+    "nut_split",
+    "layer_start",
+    "layer_bearings",
+    "layer_inner",
+    "layer_sleeves",
+    "layer_disc_b",
+    "layer_cams",
+    "layer_disc_a",
+    "layer_finish_inner",
+    "layer_finish_bearings",
+    "layer_finish_caps",
+    "layer_reverse",
+    "layer_end",
+    "layer_start_face"
+  ]
+}

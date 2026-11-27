@@ -1,0 +1,44 @@
+{
+  "carrier_top": {
+    "layer_height_mm": 0.2,
+    "levels": 12,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 1.826,
+    "at_print_z_mm": 0.601
+  },
+  "carrier_top_nut_tray": {
+    "layer_height_mm": 0.2,
+    "levels": 8,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_end_upper": {
+    "layer_height_mm": 0.2,
+    "levels": 42,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 1.272,
+    "at_print_z_mm": 3.401
+  },
+  "shaft_end_lower": {
+    "layer_height_mm": 0.2,
+    "levels": 42,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 1.501,
+    "at_print_z_mm": 3.401
+  },
+  "shaft_mount_upper": {
+    "layer_height_mm": 0.2,
+    "levels": 12,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_mount_upper_nut_tray": {
+    "layer_height_mm": 0.2,
+    "levels": 8,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  }
+}

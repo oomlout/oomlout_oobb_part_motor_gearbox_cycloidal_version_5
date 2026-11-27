@@ -1,0 +1,278 @@
+bip_39_2_word_array:
+- turtle
+- bullet
+bip_39_2_word_no_space: turtlebullet
+bip_39_2_word_space: turtle bullet
+bip_39_2_word_underscore: turtle_bullet
+bip_39_3_word_array:
+- turtle
+- bullet
+- addict
+bip_39_3_word_no_space: turtlebulletaddict
+bip_39_3_word_space: turtle bullet addict
+bip_39_3_word_underscore: turtle_bullet_addict
+bip_39_full_array:
+- turtle
+- bullet
+- addict
+- range
+- sign
+- switch
+- jazz
+- silent
+- double
+- half
+- detail
+- 'true'
+bip_39_full_no_space: turtlebulletaddictrangesignswitchjazzsilentdoublehalfdetailtrue
+bip_39_full_space: turtle bullet addict range sign switch jazz silent double half
+    detail true
+bip_39_full_underscore: turtle_bullet_addict_range_sign_switch_jazz_silent_double_half_detail_true
+directory: parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+id: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+id_no_class: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+id_no_size: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+id_no_type: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+input_variant: nema17_flange
+link_github: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+link_main: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+link_redirect: https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+md5: eae3c40d58ec85b85dde4341ad0cf174
+md5_10: eae3c40d58
+md5_10_upper: EAE3C40D58
+md5_5: eae3c
+md5_5_upper: EAE3C
+md5_6: eae3c4
+md5_6_alpha: 95xvo
+md5_6_alpha_upper: 95XVO
+md5_6_upper: EAE3C4
+motor_depth: 40
+name: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version 2 20 To 1 Reduction
+    Nema17 Flange 40 Mm Motor Depth
+name_no_class: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version 2 20
+    To 1 Reduction Nema17 Flange 40 Mm Motor Depth
+name_no_size: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version 2 20
+    To 1 Reduction Nema17 Flange 40 Mm Motor Depth
+name_no_type: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version 2 20
+    To 1 Reduction Nema17 Flange 40 Mm Motor Depth
+name_proper: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version 2 20
+    To 1 Reduction Nema17 Flange 40 Mm Motor Depth
+name_space: oobb part motor gearbox cycloidal simple double bearing version 2 20 to
+    1 reduction nema17 flange 40 mm motor depth
+name_upper: OOBB PART MOTOR GEARBOX CYCLOIDAL SIMPLE DOUBLE BEARING VERSION 2 20 TO
+    1 REDUCTION NEMA17 FLANGE 40 MM MOTOR DEPTH
+native_master: simple_double_bearing_version_2_nema17_flange.solidcraft
+native_parameters:
+    coupler_bolt_circle_diameter: 16 mm
+    motor_depth: 40 mm
+    reduction: '20'
+oobb_details:
+    input_variant: nema17_flange
+    motor_depth: 40
+    native_master: simple_double_bearing_version_2_nema17_flange.solidcraft
+    native_parameters:
+        coupler_bolt_circle_diameter: 16 mm
+        motor_depth: 40 mm
+        reduction: '20'
+    oobb_name: simple_double_bearing_version_2
+    oobb_type: cycloidal
+    reduction: 20
+    reduction_text: 20_to_1
+    run_scad: false
+    run_solidcraft: true
+    style: simple_double_bearing_version_2
+    taxonomy_1: oobb
+    taxonomy_2: part
+    taxonomy_3: motor_gearbox
+    taxonomy_4: cycloidal
+    taxonomy_5: simple_double_bearing_version_2
+    taxonomy_6: 20_to_1_reduction
+    taxonomy_7: nema17_flange_40_mm_motor_depth
+oomlout_ai_roboclick_1:
+    actions:
+    -   command: text_jinja_template
+        convert_to_pdf: false
+        convert_to_png: false
+        dict_data:
+            directory: parts\oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+            input_variant: nema17_flange
+            motor_depth: 40
+            name: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+            name_proper: Oobb Part Motor Gearbox Cycloidal Simple Double Bearing Version
+                2 20 To 1 Reduction Nema17 Flange 40 Mm Motor Depth
+            name_space: oobb part motor gearbox cycloidal simple double bearing version
+                2 20 to 1 reduction nema17 flange 40 mm motor depth
+            name_upper: OOBB PART MOTOR GEARBOX CYCLOIDAL SIMPLE DOUBLE BEARING VERSION
+                2 20 TO 1 REDUCTION NEMA17 FLANGE 40 MM MOTOR DEPTH
+            native_master: simple_double_bearing_version_2_nema17_flange.solidcraft
+            native_parameters:
+                coupler_bolt_circle_diameter: 16 mm
+                motor_depth: 40 mm
+                reduction: '20'
+            oobb_details:
+                input_variant: nema17_flange
+                motor_depth: 40
+                native_master: simple_double_bearing_version_2_nema17_flange.solidcraft
+                native_parameters:
+                    coupler_bolt_circle_diameter: 16 mm
+                    motor_depth: 40 mm
+                    reduction: '20'
+                oobb_name: simple_double_bearing_version_2
+                oobb_type: cycloidal
+                reduction: 20
+                reduction_text: 20_to_1
+                run_scad: false
+                run_solidcraft: true
+                style: simple_double_bearing_version_2
+                taxonomy_1: oobb
+                taxonomy_2: part
+                taxonomy_3: motor_gearbox
+                taxonomy_4: cycloidal
+                taxonomy_5: simple_double_bearing_version_2
+                taxonomy_6: 20_to_1_reduction
+                taxonomy_7: nema17_flange_40_mm_motor_depth
+            reduction: 20
+            reduction_text: 20_to_1
+            style: simple_double_bearing_version_2
+            taxonomy_1: oobb
+            taxonomy_10: ''
+            taxonomy_11: ''
+            taxonomy_12: ''
+            taxonomy_13: ''
+            taxonomy_14: ''
+            taxonomy_15: ''
+            taxonomy_2: part
+            taxonomy_3: motor_gearbox
+            taxonomy_4: cycloidal
+            taxonomy_5: simple_double_bearing_version_2
+            taxonomy_6: 20_to_1_reduction
+            taxonomy_7: nema17_flange_40_mm_motor_depth
+            taxonomy_8: ''
+            taxonomy_9: ''
+            url_chat: ''
+        dict_data_files: {}
+        dict_data_files_exists: {}
+        file_output: label_oomp.svg
+        file_template: C:\gh\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\source_file\template_jinja\template_jinja_label_oomlout_76_2_mm_50_8_mm\working.svg.j2
+        search_and_replace: []
+    file_test: label_oomp.pdf
+    retries_until_complete: 0
+oomp_key: oomp_oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+part_filter: oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction_nema17_flange_40_mm_motor_depth
+reduction: 20
+reduction_text: 20_to_1
+style: simple_double_bearing_version_2
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_1_capital: Oobb
+taxonomy_1_first_letter: o
+taxonomy_1_first_letter_upper: O
+taxonomy_1_length_1: o
+taxonomy_1_length_2: oo
+taxonomy_1_length_3: oob
+taxonomy_1_length_4: oobb
+taxonomy_1_length_5: oobb
+taxonomy_1_upper: OOBB
+taxonomy_1_upper_length_1: O
+taxonomy_1_upper_length_2: OO
+taxonomy_1_upper_length_3: OOB
+taxonomy_1_upper_length_4: OOBB
+taxonomy_1_upper_length_5: OOBB
+taxonomy_2: part
+taxonomy_2_capital: Part
+taxonomy_2_first_letter: p
+taxonomy_2_first_letter_upper: P
+taxonomy_2_length_1: p
+taxonomy_2_length_2: pa
+taxonomy_2_length_3: par
+taxonomy_2_length_4: part
+taxonomy_2_length_5: part
+taxonomy_2_upper: PART
+taxonomy_2_upper_length_1: P
+taxonomy_2_upper_length_2: PA
+taxonomy_2_upper_length_3: PAR
+taxonomy_2_upper_length_4: PART
+taxonomy_2_upper_length_5: PART
+taxonomy_3: motor_gearbox
+taxonomy_3_capital: Motor Gearbox
+taxonomy_3_first_letter: m
+taxonomy_3_first_letter_upper: M
+taxonomy_3_length_1: m
+taxonomy_3_length_2: mo
+taxonomy_3_length_3: mot
+taxonomy_3_length_4: moto
+taxonomy_3_length_5: motor
+taxonomy_3_upper: MOTOR_GEARBOX
+taxonomy_3_upper_length_1: M
+taxonomy_3_upper_length_2: MO
+taxonomy_3_upper_length_3: MOT
+taxonomy_3_upper_length_4: MOTO
+taxonomy_3_upper_length_5: MOTOR
+taxonomy_4: cycloidal
+taxonomy_4_capital: Cycloidal
+taxonomy_4_first_letter: c
+taxonomy_4_first_letter_upper: C
+taxonomy_4_length_1: c
+taxonomy_4_length_2: cy
+taxonomy_4_length_3: cyc
+taxonomy_4_length_4: cycl
+taxonomy_4_length_5: cyclo
+taxonomy_4_upper: CYCLOIDAL
+taxonomy_4_upper_length_1: C
+taxonomy_4_upper_length_2: CY
+taxonomy_4_upper_length_3: CYC
+taxonomy_4_upper_length_4: CYCL
+taxonomy_4_upper_length_5: CYCLO
+taxonomy_5: simple_double_bearing_version_2
+taxonomy_5_capital: Simple Double Bearing Version 2
+taxonomy_5_first_letter: s
+taxonomy_5_first_letter_upper: S
+taxonomy_5_length_1: s
+taxonomy_5_length_2: si
+taxonomy_5_length_3: sim
+taxonomy_5_length_4: simp
+taxonomy_5_length_5: simpl
+taxonomy_5_upper: SIMPLE_DOUBLE_BEARING_VERSION_2
+taxonomy_5_upper_length_1: S
+taxonomy_5_upper_length_2: SI
+taxonomy_5_upper_length_3: SIM
+taxonomy_5_upper_length_4: SIMP
+taxonomy_5_upper_length_5: SIMPL
+taxonomy_6: 20_to_1_reduction
+taxonomy_6_capital: 20 To 1 Reduction
+taxonomy_6_first_letter: '2'
+taxonomy_6_first_letter_upper: '2'
+taxonomy_6_length_1: '2'
+taxonomy_6_length_2: '20'
+taxonomy_6_length_3: '20_'
+taxonomy_6_length_4: 20_t
+taxonomy_6_length_5: 20_to
+taxonomy_6_upper: 20_TO_1_REDUCTION
+taxonomy_6_upper_length_1: '2'
+taxonomy_6_upper_length_2: '20'
+taxonomy_6_upper_length_3: '20_'
+taxonomy_6_upper_length_4: 20_T
+taxonomy_6_upper_length_5: 20_TO
+taxonomy_7: nema17_flange_40_mm_motor_depth
+taxonomy_7_capital: Nema17 Flange 40 mm Motor Depth
+taxonomy_7_first_letter: n
+taxonomy_7_first_letter_upper: N
+taxonomy_7_length_1: n
+taxonomy_7_length_2: ne
+taxonomy_7_length_3: nem
+taxonomy_7_length_4: nema
+taxonomy_7_length_5: nema1
+taxonomy_7_upper: NEMA17_FLANGE_40_MM_MOTOR_DEPTH
+taxonomy_7_upper_length_1: N
+taxonomy_7_upper_length_2: NE
+taxonomy_7_upper_length_3: NEM
+taxonomy_7_upper_length_4: NEMA
+taxonomy_7_upper_length_5: NEMA1
+taxonomy_8: ''
+taxonomy_9: ''
+url_chat: ''

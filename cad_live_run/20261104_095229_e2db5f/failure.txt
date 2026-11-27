@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 430, in run_project
+    report.update(rebuild_native(source, output, desktop, export_stl=export_stl, export_extras=export_extras))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 373, in rebuild_native
+    state = health_check(client, Path(output)/'native_inspection.json')
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 29, in health_check
+    raise RuntimeError(f"Feature unhealthy: {feature}")
+RuntimeError: Feature unhealthy: {'boolean_diagnostics': {'events': [{'face_shift_mm': 0.0, 'rotation_rad': 0.0, 'strategy': 'refined_tolerance', 'tolerance_mm': 0.0011277318811400768, 'translation_mm': 0.0}, {'face_shift_mm': 0.0, 'rotation_rad': 2e-06, 'strategy': 'tool_nudge', 'tolerance_mm': 0.0, 'translation_mm': 0.00020896963326285232}], 'truncated': False}, 'error': None, 'id': 57, 'ms': 10031.9619, 'name': 'rotor_a_24_recess_head_below_face_extrude', 'rolled_back': False, 'suppressed': False, 'type': 'ExtrudeFeature', 'warning': 'Boolean retry: tool displacement 2.089696e-4 mm, rotation 2.000000e-6 rad'}

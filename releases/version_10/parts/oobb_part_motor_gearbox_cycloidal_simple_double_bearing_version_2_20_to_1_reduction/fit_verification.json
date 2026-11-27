@@ -1,0 +1,196 @@
+{
+  "rotor_clamps": {
+    "hardware_disc_a_M3x6_1": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    },
+    "hardware_disc_a_M3x6_2": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    },
+    "hardware_disc_a_M3x6_3": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    },
+    "hardware_disc_b_M3x6_1": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    },
+    "hardware_disc_b_M3x6_2": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    },
+    "hardware_disc_b_M3x6_3": {
+      "head_face_error_mm": 0.0,
+      "nut_engagement_mm": 1.75
+    }
+  },
+  "flat_carrier_split_mm": 6.0,
+  "disc_insertion_from_upper_end": {
+    "6704_disc_a": {
+      "fit_first": "shaft_cam_a_outer",
+      "fit_after_disc": "shaft_cam_a_inner",
+      "closed_pair_obstruction_mm3": 79.663
+    },
+    "6704_disc_b": {
+      "fit_first": "shaft_cam_b_inner",
+      "fit_after_disc": "shaft_cam_b_outer",
+      "closed_pair_obstruction_mm3": 79.663
+    }
+  },
+  "journal_width_coverage": {
+    "6810_lower": 1.0,
+    "6704_lower": 1.0,
+    "6810_upper": 1.0,
+    "6704_upper": 1.0,
+    "6704_disc_a": 1.0,
+    "6704_disc_b": 1.0
+  },
+  "race_contacts": {
+    "6810_lower": {
+      "inner_low": "carrier_bottom_cap",
+      "outer_low": "output_nut_cylinder",
+      "inner_high": "carrier_bottom",
+      "outer_high": "output_nut_plate"
+    },
+    "6704_lower": {
+      "inner_low": "shaft_end_lower",
+      "outer_low": "carrier_bottom_cap",
+      "inner_high": "shaft_mount_lower",
+      "outer_high": "carrier_bottom"
+    },
+    "6810_upper": {
+      "inner_low": "carrier_top",
+      "outer_low": "output_cap_plate",
+      "inner_high": "carrier_top_cap",
+      "outer_high": "output_cap_cylinder"
+    },
+    "6704_upper": {
+      "inner_low": "shaft_mount_upper",
+      "outer_low": "carrier_top",
+      "inner_high": "shaft_end_upper",
+      "outer_high": "carrier_top_cap"
+    },
+    "6704_disc_a": {
+      "inner_low": "shaft_cam_a_outer",
+      "outer_low": "rotor_a",
+      "inner_high": "shaft_cam_a_inner",
+      "outer_high": "rotor_a_cap"
+    },
+    "6704_disc_b": {
+      "inner_low": "shaft_cam_b_inner",
+      "outer_low": "rotor_b_cap",
+      "inner_high": "shaft_cam_b_outer",
+      "outer_high": "rotor_b"
+    }
+  },
+  "assembled_guide_sweep": {
+    "measured_profile_min_ring_gap_mm": 0.1476,
+    "input_positions": 360,
+    "max_disc_twist_to_sleeve_contact_deg": 0.523,
+    "tested_torque_directions": 2,
+    "located_full_orbit_gap_mm": 0.07,
+    "sleeves": 6,
+    "disc_halves": 4,
+    "track_paths": 24,
+    "max_axis_error_mm": 0.0,
+    "full_orbit_min_radial_gap_mm": 0.15,
+    "gap_with_sleeve_at_bore_limit_mm": -0.0,
+    "track_diameter_mm": 10.3,
+    "sleeve_od_mm": 7.0,
+    "sleeve_id_mm": 3.3
+  },
+  "shaft_sections": {
+    "end_face_minimum_web_mm": 0.274,
+    "end_face_nominal_web_mm": 0.27,
+    "mounting_carrier_minimum_web_mm": 0.355,
+    "eccentric_journal_to_tie_mm": 1.557,
+    "support_to_drive_face_recess_mm": 0.8
+  },
+  "shaft_unique_blanks": 3,
+  "shaft_stack_parts": 8,
+  "shaft_open_bore_mm": 6.5,
+  "shaft_nut_engagement_mm": 2.5,
+  "shaft_screw_past_nut_mm": 0.3999999999999986,
+  "output_housing": {
+    "depths_mm": {
+      "output_nut_plate": 3.0,
+      "output_cap_plate": 3.0,
+      "output_lower_row_plate": 3.0,
+      "output_nut_cylinder": 8.5,
+      "output_cap_cylinder": 8.5,
+      "output_circle_plate": 3.0
+    },
+    "grid_holes": {
+      "output_nut_plate": {
+        "m6": 12,
+        "m3": 28
+      },
+      "output_cap_plate": {
+        "m6": 12,
+        "m3": 28
+      },
+      "output_lower_row_plate": {
+        "m6": 13,
+        "m3": 33
+      },
+      "output_circle_plate": {
+        "m6": 12,
+        "m3": 72
+      }
+    },
+    "outer_race_stops_per_end": 2,
+    "axial_race_clearance_mm": 0.0,
+    "layer_checks": {
+      "output_nut_cylinder": {
+        "layer_height_mm": 0.2,
+        "levels": 44,
+        "unsupported_islands": 0,
+        "maximum_lateral_reach_mm": 1.501,
+        "at_print_z_mm": 5.601
+      },
+      "output_cap_cylinder": {
+        "layer_height_mm": 0.2,
+        "levels": 44,
+        "unsupported_islands": 0,
+        "maximum_lateral_reach_mm": 1.501,
+        "at_print_z_mm": 7.001
+      }
+    },
+    "alternative_interface_difference_mm3": 9.640643838793039e-11
+  },
+  "clearance_checks": 2310,
+  "maximum_overlap_mm3": 0.0,
+  "guide_to_mount_or_disc_clamp_web_mm": {
+    "carrier_bottom": 0.069,
+    "carrier_bottom_cap": 1.295,
+    "carrier_top": 0.069,
+    "carrier_top_cap": 1.797,
+    "rotor_a": 2.792,
+    "rotor_a_cap": 2.19,
+    "rotor_b": 2.792,
+    "rotor_b_cap": 2.19
+  },
+  "confirmed_bearing_stops_per_carrier": 2,
+  "maximum_hex_pocket_profile_error_mm": 5.978773345963747e-06,
+  "min_orbit_guide_clearance_mm": 0.14999999999718217,
+  "carrier_grid_mounts_per_end": 8,
+  "guide_screw_mm": 35.0,
+  "confirmed_bearing_stops_per_disc": 2,
+  "disc_half_thickness_mm": 3.5,
+  "mount_flange_thickness_mm": 3.0,
+  "motion": {
+    "input_positions": 360,
+    "discs": 2,
+    "minimum_ring_gap_mm": 0.14756314459808717,
+    "minimum_wall_gap_bound_mm": 3.6475637146344297,
+    "chord_error_mm": 0.0024362853655683224
+  },
+  "outer_loose_sleeves": 20,
+  "central_loose_sleeves": 6,
+  "connected_ring_choices": 1,
+  "source_sha256": "e4c646be6079b041450ba12ffcc06680de2377b67a075100331bacb06a9addbd",
+  "printable_parts": 49,
+  "hardware_reference_bodies": 124,
+  "physical_fit_tested": false
+}

@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_M3_standoff_socket",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_2d4499999999999997",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_2d4499999999999997_radius",
+        "height": "oobb_hole_radius_2d4499999999999997_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_3d0",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_3d0_radius",
+        "height": "oobb_hole_radius_3d0_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          2.6
+        ]
+      ]
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_round",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_round_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_round_radius",
+        "height": "oobb_screw_m3_socket_cap_round_depth"
+      }
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_head",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_head_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_head_radius",
+        "height": "oobb_screw_m3_socket_cap_head_depth"
+      }
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_shaft",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_shaft_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_shaft_radius",
+        "height": "oobb_screw_m3_socket_cap_shaft_depth"
+      }
+    }
+  ],
+  "sketch_count": 6,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

@@ -1,0 +1,377 @@
+{% extends "base.html" %}
+
+{% block title %}{{ part.name }} | {{ app_title }}{% endblock %}
+{% block page_title %}Part Detail{% endblock %}
+
+{% macro render_file_item(file, part) %}
+  <li class="file-list__item">
+    <div class="file-list__primary">
+      {% if file.is_image %}
+        <a
+          class="file-list__link file-list__link--image"
+          href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+          data-image-viewer-trigger="true"
+          data-part-id="{{ part.id }}"
+          data-image-index="{{ part.preview_index_by_relative_path.get(file.relative_path, 0) }}"
+          data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+        >
+          <span>{{ file.relative_path }}</span>
+          <span class="file-preview-popover">
+            <span class="file-preview-popover__header">{{ (file.name.split('.') | last) | upper }}</span>
+            <img
+              class="file-preview-popover__image"
+              src="{{ part_image_url(part.id, file.relative_path, preset='file_popover') }}"
+              alt="{{ file.relative_path }}"
+              width="{{ file.width or 480 }}"
+              height="{{ file.height or 360 }}"
+              loading="lazy"
+              decoding="async"
+            >
+          </span>
+        </a>
+      {% else %}
+        {% if file.is_text_previewable %}
+          <a
+            class="file-list__link file-list__link--text"
+            href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+            data-image-viewer-trigger="true"
+            data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+            data-image-index="{{ part.preview_index_by_relative_path.get(file.relative_path, 0) }}"
+            data-part-id="{{ part.id }}"
+          >
+            <span>{{ file.relative_path }}</span>
+            <span class="file-preview-popover file-preview-popover--text">
+              <span class="file-preview-popover__header">{{ file.text_language_label }}</span>
+              <pre class="file-preview-popover__code"><code>{{ file.text_hover_preview }}</code></pre>
+            </span>
+          </a>
+        {% elif file.is_stl_previewable %}
+          <button
+            class="file-list__link file-list__link--stl"
+            type="button"
+            data-image-viewer-trigger="true"
+            data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+            data-image-index="{{ part.preview_index_by_relative_path.get(file.relative_path, 0) }}"
+            data-part-id="{{ part.id }}"
+          >
+            <span>{{ file.relative_path }}</span>
+            <span class="file-preview-popover file-preview-popover--stl">
+              <span class="file-preview-popover__header">STL</span>
+              <canvas
+                class="stl-viewer stl-viewer--popover"
+                data-stl-url="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+              ></canvas>
+            </span>
+          </button>
+        {% else %}
+          <a
+            class="file-list__link"
+            href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+            download="{{ file.name }}"
+            target="download-frame"
+          >{{ file.relative_path }}</a>
+        {% endif %}
+      {% endif %}
+    </div>
+    <div class="file-list__aside">
+      <span class="file-list__meta">{{ file.size_label }}</span>
+      <div class="file-list__actions">
+      {% if file.numbered_slots %}
+          {% for slot in file.numbered_slots %}
+            {% if slot %}
+              {% if slot.href %}
+                <a
+                  class="button button--small file-list__action-button{% if slot.button_variant %} button--{{ slot.button_variant }}{% endif %}"
+                  href="{{ slot.href }}"
+                  target="{{ slot.target or 'print-frame' }}"
+                  title="{{ slot.label }}"
+                  aria-label="{{ slot.label }}"
+                >
+                  <span class="file-list__action-number" aria-hidden="true">{{ slot.action_number }}</span>
+                  <span class="sr-only">{{ slot.label }}</span>
+                </a>
+              {% else %}
+                <form
+                  class="file-list__action-form"
+                  method="post"
+                  action="{{ url_for('parts.run_part_file_action', part_id=part.id, relative_path=file.relative_path, action_id=slot.id) }}"
+                  {% if slot.confirm_message %}data-confirm-message="{{ slot.confirm_message }}"{% endif %}
+                >
+                  <button
+                    class="button button--small file-list__action-button{% if slot.button_variant %} button--{{ slot.button_variant }}{% endif %}"
+                    type="submit"
+                    title="{{ slot.label }}{% if slot.target_relative_path %}: {{ slot.target_relative_path }}{% endif %}"
+                    aria-label="{{ slot.label }}"
+                  >
+                    <span class="file-list__action-number" aria-hidden="true">{{ slot.action_number }}</span>
+                    <span class="sr-only">{{ slot.label }}</span>
+                  </button>
+                </form>
+              {% endif %}
+            {% else %}
+              <span class="file-list__action-slot--empty" aria-hidden="true"></span>
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+      {% if file.actions %}
+          {% for action in file.actions %}
+            {% if action.icon == 'bin' %}
+              <form
+                class="file-list__action-form"
+                method="post"
+                action="{{ url_for('parts.run_part_file_action', part_id=part.id, relative_path=file.relative_path, action_id=action.id) }}"
+                {% if action.confirm_message %}data-confirm-message="{{ action.confirm_message }}"{% endif %}
+              >
+                <button
+                  class="button button--small file-list__action-button button--{{ action.button_variant }} file-list__action-button--icon"
+                  type="submit"
+                  title="{{ action.label }}{% if action.target_relative_path %}: {{ action.target_relative_path }}{% endif %}"
+                  aria-label="{{ action.label }}"
+                >
+                  <span class="file-action-icon file-action-icon--bin" aria-hidden="true"></span>
+                  <span class="sr-only">{{ action.label }}</span>
+                </button>
+              </form>
+            {% endif %}
+          {% endfor %}
+      {% endif %}
+        <a
+          class="button button--small button--ghost file-list__action-button file-list__action-button--icon"
+          href="{{ url_for('parts.part_file', part_id=part.id, relative_path=file.relative_path) }}"
+          download="{{ file.name }}"
+          target="download-frame"
+          title="Download {{ file.relative_path }}"
+          aria-label="Download"
+        >
+          <span class="file-action-icon file-action-icon--download" aria-hidden="true"></span>
+          <span class="sr-only">Download</span>
+        </a>
+      </div>
+    </div>
+  </li>
+{% endmacro %}
+
+{% macro render_inventory_directory(directory, part) %}
+  <li class="file-tree__node">
+    <details class="file-tree__folder">
+      <summary class="file-tree__summary">
+        <span class="file-tree__label">{{ directory.name }}</span>
+      </summary>
+      <ul class="file-tree__branch list-reset">
+        {% for file in directory.files %}
+          {{ render_file_item(file, part) }}
+        {% endfor %}
+        {% for child in directory.directories %}
+          {{ render_inventory_directory(child, part) }}
+        {% endfor %}
+      </ul>
+    </details>
+  </li>
+{% endmacro %}
+
+{% block content %}
+  <section class="detail-hero">
+    <div class="detail-hero__identity">
+      <p class="eyebrow">Part</p>
+      <h1 class="page-title">{{ part.name }}</h1>
+      {% if breadcrumb_links %}
+        <nav class="detail-breadcrumb" aria-label="Part taxonomy" data-selectable-breadcrumb="true">
+          {% for crumb in breadcrumb_links %}
+            {% if not loop.first %}
+              <span class="detail-breadcrumb__separator" aria-hidden="true">_</span>
+            {% endif %}
+            <span class="detail-breadcrumb__text">{{ crumb.breadcrumb_text }}</span>
+          {% endfor %}
+        </nav>
+      {% else %}
+        <p class="detail-hero__breadcrumb">No taxonomy path yet</p>
+      {% endif %}
+      <div class="meta-pill-row detail-hero__meta">
+        <span class="meta-pill meta-pill--images">{{ part.image_count }} images</span>
+        <span class="meta-pill meta-pill--files">{{ part.file_count }} files</span>
+        <span class="meta-pill">{{ part.source_label }}</span>
+      </div>
+      <div class="chip-row chip-row--dense">
+        {% for crumb in breadcrumb_links %}
+          <a class="chip chip--depth-{{ crumb.index }}" href="{{ crumb.url }}">{{ crumb.breadcrumb_text }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+
+  <section class="two-column">
+    <article class="panel panel--dense panel--accent">
+      <h2 class="section-title">Primary Preview</h2>
+      {% if previewable and previewable.endswith('.stl') %}
+        <div class="preview-frame preview-frame--bold stl-viewer-frame">
+          <canvas
+            class="stl-viewer stl-viewer--primary"
+            data-stl-url="{{ url_for('parts.part_file', part_id=part.id, relative_path=previewable) }}"
+            width="900"
+            height="675"
+          ></canvas>
+        </div>
+      {% elif previewable %}
+        {% set preview_image = part.image_files[part.image_index_by_relative_path.get(previewable, 0)] %}
+        <div class="preview-frame preview-frame--bold">
+          <a
+            class="detail-preview-link"
+            href="{{ url_for('parts.part_file', part_id=part.id, relative_path=previewable) }}"
+            data-image-viewer-trigger="true"
+            data-part-id="{{ part.id }}"
+            data-image-index="{{ part.preview_file_index }}"
+            data-image-viewer-url="{{ url_for('parts.part_image_viewer_data', part_id=part.id) }}"
+          >
+            <img
+              class="detail-preview"
+              src="{{ part_image_url(part.id, previewable, preset='detail_preview') }}"
+              srcset="{{ part_image_url(part.id, previewable, width=900, height=900) }} 900w, {{ part_image_url(part.id, previewable, width=1400, height=1200) }} 1400w"
+              sizes="(max-width: 980px) 100vw, 60vw"
+              alt="{{ part.name }}"
+              width="{{ preview_image.width or 1200 }}"
+              height="{{ preview_image.height or 900 }}"
+              loading="eager"
+              decoding="async"
+              fetchpriority="high"
+            >
+          </a>
+        </div>
+      {% else %}
+        <p class="empty-state">No previewable image found in this part folder yet.</p>
+      {% endif %}
+    </article>
+
+    <article class="panel panel--dense">
+      <h2 class="section-title">File Inventory</h2>
+      <div class="detail-paths" aria-label="Part paths">
+        <div class="detail-path">
+          <span class="detail-path__label">Part Folder</span>
+          <code class="detail-path__value" data-selectable-path="true">{{ part.part_dir }}</code>
+        </div>
+      </div>
+      <div class="meta-pill-row">
+        <span class="meta-pill meta-pill--files">{{ part.file_count }} files</span>
+        <span class="meta-pill meta-pill--images">{{ part.image_count }} images</span>
+      </div>
+      <ul class="file-tree list-reset">
+        {% for file in file_inventory_tree.files %}
+          {{ render_file_item(file, part) }}
+        {% endfor %}
+        {% for directory in file_inventory_tree.directories %}
+          {{ render_inventory_directory(directory, part) }}
+        {% endfor %}
+      </ul>
+      {% if action_legend %}
+        <div class="file-action-legend" aria-label="File action legend">
+          <span class="file-action-legend__title">Legend</span>
+          <div class="file-action-legend__items">
+            {% for action in action_legend %}
+              <div class="file-action-legend__item">
+                <span class="file-action-legend__number">{{ action.action_number }}</span>
+                <span class="file-action-legend__label">{{ action.label }}</span>
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      {% endif %}
+    </article>
+  </section>
+
+  <section class="panel panel--dense panel--quick-summary">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Quick Summary</span>
+
+      </summary>
+      <div class="collapsible-panel__body">
+        {% if quick_summary_items %}
+          <dl class="quick-summary-list">
+            {% for item in quick_summary_items %}
+              <div class="quick-summary-list__row">
+                <dt class="quick-summary-list__label">{{ item.label }}</dt>
+                <dd class="quick-summary-list__value">
+                  {% if item.is_colour %}
+                    <span class="colour-swatch" style="background-color: {{ item.value }};" aria-hidden="true"></span>
+                  {% endif %}
+                  {{ item.value }}
+                </dd>
+              </div>
+            {% endfor %}
+          </dl>
+        {% else %}
+          <p class="empty-state">No summary fields found for this part.</p>
+        {% endif %}
+      </div>
+    </details>
+  </section>
+
+  <section class="panel panel--dense panel--manual">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Manual Attributes</span>
+
+      </summary>
+      <div class="collapsible-panel__body">
+        {% if part.working_manual_error %}
+          <div class="message message--error">{{ part.working_manual_error }}</div>
+        {% endif %}
+
+        <form method="post" action="{{ url_for('parts.update_part_manual', part_id=part.id) }}" class="manual-form-grid">
+          {% for field in manual_fields %}
+            <label class="field field--compact">
+              <span class="field__label">{{ field.label }}</span>
+              <input
+                class="input input--compact manual-form-grid__input"
+                type="text"
+                name="{{ field.name }}"
+                value="{{ manual_form_values.get(field.name, '') }}"
+                autocomplete="off"
+              >
+              {% if field.help_text %}
+                <span class="field__help">{{ field.help_text }}</span>
+              {% endif %}
+            </label>
+          {% endfor %}
+          <div class="toolbar manual-form-grid__toolbar">
+            <button class="button button--accent" type="submit">Save Manual Details</button>
+          </div>
+        </form>
+      </div>
+    </details>
+  </section>
+
+  <section class="panel panel--dense">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Working Manual YAML</span>
+
+      </summary>
+      <div class="collapsible-panel__body">
+        {% if working_manual_text %}
+          <pre class="code-block">{{ working_manual_text }}</pre>
+        {% else %}
+          <p class="empty-state">No <code>working_manual.yaml</code> saved for this part yet.</p>
+        {% endif %}
+      </div>
+    </details>
+  </section>
+
+  <section class="panel panel--dense">
+    <details class="collapsible-panel">
+      <summary class="collapsible-panel__summary">
+        <span class="section-title">Working YAML</span>
+
+      </summary>
+      <div class="collapsible-panel__body">
+        <pre class="code-block">{{ working_yaml_text }}</pre>
+      </div>
+    </details>
+  </section>
+  <iframe name="download-frame" class="is-hidden" title="background download"></iframe>
+  <iframe name="print-frame" class="is-hidden" title="background print action"></iframe>
+{% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script src="{{ url_for('static', filename='file_actions.js') }}"></script>
+{% endblock %}

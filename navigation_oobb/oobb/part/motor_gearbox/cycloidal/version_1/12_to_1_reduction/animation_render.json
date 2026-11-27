@@ -1,0 +1,54 @@
+{
+  "status": "passed",
+  "frames": 192,
+  "fps": 12,
+  "duration_seconds": 16.0,
+  "input_turns": 12,
+  "output_turns": -1,
+  "unique_frames": 187,
+  "camera": {
+    "explode": 20,
+    "target": [
+      0,
+      0,
+      42.0
+    ],
+    "rotation": [
+      65,
+      0,
+      25
+    ],
+    "distance": 1359.36
+  },
+  "size": [
+    960,
+    1600
+  ],
+  "scad_sha256": {
+    "3dpr.scad": "68d317aab50dde3dc7dd83288ca8af9d6039b51c9b62a38deb3de0e02c4fea47",
+    "animation.scad": "d7b305e03aaa12caaaf9d6dcd77aec6c726c9487a8c61d863a06ccace4d0bc4e",
+    "assembly.scad": "002ce60a1b0ca76ad6fb2fdee75ca5da90a4b505ade53cd25f96e50e342da8da",
+    "bearing_retainer_back.scad": "beecfdf8cdecd63528cd72422ecdc0997023c77859bb38724afa9a0f85bf633c",
+    "bearing_retainer_front.scad": "b340852488e5669e4f9a5fa71f8e79fa5eee5b24ee2bb1e73f84ff00ac8346c2",
+    "eccentric_lower.scad": "8109ff4412b1a71fe9aed09aae4c23aa1e987d169c984734504652d65f734597",
+    "eccentric_upper.scad": "18d8d42959159fc968e530ee267f2ea38928880993765dc27da90fbb0b5bd949",
+    "exploded.scad": "2ace097eec6c6be1bfab8c6905f52fc931eddaa6627cc68a32261d51309978c1",
+    "fit_check.scad": "3ef7ff691a2978159a826a55a8ff4e3ebc37d86ac876903769e3e6536ec82cd1",
+    "fit_coupon.scad": "d82236cc6b4a47477a198fec3bacea43ab451c43b75fc13bdca3bc9631dd9172",
+    "hardware_bearing_input.scad": "0a85d3ff65ce6602d8d1390f55e2c90dd5d73dbbd2b66a2fe0784ab3875bd330",
+    "hardware_bearing_output.scad": "31a8aacc7425607fba150bcfa4a7cb0032ba025551daa1a45607dc5f88ccb8a9",
+    "hardware_fasteners.scad": "b99433ad93b3ab7497c00729d5072c31e2ef34ad37b6ccd96b823fab7d7d3822",
+    "hardware_retainer_screw.scad": "d46acf005c803e12e87a3a71769579a5231b0ac85d089d7abde17b8c4cf97d52",
+    "housing_back.scad": "e42f1556c494b4a813ff04ef8dbaf6e9237fcb33c3640c5b95e14e83e9eeb476",
+    "housing_front.scad": "1e204de36927905e81e23c872c0e02302dd918cb385e01f84b3e684f9678a730",
+    "housing_spacer.scad": "00d1ae707214aac821b6b8d4cc8a31a3c43f276f48ee822450062faa6c99dc7c",
+    "input_hub_lower.scad": "7e3acbc7e183e3da808debb17f3b5ca7f35712fccdbea0bf171c5a36ac4797fb",
+    "input_hub_upper.scad": "aaee305353591cb14ceb76ce26332e5bbc6514ff946548ad52cdc518ee86d702",
+    "input_shaft_spacer.scad": "f2da4bf38121abd2f52df9a0c15673fce1abaf64e07e9a6d8dbba214765f7bc0",
+    "output_carrier_lower.scad": "00077c6b202149a9f1bc362ac835d3fbb8ba0af4d36c89029671038d3a5d5f05",
+    "output_carrier_upper.scad": "8fe8f6b575ddbcd437add0e51239e1f80e649340af58ace232bd3799c4f08342",
+    "rotor_lower.scad": "1941e688d34ae5788105258906dfdea3d8431c1a2f56fcbc8f315658aedae76f",
+    "rotor_upper.scad": "c93b133556964d830db0e3308bc0e44966b6f7425fe3ad8e87c87a65026b5fba",
+    "section.scad": "43cfb5627214ccebfb6bf60ae57ecdccd863e73f1c646877cd87ef5eeafc8a23"
+  }
+}

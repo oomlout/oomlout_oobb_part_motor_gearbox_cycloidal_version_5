@@ -1,0 +1,45 @@
+{
+  "version": "version_8",
+  "state": "native-only",
+  "master": "gearbox_controls.solidcraft",
+  "initial_sha256": "cd6d7c8061c77c1a4d3485daadbc71813c517c7dbcbe1731b2b7717d17c72766",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction",
+  "profile": "solidcraft/native_v8_profile.json",
+  "baseline": "solidcraft/version_8_baseline.json",
+  "parent_release": "releases/version_7/release.json",
+  "inherited_verification": "releases/version_7/evidence_index.json",
+  "setup_verification": "solidcraft/version_8_validation.json",
+  "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+  "revision": "three-piece casing and native compact preset",
+  "verification": "solidcraft/native_v8_three_piece_verification.json",
+  "variants": {
+    "20": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_8_20_to_1_reduction",
+      "master_sha256": "bc5a9443d1c024ed473484ac6137998695254eb5025f2517c7a70d456a817fe7",
+      "native_parameters": {
+        "reduction": "20"
+      }
+    },
+    "10": {
+      "part_id": "oobb_part_motor_gearbox_cycloidal_version_8_10_to_1_reduction",
+      "master_sha256": "3f8055d1c58db458b9310ceae784f98c0c43ea96f3044d94590be70830c308d2",
+      "native_parameters": {
+        "reduction": "10",
+        "casing_bearing": "6808",
+        "bottom_bearing": "6702",
+        "top_bearing": "6702",
+        "eccentricity": "0.9 mm",
+        "contact_radius": "1.5 mm",
+        "guide_screw_length": "25 mm",
+        "standoff_radius": "0 mm",
+        "guide_radius": "1.5 mm",
+        "guide_outer_radius": "1.5 mm",
+        "guide_count": "6",
+        "automatic_internal_positions": "1"
+      }
+    }
+  },
+  "component_count": 9,
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "revision_validation": "solidcraft/version_8_revision_validation.json"
+}

@@ -1,0 +1,9 @@
+{
+  "status": "failed",
+  "project": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5",
+  "recipe": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\working_solidcraft.py",
+  "output": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\cad_live_run\\20261104_095229_e2db5f",
+  "speed": 8.0,
+  "part_filter": "oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction",
+  "error": "Feature unhealthy: {'boolean_diagnostics': {'events': [{'face_shift_mm': 0.0, 'rotation_rad': 0.0, 'strategy': 'refined_tolerance', 'tolerance_mm': 0.0011277318811400768, 'translation_mm': 0.0}, {'face_shift_mm': 0.0, 'rotation_rad': 2e-06, 'strategy': 'tool_nudge', 'tolerance_mm': 0.0, 'translation_mm': 0.00020896963326285232}], 'truncated': False}, 'error': None, 'id': 57, 'ms': 10031.9619, 'name': 'rotor_a_24_recess_head_below_face_extrude', 'rolled_back': False, 'suppressed': False, 'type': 'ExtrudeFeature', 'warning': 'Boolean retry: tool displacement 2.089696e-4 mm, rotation 2.000000e-6 rad'}"
+}

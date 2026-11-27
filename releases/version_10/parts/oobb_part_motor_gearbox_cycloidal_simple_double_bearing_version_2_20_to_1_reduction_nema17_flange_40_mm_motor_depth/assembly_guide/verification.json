@@ -1,0 +1,18 @@
+{
+  "source_sha256": "1f6a2f3adafb383be77fbb8b0dc6f1e0d9bcd7b59d9f0c021bd9273bf27b67e5",
+  "configuration": "40 mm motor; circular plates; loose contacts; all mounting nuts",
+  "stage_count": 23,
+  "printed_pieces": 59,
+  "hardware_model_pieces": 221,
+  "hardware_mesh_bodies": 241,
+  "additional_unmodelled_grub_screws": 2,
+  "checks": {
+    "core": "proofs/full_core_access.json",
+    "motor": "proofs/bench_motor_access.json",
+    "covers": "proofs/end_cover_verification.json",
+    "native": "proofs/native_export_verification.json"
+  },
+  "physical_test": false,
+  "geometry_changed_by_guide": false,
+  "pdf_pages": 32
+}

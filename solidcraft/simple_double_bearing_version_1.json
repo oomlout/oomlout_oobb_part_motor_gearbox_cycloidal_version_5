@@ -1,0 +1,19 @@
+{
+  "style": "simple_double_bearing_version_1",
+  "version": 1,
+  "state": "native-only",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_1_20_to_1_reduction",
+  "master": "simple_double_bearing_version_1.solidcraft",
+  "master_sha256": "638529963647eb338f24cedcde3a6afe8eca61804ace5b85b3655c54f4703fe1",
+  "profile": "solidcraft/simple_double_bearing_version_1_profile.json",
+  "minimum_print_gap_mm": 1.2927320965703692,
+  "print_plate_sha256": "55d0898237bb4db240030c6763237ca746b3080125b11a1112309061a646ef3e",
+  "print_plate_size_mm": [
+    398.8500061035156,
+    237.85000610351562,
+    16.000000000000007
+  ],
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "fit_verification": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_1_20_to_1_reduction/fit_verification.json",
+  "eccentricity_edit": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_1_20_to_1_reduction/offset_edit_verification.json"
+}

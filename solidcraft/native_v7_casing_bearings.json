@@ -1,0 +1,18 @@
+{
+  "status": "verified_native_revision",
+  "master": "gearbox_controls.solidcraft",
+  "initial_sha256": "7cbc3016087555fc4c7bb5fa1ef1da4837e2379451213a2d38b836ed4a63338f",
+  "previous_sha256": "a66a9d1eac47e364987a32dcd7ddf8d9959e14f026513f8dc08024dee96e8084",
+  "previous_master": "solidcraft\\revisions\\v7_before_casing_bearings\\gearbox_controls.solidcraft",
+  "baseline_verification": "build\\native_v7\\casing_bearings_02\\assembly_verification.json",
+  "edit_verification": "build\\native_v7\\casing_bearings_02\\casing_verification.json",
+  "seat_verification": "build\\native_v7\\casing_bearings_02\\seat_verification.json",
+  "selector_verification": "build/native_v7/casing_selector/verification.json",
+  "export_verification": "build\\native_v7\\casing_bearings_views_01\\export.json",
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "mechanical_fit_checked": false,
+  "default_casing_bearing": 6810,
+  "options": "solidcraft/casing_bearings.json",
+  "shared_catalogue": "C:/od/OneDrive/docs/software_cad_mcp_helper/catalog",
+  "note": "Native health, baseline equivalence, 6710/6811 edits, STEP/STL and two reopens checked. Optional casing fit guards default off."
+}

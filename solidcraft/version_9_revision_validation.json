@@ -1,0 +1,40 @@
+{
+  "status": "passed",
+  "targeted_tests_passed": 27,
+  "native_configuration_cases": 6,
+  "isolated_rotor_edit_and_reopens": true,
+  "baseline_hardware_checks": 415,
+  "bearing_fit_checks_per_preset": 45,
+  "geometry_verification": "solidcraft/native_v9_5x5_verification.json",
+  "preservation": {
+    "status": "passed",
+    "releases": {
+      "version_1": {
+        "checked_files": 55
+      },
+      "version_2": {
+        "checked_files": 105
+      },
+      "version_3": {
+        "checked_files": 145
+      },
+      "version_4": {
+        "checked_files": 2593
+      },
+      "version_5": {
+        "checked_files": 2296
+      },
+      "version_6": {
+        "checked_files": 3381
+      },
+      "version_7": {
+        "checked_files": 1936
+      },
+      "version_8": {
+        "checked_files": 105
+      }
+    },
+    "violations": []
+  },
+  "test_log": "solidcraft/evidence/v9_targeted_tests.txt"
+}

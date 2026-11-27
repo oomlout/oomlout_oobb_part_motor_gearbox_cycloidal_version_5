@@ -1,0 +1,51 @@
+{
+  "project": "working.3mf",
+  "slicer": "Bambu Studio 02.09.02.62",
+  "sha256": {
+    "3D/3dmodel.model": "f4bb3e0e780850cd92bd9c3f438150a024493eda0f6edc4df56322bb5698e76e",
+    "Metadata/model_settings.config": "e4c84891dc2cd514b284de70fd29fff8cf9dd03695a61bf5798e00eb3a1faf59",
+    "Metadata/project_settings.config": "5098bd14824c786c6190541f25cf1d431f591489c7ec70e040037a70810625c6"
+  },
+  "production_plates": [
+    {
+      "plate": 1,
+      "objects": 4,
+      "filament_slots": [
+        2
+      ],
+      "estimated_grams": 50.77,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "plate": 2,
+      "objects": 7,
+      "filament_slots": [
+        2
+      ],
+      "estimated_grams": 22.3,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "plate": 3,
+      "objects": 9,
+      "filament_slots": [
+        1
+      ],
+      "estimated_grams": 24.37,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "plate": 4,
+      "objects": 38,
+      "filament_slots": [
+        3
+      ],
+      "estimated_grams": 24.31,
+      "filament_changes": 0,
+      "warnings": ""
+    }
+  ]
+}

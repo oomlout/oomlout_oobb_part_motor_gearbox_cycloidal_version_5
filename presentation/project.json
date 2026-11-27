@@ -1,0 +1,465 @@
+{
+  "schema_version": 1,
+  "title": "OOBB cycloidal gearbox",
+  "revision": "Simple double-bearing V2, fixed outer ring / documentation 2",
+  "date": "2026-11-07",
+  "readme_filename": "README.md",
+  "configuration": "One square-flange gearbox, 16 mm loose sleeves, all 24 captive attachment nuts installed. External drive, frame, load and their fasteners are application-specific and excluded.",
+  "source": {
+    "master": "simple_double_bearing_version_2.solidcraft",
+    "master_sha256": "f3d0817951e27895224561482ba7cfcaf369594b9eef8abde3662613c78dfc34",
+    "part_directory": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction",
+    "health_directory": "presentation/source/cad"
+  },
+  "geometry": {
+    "printed_count": 46,
+    "hardware_piece_count": 98,
+    "hardware_mesh_body_count": 124,
+    "ring_count": 20,
+    "guide_count": 6,
+    "stack_height": 34,
+    "middle_length": 16,
+    "eccentricity": 1.5,
+    "shaft_tie_pitch": 6.52,
+    "housing_plate_half": 52,
+    "main_bearing_bore": 50,
+    "main_bearing_od": 65,
+    "main_bearing_width": 7,
+    "shaft_race_od": 27,
+    "shaft_race_width": 4,
+    "shaft_open_bore": 3.25,
+    "carrier_split": 6,
+    "housing_cylinder_depth": 8.5
+  },
+  "printed_parts": [
+    {
+      "ref": "P01",
+      "name": "Finishing OOBB plate",
+      "quantity": 1,
+      "spec": "104 x 104 x 3 mm",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/output_nut_plate.stl",
+      "scene_pattern": "^output_nut_plate$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P02",
+      "name": "Starting OOBB plate",
+      "quantity": 1,
+      "spec": "104 x 104 x 3 mm",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/output_cap_plate.stl",
+      "scene_pattern": "^output_cap_plate$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P03",
+      "name": "Finishing bearing cylinder",
+      "quantity": 1,
+      "spec": "8.5 mm deep",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/output_nut_cylinder.stl",
+      "scene_pattern": "^output_nut_cylinder$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P04",
+      "name": "Starting bearing cylinder",
+      "quantity": 1,
+      "spec": "8.5 mm deep",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/output_cap_cylinder.stl",
+      "scene_pattern": "^output_cap_cylinder$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P05",
+      "name": "Finishing carrier core",
+      "quantity": 1,
+      "spec": "8 captive M3 mounting nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/carrier_bottom.stl",
+      "scene_pattern": "^carrier_bottom$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P06",
+      "name": "Starting carrier core",
+      "quantity": 1,
+      "spec": "8 captive M3 mounting nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/carrier_top.stl",
+      "scene_pattern": "^carrier_top$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P07",
+      "name": "Finishing carrier cap",
+      "quantity": 1,
+      "spec": "6810 inner journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/carrier_bottom_cap.stl",
+      "scene_pattern": "^carrier_bottom_cap$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P08",
+      "name": "Starting carrier cap",
+      "quantity": 1,
+      "spec": "6810 inner journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/carrier_top_cap.stl",
+      "scene_pattern": "^carrier_top_cap$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P09",
+      "name": "Disc A screw half",
+      "quantity": 1,
+      "spec": "7 mm disc when closed",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/rotor_a.stl",
+      "scene_pattern": "^rotor_a$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P10",
+      "name": "Disc A nut half",
+      "quantity": 1,
+      "spec": "3 captive M3 nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/rotor_a_cap.stl",
+      "scene_pattern": "^rotor_a_cap$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P11",
+      "name": "Disc B screw half",
+      "quantity": 1,
+      "spec": "7 mm disc when closed",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/rotor_b.stl",
+      "scene_pattern": "^rotor_b$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P12",
+      "name": "Disc B nut half",
+      "quantity": 1,
+      "spec": "3 captive M3 nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/rotor_b_cap.stl",
+      "scene_pattern": "^rotor_b_cap$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P13",
+      "name": "Finishing E journal",
+      "quantity": 1,
+      "spec": "Centred 6704 support",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_end_lower.stl",
+      "scene_pattern": "^shaft_end_lower$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P14",
+      "name": "Starting E journal",
+      "quantity": 1,
+      "spec": "Centred 6704 support",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_end_upper.stl",
+      "scene_pattern": "^shaft_end_upper$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P15",
+      "name": "Finishing N nut carrier",
+      "quantity": 1,
+      "spec": "4 M3 attachment nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_mount_lower.stl",
+      "scene_pattern": "^shaft_mount_lower$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P16",
+      "name": "Starting N nut carrier",
+      "quantity": 1,
+      "spec": "4 M3 attachment nuts",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_mount_upper.stl",
+      "scene_pattern": "^shaft_mount_upper$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P17",
+      "name": "A outer C half",
+      "quantity": 1,
+      "spec": "Eccentric bearing journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_cam_a_outer.stl",
+      "scene_pattern": "^shaft_cam_a_outer$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P18",
+      "name": "A inner C half",
+      "quantity": 1,
+      "spec": "Eccentric bearing journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_cam_a_inner.stl",
+      "scene_pattern": "^shaft_cam_a_inner$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P19",
+      "name": "B outer C half",
+      "quantity": 1,
+      "spec": "Eccentric bearing journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_cam_b_outer.stl",
+      "scene_pattern": "^shaft_cam_b_outer$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P20",
+      "name": "B inner C half",
+      "quantity": 1,
+      "spec": "Eccentric bearing journal",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/shaft_cam_b_inner.stl",
+      "scene_pattern": "^shaft_cam_b_inner$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P21",
+      "name": "Outer contact sleeve",
+      "quantity": 20,
+      "spec": "Diameter 7 x 16 mm; 3.3 mm bore",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/printed_contact_sleeve.stl",
+      "scene_pattern": "^printed_contact_sleeve( \\([0-9]+\\))?$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    },
+    {
+      "ref": "P22",
+      "name": "Inner guide sleeve",
+      "quantity": 6,
+      "spec": "Diameter 7 x 16 mm; 3.3 mm bore",
+      "stl": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/printed_drive_sleeve.stl",
+      "scene_pattern": "^printed_drive_sleeve( \\([0-9]+\\))?$",
+      "verification": "Production native export; mesh registered to assembled health bounds."
+    }
+  ],
+  "hardware": [
+    {
+      "ref": "H1",
+      "name": "6810 bearing",
+      "spec": "50 x 65 x 7 mm",
+      "quantity": 2,
+      "oomp_id": "hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+      "md5_6_alpha": "7xku1",
+      "scene_pattern": "^hardware_6810",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    },
+    {
+      "ref": "H2",
+      "name": "6704 bearing",
+      "spec": "20 x 27 x 4 mm",
+      "quantity": 4,
+      "oomp_id": "hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+      "md5_6_alpha": "4y780",
+      "scene_pattern": "^hardware_6704",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    },
+    {
+      "ref": "H3",
+      "name": "M3 x 30 socket-cap screw",
+      "spec": "20 outer ring screws; 2.5 mm hex key",
+      "quantity": 20,
+      "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+      "md5_6_alpha": "4x6wf",
+      "scene_pattern": "^hardware_ring_M3_shanks",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    },
+    {
+      "ref": "H4",
+      "name": "M3 x 35 socket-cap screw",
+      "spec": "6 guides and 2 shaft ties; 2.5 mm key",
+      "quantity": 8,
+      "oomp_id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "md5_6_alpha": "22vya",
+      "scene_pattern": "^hardware_drive_shanks|^hardware_shaft_M3x35",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    },
+    {
+      "ref": "H5",
+      "name": "M3 x 6 countersunk screw",
+      "spec": "6 disc clamps; 2 mm hex key",
+      "quantity": 6,
+      "oomp_id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "md5_6_alpha": "61zh8",
+      "scene_pattern": "^hardware_disc_[ab]_M3x6",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    },
+    {
+      "ref": "H6",
+      "name": "M3 hex nut",
+      "spec": "20 ring + 6 guides + 2 ties + 6 discs + 16 carrier + 8 N",
+      "quantity": 58,
+      "oomp_id": "hardware_nut_m3",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3",
+      "md5_6_alpha": "3vb5b",
+      "scene_pattern": "nut",
+      "verification": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "catalogue_status": "verified"
+    }
+  ],
+  "palette": [
+    {
+      "name": "Turquoise 10605",
+      "srgb": "#00B1B7",
+      "role": "Fixed outer housing, cycloids and N carriers"
+    },
+    {
+      "name": "Black 10101",
+      "srgb": "#121212",
+      "role": "Output carriers and C cam halves"
+    },
+    {
+      "name": "Sunflower 10402",
+      "srgb": "#FEC601",
+      "role": "All contact sleeves, guide sleeves and E journals"
+    }
+  ],
+  "readme": {
+    "layout": "four-section",
+    "summary": "This project provides a 3D-printable cycloidal reduction gearbox for OOBB mechanisms. Fix the teal outer ring, drive the central shaft and take the reduced-speed output from the black middle ring. The repository includes printable parts, editable SolidCraft CAD and illustrated assembly instructions.\n\nThis is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.",
+    "hero_image": "in-use.png",
+    "hero_alt": "AI-generated CAD render: OOBB gearbox with the teal outer ring fixed, yellow E input and black middle ring output",
+    "details": "The current build is **simple double-bearing V2**, shown with 104 x 104 x 3 mm square outer mounting plates. It uses two 6810 casing bearings, four 6704 bearings, twenty outer contacts and six inner guides. The standard sleeve length is 16 mm, eccentricity is 1.5 mm and the shaft has a 6.50 mm centre passage. Fix the teal outer ring and drive the yellow E journal. The black middle ring is the output; with twenty outer contacts and nineteen disc lobes, this arrangement gives a nominal **19:1 reduction**, opposite to the input direction.",
+    "details_image": "printed-assembly.png",
+    "details_alt": "AI-generated CAD render: assembled printed gearbox parts with all purchased hardware hidden",
+    "downloads": "Print the [gearbox plate](parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/gearbox_plate/3dpr.stl), [disc and shaft plate](parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/disc_plate/3dpr.stl) and [outer housing plate](parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/outer_housing_plate/3dpr.stl). Select the two square plates and twenty loose contact sleeves for the illustrated build; the supplied layouts also contain the connected-ring and lower-row alternatives. Use either ring option, with six separate inner guide sleeves.\n\n[Individual STLs](parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_parts/) \u00c2\u00b7 [Editable master](simple_double_bearing_version_2.solidcraft) \u00c2\u00b7 [Assembly PDF](presentation/assembly-guide.pdf) \u00c2\u00b7 [Complete parts CSV](presentation/parts.csv) \u00c2\u00b7 [Build notes and older versions](presentation/README.md)",
+    "parts_image": "exploded.png",
+    "parts_alt": "AI-generated CAD render: labelled exploded fixed outer ring, output carrier and discs, and eight-piece input shaft",
+    "parts_caption": "CAD render of the three coaxial groups. Teal: fixed outer housing, cycloids and N carriers. Black: output carriers and C cams. Yellow: all sleeves and E journals. Bearings and fasteners retain metal finishes.",
+    "parts_scope": "Complete hardware list for **one square-flange gearbox with 16 mm sleeves and all captive mounting nuts installed**. External drive, frame, load and their attachment screws are excluded.",
+    "hardware_notes": "The 58 M3 nuts include eight optional N attachment nuts; omit only the attachment nuts you will not use. The 20 mm sleeve option needs twenty M3 x 35 outer screws in place of the M3 x 30 screws. Guide screws and shaft ties remain M3 x 35.",
+    "assembly_steps": [
+      {
+        "title": "Prepare both cycloids",
+        "text": "**Prepare both cycloids.** Capture one 6704 between each disc's halves. Fit three M3 nuts and three M3 x 6 countersunk screws per disc; seat the heads flush before stacking.",
+        "body": "Capture one 6704 between each disc's halves. Fit three M3 nuts and three M3 x 6 countersunk screws per disc; seat the heads flush before stacking.",
+        "key": "bench",
+        "image": "step-01.png",
+        "alt": "AI-generated CAD illustration: prepare both cycloids"
+      },
+      {
+        "title": "Stand the screws upward",
+        "text": "**Stand the screws upward.** Start with output_cap_cylinder, carrier_top_cap and yellow shaft_end_upper (E), flanges down. Fit 20 M3 x 30 ring screws, six M3 x 35 guides and two M3 x 35 shaft screws from underneath. One shaft head temporarily occupies E's empty hex pocket.",
+        "body": "Start with output_cap_cylinder, carrier_top_cap and yellow shaft_end_upper (E), flanges down. Fit 20 M3 x 30 ring screws, six M3 x 35 guides and two M3 x 35 shaft screws from underneath. One shaft head temporarily occupies E's empty hex pocket.",
+        "key": "layer_start",
+        "image": "step-02.png",
+        "alt": "AI-generated CAD illustration: stand the screws upward"
+      },
+      {
+        "title": "Seat the starting bearings",
+        "text": "**Seat the starting bearings.** Lower a 6810 over the large black journal and a centred 6704 over yellow E. Seat both on their shoulders.",
+        "body": "Lower a 6810 over the large black journal and a centred 6704 over yellow E. Seat both on their shoulders.",
+        "key": "layer_bearings",
+        "image": "step-03.png",
+        "alt": "AI-generated CAD illustration: seat the starting bearings"
+      },
+      {
+        "title": "Close the starting layer",
+        "text": "**Close the starting layer.** Load eight M3 nuts into carrier_top and four into shaft_mount_upper (N). Retain the nuts with their pockets downward; lower the core, N and output_cap_plate. Support the plate with at least 50 mm access underneath.",
+        "body": "Load eight M3 nuts into carrier_top and four into shaft_mount_upper (N). Retain the nuts with their pockets downward; lower the core, N and output_cap_plate. Support the plate with at least 50 mm access underneath.",
+        "key": "layer_inner",
+        "image": "step-04.png",
+        "alt": "AI-generated CAD illustration: close the starting layer"
+      },
+      {
+        "title": "Fit the sleeves",
+        "text": "**Fit the sleeves.** Slide six guide sleeves onto the inner screws and twenty contact sleeves onto the outer screws. The connected ring replaces the twenty outer sleeves only.",
+        "body": "Slide six guide sleeves onto the inner screws and twenty contact sleeves onto the outer screws. The connected ring replaces the twenty outer sleeves only.",
+        "key": "layer_sleeves",
+        "image": "step-05.png",
+        "alt": "AI-generated CAD illustration: fit the sleeves"
+      },
+      {
+        "title": "Fit the first cam and Disc B",
+        "text": "**Fit the first cam and Disc B.** Lower shaft_cam_b_outer with its narrow journal up. Lower the closed Disc B with its screw heads down and its indexed clamp screw toward the wide guide gap.",
+        "body": "Lower shaft_cam_b_outer with its narrow journal up. Lower the closed Disc B with its screw heads down and its indexed clamp screw toward the wide guide gap.",
+        "key": "layer_disc_b",
+        "image": "step-06.png",
+        "alt": "AI-generated CAD illustration: fit the first cam and disc b"
+      },
+      {
+        "title": "Close B and start A",
+        "text": "**Close B and start A.** Fit shaft_cam_b_inner with its journal down, then shaft_cam_a_inner with its journal up. Set A's eccentric offset 180 degrees opposite B.",
+        "body": "Fit shaft_cam_b_inner with its journal down, then shaft_cam_a_inner with its journal up. Set A's eccentric offset 180 degrees opposite B.",
+        "key": "layer_cams",
+        "image": "step-07.png",
+        "alt": "AI-generated CAD illustration: close b and start a"
+      },
+      {
+        "title": "Fit Disc A and close its cam",
+        "text": "**Fit Disc A and close its cam.** Lower Disc A with its heads up and index toward the same wide guide gap. Seat its bearing, then fit shaft_cam_a_outer with its journal down.",
+        "body": "Lower Disc A with its heads up and index toward the same wide guide gap. Seat its bearing, then fit shaft_cam_a_outer with its journal down.",
+        "key": "layer_disc_a",
+        "image": "step-08.png",
+        "alt": "AI-generated CAD illustration: fit disc a and close its cam"
+      },
+      {
+        "title": "Close the finishing inner layer",
+        "text": "**Close the finishing inner layer.** Load eight nuts into carrier_bottom and four into shaft_mount_lower (N), pockets upward. Lower those pieces and output_nut_plate; seat the guide sleeves in the core sockets.",
+        "body": "Load eight nuts into carrier_bottom and four into shaft_mount_lower (N), pockets upward. Lower those pieces and output_nut_plate; seat the guide sleeves in the core sockets.",
+        "key": "layer_finish_inner",
+        "image": "step-09.png",
+        "alt": "AI-generated CAD illustration: close the finishing inner layer"
+      },
+      {
+        "title": "Seat the finishing bearings",
+        "text": "**Seat the finishing bearings.** Lower the remaining 6810 onto the outer plate and carrier shoulder. Lower the remaining centred 6704 onto N.",
+        "body": "Lower the remaining 6810 onto the outer plate and carrier shoulder. Lower the remaining centred 6704 onto N.",
+        "key": "layer_finish_bearings",
+        "image": "step-10.png",
+        "alt": "AI-generated CAD illustration: seat the finishing bearings"
+      },
+      {
+        "title": "Fit the finishing caps",
+        "text": "**Fit the finishing caps.** Lower output_nut_cylinder, carrier_bottom_cap and shaft_end_lower (E), flanges up. Match E's round socket to the temporary screw and its hex pocket to the retained screw.",
+        "body": "Lower output_nut_cylinder, carrier_bottom_cap and shaft_end_lower (E), flanges up. Match E's round socket to the temporary screw and its hex pocket to the retained screw.",
+        "key": "layer_finish_caps",
+        "image": "step-11.png",
+        "alt": "AI-generated CAD illustration: fit the finishing caps"
+      },
+      {
+        "title": "Reverse the temporary shaft screw",
+        "text": "**Reverse the temporary shaft screw.** Secure the correctly directed shaft tie and start the ring and guide nuts. Withdraw the temporary screw underneath. Load the vacated hex pocket with an M3 nut; reverse the same screw and insert it from above.",
+        "body": "Secure the correctly directed shaft tie and start the ring and guide nuts. Withdraw the temporary screw underneath. Load the vacated hex pocket with an M3 nut; reverse the same screw and insert it from above.",
+        "key": "layer_reverse",
+        "image": "step-12.png",
+        "alt": "AI-generated CAD illustration: reverse the temporary shaft screw"
+      },
+      {
+        "title": "Adjust the fasteners",
+        "text": "**Adjust the fasteners.** Snug the opposed shaft ties, then the six guides, then the twenty ring screws evenly. Hold the teal outer ring fixed and turn E by hand after each group. The black middle ring should turn freely. Reseat any bearing, sleeve or nut that binds.",
+        "body": "Snug the opposed shaft ties, then the six guides, then the twenty ring screws evenly. Hold the teal outer ring fixed and turn E by hand after each group. The black middle ring should turn freely. Reseat any bearing, sleeve or nut that binds.",
+        "key": "layer_end",
+        "image": "step-13.png",
+        "alt": "AI-generated CAD illustration: adjust the fasteners"
+      },
+      {
+        "title": "Install the gearbox",
+        "text": "**Install the gearbox.** Fix the teal outer ring through its OOBB mounting plates. Couple the drive to E; its face is recessed 0.8 mm behind the black middle ring. Attach the load to the black middle ring through its captive M3 mounting points. Keep the 6.50 mm centre passage clear and select mounting screws for the attached parts.",
+        "body": "Fix the teal outer ring through its OOBB mounting plates. Couple the drive to E; its face is recessed 0.8 mm behind the black middle ring. Attach the load to the black middle ring through its captive M3 mounting points. Keep the 6.50 mm centre passage clear and select mounting screws for the attached parts.",
+        "key": "installation",
+        "image": "step-14.png",
+        "alt": "AI-generated CAD illustration: install the gearbox"
+      }
+    ]
+  },
+  "ai_project_statement": "This is an entirely AI-generated coding project. The generated outputs are included and usually work, but the main purpose of publishing it is to give others a starting point for modifying the project with their own AI tools.",
+  "operation": {
+    "fixed": "Teal outer ring and its OOBB mounting plates",
+    "input": "Yellow E journal and eccentric shaft",
+    "output": "Black middle ring: the carrier cores, caps and six inner guides",
+    "ring_contacts": 20,
+    "disc_lobes": 19,
+    "nominal_reduction": 19,
+    "output_direction": "Opposite to input with outer ring fixed",
+    "legacy_catalogue_note": "20_to_1_reduction and the native reduction=20 identify the existing contact-count preset. The saved native motion uses the former fixed-carrier reference; it is not a simulation of the mounting arrangement described here."
+  }
+}

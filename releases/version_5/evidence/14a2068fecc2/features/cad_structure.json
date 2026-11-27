@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_M3_grub_and_5mm_shaft",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_2d55",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_2d55_radius",
+        "height": "oobb_hole_radius_2d55_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_nut_m3_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_hex_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_nut_m3_hex_radius",
+        "height": "oobb_nut_m3_hex_depth"
+      }
+    }
+  ],
+  "sketch_count": 9,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

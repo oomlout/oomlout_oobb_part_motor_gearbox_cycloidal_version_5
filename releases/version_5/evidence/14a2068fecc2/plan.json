@@ -1,0 +1,1817 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_M3_grub_and_5mm_shaft",
+  "mode": "3dpr",
+  "units": "mm",
+  "tree": {
+    "op": "difference",
+    "children": [
+      {
+        "op": "union",
+        "children": [
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "rotate",
+                "children": [
+                  {
+                    "op": "difference",
+                    "children": [
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "solid",
+                            "value": {
+                              "kind": "cylinder",
+                              "source_id": "direct_000",
+                              "intent": {
+                                "radius": 11.0,
+                                "depth": 9.0,
+                                "zz": "bottom",
+                                "shape": "oobb_cylinder",
+                                "type": "p",
+                                "pos": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "radius": 11.0,
+                              "height": 9.0,
+                              "z_offset": 0,
+                              "logical_id": "direct_000_oobb_cylinder_00"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "op": "union",
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                "value": [
+                  0,
+                  0,
+                  90.0
+                ]
+              }
+            ],
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "op": "union",
+        "children": [
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "solid",
+                "value": {
+                  "kind": "cylinder",
+                  "source_id": "direct_002",
+                  "intent": {
+                    "radius": 2.55,
+                    "depth": 9.02,
+                    "shape": "oobb_hole",
+                    "type": "n",
+                    "pos": [
+                      0,
+                      0,
+                      -0.01
+                    ],
+                    "native_hole_array": true
+                  },
+                  "radius": 2.55,
+                  "height": 9.02,
+                  "z_offset": 0,
+                  "logical_id": "oobb_hole_radius_2d55"
+                },
+                "children": []
+              }
+            ],
+            "value": [
+              0,
+              0,
+              -0.01
+            ]
+          },
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "rotate",
+                "children": [
+                  {
+                    "op": "difference",
+                    "children": [
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "rotate",
+                                "children": [
+                                  {
+                                    "op": "difference",
+                                    "children": [
+                                      {
+                                        "op": "union",
+                                        "children": [
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_004",
+                                                  "intent": {
+                                                    "radius_name": "m3",
+                                                    "depth": 2.8,
+                                                    "zz": "bottom",
+                                                    "rot": [
+                                                      0,
+                                                      90,
+                                                      0
+                                                    ],
+                                                    "clearance": "left",
+                                                    "clearance_tightness": 0.15,
+                                                    "overhang": true,
+                                                    "shape": "oobb_nut",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      5.0,
+                                                      0,
+                                                      4.0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    3.5,
+                                                    6.5,
+                                                    0.3
+                                                  ],
+                                                  "logical_id": "direct_004_m3_01"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              -1.75,
+                                              -3.25,
+                                              -0.3
+                                            ]
+                                          },
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_004",
+                                                  "intent": {
+                                                    "radius_name": "m3",
+                                                    "depth": 2.8,
+                                                    "zz": "bottom",
+                                                    "rot": [
+                                                      0,
+                                                      90,
+                                                      0
+                                                    ],
+                                                    "clearance": "left",
+                                                    "clearance_tightness": 0.15,
+                                                    "overhang": true,
+                                                    "shape": "oobb_nut",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      5.0,
+                                                      0,
+                                                      4.0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    3.5,
+                                                    3.5,
+                                                    0.3
+                                                  ],
+                                                  "logical_id": "direct_004_m3_02"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              -1.75,
+                                              -1.75,
+                                              -0.6
+                                            ]
+                                          },
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_004",
+                                                  "intent": {
+                                                    "radius_name": "m3",
+                                                    "depth": 2.8,
+                                                    "zz": "bottom",
+                                                    "rot": [
+                                                      0,
+                                                      90,
+                                                      0
+                                                    ],
+                                                    "clearance": "left",
+                                                    "clearance_tightness": 0.15,
+                                                    "overhang": true,
+                                                    "shape": "oobb_nut",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      5.0,
+                                                      0,
+                                                      4.0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    3.5,
+                                                    6.5,
+                                                    0.3
+                                                  ],
+                                                  "logical_id": "direct_004_m3_03"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              -1.75,
+                                              -3.25,
+                                              2.8
+                                            ]
+                                          },
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_004",
+                                                  "intent": {
+                                                    "radius_name": "m3",
+                                                    "depth": 2.8,
+                                                    "zz": "bottom",
+                                                    "rot": [
+                                                      0,
+                                                      90,
+                                                      0
+                                                    ],
+                                                    "clearance": "left",
+                                                    "clearance_tightness": 0.15,
+                                                    "overhang": true,
+                                                    "shape": "oobb_nut",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      5.0,
+                                                      0,
+                                                      4.0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    3.5,
+                                                    3.5,
+                                                    0.3
+                                                  ],
+                                                  "logical_id": "direct_004_m3_04"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              -1.75,
+                                              -1.75,
+                                              3.0999999999999996
+                                            ]
+                                          },
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_004",
+                                                  "intent": {
+                                                    "radius_name": "m3",
+                                                    "depth": 2.8,
+                                                    "zz": "bottom",
+                                                    "rot": [
+                                                      0,
+                                                      90,
+                                                      0
+                                                    ],
+                                                    "clearance": "left",
+                                                    "clearance_tightness": 0.15,
+                                                    "overhang": true,
+                                                    "shape": "oobb_nut",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      5.0,
+                                                      0,
+                                                      4.0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    20.0,
+                                                    7.223999999999999,
+                                                    2.8
+                                                  ],
+                                                  "logical_id": "direct_004_m3_05"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              0.0,
+                                              -3.6119999999999997,
+                                              0
+                                            ]
+                                          },
+                                          {
+                                            "op": "solid",
+                                            "value": {
+                                              "kind": "polyg",
+                                              "source_id": "direct_004",
+                                              "intent": {
+                                                "radius_name": "m3",
+                                                "depth": 2.8,
+                                                "zz": "bottom",
+                                                "rot": [
+                                                  0,
+                                                  90,
+                                                  0
+                                                ],
+                                                "clearance": "left",
+                                                "clearance_tightness": 0.15,
+                                                "overhang": true,
+                                                "shape": "oobb_nut",
+                                                "type": "n",
+                                                "pos": [
+                                                  5.0,
+                                                  0,
+                                                  4.0
+                                                ]
+                                              },
+                                              "radius": 3.6119999999999997,
+                                              "height": 2.8,
+                                              "z_offset": 0,
+                                              "sides": 6,
+                                              "cad_name": "oobb_nut_m3_hex",
+                                              "logical_id": "oobb_nut_m3_hex"
+                                            },
+                                            "children": []
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "op": "union",
+                                        "children": []
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "value": [
+                                  0,
+                                  90,
+                                  0
+                                ]
+                              }
+                            ],
+                            "value": [
+                              5.0,
+                              0,
+                              4.0
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cube",
+                                  "source_id": "direct_004",
+                                  "intent": {
+                                    "size": [
+                                      12.0,
+                                      3.6,
+                                      3.6
+                                    ],
+                                    "zz": "bottom",
+                                    "shape": "oobb_cube",
+                                    "type": "n",
+                                    "pos": [
+                                      6.0,
+                                      0,
+                                      2.2
+                                    ]
+                                  },
+                                  "size": [
+                                    12.0,
+                                    3.6,
+                                    3.6
+                                  ],
+                                  "logical_id": "direct_004_oobb_cube_07"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              0.0,
+                              -1.8,
+                              2.2
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "op": "union",
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                "value": [
+                  0,
+                  0,
+                  0.0
+                ]
+              }
+            ],
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_cylinder_00_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cylinder_00_radius",
+        "expression": "11.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 11.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_cylinder_00_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cylinder_00_depth",
+        "expression": "9.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_cylinder_00_profile",
+        "distance": "direct_000_oobb_cylinder_00_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_cylinder_00_extrude",
+        "body_name": "direct_000_oobb_cylinder_00_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_cylinder_00_body"
+        ],
+        "axis": [
+          0,
+          0,
+          1
+        ],
+        "angle": 90.0
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_01_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_width",
+        "expression": "6.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            3.25
+          ],
+          "corner": [
+            3.5,
+            6.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_01_length",
+          "height": "direct_004_m3_01_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_01_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_01_profile",
+        "distance": "direct_004_m3_01_depth",
+        "operation": "new",
+        "name": "direct_004_m3_01_extrude",
+        "body_name": "direct_004_m3_01_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "translate": [
+          -1.75,
+          -3.25,
+          -0.3
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_02_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_width",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            1.75
+          ],
+          "corner": [
+            3.5,
+            3.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_02_length",
+          "height": "direct_004_m3_02_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_02_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_02_profile",
+        "distance": "direct_004_m3_02_depth",
+        "operation": "new",
+        "name": "direct_004_m3_02_extrude",
+        "body_name": "direct_004_m3_02_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_02_body"
+        ],
+        "translate": [
+          -1.75,
+          -1.75,
+          -0.6
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_03_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_width",
+        "expression": "6.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            3.25
+          ],
+          "corner": [
+            3.5,
+            6.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_03_length",
+          "height": "direct_004_m3_03_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_03_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_03_profile",
+        "distance": "direct_004_m3_03_depth",
+        "operation": "new",
+        "name": "direct_004_m3_03_extrude",
+        "body_name": "direct_004_m3_03_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_03_body"
+        ],
+        "translate": [
+          -1.75,
+          -3.25,
+          2.8
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_04_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_length",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_width",
+        "expression": "3.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            1.75,
+            1.75
+          ],
+          "corner": [
+            3.5,
+            3.5
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_04_length",
+          "height": "direct_004_m3_04_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_04_depth",
+        "expression": "0.3 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_04_profile",
+        "distance": "direct_004_m3_04_depth",
+        "operation": "new",
+        "name": "direct_004_m3_04_extrude",
+        "body_name": "direct_004_m3_04_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_04_body"
+        ],
+        "translate": [
+          -1.75,
+          -1.75,
+          3.0999999999999996
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_m3_05_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_length",
+        "expression": "20.0 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_width",
+        "expression": "7.223999999999999 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            10.0,
+            3.6119999999999997
+          ],
+          "corner": [
+            20.0,
+            7.223999999999999
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_m3_05_length",
+          "height": "direct_004_m3_05_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_m3_05_depth",
+        "expression": "2.8 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_m3_05_profile",
+        "distance": "direct_004_m3_05_depth",
+        "operation": "new",
+        "name": "direct_004_m3_05_extrude",
+        "body_name": "direct_004_m3_05_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_05_body"
+        ],
+        "translate": [
+          0.0,
+          -3.6119999999999997,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "oobb_nut_m3_hex_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_nut_m3_hex_radius",
+        "expression": "3.6119999999999997 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.polygon.inscribed",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 3.6119999999999997,
+          "sides": 6,
+          "angle": 0
+        },
+        "dimensions": {
+          "radius": "oobb_nut_m3_hex_radius"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.constraint.horizontal_vertical",
+      "params": {
+        "points": [
+          "origin",
+          {
+            "binding": "last_draw_first_point"
+          }
+        ],
+        "mode": "horizontal"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_nut_m3_hex_depth",
+        "expression": "2.8 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_nut_m3_hex_profile",
+        "distance": "oobb_nut_m3_hex_depth",
+        "operation": "new",
+        "name": "oobb_nut_m3_hex_extrude",
+        "body_name": "oobb_nut_m3_hex_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_nut_m3_hex_body"
+        ],
+        "copy": true,
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 61
+        },
+        "name": "oobb_nut_m3_hex_place_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "body.rename",
+      "params": {
+        "body": {
+          "binding": "created_body",
+          "command_index": 61
+        },
+        "name": "oobb_nut_m3_hex_instance_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_004_m3_01_body",
+        "tools": [
+          "direct_004_m3_02_body",
+          "direct_004_m3_03_body",
+          "direct_004_m3_04_body",
+          "direct_004_m3_05_body",
+          "oobb_nut_m3_hex_instance_001"
+        ],
+        "operation": "join"
+      },
+      "source_id": "nut_cutter_union"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "axis": [
+          0,
+          1,
+          0
+        ],
+        "angle": 90
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_m3_01_body"
+        ],
+        "translate": [
+          5.0,
+          0,
+          4.0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_004_oobb_cube_07_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_length",
+        "expression": "12.0 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_width",
+        "expression": "3.6 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            6.0,
+            1.8
+          ],
+          "corner": [
+            12.0,
+            3.6
+          ]
+        },
+        "dimensions": {
+          "width": "direct_004_oobb_cube_07_length",
+          "height": "direct_004_oobb_cube_07_width"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_004_oobb_cube_07_depth",
+        "expression": "3.6 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_004_oobb_cube_07_profile",
+        "distance": "direct_004_oobb_cube_07_depth",
+        "operation": "new",
+        "name": "direct_004_oobb_cube_07_extrude",
+        "body_name": "direct_004_oobb_cube_07_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_004_oobb_cube_07_body"
+        ],
+        "translate": [
+          0.0,
+          -1.8,
+          2.2
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d55_radius",
+        "expression": "2.55 mm",
+        "comment": "direct_002"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d55_depth",
+        "expression": "9.02 mm",
+        "comment": "direct_002"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_2d55_positions"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 2.55,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_2d55_radius"
+        }
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_002"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_2d55_positions",
+        "distance": "oobb_hole_radius_2d55_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cylinder_00_body"
+        ]
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 82
+        },
+        "name": "oobb_hole_radius_2d55_flat_bottom_cut"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_2d55",
+        "features": [
+          "oobb_hole_radius_2d55_positions",
+          "oobb_hole_radius_2d55_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_cylinder_00_body",
+        "tools": [
+          "direct_004_m3_01_body",
+          "direct_004_oobb_cube_07_body"
+        ],
+        "operation": "cut"
+      },
+      "source_id": "boolean_difference"
+    },
+    {
+      "command": "solid.remove",
+      "params": {
+        "bodies": [
+          "oobb_nut_m3_hex_body"
+        ]
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 86
+        },
+        "name": "hide_definition_bodies"
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_nut_m3_hex definition",
+        "features": [
+          "oobb_nut_m3_hex_profile",
+          "oobb_nut_m3_hex_extrude"
+        ]
+      },
+      "source_id": "definitions"
+    }
+  ],
+  "features": [
+    {
+      "logical_id": "direct_000_oobb_cylinder_00",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_cylinder_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "radius": 11.0,
+          "depth": 9.0,
+          "zz": "bottom",
+          "shape": "oobb_cylinder",
+          "type": "p",
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        "radius": 11.0,
+        "height": 9.0,
+        "z_offset": 0,
+        "logical_id": "direct_000_oobb_cylinder_00"
+      },
+      "parameters": {
+        "radius": "direct_000_oobb_cylinder_00_radius",
+        "height": "direct_000_oobb_cylinder_00_depth"
+      }
+    },
+    {
+      "logical_id": "direct_004_m3_01",
+      "source_id": "direct_004",
+      "body": "direct_004_m3_01_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "size": [
+          3.5,
+          6.5,
+          0.3
+        ],
+        "logical_id": "direct_004_m3_01"
+      },
+      "parameters": {
+        "length": "direct_004_m3_01_length",
+        "width": "direct_004_m3_01_width",
+        "height": "direct_004_m3_01_depth"
+      }
+    },
+    {
+      "logical_id": "direct_004_m3_02",
+      "source_id": "direct_004",
+      "body": "direct_004_m3_02_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "size": [
+          3.5,
+          3.5,
+          0.3
+        ],
+        "logical_id": "direct_004_m3_02"
+      },
+      "parameters": {
+        "length": "direct_004_m3_02_length",
+        "width": "direct_004_m3_02_width",
+        "height": "direct_004_m3_02_depth"
+      }
+    },
+    {
+      "logical_id": "direct_004_m3_03",
+      "source_id": "direct_004",
+      "body": "direct_004_m3_03_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "size": [
+          3.5,
+          6.5,
+          0.3
+        ],
+        "logical_id": "direct_004_m3_03"
+      },
+      "parameters": {
+        "length": "direct_004_m3_03_length",
+        "width": "direct_004_m3_03_width",
+        "height": "direct_004_m3_03_depth"
+      }
+    },
+    {
+      "logical_id": "direct_004_m3_04",
+      "source_id": "direct_004",
+      "body": "direct_004_m3_04_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "size": [
+          3.5,
+          3.5,
+          0.3
+        ],
+        "logical_id": "direct_004_m3_04"
+      },
+      "parameters": {
+        "length": "direct_004_m3_04_length",
+        "width": "direct_004_m3_04_width",
+        "height": "direct_004_m3_04_depth"
+      }
+    },
+    {
+      "logical_id": "direct_004_m3_05",
+      "source_id": "direct_004",
+      "body": "direct_004_m3_05_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "size": [
+          20.0,
+          7.223999999999999,
+          2.8
+        ],
+        "logical_id": "direct_004_m3_05"
+      },
+      "parameters": {
+        "length": "direct_004_m3_05_length",
+        "width": "direct_004_m3_05_width",
+        "height": "direct_004_m3_05_depth"
+      }
+    },
+    {
+      "logical_id": "oobb_nut_m3_hex",
+      "source_id": "direct_004",
+      "body": "oobb_nut_m3_hex_body",
+      "geometry": {
+        "kind": "polyg",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 2.8,
+          "zz": "bottom",
+          "rot": [
+            0,
+            90,
+            0
+          ],
+          "clearance": "left",
+          "clearance_tightness": 0.15,
+          "overhang": true,
+          "shape": "oobb_nut",
+          "type": "n",
+          "pos": [
+            5.0,
+            0,
+            4.0
+          ]
+        },
+        "radius": 3.6119999999999997,
+        "height": 2.8,
+        "z_offset": 0,
+        "sides": 6,
+        "cad_name": "oobb_nut_m3_hex",
+        "logical_id": "oobb_nut_m3_hex"
+      },
+      "parameters": {
+        "radius": "oobb_nut_m3_hex_radius",
+        "height": "oobb_nut_m3_hex_depth"
+      },
+      "reusable": true,
+      "family": "oobb_nut_m3_hex",
+      "instances": [
+        {
+          "body": "oobb_nut_m3_hex_instance_001",
+          "source_id": "direct_004",
+          "placement_feature": "oobb_nut_m3_hex_place_001"
+        }
+      ]
+    },
+    {
+      "logical_id": "direct_004_oobb_cube_07",
+      "source_id": "direct_004",
+      "body": "direct_004_oobb_cube_07_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_004",
+        "intent": {
+          "size": [
+            12.0,
+            3.6,
+            3.6
+          ],
+          "zz": "bottom",
+          "shape": "oobb_cube",
+          "type": "n",
+          "pos": [
+            6.0,
+            0,
+            2.2
+          ]
+        },
+        "size": [
+          12.0,
+          3.6,
+          3.6
+        ],
+        "logical_id": "direct_004_oobb_cube_07"
+      },
+      "parameters": {
+        "length": "direct_004_oobb_cube_07_length",
+        "width": "direct_004_oobb_cube_07_width",
+        "height": "direct_004_oobb_cube_07_depth"
+      }
+    },
+    {
+      "logical_id": "oobb_hole_radius_2d55",
+      "source_id": "direct_002",
+      "body": "direct_000_oobb_cylinder_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_002",
+        "intent": {
+          "radius": 2.55,
+          "depth": 9.02,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 2.55,
+        "height": 9.02,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_radius_2d55"
+      },
+      "parameters": {
+        "radius": "oobb_hole_radius_2d55_radius",
+        "height": "oobb_hole_radius_2d55_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_radius_2d55",
+      "feature_name": "oobb_hole_radius_2d55_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            0,
+            0,
+            -0.01
+          ],
+          "source_id": "direct_002"
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_2d55",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_2d55_radius",
+        "height": "oobb_hole_radius_2d55_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_nut_m3_hex",
+      "method": "linked_body_copies",
+      "master_body": "oobb_nut_m3_hex_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_nut_m3_hex_radius",
+        "height": "oobb_nut_m3_hex_depth"
+      }
+    }
+  ],
+  "parameters": {
+    "direct_000_oobb_cylinder_00_radius": 11.0,
+    "direct_000_oobb_cylinder_00_depth": 9.0,
+    "direct_004_m3_01_length": 3.5,
+    "direct_004_m3_01_width": 6.5,
+    "direct_004_m3_01_depth": 0.3,
+    "direct_004_m3_02_length": 3.5,
+    "direct_004_m3_02_width": 3.5,
+    "direct_004_m3_02_depth": 0.3,
+    "direct_004_m3_03_length": 3.5,
+    "direct_004_m3_03_width": 6.5,
+    "direct_004_m3_03_depth": 0.3,
+    "direct_004_m3_04_length": 3.5,
+    "direct_004_m3_04_width": 3.5,
+    "direct_004_m3_04_depth": 0.3,
+    "direct_004_m3_05_length": 20.0,
+    "direct_004_m3_05_width": 7.223999999999999,
+    "direct_004_m3_05_depth": 2.8,
+    "oobb_nut_m3_hex_radius": 3.6119999999999997,
+    "oobb_nut_m3_hex_depth": 2.8,
+    "direct_004_oobb_cube_07_length": 12.0,
+    "direct_004_oobb_cube_07_width": 3.6,
+    "direct_004_oobb_cube_07_depth": 3.6,
+    "oobb_hole_radius_2d55_radius": 2.55,
+    "oobb_hole_radius_2d55_depth": 9.02
+  },
+  "result_bodies": [
+    "direct_000_oobb_cylinder_00_body"
+  ],
+  "warnings": [],
+  "hardware_instances": []
+}

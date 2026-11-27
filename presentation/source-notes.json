@@ -1,0 +1,172 @@
+{
+  "ai_notice": "AI-generated images and instructions. Errors possible.",
+  "review_date": "2026-11-07",
+  "scope": "Documentation and presentation only; existing production geometry and pre-existing uncommitted work preserved.",
+  "source_hashes": {
+    "simple_double_bearing_version_2.solidcraft": "f3d0817951e27895224561482ba7cfcaf369594b9eef8abde3662613c78dfc34",
+    "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/exploded.stl": "16ca4a56ed70f1afa0f5e983f62f3d7f67185844e423bc30877897ce2ed97048",
+    "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/native_export_verification.json": "d9d1d2f9972c6e154f8d5d435fa3e0cb1de47ed967e495ede2e697d768acf72b",
+    "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/layered_assembly_verification.json": "82431b9f00de49d19e195b77fd48e9455b36c6f72558253a41ced99e37a6d160",
+    "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/assembly_sequence_verification.json": "2b83baa8d4a0bbb1205a03e2ae93e75d9b029e86a968ccf504c11363f8eebb78",
+    "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/fit_verification.json": "2d8da475f58dbf36fa3701c6b70e3de0d79274c64aafc25758bdc8a28f77f20a",
+    "presentation/source/cad/assembled_health.json": "7d7a149498c4ab7c3a3ab36e99c25a7ceccdb9f0ef67a3cac3938d3c0bc1f57e",
+    "presentation/source/cad/exploded_health.json": "7491427047e582bee928af358ef0034e25489c67690c061b8506ca193ee58c14"
+  },
+  "quantity_basis": {
+    "printed": {
+      "housing": 4,
+      "cycloid_halves": 4,
+      "shaft": 8,
+      "outer_contacts": 20,
+      "inner_guides": 6,
+      "total": 46,
+      "carrier_pieces": 4
+    },
+    "hardware": {
+      "6810": 2,
+      "6704": 4,
+      "M3x30_socket_cap": 20,
+      "M3x35_socket_cap": 8,
+      "M3x6_countersunk": 6,
+      "M3_nuts": 58,
+      "total": 98
+    },
+    "nut_breakdown": {
+      "ring": 20,
+      "guide": 6,
+      "shaft_ties": 2,
+      "disc_clamps": 6,
+      "carrier_mounts": 16,
+      "N_mounts": 8
+    },
+    "model_note": "26 socket-cap screws are each represented by a head body and a shank body. 124 hardware mesh bodies represent 98 physical purchased parts.",
+    "alternatives_excluded": [
+      "connected_contact_ring",
+      "output_lower_row_plate (print two to replace both square plates)"
+    ]
+  },
+  "axial_stack_mm": {
+    "reference": "Native assembled z coordinates; physical build starts from the native upper end.",
+    "output_plates": [
+      {
+        "min": 6,
+        "max": 9
+      },
+      {
+        "min": 25,
+        "max": 28
+      }
+    ],
+    "contact_span": [
+      9,
+      25
+    ],
+    "disc_A": [
+      9.75,
+      16.75
+    ],
+    "disc_B": [
+      17.25,
+      24.25
+    ],
+    "6810_envelopes": [
+      [
+        -1,
+        6
+      ],
+      [
+        28,
+        35
+      ]
+    ],
+    "ring_screw_shank": [
+      0,
+      30
+    ],
+    "ring_screw_head": [
+      30,
+      33
+    ],
+    "ring_nut": [
+      0,
+      2.4
+    ],
+    "guide_screw_shank": [
+      -1.7,
+      33.3
+    ],
+    "guide_screw_head": [
+      33.3,
+      36.3
+    ],
+    "guide_nut": [
+      -1.7,
+      0.7
+    ],
+    "carrier_top_core": [
+      24.55,
+      28
+    ],
+    "carrier_top_cap": [
+      28,
+      37
+    ],
+    "top_mount_nut": [
+      25.5,
+      27.9
+    ],
+    "centre_passage_diameter": 6.5
+  },
+  "evidence_classification": {
+    "user_confirmed": "The user specifies fixing the outer ring and taking output from the black middle ring; also specifies the entirely AI-generated coding origin and publication purpose as a starting point for others' AI modifications.",
+    "cad_derived": [
+      "piece repetitions",
+      "bearing envelopes",
+      "screw circles",
+      "nut seating faces",
+      "nominal axial overlaps",
+      "disc order",
+      "temporary screw position"
+    ],
+    "catalogue_selected": "Six exact OOMP hardware identities and metadata alpha codes inspected in public records.",
+    "assumed": [
+      "Nominal smooth thread/race envelopes represent the selected hardware.",
+      "All eight optional N nuts installed in the illustrated configuration.",
+      "Application-specific motor, frame, load and mounting screws excluded."
+    ],
+    "not_physically_verified": [
+      "print settings and fits",
+      "temporary screw withdrawal with real layers",
+      "bearing quality and friction",
+      "lubrication and wear",
+      "load capacity and torque",
+      "long-term fastening integrity"
+    ]
+  },
+  "source_drafts": [
+    "source/README-before-migration.md",
+    "source/assembly-technical-draft.md",
+    "source/studio-before-migration.py",
+    "source/sheets-before-migration.py"
+  ],
+  "supersession": "The root README now documents active double-bearing V2. Historic V9 narrative remains in the archived README and original engineering guides. Former presentation sources are retained for traceability and are not the current build entry point.",
+  "health_snapshot_scope": "Reviewed name, bounding box, centre-of-mass and volume fields only; original complete report digests retained inside each snapshot.",
+  "operating_arrangement": {
+    "fixed": "Teal outer ring and its OOBB mounting plates",
+    "input": "Yellow E journal and eccentric shaft",
+    "output": "Black middle ring: the carrier cores, caps and six inner guides",
+    "ring_contacts": 20,
+    "disc_lobes": 19,
+    "nominal_reduction": 19,
+    "output_direction": "Opposite to input with outer ring fixed",
+    "legacy_catalogue_note": "20_to_1_reduction and the native reduction=20 identify the existing contact-count preset. The saved native motion uses the former fixed-carrier reference; it is not a simulation of the mounting arrangement described here."
+  },
+  "documentation_revision_2": {
+    "reason": "User correction of the fixing/output arrangement and requested AI-project statement.",
+    "geometry_change": false,
+    "ratio_basis": "The native rotor patterns ring_count - 1 lobes. With 20 outer contacts fixed, output/input = -1/19.",
+    "primary_reference": "https://www.cyclo100.com/cyclo-technology",
+    "source_read_at": "2026-11-07",
+    "superseded_claim": "The documentation-1 description of a fixed black carrier and teal plate output is superseded; original source drafts retain that historical reference."
+  }
+}

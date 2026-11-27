@@ -1,0 +1,22 @@
+{
+  "style": "simple_double_bearing_version_2",
+  "version": 2,
+  "state": "native-only",
+  "part_id": "oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction",
+  "master": "simple_double_bearing_version_2.solidcraft",
+  "master_sha256": "e4c646be6079b041450ba12ffcc06680de2377b67a075100331bacb06a9addbd",
+  "profile": "solidcraft/simple_double_bearing_version_2_profile.json",
+  "minimum_print_gap_mm": 1.291624395932503,
+  "print_plate_sha256": "f381177ac66a23a8fcade46688fa91b78fb44bdeb57c7e2592e9a3578f5871d8",
+  "print_plate_size_mm": [
+    855.0,
+    238.24830627441406,
+    16.000000000000092
+  ],
+  "acceptance_sha256": "aef1e8a522769f4e35fd83bccd3a281fa35bf24b36d6034549d42dad786bb311",
+  "fit_verification": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/fit_verification.json",
+  "eccentricity_edit": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/offset_edit_verification.json",
+  "browser_verification": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/browser_groups_verification.json",
+  "baseline_release": "releases/simple_double_bearing_version_1/release.json",
+  "circular_plate_verification": "parts/oobb_part_motor_gearbox_cycloidal_simple_double_bearing_version_2_20_to_1_reduction/circular_plate_verification.json"
+}

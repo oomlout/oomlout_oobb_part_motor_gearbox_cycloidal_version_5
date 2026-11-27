@@ -1,0 +1,835 @@
+{
+  "status": "passed",
+  "master_sha256": "7412ce30ea2d2fccdaca15b873cb47f142612089d230d7a39ed003c24244384c",
+  "native_bore_edit": {
+    "clearance_before_mm": 0.2,
+    "clearance_after_mm": 0.25,
+    "reopened": true,
+    "gauge_diameter_mm": 5.48,
+    "before_overlap_mm3": 3.4180528071048286,
+    "after_overlap_mm3": 0
+  },
+  "variants": {
+    "35": {
+      "status": "passed",
+      "source_sha256": "7412ce30ea2d2fccdaca15b873cb47f142612089d230d7a39ed003c24244384c",
+      "checks": [
+        {
+          "check": "24mm_motor_shaft",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5_socket_head_insertion",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5_socket_head_insertion",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5x12_join_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5x12_join_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "top_nut_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "top_nut_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "full_height_10mm_spacer_gap",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_shaft_to_join_head",
+          "part": "motor_shaft",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "spacer_to_hubs",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "spacer_to_hubs",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "pin_front",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "pin_front",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "pin_front",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        }
+      ],
+      "sampling_error_mm": 0.002035142346865308,
+      "print_parts": 10,
+      "shaft_end_to_join_head_mm": 0.5,
+      "reprint_sha256": "15188353674d981b5082993a02d187041a1c4d16dd1fa7508cb96dfffc0e47ca"
+    },
+    "10": {
+      "status": "passed",
+      "source_sha256": "080cdedfd4fe18f118f5c1af8a816a56ddb3bdcc2aebdd054798a711f9187dae",
+      "checks": [
+        {
+          "check": "24mm_motor_shaft",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_motor_shaft",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5_socket_head_insertion",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5_socket_head_insertion",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5x12_join_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M2.5x12_join_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "top_nut_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "top_nut_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_shank",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "M3_radial_head",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "full_height_10mm_spacer_gap",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_hex_key_access",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "radial_nut_bottom_loading",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "24mm_shaft_to_join_head",
+          "part": "motor_shaft",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "spacer_to_hubs",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "spacer_to_hubs",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_mount",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "NEMA17_mount_screw",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "motor_spacer",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_mount",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "pin_front",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "motor_spacer",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "pin_front",
+          "part": "eccentric_hub_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "pin_front",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "eccentric_hub_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_lower",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "rotor_a",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "rotor_b",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_lower",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_lobes",
+          "overlap_mm3": 0
+        },
+        {
+          "check": "eccentric_hub_upper",
+          "part": "output_casing_upper",
+          "overlap_mm3": 0
+        }
+      ],
+      "sampling_error_mm": 0.0013468769879550907,
+      "print_parts": 10,
+      "shaft_end_to_join_head_mm": 0.5,
+      "reprint_sha256": "fa175a6feb94ae99e1422ea5b4d8f43c3d3d78309b810db99794c9b9cd4c539b"
+    }
+  },
+  "physical_tested": false
+}

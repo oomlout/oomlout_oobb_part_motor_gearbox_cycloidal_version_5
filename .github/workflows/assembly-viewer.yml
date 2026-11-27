@@ -1,0 +1,57 @@
+name: Publish assembly viewer
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'parts/*/assembly/assembly_instructions.html'
+      - 'parts/*/assembly/assembly_manifest.json'
+      - 'solidcraft/active_design.json'
+      - '.github/workflows/assembly-viewer.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: assembly-pages
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.publish.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+          sparse-checkout-cone-mode: false
+          sparse-checkout: |
+            /solidcraft/active_design.json
+            /parts/*/assembly/assembly_instructions.html
+            /parts/*/assembly/assembly_manifest.json
+      - name: Prepare the hosted and downloadable viewer
+        run: |
+          default=$(jq -er '.part_id' solidcraft/active_design.json)
+          for viewer in parts/*/assembly/assembly_instructions.html; do
+            dir=$(dirname "$viewer")
+            ratio=$(jq -er '.parameters.ring_count | floor' "$dir/assembly_manifest.json")
+            target="site/${ratio}-to-1"
+            mkdir -p "$target/downloads"
+            cp "$viewer" "$target/index.html"
+            zip -jq "$target/downloads/assembly-viewer.zip" "$viewer"
+            if [[ "$dir" == "parts/$default/assembly" ]]; then
+              cp "$target/index.html" site/index.html
+              cp -r "$target/downloads" site/
+            fi
+          done
+          test -s site/index.html
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+      - name: Deploy to GitHub Pages
+        id: publish
+        uses: actions/deploy-pages@v5

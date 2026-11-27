@@ -1,0 +1,564 @@
+{
+  "schema": 1,
+  "reduction": 12,
+  "parameters": {
+    "render_animation": true,
+    "filter": "",
+    "save_type": "none",
+    "navigation": true,
+    "overwrite": true,
+    "modes": [
+      "3dpr"
+    ],
+    "oomp_run": false,
+    "oomp_mode": "project",
+    "lobe_eccentricity_ratio": 0.52,
+    "lobe_radius": 3.0,
+    "oobb_name": "version_1",
+    "radius_offset": 1.5,
+    "radius_output_drive_pins": 2.5,
+    "reduction": 12,
+    "reduction_text": "12_to_1",
+    "style": "version_1",
+    "taxonomy_1": "oobb",
+    "taxonomy_2": "part",
+    "taxonomy_3": "motor_gearbox",
+    "taxonomy_4": "cycloidal",
+    "taxonomy_5": "version_1",
+    "taxonomy_6": "12_to_1_reduction",
+    "thickness_inner_rotor": 9,
+    "thickness_outer_rotor": 12,
+    "type": "default_version_1",
+    "output_shaft_pin_distance": [
+      15.0,
+      15.0
+    ],
+    "bearing_input": "6705",
+    "bearing_output": "6810",
+    "output_pin_diameter": 2.5,
+    "axial_clearance": 4.5,
+    "ring_pin_count": 13,
+    "pitch_radius": 38.0,
+    "radius_calculation": {
+      "mode": "automatic",
+      "eccentricity_ratio_target": 0.52,
+      "limits_mm": {
+        "lobe_spacing": 37.5,
+        "adjacent_pin_web": 17.132184022327547,
+        "output_bearing_wall": 37.7,
+        "rotor_internal_features": 36.300000000000004
+      },
+      "limiting_feature": "output_bearing_wall",
+      "recommended_pitch_radius": 38.0,
+      "selected_pitch_radius": 38.0
+    },
+    "housing_width": 6,
+    "housing_screw_offset": 37.5,
+    "input_bearing": {
+      "id": 25.0,
+      "od": 32.0,
+      "depth": 4.0
+    },
+    "output_bearing": {
+      "id": 50.0,
+      "od": 65.0,
+      "depth": 7.0
+    },
+    "gap": 18.0,
+    "output_hole_radius": 2.9,
+    "output_positions": [
+      [
+        15.0,
+        15.0
+      ],
+      [
+        -15.0,
+        15.0
+      ],
+      [
+        -15.0,
+        -15.0
+      ],
+      [
+        15.0,
+        -15.0
+      ]
+    ],
+    "ring_positions": [
+      [
+        38.0,
+        0.0
+      ],
+      [
+        33.647328974821974,
+        17.659480537663207
+      ],
+      [
+        21.586460375783922,
+        31.273386903958947
+      ],
+      [
+        4.580393849702274,
+        37.72293721572605
+      ],
+      [
+        -13.474985707616355,
+        35.53061722204576
+      ],
+      [
+        -28.443408430501833,
+        25.198661013150225
+      ],
+      [
+        -36.89578906218998,
+        9.093995242927193
+      ],
+      [
+        -36.895789062189984,
+        -9.093995242927182
+      ],
+      [
+        -28.443408430501837,
+        -25.198661013150222
+      ],
+      [
+        -13.474985707616364,
+        -35.53061722204576
+      ],
+      [
+        4.580393849702248,
+        -37.722937215726056
+      ],
+      [
+        21.586460375783936,
+        -31.27338690395893
+      ],
+      [
+        33.64732897482198,
+        -17.6594805376632
+      ]
+    ],
+    "housing_positions": [
+      [
+        37.5,
+        37.5
+      ],
+      [
+        -37.5,
+        37.5
+      ],
+      [
+        -37.5,
+        -37.5
+      ],
+      [
+        37.5,
+        -37.5
+      ]
+    ],
+    "rotor_screws": [
+      [
+        26.0,
+        0.0
+      ],
+      [
+        1.592040838891559e-15,
+        26.0
+      ],
+      [
+        -26.0,
+        3.184081677783118e-15
+      ],
+      [
+        -4.776122516674677e-15,
+        -26.0
+      ]
+    ],
+    "shaft_screws": [
+      [
+        7.5,
+        0.0
+      ],
+      [
+        4.592425496802575e-16,
+        7.5
+      ],
+      [
+        -7.5,
+        9.18485099360515e-16
+      ],
+      [
+        -1.3777276490407722e-15,
+        -7.5
+      ]
+    ],
+    "carrier_screws": [
+      [
+        18.477590650225736,
+        7.653668647301796
+      ],
+      [
+        -7.653668647301794,
+        18.477590650225736
+      ],
+      [
+        -18.477590650225736,
+        -7.653668647301793
+      ],
+      [
+        7.6536686473018,
+        -18.477590650225732
+      ]
+    ],
+    "input_bore": 15.0,
+    "output_bore": 31.5,
+    "carrier_radius": 28.0,
+    "input_flange": 14.0
+  },
+  "pieces": {
+    "rotor_lower": {
+      "width": 76.0,
+      "depth": 4.5,
+      "quantity": 1
+    },
+    "eccentric_lower": {
+      "width": 31.0,
+      "depth": 4.5,
+      "quantity": 1
+    },
+    "input_hub_lower": {
+      "width": 28.0,
+      "depth": 6.0,
+      "quantity": 1
+    },
+    "output_carrier_lower": {
+      "width": 56.0,
+      "depth": 6.0,
+      "quantity": 1
+    },
+    "rotor_upper": {
+      "width": 76.0,
+      "depth": 4.5,
+      "quantity": 1
+    },
+    "eccentric_upper": {
+      "width": 31.0,
+      "depth": 4.5,
+      "quantity": 1
+    },
+    "input_hub_upper": {
+      "width": 28.0,
+      "depth": 6.0,
+      "quantity": 1
+    },
+    "output_carrier_upper": {
+      "width": 56.0,
+      "depth": 6.0,
+      "quantity": 1
+    },
+    "housing_back": {
+      "width": 89,
+      "depth": 12,
+      "quantity": 1
+    },
+    "bearing_retainer_back": {
+      "width": 48.0,
+      "depth": 4.85,
+      "quantity": 1
+    },
+    "housing_front": {
+      "width": 89,
+      "depth": 12,
+      "quantity": 1
+    },
+    "bearing_retainer_front": {
+      "width": 81.0,
+      "depth": 3.35,
+      "quantity": 1
+    },
+    "housing_spacer": {
+      "width": 10.0,
+      "depth": 18.0,
+      "quantity": 4
+    },
+    "input_shaft_spacer": {
+      "width": 20.0,
+      "depth": 4.5,
+      "quantity": 1
+    }
+  },
+  "print_layout": [
+    {
+      "part": "housing_back",
+      "copy": 1,
+      "pos": [
+        44.5,
+        44.5,
+        0
+      ],
+      "width": 89
+    },
+    {
+      "part": "housing_front",
+      "copy": 1,
+      "pos": [
+        141.5,
+        44.5,
+        0
+      ],
+      "width": 89
+    },
+    {
+      "part": "bearing_retainer_front",
+      "copy": 1,
+      "pos": [
+        40.5,
+        137.5,
+        0
+      ],
+      "width": 81.0
+    },
+    {
+      "part": "rotor_lower",
+      "copy": 1,
+      "pos": [
+        127.0,
+        135.0,
+        0
+      ],
+      "width": 76.0
+    },
+    {
+      "part": "rotor_upper",
+      "copy": 1,
+      "pos": [
+        38.0,
+        224.0,
+        0
+      ],
+      "width": 76.0
+    },
+    {
+      "part": "output_carrier_lower",
+      "copy": 1,
+      "pos": [
+        112.0,
+        214.0,
+        0
+      ],
+      "width": 56.0
+    },
+    {
+      "part": "output_carrier_upper",
+      "copy": 1,
+      "pos": [
+        176.0,
+        214.0,
+        0
+      ],
+      "width": 56.0
+    },
+    {
+      "part": "bearing_retainer_back",
+      "copy": 1,
+      "pos": [
+        24.0,
+        294.0,
+        0
+      ],
+      "width": 48.0
+    },
+    {
+      "part": "eccentric_lower",
+      "copy": 1,
+      "pos": [
+        71.5,
+        285.5,
+        0
+      ],
+      "width": 31.0
+    },
+    {
+      "part": "eccentric_upper",
+      "copy": 1,
+      "pos": [
+        110.5,
+        285.5,
+        0
+      ],
+      "width": 31.0
+    },
+    {
+      "part": "input_hub_lower",
+      "copy": 1,
+      "pos": [
+        148.0,
+        284.0,
+        0
+      ],
+      "width": 28.0
+    },
+    {
+      "part": "input_hub_upper",
+      "copy": 1,
+      "pos": [
+        184.0,
+        284.0,
+        0
+      ],
+      "width": 28.0
+    },
+    {
+      "part": "input_shaft_spacer",
+      "copy": 1,
+      "pos": [
+        216.0,
+        280.0,
+        0
+      ],
+      "width": 20.0
+    },
+    {
+      "part": "housing_spacer",
+      "copy": 1,
+      "pos": [
+        5.0,
+        331.0,
+        0
+      ],
+      "width": 10.0
+    },
+    {
+      "part": "housing_spacer",
+      "copy": 2,
+      "pos": [
+        23.0,
+        331.0,
+        0
+      ],
+      "width": 10.0
+    },
+    {
+      "part": "housing_spacer",
+      "copy": 3,
+      "pos": [
+        41.0,
+        331.0,
+        0
+      ],
+      "width": 10.0
+    },
+    {
+      "part": "housing_spacer",
+      "copy": 4,
+      "pos": [
+        59.0,
+        331.0,
+        0
+      ],
+      "width": 10.0
+    }
+  ],
+  "hardware": [
+    {
+      "item": "6705 bearing",
+      "quantity": 2,
+      "dimensions": {
+        "id": 25.0,
+        "od": 32.0,
+        "depth": 4.0
+      }
+    },
+    {
+      "item": "6810 bearing",
+      "quantity": 1,
+      "dimensions": {
+        "id": 50.0,
+        "od": 65.0,
+        "depth": 7.0
+      }
+    },
+    {
+      "item": "fixed ring rods",
+      "quantity": 13,
+      "diameter": 6.0,
+      "grip": 42.0,
+      "note": "Smooth shank in the mesh zone; add length for outside nuts/collars."
+    },
+    {
+      "item": "output drive screws + nuts",
+      "quantity": 4,
+      "diameter": 2.5,
+      "tip_z": 4.0,
+      "head_z": 30.0
+    },
+    {
+      "item": "M3 housing bolts + nuts",
+      "quantity": 4,
+      "grip": 42.0
+    },
+    {
+      "item": "M3 rotor bolts + nuts",
+      "quantity": 4,
+      "grip": 9
+    },
+    {
+      "item": "M3 eccentric bolts + nuts",
+      "quantity": 4,
+      "grip": 9
+    },
+    {
+      "item": "M3 input hub bolts + nuts",
+      "quantity": 4,
+      "grip": 12
+    },
+    {
+      "item": "M3 output carrier bolts + nuts",
+      "quantity": 4,
+      "grip": 12
+    },
+    {
+      "item": "M3 bearing retainer bolts + nuts",
+      "quantity": 6,
+      "grip": 13
+    },
+    {
+      "item": "M6 input axle",
+      "quantity": 1
+    },
+    {
+      "item": "M6 input axle clamping nuts",
+      "quantity": 2
+    },
+    {
+      "item": "M6 input axle washers",
+      "quantity": 2,
+      "outer_diameter": 12,
+      "bore": 6.4,
+      "depth": 1.6
+    },
+    {
+      "item": "M6 ring rod retaining nuts",
+      "quantity": 26,
+      "note": "Preview uses threaded rod ends with smooth 6 mm mesh surfaces."
+    }
+  ],
+  "preview_screw_lengths_mm": {
+    "rotor": 10,
+    "eccentric": 10,
+    "hub": 13,
+    "carrier": 13,
+    "housing": 43.0,
+    "output": 26.0
+  },
+  "preview_hardware_counts": {
+    "screws": 30,
+    "nuts_m3": 26,
+    "nuts_m2d5": 4,
+    "nuts_m6": 28,
+    "shaft_washers": 2,
+    "ring_rods": 13,
+    "input_axles": 1,
+    "bearings": 3
+  }
+}

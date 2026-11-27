@@ -1,0 +1,1261 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_M3_standoff_socket",
+  "mode": "3dpr",
+  "units": "mm",
+  "tree": {
+    "op": "difference",
+    "children": [
+      {
+        "op": "union",
+        "children": [
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "solid",
+                "value": {
+                  "kind": "cube",
+                  "source_id": "direct_000",
+                  "intent": {
+                    "size": [
+                      12,
+                      12,
+                      8.100000000000001
+                    ],
+                    "zz": "bottom",
+                    "shape": "oobb_cube",
+                    "type": "p",
+                    "pos": [
+                      0,
+                      0,
+                      0
+                    ]
+                  },
+                  "size": [
+                    12.0,
+                    12.0,
+                    8.100000000000001
+                  ],
+                  "logical_id": "direct_000_oobb_cube_00"
+                },
+                "children": []
+              }
+            ],
+            "value": [
+              -6.0,
+              -6.0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "op": "union",
+        "children": [
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "solid",
+                "value": {
+                  "kind": "cylinder",
+                  "source_id": "direct_002",
+                  "intent": {
+                    "radius": 2.4499999999999997,
+                    "depth": 1.77,
+                    "shape": "oobb_hole",
+                    "type": "n",
+                    "pos": [
+                      0,
+                      0,
+                      -0.01
+                    ],
+                    "native_hole_array": true
+                  },
+                  "radius": 2.4499999999999997,
+                  "height": 1.77,
+                  "z_offset": 0,
+                  "logical_id": "oobb_hole_radius_2d4499999999999997"
+                },
+                "children": []
+              }
+            ],
+            "value": [
+              0,
+              0,
+              -0.01
+            ]
+          },
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "rotate",
+                "children": [
+                  {
+                    "op": "difference",
+                    "children": [
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_004",
+                                  "intent": {
+                                    "radius_name": "m3",
+                                    "depth": 25.0,
+                                    "zz": "none",
+                                    "nut_include": false,
+                                    "clearance": "top",
+                                    "overhang": false,
+                                    "shape": "oobb_screw_socket_cap",
+                                    "type": "n",
+                                    "pos": [
+                                      0,
+                                      0,
+                                      2.6
+                                    ]
+                                  },
+                                  "radius": 1.5,
+                                  "height": 25.0,
+                                  "z_offset": 0,
+                                  "cad_name": "oobb_screw_m3_socket_cap_round",
+                                  "logical_id": "oobb_screw_m3_socket_cap_round"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              0,
+                              0,
+                              -25.0
+                            ]
+                          },
+                          {
+                            "op": "solid",
+                            "value": {
+                              "kind": "cylinder",
+                              "source_id": "direct_004",
+                              "intent": {
+                                "radius_name": "m3",
+                                "depth": 25.0,
+                                "zz": "none",
+                                "nut_include": false,
+                                "clearance": "top",
+                                "overhang": false,
+                                "shape": "oobb_screw_socket_cap",
+                                "type": "n",
+                                "pos": [
+                                  0,
+                                  0,
+                                  2.6
+                                ]
+                              },
+                              "radius": 3.0,
+                              "height": 253.2,
+                              "z_offset": 0,
+                              "cad_name": "oobb_screw_m3_socket_cap_head",
+                              "logical_id": "oobb_screw_m3_socket_cap_head"
+                            },
+                            "children": []
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_004",
+                                  "intent": {
+                                    "radius_name": "m3",
+                                    "depth": 25.0,
+                                    "zz": "none",
+                                    "nut_include": false,
+                                    "clearance": "top",
+                                    "overhang": false,
+                                    "shape": "oobb_screw_socket_cap",
+                                    "type": "n",
+                                    "pos": [
+                                      0,
+                                      0,
+                                      2.6
+                                    ]
+                                  },
+                                  "radius": 1.8,
+                                  "height": 25.0,
+                                  "z_offset": 0,
+                                  "cad_name": "oobb_screw_m3_socket_cap_shaft",
+                                  "logical_id": "oobb_screw_m3_socket_cap_shaft"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              0,
+                              0,
+                              -25.0
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "op": "union",
+                        "children": []
+                      }
+                    ]
+                  }
+                ],
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "value": [
+              0,
+              0,
+              2.6
+            ]
+          },
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "solid",
+                "value": {
+                  "kind": "cylinder",
+                  "source_id": "direct_006",
+                  "intent": {
+                    "radius": 3.0,
+                    "depth": 5.620000000000001,
+                    "shape": "oobb_hole",
+                    "type": "n",
+                    "pos": [
+                      0,
+                      0,
+                      2.6
+                    ],
+                    "native_hole_array": true
+                  },
+                  "radius": 3.0,
+                  "height": 5.620000000000001,
+                  "z_offset": 0,
+                  "logical_id": "oobb_hole_radius_3d0"
+                },
+                "children": []
+              }
+            ],
+            "value": [
+              0,
+              0,
+              2.6
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_cube_00_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_length",
+        "expression": "12.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_width",
+        "expression": "12.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            6.0,
+            6.0
+          ],
+          "corner": [
+            12.0,
+            12.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_000_oobb_cube_00_length",
+          "height": "direct_000_oobb_cube_00_width"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_00_depth",
+        "expression": "8.100000000000001 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_cube_00_profile",
+        "distance": "direct_000_oobb_cube_00_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_cube_00_extrude",
+        "body_name": "direct_000_oobb_cube_00_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_cube_00_body"
+        ],
+        "translate": [
+          -6.0,
+          -6.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "oobb_screw_m3_socket_cap_round_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_round_radius",
+        "expression": "1.5 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 1.5
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_screw_m3_socket_cap_round_radius"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_round_depth",
+        "expression": "25.0 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_screw_m3_socket_cap_round_profile",
+        "distance": "oobb_screw_m3_socket_cap_round_depth",
+        "operation": "new",
+        "name": "oobb_screw_m3_socket_cap_round_extrude",
+        "body_name": "oobb_screw_m3_socket_cap_round_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_screw_m3_socket_cap_round_body"
+        ],
+        "copy": true,
+        "translate": [
+          0,
+          0,
+          -25.0
+        ]
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 16
+        },
+        "name": "oobb_screw_m3_socket_cap_round_place_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "body.rename",
+      "params": {
+        "body": {
+          "binding": "created_body",
+          "command_index": 16
+        },
+        "name": "oobb_screw_m3_socket_cap_round_instance_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "oobb_screw_m3_socket_cap_head_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_head_radius",
+        "expression": "3.0 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 3.0
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_screw_m3_socket_cap_head_radius"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_head_depth",
+        "expression": "253.2 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_screw_m3_socket_cap_head_profile",
+        "distance": "oobb_screw_m3_socket_cap_head_depth",
+        "operation": "new",
+        "name": "oobb_screw_m3_socket_cap_head_extrude",
+        "body_name": "oobb_screw_m3_socket_cap_head_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_screw_m3_socket_cap_head_body"
+        ],
+        "copy": true,
+        "translate": [
+          0,
+          0,
+          0
+        ]
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 26
+        },
+        "name": "oobb_screw_m3_socket_cap_head_place_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "body.rename",
+      "params": {
+        "body": {
+          "binding": "created_body",
+          "command_index": 26
+        },
+        "name": "oobb_screw_m3_socket_cap_head_instance_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "oobb_screw_m3_socket_cap_shaft_profile",
+        "offset": 0
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_shaft_radius",
+        "expression": "1.8 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 1.8
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_screw_m3_socket_cap_shaft_radius"
+        }
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_shaft_depth",
+        "expression": "25.0 mm",
+        "comment": "direct_004"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_screw_m3_socket_cap_shaft_profile",
+        "distance": "oobb_screw_m3_socket_cap_shaft_depth",
+        "operation": "new",
+        "name": "oobb_screw_m3_socket_cap_shaft_extrude",
+        "body_name": "oobb_screw_m3_socket_cap_shaft_body"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_screw_m3_socket_cap_shaft_body"
+        ],
+        "copy": true,
+        "translate": [
+          0,
+          0,
+          -25.0
+        ]
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 36
+        },
+        "name": "oobb_screw_m3_socket_cap_shaft_place_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "body.rename",
+      "params": {
+        "body": {
+          "binding": "created_body",
+          "command_index": 36
+        },
+        "name": "oobb_screw_m3_socket_cap_shaft_instance_001"
+      },
+      "source_id": "direct_004"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "oobb_screw_m3_socket_cap_round_instance_001",
+          "oobb_screw_m3_socket_cap_head_instance_001",
+          "oobb_screw_m3_socket_cap_shaft_instance_001"
+        ],
+        "translate": [
+          0,
+          0,
+          2.6
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d4499999999999997_radius",
+        "expression": "2.4499999999999997 mm",
+        "comment": "direct_002"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_2d4499999999999997_depth",
+        "expression": "1.77 mm",
+        "comment": "direct_002"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_3d0_radius",
+        "expression": "3.0 mm",
+        "comment": "direct_006"
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_3d0_depth",
+        "expression": "5.620000000000001 mm",
+        "comment": "direct_006"
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_2d4499999999999997_positions"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 2.4499999999999997,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_2d4499999999999997_radius"
+        }
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_002"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_2d4499999999999997_positions",
+        "distance": "oobb_hole_radius_2d4499999999999997_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_00_body"
+        ]
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 48
+        },
+        "name": "oobb_hole_radius_2d4499999999999997_flat_bottom_cut"
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_2d4499999999999997",
+        "features": [
+          "oobb_hole_radius_2d4499999999999997_positions",
+          "oobb_hole_radius_2d4499999999999997_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_002"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": 2.6,
+        "name": "oobb_hole_radius_3d0_positions"
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 3.0,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_3d0_radius"
+        }
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_006"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_006"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_3d0_positions",
+        "distance": "oobb_hole_radius_3d0_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_00_body"
+        ]
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 55
+        },
+        "name": "oobb_hole_radius_3d0_flat_bottom_cut"
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_3d0",
+        "features": [
+          "oobb_hole_radius_3d0_positions",
+          "oobb_hole_radius_3d0_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_006"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_cube_00_body",
+        "tools": [
+          "oobb_screw_m3_socket_cap_round_instance_001",
+          "oobb_screw_m3_socket_cap_head_instance_001",
+          "oobb_screw_m3_socket_cap_shaft_instance_001"
+        ],
+        "operation": "cut"
+      },
+      "source_id": "boolean_difference"
+    },
+    {
+      "command": "solid.remove",
+      "params": {
+        "bodies": [
+          "oobb_screw_m3_socket_cap_round_body",
+          "oobb_screw_m3_socket_cap_head_body",
+          "oobb_screw_m3_socket_cap_shaft_body"
+        ]
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 59
+        },
+        "name": "hide_definition_bodies"
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_round definition",
+        "features": [
+          "oobb_screw_m3_socket_cap_round_profile",
+          "oobb_screw_m3_socket_cap_round_extrude"
+        ]
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_head definition",
+        "features": [
+          "oobb_screw_m3_socket_cap_head_profile",
+          "oobb_screw_m3_socket_cap_head_extrude"
+        ]
+      },
+      "source_id": "definitions"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_screw_m3_socket_cap_shaft definition",
+        "features": [
+          "oobb_screw_m3_socket_cap_shaft_profile",
+          "oobb_screw_m3_socket_cap_shaft_extrude"
+        ]
+      },
+      "source_id": "definitions"
+    }
+  ],
+  "features": [
+    {
+      "logical_id": "direct_000_oobb_cube_00",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_cube_00_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_000",
+        "intent": {
+          "size": [
+            12,
+            12,
+            8.100000000000001
+          ],
+          "zz": "bottom",
+          "shape": "oobb_cube",
+          "type": "p",
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        "size": [
+          12.0,
+          12.0,
+          8.100000000000001
+        ],
+        "logical_id": "direct_000_oobb_cube_00"
+      },
+      "parameters": {
+        "length": "direct_000_oobb_cube_00_length",
+        "width": "direct_000_oobb_cube_00_width",
+        "height": "direct_000_oobb_cube_00_depth"
+      }
+    },
+    {
+      "logical_id": "oobb_screw_m3_socket_cap_round",
+      "source_id": "direct_004",
+      "body": "oobb_screw_m3_socket_cap_round_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 25.0,
+          "zz": "none",
+          "nut_include": false,
+          "clearance": "top",
+          "overhang": false,
+          "shape": "oobb_screw_socket_cap",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            2.6
+          ]
+        },
+        "radius": 1.5,
+        "height": 25.0,
+        "z_offset": 0,
+        "cad_name": "oobb_screw_m3_socket_cap_round",
+        "logical_id": "oobb_screw_m3_socket_cap_round"
+      },
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_round_radius",
+        "height": "oobb_screw_m3_socket_cap_round_depth"
+      },
+      "reusable": true,
+      "family": "oobb_screw_m3_socket_cap_round",
+      "instances": [
+        {
+          "body": "oobb_screw_m3_socket_cap_round_instance_001",
+          "source_id": "direct_004",
+          "placement_feature": "oobb_screw_m3_socket_cap_round_place_001"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_screw_m3_socket_cap_head",
+      "source_id": "direct_004",
+      "body": "oobb_screw_m3_socket_cap_head_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 25.0,
+          "zz": "none",
+          "nut_include": false,
+          "clearance": "top",
+          "overhang": false,
+          "shape": "oobb_screw_socket_cap",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            2.6
+          ]
+        },
+        "radius": 3.0,
+        "height": 253.2,
+        "z_offset": 0,
+        "cad_name": "oobb_screw_m3_socket_cap_head",
+        "logical_id": "oobb_screw_m3_socket_cap_head"
+      },
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_head_radius",
+        "height": "oobb_screw_m3_socket_cap_head_depth"
+      },
+      "reusable": true,
+      "family": "oobb_screw_m3_socket_cap_head",
+      "instances": [
+        {
+          "body": "oobb_screw_m3_socket_cap_head_instance_001",
+          "source_id": "direct_004",
+          "placement_feature": "oobb_screw_m3_socket_cap_head_place_001"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_screw_m3_socket_cap_shaft",
+      "source_id": "direct_004",
+      "body": "oobb_screw_m3_socket_cap_shaft_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_004",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 25.0,
+          "zz": "none",
+          "nut_include": false,
+          "clearance": "top",
+          "overhang": false,
+          "shape": "oobb_screw_socket_cap",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            2.6
+          ]
+        },
+        "radius": 1.8,
+        "height": 25.0,
+        "z_offset": 0,
+        "cad_name": "oobb_screw_m3_socket_cap_shaft",
+        "logical_id": "oobb_screw_m3_socket_cap_shaft"
+      },
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_shaft_radius",
+        "height": "oobb_screw_m3_socket_cap_shaft_depth"
+      },
+      "reusable": true,
+      "family": "oobb_screw_m3_socket_cap_shaft",
+      "instances": [
+        {
+          "body": "oobb_screw_m3_socket_cap_shaft_instance_001",
+          "source_id": "direct_004",
+          "placement_feature": "oobb_screw_m3_socket_cap_shaft_place_001"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_hole_radius_2d4499999999999997",
+      "source_id": "direct_002",
+      "body": "direct_000_oobb_cube_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_002",
+        "intent": {
+          "radius": 2.4499999999999997,
+          "depth": 1.77,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 2.4499999999999997,
+        "height": 1.77,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_radius_2d4499999999999997"
+      },
+      "parameters": {
+        "radius": "oobb_hole_radius_2d4499999999999997_radius",
+        "height": "oobb_hole_radius_2d4499999999999997_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_radius_2d4499999999999997",
+      "feature_name": "oobb_hole_radius_2d4499999999999997_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            0,
+            0,
+            -0.01
+          ],
+          "source_id": "direct_002"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_hole_radius_3d0",
+      "source_id": "direct_006",
+      "body": "direct_000_oobb_cube_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_006",
+        "intent": {
+          "radius": 3.0,
+          "depth": 5.620000000000001,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            2.6
+          ],
+          "native_hole_array": true
+        },
+        "radius": 3.0,
+        "height": 5.620000000000001,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_radius_3d0"
+      },
+      "parameters": {
+        "radius": "oobb_hole_radius_3d0_radius",
+        "height": "oobb_hole_radius_3d0_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_radius_3d0",
+      "feature_name": "oobb_hole_radius_3d0_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            0,
+            0,
+            2.6
+          ],
+          "source_id": "direct_006"
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_2d4499999999999997",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_2d4499999999999997_radius",
+        "height": "oobb_hole_radius_2d4499999999999997_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_3d0",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_3d0_radius",
+        "height": "oobb_hole_radius_3d0_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          2.6
+        ]
+      ]
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_round",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_round_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_round_radius",
+        "height": "oobb_screw_m3_socket_cap_round_depth"
+      }
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_head",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_head_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_head_radius",
+        "height": "oobb_screw_m3_socket_cap_head_depth"
+      }
+    },
+    {
+      "name": "oobb_screw_m3_socket_cap_shaft",
+      "method": "linked_body_copies",
+      "master_body": "oobb_screw_m3_socket_cap_shaft_body",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_screw_m3_socket_cap_shaft_radius",
+        "height": "oobb_screw_m3_socket_cap_shaft_depth"
+      }
+    }
+  ],
+  "parameters": {
+    "direct_000_oobb_cube_00_length": 12.0,
+    "direct_000_oobb_cube_00_width": 12.0,
+    "direct_000_oobb_cube_00_depth": 8.100000000000001,
+    "oobb_screw_m3_socket_cap_round_radius": 1.5,
+    "oobb_screw_m3_socket_cap_round_depth": 25.0,
+    "oobb_screw_m3_socket_cap_head_radius": 3.0,
+    "oobb_screw_m3_socket_cap_head_depth": 253.2,
+    "oobb_screw_m3_socket_cap_shaft_radius": 1.8,
+    "oobb_screw_m3_socket_cap_shaft_depth": 25.0,
+    "oobb_hole_radius_2d4499999999999997_radius": 2.4499999999999997,
+    "oobb_hole_radius_2d4499999999999997_depth": 1.77,
+    "oobb_hole_radius_3d0_radius": 3.0,
+    "oobb_hole_radius_3d0_depth": 5.620000000000001
+  },
+  "result_bodies": [
+    "direct_000_oobb_cube_00_body"
+  ],
+  "warnings": [],
+  "hardware_instances": []
+}

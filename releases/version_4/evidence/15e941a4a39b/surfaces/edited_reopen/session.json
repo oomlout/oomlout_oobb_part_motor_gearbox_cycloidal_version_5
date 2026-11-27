@@ -1,0 +1,36 @@
+{
+  "pid": 9596,
+  "arguments": [
+    "C:\\Program Files\\SolidCraft\\solidcraft-cli.exe",
+    "mcp",
+    "--headless",
+    "--param-check",
+    "strict",
+    "--in",
+    "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\15e941a4a39b\\surfaces\\edited.solidcraft",
+    "--allow-path",
+    "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\15e941a4a39b\\surfaces"
+  ],
+  "scoped_environment": {
+    "SOLIDCRAFT_RECOVERY_DIR": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\15e941a4a39b\\surfaces\\edited_reopen\\recovery",
+    "TEMP": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\15e941a4a39b\\surfaces\\edited_reopen\\temp",
+    "TMP": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\15e941a4a39b\\surfaces\\edited_reopen\\temp"
+  },
+  "initialize": {
+    "capabilities": {
+      "resources": {
+        "listChanged": false
+      },
+      "tools": {
+        "listChanged": false
+      }
+    },
+    "instructions": "SolidCraft is an independent parametric 3D CAD app. Units are millimetres and degrees in expressions (internally radians), Z is up. Model like this: `sketch.create {plane: XY}`, draw (`sketch.rectangle.two_point {p0, p1}`, `sketch.circle.center {center, radius}`, `sketch.line {points, closed}`), constrain and dimension (`sketch.dimension {entities, value}`; values may name parameters), `sketch.finish`, then features (`solid.extrude {distance, operation?: new|join|cut|intersect}`, `solid.revolve`, `solid.fillet {edges: [[x,y,z] point on edge], radius}`, `solid.chamfer`, patterns, mirror, primitives). Use `batch` for several steps at once, `list_commands` for ids and parameter docs, `describe_command` for a command's schemas, `inspect_design` / `measure` to verify, `body_topology` to find edge points, `set_parameter` to drive the design and `screenshot` to look at it. A call whose error starts `still running:` was not cancelled: don't send it again; `pending` waits for its result. Backend: headless in-process SolidCraft session.",
+    "protocolVersion": "2025-06-18",
+    "serverInfo": {
+      "name": "solidcraft",
+      "title": "SolidCraft",
+      "version": "0.22.0"
+    }
+  }
+}

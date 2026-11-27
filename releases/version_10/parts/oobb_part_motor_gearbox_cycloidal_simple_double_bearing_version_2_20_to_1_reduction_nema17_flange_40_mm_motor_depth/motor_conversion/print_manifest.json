@@ -1,0 +1,47 @@
+[
+  {
+    "bed": 1,
+    "parts": [
+      "motor_inner_adapter",
+      "motor_cage",
+      "shaft_end_lower",
+      "shaft_mount_lower",
+      "front_cover_spacer",
+      "carrier_top_cap",
+      "rear_output_spacer_1",
+      "rear_output_spacer_2",
+      "rear_output_joiner_1",
+      "rear_output_joiner_2",
+      "rear_output_joiner_3"
+    ],
+    "printer_area_mm": [
+      240,
+      240
+    ]
+  },
+  {
+    "bed": 2,
+    "parts": [
+      "rear_output_extension",
+      "front_cover_face",
+      "front_cover_nuts",
+      "rear_cover_face",
+      "rear_cover_nuts"
+    ],
+    "printer_area_mm": [
+      240,
+      240
+    ]
+  },
+  {
+    "bed": 3,
+    "parts": [
+      "output_circle_plate",
+      "output_circle_rear_plate"
+    ],
+    "printer_area_mm": [
+      240,
+      240
+    ]
+  }
+]

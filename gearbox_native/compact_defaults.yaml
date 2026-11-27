@@ -1,0 +1,23 @@
+# Short V6 stack. Catalogue kwargs and design.yaml can override these defaults.
+architecture: compact_6810
+bearing_output: '6810'
+bearing_eccentric: '6704'
+bearing_shaft: '6701'
+rotor_thickness: 5.0
+disc_gap: 0.5
+guide_pin_diameter: 3.0
+guide_bolt_radius_name: m3
+guide_bolt_length: 35.0
+guide_head_depth: 1.7
+guide_pin_clearance: 0.2
+flange_depth: 12.0
+flange_web: 3.5
+drive_flange_depth: 6.0
+coupling_screw_length: 10.0
+hub_bolt_radius_name: m3
+hub_bolt_length: 25.0
+front_hub_screw_length: 12.0
+post_screw_length: 20.0
+post_nut_bottom: 24.0
+disc_join_count: 0
+case_nut_bottom: 7.0

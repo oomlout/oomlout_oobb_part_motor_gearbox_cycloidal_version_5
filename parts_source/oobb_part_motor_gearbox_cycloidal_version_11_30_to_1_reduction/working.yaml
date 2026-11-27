@@ -1,0 +1,40 @@
+native_master: version_11.solidcraft
+native_parameters:
+  eccentricity: 30 mm / reduction
+  reduction: '30'
+oobb_details:
+  native_master: version_11.solidcraft
+  native_parameters:
+    eccentricity: 30 mm / reduction
+    reduction: '30'
+  oobb_name: version_11
+  oobb_type: cycloidal
+  reduction: 30
+  reduction_text: 30_to_1
+  run_scad: false
+  run_solidcraft: true
+  style: version_11
+  taxonomy_1: oobb
+  taxonomy_2: part
+  taxonomy_3: motor_gearbox
+  taxonomy_4: cycloidal
+  taxonomy_5: version_11
+  taxonomy_6: 30_to_1_reduction
+reduction: 30
+reduction_text: 30_to_1
+style: version_11
+taxonomy_1: oobb
+taxonomy_10: ''
+taxonomy_11: ''
+taxonomy_12: ''
+taxonomy_13: ''
+taxonomy_14: ''
+taxonomy_15: ''
+taxonomy_2: part
+taxonomy_3: motor_gearbox
+taxonomy_4: cycloidal
+taxonomy_5: version_11
+taxonomy_6: 30_to_1_reduction
+taxonomy_7: ''
+taxonomy_8: ''
+taxonomy_9: ''

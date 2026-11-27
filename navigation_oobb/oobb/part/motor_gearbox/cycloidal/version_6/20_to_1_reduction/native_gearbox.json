@@ -1,0 +1,1055 @@
+{
+  "architecture": "simple_6810",
+  "drive_connection": "grub_nut",
+  "parameters": {
+    "reduction": 20,
+    "radius_offset": 1.4,
+    "lobe_radius": 3.0,
+    "lobe_eccentricity_ratio": 0.9,
+    "bearing_eccentric": "6703",
+    "bearing_shaft": "6701",
+    "bearing_output": "6810",
+    "bearing_guide": "6700",
+    "guide_bolt_radius_name": "m3",
+    "guide_spacer_radius": 3.425,
+    "guide_spacer_bore": 3.1,
+    "guide_head_depth": 3.0,
+    "guide_head_clearance": 0.2,
+    "rotor_thickness": 5,
+    "disc_gap": 0.5,
+    "axial_clearance": 0.5,
+    "flange_depth": 8.1,
+    "flange_web": 0.8,
+    "guide_pin_diameter": 3,
+    "guide_pin_pitch_radius": 17.4,
+    "guide_head_wall": 1.0,
+    "guide_pin_count": 6,
+    "guide_pin_clearance": 0.2,
+    "bearing_seat_clearance": 0.1,
+    "bearing_endplay": 0.1,
+    "journal_clearance": 0.1,
+    "lobe_clearance": 0.2,
+    "minimum_wall": 2.0,
+    "motor_plate_depth": 4.0,
+    "motor_hole_pitch": 31,
+    "motor_pilot_diameter": 22.0,
+    "motor_pilot_clearance": 0.2,
+    "motor_shaft_length": 24.0,
+    "motor_body_depth": 40.0,
+    "motor_screw_length": 6,
+    "shaft_radius_name": "m5",
+    "coupling_diameter": 22.0,
+    "coupling_barrel_diameter": 10.0,
+    "coupling_length": 12.0,
+    "coupling_barrel_length": 10.0,
+    "coupling_pitch_diameter": 16.0,
+    "coupling_flange_hole_diameter": 3.0,
+    "coupling_face_clearance": 0.2,
+    "motor_pilot_height": 2.0,
+    "coupling_grub_from_barrel_top": 5.0,
+    "coupling_grub_angles": [
+      0.0
+    ],
+    "coupling_service_angle": 0.0,
+    "coupling_screw_length": 6.0,
+    "coupling_nut_rotation_offset": 180.0,
+    "coupling_nut_hex_rotation": 30.0,
+    "coupling_nut_side_clearance": 0.1,
+    "drive_roof_depth": 2.0,
+    "drive_flange_clearance": 0.25,
+    "drive_cavity_clearance": 0.3,
+    "rear_bearing_lift": 0.3,
+    "casing_bottom_clearance": 0.5,
+    "case_nut_plate_clearance": 3.0,
+    "grub_access_radius": 1.7,
+    "samples_per_lobe": 24,
+    "profile_tolerance": 0.005,
+    "front_retainer_depth": 0.0,
+    "rotor_central_wall": 1.5,
+    "motor_body_width": 42.0,
+    "motor_body_clearance": 0.4,
+    "guide_thread_allowance": 18.0,
+    "architecture": "simple_6810",
+    "allow_shared_bearing_pockets": true,
+    "bearing_outer_race_gap_min": 0.05,
+    "disc_join_radius": 30.0,
+    "disc_join_count": 0,
+    "disc_join_phase": 60,
+    "disc_join_length": 6.0,
+    "disc_join_nut_depth": 2.4,
+    "guide_lip_radius": 7.0,
+    "eccentric_lip_radius": 10.7,
+    "housing_lug_radius": 7.0,
+    "case_cover_post_radius": 4.8,
+    "case_cover_post_clearance": 0.2,
+    "case_cover_post_floor": 2.5,
+    "housing_screw_style": "countersunk",
+    "housing_screw_max_length": 35.0,
+    "deck_bottom": 14.0,
+    "deck_radius": 26.5,
+    "deck_bore": 13.7,
+    "deck_screw_radius": 16.5,
+    "deck_screw_head_z": 26.0,
+    "deck_screw_length": 25.0,
+    "post_pitch_radius": 18.55,
+    "post_radius": 2.7,
+    "post_clearance": 0.15,
+    "post_screw_length": 25.0,
+    "post_nut_bottom": 0.8000000000000014,
+    "drive_flange_radius": 11.0,
+    "drive_flange_depth": 9.0,
+    "hub_key_radius": 4.9,
+    "hub_key_flat": 4.3,
+    "hub_key_depth": 10.25,
+    "hub_key_clearance": 0.15,
+    "hub_bolt_length": 4.0,
+    "hub_bolt_radius_name": "m3",
+    "hub_nut_bottom": 24.8,
+    "collar_bottom": 16.0,
+    "guide_bolt_length": 20.0,
+    "guide_nut_bottom": 4.599999999999999,
+    "front_hub_screw_length": 12.0,
+    "animation_explode": 12,
+    "animation_camera_distance": 1600,
+    "animation_size": [
+      960,
+      1600
+    ],
+    "print_width": 240,
+    "case_nut_bottom": 14.35,
+    "drive_connection": "grub_nut",
+    "direct_drive_bottom_clearance": 0.5,
+    "direct_drive_depth": 9.0,
+    "direct_drive_radius": 11.0,
+    "direct_drive_clearance": 0.25,
+    "direct_shaft_clearance": 0.05,
+    "direct_shaft_endplay": 0.2,
+    "direct_grub_length": 8.0,
+    "direct_grub_height": 4.0,
+    "direct_grub_angle": 0.0,
+    "direct_nut_inner_radius": 5.0,
+    "direct_nut_clearance": 0.15,
+    "direct_nut_floor": 0.6,
+    "direct_key_roof_clearance": 0.2,
+    "direct_hub_bolt_length": 8.0,
+    "direct_guide_bolt_length": 20.0,
+    "direct_stack_layout": "base_grub",
+    "direct_base_clearance": 0.5,
+    "direct_base_grub_height": 4.0,
+    "direct_base_front_web": 0.8,
+    "direct_base_hub_bolt_length": 4.0,
+    "direct_base_top_clearance": 0.2,
+    "direct_base_ramp_depth": 0.6,
+    "pitch_radius_increment": 0.05,
+    "lobe_reference_radius": 1.65,
+    "lobe_reference_reduction": 20,
+    "casing_wall": 2.0,
+    "split_output_casing": true,
+    "casing_ramp_layer_height": 0.25,
+    "guide_socket_floor": 1.4,
+    "guide_nut_rotation": 0,
+    "post_register_depth": 1.6,
+    "post_register_clearance": 0.15,
+    "post_fasteners": true,
+    "post_fastener_radius": 2.7,
+    "post_fastener_pitch_radius": 18.55,
+    "post_fastener_register_radius": 2.3,
+    "post_fastener_register_depth": 1.6,
+    "post_fastener_socket_floor": 2.6,
+    "post_fastener_length": 25.0,
+    "post_fastener_screw_clearance": 0.2,
+    "post_fastener_nut_rotation": 30.0,
+    "post_fastener_min_wall": 0.8,
+    "eccentric_shoulder_radius": 9.3,
+    "oobb_name": "version_6",
+    "reduction_text": "20_to_1",
+    "style": "version_6",
+    "taxonomy_1": "oobb",
+    "taxonomy_2": "part",
+    "taxonomy_3": "motor_gearbox",
+    "taxonomy_4": "cycloidal",
+    "taxonomy_5": "version_6",
+    "taxonomy_6": "20_to_1_reduction",
+    "mode": "3dpr",
+    "type": "default_version_6",
+    "post_register_radius": 2.3,
+    "simple_assembly": true,
+    "plain_guides": true,
+    "output_member": "outer_casing",
+    "output_direction": "same_as_input",
+    "eccentric_phase_degrees": [
+      0,
+      180
+    ],
+    "coupling_orientation": "flange_up_at_motor_shaft_tip",
+    "ring_pin_count": 20,
+    "disc_lobes": 19,
+    "disc_phase_degrees": [
+      0,
+      -9.473684210526315
+    ],
+    "eccentric_bearing": {
+      "id": 17.0,
+      "od": 23.0,
+      "depth": 4.0
+    },
+    "shaft_bearing": {
+      "id": 12.0,
+      "od": 18.0,
+      "depth": 4.0
+    },
+    "output_bearing": {
+      "id": 50.0,
+      "od": 65.0,
+      "depth": 7.0
+    },
+    "guide_bearing": {
+      "id": 10.0,
+      "od": 15.0,
+      "depth": 4.0
+    },
+    "guide_strategy": "plain_orbit_holes_on_smooth_M3_shanks",
+    "guide_hole_radius": 3.1,
+    "guide_running_clearance": 0.2,
+    "guide_positions": [
+      [
+        15.068842025849232,
+        8.699999999999998
+      ],
+      [
+        1.0654427152581972e-15,
+        17.4
+      ],
+      [
+        -15.068842025849232,
+        8.699999999999998
+      ],
+      [
+        -15.06884202584923,
+        -8.700000000000001
+      ],
+      [
+        -3.1963281457745915e-15,
+        -17.4
+      ],
+      [
+        15.068842025849227,
+        -8.700000000000006
+      ]
+    ],
+    "post_positions": [
+      [
+        18.55,
+        0.0
+      ],
+      [
+        -9.274999999999997,
+        16.06477124020134
+      ],
+      [
+        -9.27500000000001,
+        -16.064771240201335
+      ]
+    ],
+    "post_hole_radius": 4.25,
+    "disc_join_positions": [],
+    "deck_positions": [
+      [
+        16.5,
+        0.0
+      ],
+      [
+        -8.249999999999996,
+        14.289419162443238
+      ],
+      [
+        -8.250000000000007,
+        -14.289419162443235
+      ]
+    ],
+    "guide_nut_rotations": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "pitch_radius": 31.15,
+    "radius_calculation": {
+      "mode": "automatic",
+      "limits_mm": {
+        "lobe_shape": 31.11111111111111,
+        "rotor_features": 27.099999999999998,
+        "support_tracks": 29.4,
+        "pin_spacing": 25.569812885998648
+      },
+      "limiting_feature": "lobe_shape",
+      "selected_pitch_radius": 31.15,
+      "rounding_increment_mm": 0.05
+    },
+    "ring_positions": [
+      [
+        31.15,
+        0.0
+      ],
+      [
+        29.62541048259403,
+        9.625879374779611
+      ],
+      [
+        25.20087937477961,
+        18.309510608910536
+      ],
+      [
+        18.309510608910536,
+        25.20087937477961
+      ],
+      [
+        9.625879374779613,
+        29.62541048259403
+      ],
+      [
+        1.9073873896720024e-15,
+        31.15
+      ],
+      [
+        -9.62587937477961,
+        29.625410482594035
+      ],
+      [
+        -18.309510608910532,
+        25.20087937477961
+      ],
+      [
+        -25.200879374779607,
+        18.30951060891054
+      ],
+      [
+        -29.62541048259403,
+        9.625879374779615
+      ],
+      [
+        -31.15,
+        3.814774779344005e-15
+      ],
+      [
+        -29.625410482594035,
+        -9.625879374779608
+      ],
+      [
+        -25.20087937477961,
+        -18.309510608910532
+      ],
+      [
+        -18.30951060891054,
+        -25.200879374779607
+      ],
+      [
+        -9.625879374779617,
+        -29.62541048259403
+      ],
+      [
+        -5.7221621690160075e-15,
+        -31.15
+      ],
+      [
+        9.625879374779606,
+        -29.625410482594035
+      ],
+      [
+        18.309510608910532,
+        -25.200879374779614
+      ],
+      [
+        25.200879374779607,
+        -18.309510608910543
+      ],
+      [
+        29.62541048259403,
+        -9.62587937477962
+      ]
+    ],
+    "casing_bore_radius": 31.15,
+    "housing_radius": 36.15,
+    "housing_width": 5,
+    "housing_mount_offset": 27.0,
+    "housing_positions": [
+      [
+        45.0,
+        7.5
+      ],
+      [
+        -7.499999999999997,
+        45.0
+      ],
+      [
+        -45.0,
+        -7.499999999999995
+      ],
+      [
+        7.499999999999992,
+        -45.0
+      ]
+    ],
+    "motor_positions": [
+      [
+        15.5,
+        15.5
+      ],
+      [
+        -15.5,
+        15.5
+      ],
+      [
+        -15.5,
+        -15.5
+      ],
+      [
+        15.5,
+        -15.5
+      ]
+    ],
+    "carrier_journal_radius": 24.9,
+    "carrier_radius": 28.0,
+    "bearing_pass_radius": 31.2,
+    "bearing_cup_radius": 34.6,
+    "bearing_cup_depth": 7.2,
+    "guide_heads_nested": false,
+    "motor_face_z": 0.0,
+    "mount_bottom_z": 0.0,
+    "motor_plate_top": 4.0,
+    "mount_rim_top": 4.0,
+    "rear_bearing_bottom": 4.3,
+    "rear_bearing_top": 11.3,
+    "rear_bearing_shoulder_radius": 26.5,
+    "casing_bottom_z": 4.5,
+    "rear_retainer_depth": -4.5,
+    "integrated_mount_depth": 24.6,
+    "coupling_top": 24.0,
+    "coupling_flange_top": 24.0,
+    "coupling_z": 12.0,
+    "coupling_flange_z": 22.0,
+    "coupling_grub_z": 6.5,
+    "coupling_hole_positions": [
+      [
+        8.0,
+        0.0
+      ],
+      [
+        4.898587196589413e-16,
+        8.0
+      ],
+      [
+        -8.0,
+        9.797174393178826e-16
+      ],
+      [
+        -1.4695761589768238e-15,
+        -8.0
+      ]
+    ],
+    "coupling_positions": [
+      [
+        4.898587196589413e-16,
+        8.0
+      ],
+      [
+        -1.4695761589768238e-15,
+        -8.0
+      ]
+    ],
+    "coupling_nut_rotations": [
+      270.0,
+      89.99999999999999
+    ],
+    "drive_roof_top": 5.3,
+    "drive_roof_z": 2.8,
+    "drive_start": 2.5,
+    "direct_drive": true,
+    "base_grub": true,
+    "drive_flange_top": 11.5,
+    "cap_screw_head_z": 22.0,
+    "rotor_a_z": 12.0,
+    "rotor_b_z": 17.5,
+    "rear_support_top": 11.5,
+    "front_support_bottom": 23.0,
+    "housing_depth": 31.1,
+    "output_bearing_z": [
+      7.800000000000001,
+      27.400000000000002
+    ],
+    "shaft_bearing_z": [
+      0,
+      29.0
+    ],
+    "eccentric_bearing_z": [
+      14.9,
+      19.6
+    ],
+    "guide_bearing_z": [
+      14.9,
+      19.6
+    ],
+    "eccentric_journal_depth": 4.2,
+    "eccentric_journal_z": [
+      12.8,
+      17.5
+    ],
+    "eccentric_journal_radius": 8.4,
+    "shaft_journal_radius": 5.9,
+    "shaft_exit_radius": 7.5,
+    "hub_split_z": 17.25,
+    "hub_upper_start": 17.25,
+    "hub_upper_end": 32.0,
+    "hub_bolt_head_z": 28.8,
+    "guide_bolt_head_z": 24.4,
+    "guide_nut_top": 7.099999999999999,
+    "guide_spacer_depths": [],
+    "guide_spacer_z": [],
+    "post_depth": 11.5,
+    "post_screw_head_z": 25.6,
+    "front_hub_bottom": 23.8,
+    "front_hub_screw_head_z": 30.900000000000002,
+    "front_hub_nut_bottom": 19.1,
+    "housing_screw_length": 6.0,
+    "case_screw_head_z": 20.25,
+    "case_cover_post_bottom": 17.75,
+    "case_cover_depth": 13.350000000000001,
+    "case_split_z": 13.4,
+    "case_base_depth": 8.9,
+    "case_ring_depth": 17.700000000000003,
+    "central_to_guide_race_gap": -1.6000000000000014,
+    "gap": 31.1,
+    "thickness_outer_rotor": 8.1,
+    "disc_half_depth": 2.5,
+    "disc_join_head_z": 4.7,
+    "disc_join_nut_bottom": -1.2999999999999998,
+    "single_output_ring": false,
+    "guide_screw_style": "socket_cap",
+    "guide_socket_radius": 3.0,
+    "coupling_screw_up": true,
+    "bearing_seats": {
+      "cycloid_drive": {
+        "name": "eccentric_bearing_seat",
+        "size": "6703",
+        "nominal": {
+          "id": 17.0,
+          "od": 23.0,
+          "depth": 4.0
+        },
+        "seat_radius": 11.6,
+        "seat_depth": 4.2,
+        "through_radius": 10.7,
+        "journal_radius": 8.4,
+        "inner_shoulder_radius": 9.3
+      },
+      "front_shaft": {
+        "name": "shaft_bearing_seat",
+        "size": "6701",
+        "nominal": {
+          "id": 12.0,
+          "od": 18.0,
+          "depth": 4.0
+        },
+        "seat_radius": 9.1,
+        "seat_depth": 4.2,
+        "through_radius": 7.5,
+        "journal_radius": 5.9,
+        "inner_shoulder_radius": 6.8
+      },
+      "output_casing": {
+        "name": "output_bearing_seat",
+        "size": "6810",
+        "nominal": {
+          "id": 50.0,
+          "od": 65.0,
+          "depth": 7.0
+        },
+        "seat_radius": 32.6,
+        "seat_depth": 7.2,
+        "through_radius": 31.2,
+        "journal_radius": 24.9,
+        "inner_shoulder_radius": 26.5
+      }
+    },
+    "cycloid_holes": {
+      "drive_bearing": {
+        "kind": "bearing",
+        "positions": [
+          [
+            0,
+            0
+          ]
+        ],
+        "seat": "cycloid_drive"
+      },
+      "guide_orbit": {
+        "kind": "through",
+        "positions": [
+          [
+            15.068842025849232,
+            8.699999999999998
+          ],
+          [
+            1.0654427152581972e-15,
+            17.4
+          ],
+          [
+            -15.068842025849232,
+            8.699999999999998
+          ],
+          [
+            -15.06884202584923,
+            -8.700000000000001
+          ],
+          [
+            -3.1963281457745915e-15,
+            -17.4
+          ],
+          [
+            15.068842025849227,
+            -8.700000000000006
+          ]
+        ],
+        "pitch_radius": 17.4,
+        "pin_radius": 1.5,
+        "orbit_radius": 1.4,
+        "radial_clearance": 0.2,
+        "radius": 3.1
+      },
+      "support_post_orbit": {
+        "kind": "through",
+        "positions": [
+          [
+            18.55,
+            0.0
+          ],
+          [
+            -9.274999999999997,
+            16.06477124020134
+          ],
+          [
+            -9.27500000000001,
+            -16.064771240201335
+          ]
+        ],
+        "pitch_radius": 18.55,
+        "pin_radius": 2.7,
+        "orbit_radius": 1.4,
+        "radial_clearance": 0.15,
+        "radius": 4.25
+      }
+    },
+    "cycloid_equation": {
+      "name": "cycloidal_roller_envelope",
+      "parameter": "t",
+      "domain": [
+        0,
+        "2*pi"
+      ],
+      "angle_unit": "radians",
+      "parameters": {
+        "N": 20,
+        "R": 31.15,
+        "e": 1.4,
+        "roller_radius": 3.0,
+        "clearance": 0.2
+      },
+      "expressions": {
+        "a": "roller_radius + clearance",
+        "u": "R*cos(t) - N*e*cos(N*t)",
+        "v": "R*sin(t) - N*e*sin(N*t)",
+        "s": "sqrt(u*u + v*v)",
+        "x": "R*cos(t) - e*cos(N*t) - a*u/s",
+        "y": "R*sin(t) - e*sin(N*t) - a*v/s"
+      },
+      "native_representation": "Shared cycloidal_disc / parametric_profile; fixed sampled line segments with native formula links on all caps and walls"
+    },
+    "disc_swept_radius": 30.749999999999996,
+    "casing_lip_pass_clearance": 0.45000000000000284,
+    "casing_features": {
+      "main_bore": {
+        "radius": 31.15,
+        "bottom": 4.5,
+        "top": 31.1
+      },
+      "rear_6810_seat": {
+        "radius": 32.6,
+        "bottom": 4.5,
+        "top": 11.4
+      },
+      "front_6810_seat": {
+        "radius": 32.6,
+        "bottom": 23.8,
+        "top": 31.1
+      },
+      "bearing_lip": {
+        "radius": 31.2,
+        "depth": 2.0
+      },
+      "lobe_start_ramp": {
+        "bottom": 11.4,
+        "radius_bottom": 31.2,
+        "radius_top": 28.15,
+        "depth": 0.6
+      }
+    },
+    "casing_requires_lobe_support": false,
+    "overall_height": 32.0,
+    "fastener_interfaces": {
+      "guide_clamp": {
+        "size": "m3",
+        "head": "socket_cap",
+        "length": 20.0,
+        "head_z": 24.4,
+        "nut_bottom": 4.599999999999999,
+        "positions": [
+          [
+            15.068842025849232,
+            8.699999999999998
+          ],
+          [
+            1.0654427152581972e-15,
+            17.4
+          ],
+          [
+            -15.068842025849232,
+            8.699999999999998
+          ],
+          [
+            -15.06884202584923,
+            -8.700000000000001
+          ],
+          [
+            -3.1963281457745915e-15,
+            -17.4
+          ],
+          [
+            15.068842025849227,
+            -8.700000000000006
+          ]
+        ]
+      },
+      "central_hub": {
+        "size": "m3",
+        "head": "socket_cap",
+        "length": 4.0,
+        "head_z": 28.8,
+        "nut_bottom": 24.8,
+        "positions": [
+          [
+            0,
+            0
+          ]
+        ]
+      },
+      "shaft_grub": {
+        "size": "m3",
+        "length": 8.0,
+        "angle": 0.0,
+        "height": 6.5,
+        "nut_loading": "bottom",
+        "nut_inner_radius": 5.0,
+        "nut_depth": 2.8,
+        "overhang": true,
+        "access": "before fitting motor plate"
+      },
+      "standoff_clamp": {
+        "size": "m3",
+        "head": "socket_cap",
+        "length": 25.0,
+        "head_z": 25.6,
+        "nut_bottom": 0.8000000000000014,
+        "nut_rotation": 30.0,
+        "positions": [
+          [
+            18.55,
+            0.0
+          ],
+          [
+            -9.274999999999997,
+            16.06477124020134
+          ],
+          [
+            -9.27500000000001,
+            -16.064771240201335
+          ]
+        ],
+        "post_radius": 2.7,
+        "bore_radius": 1.7,
+        "register_radius": 2.3,
+        "register_depth": 1.6,
+        "register_clearance": 0.15
+      },
+      "casing_clamp": {
+        "size": "m3",
+        "head": "countersunk",
+        "length": 6.0,
+        "positions": [
+          [
+            45.0,
+            7.5
+          ],
+          [
+            -7.499999999999997,
+            45.0
+          ],
+          [
+            -45.0,
+            -7.499999999999995
+          ],
+          [
+            7.499999999999992,
+            -45.0
+          ]
+        ],
+        "head_z": 20.25,
+        "nut_bottom": 14.35,
+        "nut_overhang": true
+      }
+    },
+    "motor_shaft_radius": 2.5,
+    "direct_shaft_bore_radius": 2.55,
+    "direct_grub_outer_radius": 10.5,
+    "direct_grub_bore_radius": 1.8,
+    "direct_nut_depth": 2.8,
+    "direct_grub_nut_radius": 5.15,
+    "post_screw_hole_radius": 1.7,
+    "post_nut_top": 3.3000000000000016,
+    "casing_tab_depth": 3.0,
+    "casing_tab_radius": 45.0,
+    "casing_tab_units": 3,
+    "casing_join_screw_length": 6.0,
+    "casing_join_nut_setback": 0.1,
+    "casing_tab_wall_overlap": 0.8,
+    "casing_tab_join_offset": 7.5,
+    "output_casing_split_z": 17.25,
+    "casing_half_depths": [
+      12.75,
+      13.850000000000001
+    ],
+    "casing_tab_angles": [
+      0,
+      90,
+      180,
+      270
+    ],
+    "case_nut_top": 16.85,
+    "casing_print_orientation": "split_face_down",
+    "casing_tab_spacing": 15,
+    "casing_tab_width": 14,
+    "casing_tab_length": 44,
+    "casing_tab_m6_offsets": [
+      -15.0,
+      0.0,
+      15.0
+    ],
+    "casing_tab_m3_offsets": [
+      -7.5,
+      7.5
+    ],
+    "casing_print_width": 104.0,
+    "casing_bearing_backing_radius": 31.2
+  },
+  "pieces": {
+    "motor_mount": {
+      "width": 74,
+      "depth": 24.6,
+      "quantity": 1
+    },
+    "output_casing_lower": {
+      "width": 104.0,
+      "depth": 12.75,
+      "quantity": 1
+    },
+    "output_casing_upper": {
+      "width": 104.0,
+      "depth": 13.850000000000001,
+      "quantity": 1
+    },
+    "pin_front": {
+      "width": 53.0,
+      "depth": 8.100000000000001,
+      "quantity": 1
+    },
+    "rotor_a": {
+      "width": 62.3,
+      "depth": 5,
+      "quantity": 1
+    },
+    "rotor_b": {
+      "width": 62.3,
+      "depth": 5,
+      "quantity": 1
+    },
+    "eccentric_hub_lower": {
+      "width": 22.0,
+      "depth": 25.02,
+      "quantity": 1
+    },
+    "eccentric_hub_upper": {
+      "width": 21.400000000000002,
+      "depth": 14.75,
+      "quantity": 1
+    }
+  },
+  "layout": [
+    {
+      "part": "output_casing_lower",
+      "copy": 1,
+      "pos": [
+        52.0,
+        52.0,
+        0
+      ],
+      "width": 104.0
+    },
+    {
+      "part": "output_casing_upper",
+      "copy": 1,
+      "pos": [
+        164.0,
+        52.0,
+        0
+      ],
+      "width": 104.0
+    },
+    {
+      "part": "motor_mount",
+      "copy": 1,
+      "pos": [
+        37.0,
+        149.0,
+        0
+      ],
+      "width": 74
+    },
+    {
+      "part": "rotor_a",
+      "copy": 1,
+      "pos": [
+        113.15,
+        143.15,
+        0
+      ],
+      "width": 62.3
+    },
+    {
+      "part": "rotor_b",
+      "copy": 1,
+      "pos": [
+        183.45000000000002,
+        143.15,
+        0
+      ],
+      "width": 62.3
+    },
+    {
+      "part": "pin_front",
+      "copy": 1,
+      "pos": [
+        26.5,
+        220.5,
+        0
+      ],
+      "width": 53.0
+    },
+    {
+      "part": "eccentric_hub_lower",
+      "copy": 1,
+      "pos": [
+        72.0,
+        205.0,
+        0
+      ],
+      "width": 22.0
+    },
+    {
+      "part": "eccentric_hub_upper",
+      "copy": 1,
+      "pos": [
+        101.7,
+        204.7,
+        0
+      ],
+      "width": 21.400000000000002
+    }
+  ],
+  "fasteners": [
+    {
+      "role": "guides",
+      "size": "M3",
+      "length_mm": 20.0,
+      "quantity": 6,
+      "head": "socket cap"
+    },
+    {
+      "role": "central hub",
+      "size": "M3",
+      "length_mm": 4.0,
+      "quantity": 1,
+      "head": "socket cap"
+    },
+    {
+      "role": "motor shaft",
+      "size": "M3",
+      "length_mm": 8.0,
+      "quantity": 1,
+      "head": "grub / set screw"
+    },
+    {
+      "role": "motor",
+      "size": "M3",
+      "length_mm": 6,
+      "quantity": 4,
+      "head": "countersunk"
+    },
+    {
+      "role": "casing halves",
+      "size": "M3",
+      "length_mm": 6.0,
+      "quantity": 4,
+      "head": "countersunk"
+    },
+    {
+      "role": "standoffs",
+      "size": "M3",
+      "length_mm": 25.0,
+      "quantity": 3,
+      "head": "socket cap"
+    }
+  ],
+  "nuts": {
+    "size": "M3",
+    "quantity": 15,
+    "overhang": true
+  },
+  "bearings": [
+    {
+      "role": "output",
+      "size": "6810",
+      "quantity": 2,
+      "id": 50.0,
+      "od": 65.0,
+      "depth": 7.0
+    },
+    {
+      "role": "eccentric",
+      "size": "6703",
+      "quantity": 2,
+      "id": 17.0,
+      "od": 23.0,
+      "depth": 4.0
+    },
+    {
+      "role": "shaft",
+      "size": "6701",
+      "quantity": 1,
+      "id": 12.0,
+      "od": 18.0,
+      "depth": 4.0
+    }
+  ],
+  "guide_smooth_shank_min_mm": 12.399999999999999
+}

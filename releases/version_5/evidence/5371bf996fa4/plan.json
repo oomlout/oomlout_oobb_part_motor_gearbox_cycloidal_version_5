@@ -1,0 +1,2567 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_casing_OOBB_tab",
+  "mode": "3dpr",
+  "units": "mm",
+  "tree": {
+    "op": "difference",
+    "children": [
+      {
+        "op": "union",
+        "children": [
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "rotate",
+                "children": [
+                  {
+                    "op": "difference",
+                    "children": [
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "union",
+                                "children": [
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cube",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "size": [
+                                            4.0,
+                                            44.0,
+                                            3.0
+                                          ],
+                                          "logical_id": "direct_000_oobb_plate_00"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      -2.0,
+                                      -22.0,
+                                      0
+                                    ]
+                                  },
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cube",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "size": [
+                                            14.0,
+                                            34.0,
+                                            3.0
+                                          ],
+                                          "logical_id": "direct_000_oobb_plate_01"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      -7.0,
+                                      -17.0,
+                                      0
+                                    ]
+                                  },
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cylinder",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "radius": 5.0,
+                                          "height": 3.0,
+                                          "logical_id": "direct_000_oobb_plate_02"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      -2.0,
+                                      -17.0,
+                                      0
+                                    ]
+                                  },
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cylinder",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "radius": 5.0,
+                                          "height": 3.0,
+                                          "logical_id": "direct_000_oobb_plate_03"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      -2.0,
+                                      17.0,
+                                      0
+                                    ]
+                                  },
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cylinder",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "radius": 5.0,
+                                          "height": 3.0,
+                                          "logical_id": "direct_000_oobb_plate_04"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      2.0,
+                                      -17.0,
+                                      0
+                                    ]
+                                  },
+                                  {
+                                    "op": "translate",
+                                    "children": [
+                                      {
+                                        "op": "solid",
+                                        "children": [],
+                                        "value": {
+                                          "kind": "cylinder",
+                                          "source_id": "direct_000",
+                                          "intent": {
+                                            "width": 1,
+                                            "height": 3,
+                                            "depth": 3.0,
+                                            "holes": false,
+                                            "zz": "bottom",
+                                            "shape": "oobb_plate",
+                                            "type": "p",
+                                            "pos": [
+                                              45.0,
+                                              0,
+                                              0
+                                            ]
+                                          },
+                                          "radius": 5.0,
+                                          "height": 3.0,
+                                          "logical_id": "direct_000_oobb_plate_05"
+                                        }
+                                      }
+                                    ],
+                                    "value": [
+                                      2.0,
+                                      17.0,
+                                      0
+                                    ]
+                                  }
+                                ]
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              0,
+                              0
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "rotate",
+                                "children": [
+                                  {
+                                    "op": "difference",
+                                    "children": [
+                                      {
+                                        "op": "union",
+                                        "children": [
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cube",
+                                                  "source_id": "direct_000",
+                                                  "intent": {
+                                                    "size": [
+                                                      17.115117221783876,
+                                                      44,
+                                                      3.0
+                                                    ],
+                                                    "zz": "bottom",
+                                                    "shape": "oobb_cube",
+                                                    "type": "p",
+                                                    "pos": [
+                                                      36.44244138910806,
+                                                      0,
+                                                      0
+                                                    ]
+                                                  },
+                                                  "size": [
+                                                    17.115117221783876,
+                                                    44.0,
+                                                    3.0
+                                                  ],
+                                                  "logical_id": "direct_000_oobb_cube_06"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              27.884882778216124,
+                                              -22.0,
+                                              0
+                                            ]
+                                          }
+                                        ]
+                                      },
+                                      {
+                                        "op": "union",
+                                        "children": [
+                                          {
+                                            "op": "translate",
+                                            "children": [
+                                              {
+                                                "op": "solid",
+                                                "value": {
+                                                  "kind": "cylinder",
+                                                  "source_id": "direct_000",
+                                                  "intent": {
+                                                    "radius": 35.35,
+                                                    "depth": 3.02,
+                                                    "shape": "oobb_hole",
+                                                    "type": "n",
+                                                    "pos": [
+                                                      0,
+                                                      0,
+                                                      -0.01
+                                                    ],
+                                                    "native_hole_array": true
+                                                  },
+                                                  "radius": 35.35,
+                                                  "height": 3.02,
+                                                  "z_offset": 0,
+                                                  "logical_id": "oobb_hole_radius_35d35"
+                                                },
+                                                "children": []
+                                              }
+                                            ],
+                                            "value": [
+                                              0,
+                                              0,
+                                              -0.01
+                                            ]
+                                          }
+                                        ]
+                                      }
+                                    ]
+                                  }
+                                ],
+                                "value": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              }
+                            ],
+                            "value": [
+                              0,
+                              0,
+                              0
+                            ]
+                          }
+                        ]
+                      },
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_000",
+                                  "intent": {
+                                    "radius_name": "m6",
+                                    "depth": 3.02,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      45.0,
+                                      -15.0,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 3.25,
+                                  "height": 3.02,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_m6"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              -15.0,
+                              -0.01
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_000",
+                                  "intent": {
+                                    "radius_name": "m6",
+                                    "depth": 3.02,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      45.0,
+                                      0.0,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 3.25,
+                                  "height": 3.02,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_m6"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              0.0,
+                              -0.01
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_000",
+                                  "intent": {
+                                    "radius_name": "m6",
+                                    "depth": 3.02,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      45.0,
+                                      15.0,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 3.25,
+                                  "height": 3.02,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_m6"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              15.0,
+                              -0.01
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_000",
+                                  "intent": {
+                                    "radius_name": "m3",
+                                    "depth": 3.02,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      45.0,
+                                      -7.5,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 1.8,
+                                  "height": 3.02,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_m3"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              -7.5,
+                              -0.01
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_000",
+                                  "intent": {
+                                    "radius_name": "m3",
+                                    "depth": 3.02,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      45.0,
+                                      7.5,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 1.8,
+                                  "height": 3.02,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_m3"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              45.0,
+                              7.5,
+                              -0.01
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "value": [
+              0,
+              0,
+              0
+            ]
+          },
+          {
+            "op": "translate",
+            "children": [
+              {
+                "op": "rotate",
+                "children": [
+                  {
+                    "op": "difference",
+                    "children": [
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "solid",
+                            "value": {
+                              "kind": "cylinder",
+                              "source_id": "direct_001",
+                              "intent": {
+                                "radius": 36.15,
+                                "depth": 12.75,
+                                "zz": "bottom",
+                                "shape": "oobb_cylinder",
+                                "type": "p",
+                                "pos": [
+                                  0,
+                                  0,
+                                  0
+                                ]
+                              },
+                              "radius": 36.15,
+                              "height": 12.75,
+                              "z_offset": 0,
+                              "logical_id": "direct_001_oobb_cylinder_10"
+                            },
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "op": "union",
+                        "children": [
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cylinder",
+                                  "source_id": "direct_001",
+                                  "intent": {
+                                    "radius": 34.15,
+                                    "depth": 12.77,
+                                    "shape": "oobb_hole",
+                                    "type": "n",
+                                    "pos": [
+                                      0,
+                                      0,
+                                      -0.01
+                                    ],
+                                    "native_hole_array": true
+                                  },
+                                  "radius": 34.15,
+                                  "height": 12.77,
+                                  "z_offset": 0,
+                                  "logical_id": "oobb_hole_radius_34d15"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              0,
+                              0,
+                              -0.01
+                            ]
+                          },
+                          {
+                            "op": "translate",
+                            "children": [
+                              {
+                                "op": "solid",
+                                "value": {
+                                  "kind": "cube",
+                                  "source_id": "direct_001",
+                                  "intent": {
+                                    "size": [
+                                      150,
+                                      150,
+                                      12.75
+                                    ],
+                                    "zz": "bottom",
+                                    "shape": "oobb_cube",
+                                    "type": "n",
+                                    "pos": [
+                                      -50,
+                                      0,
+                                      0
+                                    ]
+                                  },
+                                  "size": [
+                                    150.0,
+                                    150.0,
+                                    12.75
+                                  ],
+                                  "logical_id": "direct_001_oobb_cube_11"
+                                },
+                                "children": []
+                              }
+                            ],
+                            "value": [
+                              -125.0,
+                              -75.0,
+                              0
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "value": [
+                  0,
+                  0,
+                  0
+                ]
+              }
+            ],
+            "value": [
+              0,
+              0,
+              0
+            ]
+          }
+        ]
+      },
+      {
+        "op": "union",
+        "children": []
+      }
+    ]
+  },
+  "commands": [
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_00_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_00_length",
+        "expression": "4.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_00_width",
+        "expression": "44.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            2.0,
+            22.0
+          ],
+          "corner": [
+            4.0,
+            44.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_000_oobb_plate_00_length",
+          "height": "direct_000_oobb_plate_00_width"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_00_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_00_profile",
+        "distance": "direct_000_oobb_plate_00_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_00_extrude",
+        "body_name": "direct_000_oobb_plate_00_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_00_body"
+        ],
+        "translate": [
+          -2.0,
+          -22.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_01_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_01_length",
+        "expression": "14.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_01_width",
+        "expression": "34.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            7.0,
+            17.0
+          ],
+          "corner": [
+            14.0,
+            34.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_000_oobb_plate_01_length",
+          "height": "direct_000_oobb_plate_01_width"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_01_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_01_profile",
+        "distance": "direct_000_oobb_plate_01_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_01_extrude",
+        "body_name": "direct_000_oobb_plate_01_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_01_body"
+        ],
+        "translate": [
+          -7.0,
+          -17.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_02_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_02_radius",
+        "expression": "5.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 5.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_plate_02_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_02_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_02_profile",
+        "distance": "direct_000_oobb_plate_02_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_02_extrude",
+        "body_name": "direct_000_oobb_plate_02_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_02_body"
+        ],
+        "translate": [
+          -2.0,
+          -17.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_03_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_03_radius",
+        "expression": "5.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 5.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_plate_03_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_03_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_03_profile",
+        "distance": "direct_000_oobb_plate_03_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_03_extrude",
+        "body_name": "direct_000_oobb_plate_03_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_03_body"
+        ],
+        "translate": [
+          -2.0,
+          17.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_04_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_04_radius",
+        "expression": "5.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 5.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_plate_04_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_04_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_04_profile",
+        "distance": "direct_000_oobb_plate_04_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_04_extrude",
+        "body_name": "direct_000_oobb_plate_04_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_04_body"
+        ],
+        "translate": [
+          2.0,
+          -17.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_plate_05_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_05_radius",
+        "expression": "5.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 5.0
+        },
+        "dimensions": {
+          "diameter": "2 * direct_000_oobb_plate_05_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_plate_05_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_plate_05_profile",
+        "distance": "direct_000_oobb_plate_05_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_plate_05_extrude",
+        "body_name": "direct_000_oobb_plate_05_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_05_body"
+        ],
+        "translate": [
+          2.0,
+          17.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_plate_00_body",
+          "direct_000_oobb_plate_01_body",
+          "direct_000_oobb_plate_02_body",
+          "direct_000_oobb_plate_03_body",
+          "direct_000_oobb_plate_04_body",
+          "direct_000_oobb_plate_05_body"
+        ],
+        "translate": [
+          45.0,
+          0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_000_oobb_cube_06_profile",
+        "offset": 0
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_06_length",
+        "expression": "17.115117221783876 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_06_width",
+        "expression": "44.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            8.557558610891938,
+            22.0
+          ],
+          "corner": [
+            17.115117221783876,
+            44.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_000_oobb_cube_06_length",
+          "height": "direct_000_oobb_cube_06_width"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_000_oobb_cube_06_depth",
+        "expression": "3.0 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_000_oobb_cube_06_profile",
+        "distance": "direct_000_oobb_cube_06_depth",
+        "operation": "new",
+        "name": "direct_000_oobb_cube_06_extrude",
+        "body_name": "direct_000_oobb_cube_06_body"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_000_oobb_cube_06_body"
+        ],
+        "translate": [
+          27.884882778216124,
+          -22.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_35d35_radius",
+        "expression": "35.35 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_35d35_depth",
+        "expression": "3.02 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_35d35_positions"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 35.35,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_35d35_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_35d35_positions",
+        "distance": "oobb_hole_radius_35d35_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_cube_06_body"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 66
+        },
+        "name": "oobb_hole_radius_35d35_flat_bottom_cut"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_35d35",
+        "features": [
+          "oobb_hole_radius_35d35_positions",
+          "oobb_hole_radius_35d35_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_plate_01_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_plate_02_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_plate_03_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_plate_04_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_plate_05_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_000_oobb_cube_06_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "boolean_union"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_m3_radius",
+        "expression": "1.8 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_m3_depth",
+        "expression": "3.02 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_m6_radius",
+        "expression": "3.25 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_m6_depth",
+        "expression": "3.02 mm",
+        "comment": "direct_000"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_m3_positions"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "45.0 mm",
+            "-7.5 mm"
+          ],
+          "radius": 1.8,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_m3_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "45.0 mm",
+            "7.5 mm"
+          ],
+          "radius": 1.8,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_m3_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_m3_positions",
+        "distance": "oobb_hole_m3_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_plate_00_body"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 84
+        },
+        "name": "oobb_hole_m3_flat_bottom_cut"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_m3",
+        "features": [
+          "oobb_hole_m3_positions",
+          "oobb_hole_m3_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_m6_positions"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "45.0 mm",
+            "-15.0 mm"
+          ],
+          "radius": 3.25,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_m6_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "45.0 mm",
+            "0.0 mm"
+          ],
+          "radius": 3.25,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_m6_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "45.0 mm",
+            "15.0 mm"
+          ],
+          "radius": 3.25,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_m6_radius"
+        }
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_000"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_m6_positions",
+        "distance": "oobb_hole_m6_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_000_oobb_plate_00_body"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 93
+        },
+        "name": "oobb_hole_m6_flat_bottom_cut"
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_m6",
+        "features": [
+          "oobb_hole_m6_positions",
+          "oobb_hole_m6_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_000"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_001_oobb_cylinder_10_profile",
+        "offset": 0
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cylinder_10_radius",
+        "expression": "36.15 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            0,
+            0
+          ],
+          "radius": 36.15
+        },
+        "dimensions": {
+          "diameter": "2 * direct_001_oobb_cylinder_10_radius"
+        }
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cylinder_10_depth",
+        "expression": "12.75 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_001_oobb_cylinder_10_profile",
+        "distance": "direct_001_oobb_cylinder_10_depth",
+        "operation": "new",
+        "name": "direct_001_oobb_cylinder_10_extrude",
+        "body_name": "direct_001_oobb_cylinder_10_body"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "name": "direct_001_oobb_cube_11_profile",
+        "offset": 0
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cube_11_length",
+        "expression": "150.0 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cube_11_width",
+        "expression": "150.0 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.rectangle.center",
+        "params": {
+          "center": [
+            75.0,
+            75.0
+          ],
+          "corner": [
+            150.0,
+            150.0
+          ]
+        },
+        "dimensions": {
+          "width": "direct_001_oobb_cube_11_length",
+          "height": "direct_001_oobb_cube_11_width"
+        }
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "direct_001_oobb_cube_11_depth",
+        "expression": "12.75 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "direct_001_oobb_cube_11_profile",
+        "distance": "direct_001_oobb_cube_11_depth",
+        "operation": "new",
+        "name": "direct_001_oobb_cube_11_extrude",
+        "body_name": "direct_001_oobb_cube_11_body"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "solid.move",
+      "params": {
+        "bodies": [
+          "direct_001_oobb_cube_11_body"
+        ],
+        "translate": [
+          -125.0,
+          -75.0,
+          0
+        ]
+      },
+      "source_id": "group_transform"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_34d15_radius",
+        "expression": "34.15 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "oobb_hole_radius_34d15_depth",
+        "expression": "12.77 mm",
+        "comment": "direct_001"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": "XY",
+        "offset": -0.01,
+        "name": "oobb_hole_radius_34d15_positions"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.draw.dimensioned",
+      "params": {
+        "command": "sketch.circle.center",
+        "params": {
+          "center": [
+            "0 mm",
+            "0 mm"
+          ],
+          "radius": 34.15,
+          "connect": false
+        },
+        "dimensions": {
+          "diameter": "2 * oobb_hole_radius_34d15_radius"
+        }
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.solve",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "sketch.finish",
+      "params": {},
+      "source_id": "direct_001"
+    },
+    {
+      "command": "solid.extrude",
+      "params": {
+        "sketch": "oobb_hole_radius_34d15_positions",
+        "distance": "oobb_hole_radius_34d15_depth",
+        "direction": "positive",
+        "operation": "cut",
+        "targets": [
+          "direct_001_oobb_cylinder_10_body"
+        ]
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "timeline.rename",
+      "params": {
+        "feature": {
+          "binding": "feature",
+          "command_index": 118
+        },
+        "name": "oobb_hole_radius_34d15_flat_bottom_cut"
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "timeline.group",
+      "params": {
+        "name": "oobb_hole_radius_34d15",
+        "features": [
+          "oobb_hole_radius_34d15_positions",
+          "oobb_hole_radius_34d15_flat_bottom_cut"
+        ]
+      },
+      "source_id": "direct_001"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_001_oobb_cylinder_10_body",
+        "tools": [
+          "direct_001_oobb_cube_11_body"
+        ],
+        "operation": "cut"
+      },
+      "source_id": "boolean_difference"
+    },
+    {
+      "command": "solid.combine",
+      "params": {
+        "target": "direct_000_oobb_plate_00_body",
+        "tools": [
+          "direct_001_oobb_cylinder_10_body"
+        ],
+        "operation": "join"
+      },
+      "source_id": "final_union"
+    }
+  ],
+  "features": [
+    {
+      "logical_id": "direct_000_oobb_plate_00",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_00_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "size": [
+          4.0,
+          44.0,
+          3.0
+        ],
+        "logical_id": "direct_000_oobb_plate_00"
+      },
+      "parameters": {
+        "length": "direct_000_oobb_plate_00_length",
+        "width": "direct_000_oobb_plate_00_width",
+        "height": "direct_000_oobb_plate_00_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_plate_01",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_01_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "size": [
+          14.0,
+          34.0,
+          3.0
+        ],
+        "logical_id": "direct_000_oobb_plate_01"
+      },
+      "parameters": {
+        "length": "direct_000_oobb_plate_01_length",
+        "width": "direct_000_oobb_plate_01_width",
+        "height": "direct_000_oobb_plate_01_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_plate_02",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_02_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "radius": 5.0,
+        "height": 3.0,
+        "logical_id": "direct_000_oobb_plate_02"
+      },
+      "parameters": {
+        "radius": "direct_000_oobb_plate_02_radius",
+        "height": "direct_000_oobb_plate_02_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_plate_03",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_03_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "radius": 5.0,
+        "height": 3.0,
+        "logical_id": "direct_000_oobb_plate_03"
+      },
+      "parameters": {
+        "radius": "direct_000_oobb_plate_03_radius",
+        "height": "direct_000_oobb_plate_03_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_plate_04",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_04_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "radius": 5.0,
+        "height": 3.0,
+        "logical_id": "direct_000_oobb_plate_04"
+      },
+      "parameters": {
+        "radius": "direct_000_oobb_plate_04_radius",
+        "height": "direct_000_oobb_plate_04_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_plate_05",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_05_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "width": 1,
+          "height": 3,
+          "depth": 3.0,
+          "holes": false,
+          "zz": "bottom",
+          "shape": "oobb_plate",
+          "type": "p",
+          "pos": [
+            45.0,
+            0,
+            0
+          ]
+        },
+        "radius": 5.0,
+        "height": 3.0,
+        "logical_id": "direct_000_oobb_plate_05"
+      },
+      "parameters": {
+        "radius": "direct_000_oobb_plate_05_radius",
+        "height": "direct_000_oobb_plate_05_depth"
+      }
+    },
+    {
+      "logical_id": "direct_000_oobb_cube_06",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_cube_06_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_000",
+        "intent": {
+          "size": [
+            17.115117221783876,
+            44,
+            3.0
+          ],
+          "zz": "bottom",
+          "shape": "oobb_cube",
+          "type": "p",
+          "pos": [
+            36.44244138910806,
+            0,
+            0
+          ]
+        },
+        "size": [
+          17.115117221783876,
+          44.0,
+          3.0
+        ],
+        "logical_id": "direct_000_oobb_cube_06"
+      },
+      "parameters": {
+        "length": "direct_000_oobb_cube_06_length",
+        "width": "direct_000_oobb_cube_06_width",
+        "height": "direct_000_oobb_cube_06_depth"
+      }
+    },
+    {
+      "logical_id": "oobb_hole_radius_35d35",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_cube_06_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "radius": 35.35,
+          "depth": 3.02,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 35.35,
+        "height": 3.02,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_radius_35d35"
+      },
+      "parameters": {
+        "radius": "oobb_hole_radius_35d35_radius",
+        "height": "oobb_hole_radius_35d35_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_radius_35d35",
+      "feature_name": "oobb_hole_radius_35d35_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            0,
+            0,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_hole_m3",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "radius_name": "m3",
+          "depth": 3.02,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            45.0,
+            -7.5,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 1.8,
+        "height": 3.02,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_m3"
+      },
+      "parameters": {
+        "radius": "oobb_hole_m3_radius",
+        "height": "oobb_hole_m3_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_m3",
+      "feature_name": "oobb_hole_m3_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            45.0,
+            -7.5,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        },
+        {
+          "position": [
+            45.0,
+            7.5,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        }
+      ]
+    },
+    {
+      "logical_id": "oobb_hole_m6",
+      "source_id": "direct_000",
+      "body": "direct_000_oobb_plate_00_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_000",
+        "intent": {
+          "radius_name": "m6",
+          "depth": 3.02,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            45.0,
+            -15.0,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 3.25,
+        "height": 3.02,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_m6"
+      },
+      "parameters": {
+        "radius": "oobb_hole_m6_radius",
+        "height": "oobb_hole_m6_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_m6",
+      "feature_name": "oobb_hole_m6_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            45.0,
+            -15.0,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        },
+        {
+          "position": [
+            45.0,
+            0.0,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        },
+        {
+          "position": [
+            45.0,
+            15.0,
+            -0.01
+          ],
+          "source_id": "direct_000"
+        }
+      ]
+    },
+    {
+      "logical_id": "direct_001_oobb_cylinder_10",
+      "source_id": "direct_001",
+      "body": "direct_001_oobb_cylinder_10_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_001",
+        "intent": {
+          "radius": 36.15,
+          "depth": 12.75,
+          "zz": "bottom",
+          "shape": "oobb_cylinder",
+          "type": "p",
+          "pos": [
+            0,
+            0,
+            0
+          ]
+        },
+        "radius": 36.15,
+        "height": 12.75,
+        "z_offset": 0,
+        "logical_id": "direct_001_oobb_cylinder_10"
+      },
+      "parameters": {
+        "radius": "direct_001_oobb_cylinder_10_radius",
+        "height": "direct_001_oobb_cylinder_10_depth"
+      }
+    },
+    {
+      "logical_id": "direct_001_oobb_cube_11",
+      "source_id": "direct_001",
+      "body": "direct_001_oobb_cube_11_body",
+      "geometry": {
+        "kind": "cube",
+        "source_id": "direct_001",
+        "intent": {
+          "size": [
+            150,
+            150,
+            12.75
+          ],
+          "zz": "bottom",
+          "shape": "oobb_cube",
+          "type": "n",
+          "pos": [
+            -50,
+            0,
+            0
+          ]
+        },
+        "size": [
+          150.0,
+          150.0,
+          12.75
+        ],
+        "logical_id": "direct_001_oobb_cube_11"
+      },
+      "parameters": {
+        "length": "direct_001_oobb_cube_11_length",
+        "width": "direct_001_oobb_cube_11_width",
+        "height": "direct_001_oobb_cube_11_depth"
+      }
+    },
+    {
+      "logical_id": "oobb_hole_radius_34d15",
+      "source_id": "direct_001",
+      "body": "direct_001_oobb_cylinder_10_body",
+      "geometry": {
+        "kind": "cylinder",
+        "source_id": "direct_001",
+        "intent": {
+          "radius": 34.15,
+          "depth": 12.77,
+          "shape": "oobb_hole",
+          "type": "n",
+          "pos": [
+            0,
+            0,
+            -0.01
+          ],
+          "native_hole_array": true
+        },
+        "radius": 34.15,
+        "height": 12.77,
+        "z_offset": 0,
+        "logical_id": "oobb_hole_radius_34d15"
+      },
+      "parameters": {
+        "radius": "oobb_hole_radius_34d15_radius",
+        "height": "oobb_hole_radius_34d15_depth"
+      },
+      "reusable": true,
+      "family": "oobb_hole_radius_34d15",
+      "feature_name": "oobb_hole_radius_34d15_flat_bottom_cut",
+      "instances": [
+        {
+          "position": [
+            0,
+            0,
+            -0.01
+          ],
+          "source_id": "direct_001"
+        }
+      ]
+    }
+  ],
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_35d35",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_35d35_radius",
+        "height": "oobb_hole_radius_35d35_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_m3",
+      "method": "finite_circle_extrusions",
+      "instance_count": 2,
+      "parameters": {
+        "radius": "oobb_hole_m3_radius",
+        "height": "oobb_hole_m3_depth"
+      },
+      "positions": [
+        [
+          45.0,
+          -7.5,
+          -0.01
+        ],
+        [
+          45.0,
+          7.5,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_m6",
+      "method": "finite_circle_extrusions",
+      "instance_count": 3,
+      "parameters": {
+        "radius": "oobb_hole_m6_radius",
+        "height": "oobb_hole_m6_depth"
+      },
+      "positions": [
+        [
+          45.0,
+          -15.0,
+          -0.01
+        ],
+        [
+          45.0,
+          0.0,
+          -0.01
+        ],
+        [
+          45.0,
+          15.0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_34d15",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_34d15_radius",
+        "height": "oobb_hole_radius_34d15_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    }
+  ],
+  "parameters": {
+    "direct_000_oobb_plate_00_length": 4.0,
+    "direct_000_oobb_plate_00_width": 44.0,
+    "direct_000_oobb_plate_00_depth": 3.0,
+    "direct_000_oobb_plate_01_length": 14.0,
+    "direct_000_oobb_plate_01_width": 34.0,
+    "direct_000_oobb_plate_01_depth": 3.0,
+    "direct_000_oobb_plate_02_radius": 5.0,
+    "direct_000_oobb_plate_02_depth": 3.0,
+    "direct_000_oobb_plate_03_radius": 5.0,
+    "direct_000_oobb_plate_03_depth": 3.0,
+    "direct_000_oobb_plate_04_radius": 5.0,
+    "direct_000_oobb_plate_04_depth": 3.0,
+    "direct_000_oobb_plate_05_radius": 5.0,
+    "direct_000_oobb_plate_05_depth": 3.0,
+    "direct_000_oobb_cube_06_length": 17.115117221783876,
+    "direct_000_oobb_cube_06_width": 44.0,
+    "direct_000_oobb_cube_06_depth": 3.0,
+    "oobb_hole_radius_35d35_radius": 35.35,
+    "oobb_hole_radius_35d35_depth": 3.02,
+    "oobb_hole_m3_radius": 1.8,
+    "oobb_hole_m3_depth": 3.02,
+    "oobb_hole_m6_radius": 3.25,
+    "oobb_hole_m6_depth": 3.02,
+    "direct_001_oobb_cylinder_10_radius": 36.15,
+    "direct_001_oobb_cylinder_10_depth": 12.75,
+    "direct_001_oobb_cube_11_length": 150.0,
+    "direct_001_oobb_cube_11_width": 150.0,
+    "direct_001_oobb_cube_11_depth": 12.75,
+    "oobb_hole_radius_34d15_radius": 34.15,
+    "oobb_hole_radius_34d15_depth": 12.77
+  },
+  "result_bodies": [
+    "direct_000_oobb_plate_00_body"
+  ],
+  "warnings": [],
+  "hardware_instances": []
+}

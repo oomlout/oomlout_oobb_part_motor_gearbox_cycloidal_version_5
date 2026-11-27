@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "master_sha256": "f3d0817951e27895224561482ba7cfcaf369594b9eef8abde3662613c78dfc34",
+  "printed_pieces": 46,
+  "hardware_pieces": 98,
+  "hardware_reference_mesh_bodies": 124,
+  "hardware_by_reference": {
+    "H1": 2,
+    "H2": 4,
+    "H3": 20,
+    "H4": 8,
+    "H5": 6,
+    "H6": 58
+  },
+  "registration_max_error_mm": 0.001204173135217701,
+  "sleeve_screw_axes": {
+    "printed_contact_sleeve": {
+      "count": 20,
+      "maximum_axis_error_mm": 0.0
+    },
+    "printed_drive_sleeve": {
+      "count": 6,
+      "maximum_axis_error_mm": 0.0
+    }
+  },
+  "nominal_axial_screw_nut_overlap_mm": {
+    "ring": 2.3999996185302734,
+    "guide": 2.399996757507324,
+    "shaft_lower": 2.5,
+    "shaft_upper": 2.5,
+    "disc_a": 1.7500019073486328,
+    "disc_b": 1.7500019073486328
+  },
+  "standing_screws": 28,
+  "temporary_screw_reversal": "checked in scene inventory",
+  "mechanical_evidence": [
+    "layered_assembly_verification.json",
+    "assembly_sequence_verification.json",
+    "fit_verification.json"
+  ],
+  "scope": "Read-only digital consistency and nominal geometry; no new physical fit or load result."
+}

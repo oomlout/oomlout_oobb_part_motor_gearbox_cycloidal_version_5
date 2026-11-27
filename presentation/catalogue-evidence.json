@@ -1,0 +1,125 @@
+{
+  "checked_on": "2026-11-07",
+  "method": "Inspected public working.yaml through GitHub connector after local catalogue discovery.",
+  "records": [
+    {
+      "id": "hardware_nut_m3",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/blob/main/parts/hardware_nut_m3/working.yaml",
+      "fields": [
+        "description_main: ''",
+        "id: hardware_nut_m3",
+        "md5_6_alpha: 3vb5b",
+        "name: Hardware Nut M3",
+        "oomp_id: hardware_nut_m3",
+        "size: m3",
+        "type: nut"
+      ],
+      "excerpt": "",
+      "raw_length": 8746,
+      "redirect_check": {
+        "status": 301,
+        "location": "https://oom.lt/a/3vb5b/",
+        "checked_on": "2026-11-07"
+      }
+    },
+    {
+      "id": "hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/blob/main/parts/hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth/working.yaml",
+      "fields": [
+        "description_main: 20_mm_id_27_mm_od_4_mm_depth",
+        "id: hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+        "md5_6_alpha: 4y780",
+        "name: Hardware Bearing 6700 Series 6704 Size 20 mm ID 27 mm OD 4 mm Depth",
+        "size: 6700_series",
+        "type: bearing"
+      ],
+      "excerpt": "",
+      "raw_length": 10326,
+      "redirect_check": {
+        "status": 302,
+        "location": "https://oom.lt",
+        "checked_on": "2026-11-07"
+      }
+    },
+    {
+      "id": "hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/blob/main/parts/hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth/working.yaml",
+      "fields": [
+        "description_main: 50_mm_id_65_mm_od_7_mm_depth",
+        "id: hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+        "md5_6_alpha: 7xku1",
+        "name: Hardware Bearing 6800 Series 6810 Size 50 mm ID 65 mm OD 7 mm Depth",
+        "size: 6800_series",
+        "type: bearing"
+      ],
+      "excerpt": "",
+      "raw_length": 10300,
+      "redirect_check": {
+        "status": 302,
+        "location": "https://oom.lt",
+        "checked_on": "2026-11-07"
+      }
+    },
+    {
+      "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/blob/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length/working.yaml",
+      "fields": [
+        "id: hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+        "length: 30",
+        "md5_6_alpha: 4x6wf",
+        "name: Hardware Screw Socket Cap Hex Head Black M3 Diameter 30 Mm Length",
+        "screw_style: screw_socket_cap",
+        "thread_size: m3"
+      ],
+      "excerpt": "",
+      "raw_length": 221811,
+      "redirect_check": {
+        "status": 301,
+        "location": "https://oom.lt/a/4x6wf/",
+        "checked_on": "2026-11-07"
+      }
+    },
+    {
+      "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/blob/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length/working.yaml",
+      "fields": [
+        "id: hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+        "length: 35",
+        "md5_6_alpha: 22vya",
+        "name: Hardware Screw Socket Cap Hex Head Black M3 Diameter 35 Mm Length",
+        "screw_style: screw_socket_cap",
+        "thread_size: m3"
+      ],
+      "excerpt": "",
+      "raw_length": 208651,
+      "redirect_check": {
+        "status": 301,
+        "location": "https://oom.lt/a/22vya/",
+        "checked_on": "2026-11-07"
+      }
+    },
+    {
+      "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "isError": false,
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/blob/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length/working.yaml",
+      "fields": [
+        "id: hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "md5_6_alpha: 61zh8",
+        "name: Hardware Screw Countersunk Hex Head Black M3 Diameter 6 Mm Length"
+      ],
+      "excerpt": "",
+      "raw_length": 229045,
+      "redirect_check": {
+        "status": 301,
+        "location": "https://oom.lt/a/61zh8/",
+        "checked_on": "2026-11-07"
+      }
+    }
+  ],
+  "redirects": "Short-code identities read from catalogue metadata; redirects checked separately."
+}

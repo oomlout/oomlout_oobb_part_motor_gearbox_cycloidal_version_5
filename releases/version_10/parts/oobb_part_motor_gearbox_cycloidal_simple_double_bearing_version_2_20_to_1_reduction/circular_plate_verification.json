@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "previous_master_sha256": "f3d0817951e27895224561482ba7cfcaf369594b9eef8abde3662613c78dfc34",
+  "new_part": "output_circle_plate",
+  "unchanged_existing_bodies": 172,
+  "default_diameter_mm": 134,
+  "depth_mm": 3,
+  "edited_diameter_mm": 164,
+  "save_reopen": true,
+  "edit_save_reopen": true,
+  "source_sha256": "e4c646be6079b041450ba12ffcc06680de2377b67a075100331bacb06a9addbd",
+  "minimum_print_gap_mm": 1.291624395932503,
+  "grid_holes": {
+    "m6": 12,
+    "m3": 72
+  },
+  "interchangeable_interface_difference_mm3": 9.640643838793039e-11,
+  "no_countersinks": true,
+  "straight_through_sections_mm": [
+    0.2,
+    1.5,
+    2.8
+  ],
+  "measured_native_diameters_mm": [
+    134,
+    164
+  ],
+  "print_mesh_bodies": 49,
+  "existing_nema_master_unchanged": true,
+  "nema_master_sha256": "1f6a2f3adafb383be77fbb8b0dc6f1e0d9bcd7b59d9f0c021bd9273bf27b67e5"
+}

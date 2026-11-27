@@ -1,0 +1,193 @@
+{
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction",
+  "mode": "true",
+  "piece": "print_layout",
+  "status": "success",
+  "construction": "native",
+  "manifest": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\solidcraft\\attempts\\6629962bb7d9\\build_manifest.json",
+  "body_count": 15,
+  "placement_count": 15,
+  "reopened": true,
+  "published_files": [
+    {
+      "file": "true.solidcraft",
+      "sha256": "0ecc9103d365ebb3b616a1e953f003850804b81ca87d763045e8dc0627412778"
+    },
+    {
+      "file": "true_solidcraft_measurements.json",
+      "sha256": "cd9778ce63b8790bd2c0a6918a7f4c294d31d9e67927f67377586efc579af6ea"
+    },
+    {
+      "file": "true_solidcraft.stl",
+      "sha256": "f7e2d0f060eccb166427ff33bb8b8f9922b4972f35e4aaccff6819211fd32cc4"
+    },
+    {
+      "file": "true.step",
+      "sha256": "33541f07bb20b18e3dfc9ac76a4763035536ff0f6249b792c19d3ee9466c7192"
+    },
+    {
+      "file": "true_solidcraft.png",
+      "sha256": "797e9584b2387076cfd7eb0c7dbafaf2b6e3bc6b849bcabf0dc3f042c4154af7"
+    }
+  ],
+  "piece_links": {
+    "motor_mount": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\motor_mount.solidcraft",
+    "pin_rear": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_rear.solidcraft",
+    "output_base": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_base.solidcraft",
+    "output_casing": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_casing.solidcraft",
+    "output_cover": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_cover.solidcraft",
+    "pin_front": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_front.solidcraft",
+    "front_bearing_hub": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\front_bearing_hub.solidcraft",
+    "rotor_a_lower": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_lower.solidcraft",
+    "rotor_a_upper": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_upper.solidcraft",
+    "rotor_b_lower": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_lower.solidcraft",
+    "rotor_b_upper": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_upper.solidcraft",
+    "coupling_drive": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_drive.solidcraft",
+    "eccentric_hub_lower": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_lower.solidcraft",
+    "eccentric_hub_upper": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_upper.solidcraft",
+    "coupling_collar": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_collar.solidcraft"
+  },
+  "layout_mesh_verification": {
+    "body_count": 15,
+    "watertight": true,
+    "placement_bounds_checked": true,
+    "method": "translated accepted native piece meshes",
+    "sources": [
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\motor_mount.stl",
+        "sha256": "93b7593c91214966a3d36050803edc721c318fb892f2771a16af5f14ffcd9a60",
+        "translation_mm": [
+          52.0,
+          52.0,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_base.stl",
+        "sha256": "ffe4d6d70006d9b57b2e6a1db4cacf2ce88ddde009b3d10986e325b725a9bdfb",
+        "translation_mm": [
+          158.1,
+          46.1,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_casing.stl",
+        "sha256": "60d99ba6c695a639541c1538926c6269bb5c15b4949f4d2535459d7bd15a399a",
+        "translation_mm": [
+          46.1,
+          158.1,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\output_cover.stl",
+        "sha256": "572cfaf472c44bbb3c1d0d43cc05dad085ea54718729755ccd90315ba15b32f6",
+        "translation_mm": [
+          146.3,
+          158.1,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_lower.stl",
+        "sha256": "415b48f011be8b33db106f92b906f9cb93e1f1411b8316bf26e34dd2542de116",
+        "translation_mm": [
+          41.0,
+          253.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_a_upper.stl",
+        "sha256": "614bc8f0abd774ce92dcc8b7e262be54ee5a04c9f8eba0e346848d0f3458c4d6",
+        "translation_mm": [
+          131.0,
+          253.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_lower.stl",
+        "sha256": "cb3a4501a389769e91d4c7205aac6f1f9aa46f61ff03cfc80007d310cba01238",
+        "translation_mm": [
+          41.0,
+          343.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\rotor_b_upper.stl",
+        "sha256": "5e5e80711d41f253f509a88cea14a754282a7ef36fab00aa6c06c0e974e221f1",
+        "translation_mm": [
+          131.0,
+          343.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_rear.stl",
+        "sha256": "3a4323f0bfa60d09f6eaaeedb06fa94c60cbff996b3c1524ffa4c017ffff249b",
+        "translation_mm": [
+          34.0,
+          426.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\pin_front.stl",
+        "sha256": "4d8fd98cf139dfd72404c01cceb1195ecbdc7f71d2b98600a98f17916e2f4583",
+        "translation_mm": [
+          110.0,
+          426.2,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\front_bearing_hub.stl",
+        "sha256": "d32f29cc044e2b90c8424f2eb27184565fbe4bc5f5af8efcfc9783e3d9fc2749",
+        "translation_mm": [
+          176.9,
+          417.09999999999997,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_collar.stl",
+        "sha256": "a0b5ef9f425a6a29842aaf2fd20ef9e792e53e44207d489c74a78d7701ab0b59",
+        "translation_mm": [
+          223.3,
+          405.7,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\coupling_drive.stl",
+        "sha256": "fb0cf86824239c81aef377e5047e31f94633c064577de9e4fad2bde85ac8f303",
+        "translation_mm": [
+          13.5,
+          481.7,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_lower.stl",
+        "sha256": "7d1c5ff9b73ed6718e0ac6fed9e59883da6a2bfcbcd2f805bb16c9545b41a8fb",
+        "translation_mm": [
+          48.5,
+          481.7,
+          0
+        ]
+      },
+      {
+        "file": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\parts\\oobb_part_motor_gearbox_cycloidal_version_4_20_to_1_reduction\\solidcraft\\true\\eccentric_hub_upper.stl",
+        "sha256": "ca959025b89f5a13d221e24ef4fce73c5ec63392fbb2ac20fac8b124a4136b09",
+        "translation_mm": [
+          82.65,
+          480.84999999999997,
+          0
+        ]
+      }
+    ]
+  }
+}

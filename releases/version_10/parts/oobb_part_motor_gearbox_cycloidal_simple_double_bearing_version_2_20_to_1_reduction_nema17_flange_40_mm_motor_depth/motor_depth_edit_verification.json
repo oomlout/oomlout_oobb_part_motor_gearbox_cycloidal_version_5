@@ -1,0 +1,49 @@
+{
+  "status": "passed",
+  "source_sha256": "1f6a2f3adafb383be77fbb8b0dc6f1e0d9bcd7b59d9f0c021bd9273bf27b67e5",
+  "native_edit": "motor_depth: 40 to 48 mm",
+  "rear_flange_shift_mm": -8,
+  "guide_screw_mm": 40,
+  "save_reopen": true,
+  "mesh": {
+    "validator": "trimesh 5.1.0 / Open CASCADE point distance",
+    "units": "mm (implicit STL coordinates)",
+    "watertight": true,
+    "consistent_winding": true,
+    "positive_volume": true,
+    "body_count": 1,
+    "euler_number": -12,
+    "bounds_mm": [
+      [
+        -40.79999923706055,
+        -40.79938888549805,
+        -76.0
+      ],
+      [
+        40.79999923706055,
+        40.79787063598633,
+        -22.0
+      ]
+    ],
+    "volume_mm3": 43157.48334973567,
+    "triangles": 28598,
+    "surface_budget_mm": 0.1,
+    "maximum_sample_distance_mm": 0.057538774349137775,
+    "distance_method": "trimmed surface projection upper bound with exact extrema fallback",
+    "sample_count": 400,
+    "volume_budget_mm3": 2931.6257288264183,
+    "volume_error_mm3": 3.046654850593768,
+    "tessellation": "Open CASCADE tessellation of the validated native STEP export",
+    "raw_native_export": "C:\\gh\\oomlout_oobb_part_motor_gearbox_cycloidal_version_5\\build\\nema17_separate_joiners_r2\\views\\motor_depth_edit\\cage48_raw_native.stl"
+  },
+  "additional_changes": {
+    "input_angle": "360 deg"
+  },
+  "rear_cover_and_output_follow_motor_depth": true,
+  "rear_holder_proud_mm": 1.5,
+  "rear_offset_preserved": true,
+  "stationary_front_cover_unchanged": true,
+  "input_edit_degrees": 360,
+  "rear_output_rotation_degrees": 18,
+  "fixed_cover_motion_checked": true
+}

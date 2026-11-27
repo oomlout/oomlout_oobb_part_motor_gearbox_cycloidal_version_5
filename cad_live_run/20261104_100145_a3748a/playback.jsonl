@@ -1,0 +1,1058 @@
+{"event": "focus_piece", "elapsed": 9.76600000000326, "speed": 8.0, "component": 1, "name": "output_nut_plate", "completed": []}
+{"event": "command_start", "elapsed": 9.76600000000326, "speed": 8.0, "index": 1, "command": "timeline.add", "label": "output_nut_plate_1_OOBB_7x7_blank"}
+{"event": "command_complete", "elapsed": 9.797000000020489, "speed": 8.0, "index": 1, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 9.952999999979511, "speed": 8.0, "index": 2, "command": "timeline.add", "label": "output_nut_plate_1_OOBB_7x7_blank_extrude"}
+{"event": "command_complete", "elapsed": 9.96899999998277, "speed": 8.0, "index": 2, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.14100000000326, "speed": 8.0, "index": 3, "command": "timeline.add", "label": "output_nut_plate_2_full_depth_bearing_and_pin_ring"}
+{"event": "command_complete", "elapsed": 10.15600000001723, "speed": 8.0, "index": 3, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.327999999979511, "speed": 8.0, "index": 4, "command": "timeline.add", "label": "output_nut_plate_2_full_depth_bearing_and_pin_ring_extrude"}
+{"event": "command_complete", "elapsed": 10.375, "speed": 8.0, "index": 4, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.51600000000326, "speed": 8.0, "index": 5, "command": "timeline.add", "label": "output_nut_plate_3_6810_lip"}
+{"event": "command_complete", "elapsed": 10.53100000001723, "speed": 8.0, "index": 5, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.65600000001723, "speed": 8.0, "index": 6, "command": "timeline.add", "label": "output_nut_plate_3_6810_lip_extrude"}
+{"event": "command_complete", "elapsed": 10.686999999976251, "speed": 8.0, "index": 6, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.811999999976251, "speed": 8.0, "index": 7, "command": "timeline.add", "label": "output_nut_plate_4_6810_open_seat"}
+{"event": "command_complete", "elapsed": 10.827999999979511, "speed": 8.0, "index": 7, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 10.952999999979511, "speed": 8.0, "index": 8, "command": "timeline.add", "label": "output_nut_plate_4_6810_open_seat_extrude"}
+{"event": "command_complete", "elapsed": 10.98399999999674, "speed": 8.0, "index": 8, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 11.10899999999674, "speed": 8.0, "index": 9, "command": "timeline.add", "label": "output_nut_plate_5_plain_m6_mount"}
+{"event": "command_complete", "elapsed": 11.14100000000326, "speed": 8.0, "index": 9, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 11.26600000000326, "speed": 8.0, "index": 10, "command": "timeline.add", "label": "output_nut_plate_5_plain_m6_mount_extrude"}
+{"event": "command_complete", "elapsed": 11.5, "speed": 8.0, "index": 10, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 11.625, "speed": 8.0, "index": 11, "command": "timeline.add", "label": "output_nut_plate_6_plain_m3_mount"}
+{"event": "command_complete", "elapsed": 11.64100000000326, "speed": 8.0, "index": 11, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 11.76600000000326, "speed": 8.0, "index": 12, "command": "timeline.add", "label": "output_nut_plate_6_plain_m3_mount_extrude"}
+{"event": "command_complete", "elapsed": 11.952999999979511, "speed": 8.0, "index": 12, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 12.15600000001723, "speed": 8.0, "index": 13, "command": "timeline.add", "label": "output_nut_plate_7_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 12.186999999976251, "speed": 8.0, "index": 13, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 12.35899999999674, "speed": 8.0, "index": 14, "command": "timeline.add", "label": "output_nut_plate_7_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 12.561999999976251, "speed": 8.0, "index": 14, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 12.686999999976251, "speed": 8.0, "index": 15, "command": "timeline.add", "label": "output_nut_plate_8_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 12.71899999998277, "speed": 8.0, "index": 15, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 12.84399999998277, "speed": 8.0, "index": 16, "command": "timeline.add", "label": "output_nut_plate_8_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 13.686999999976251, "speed": 8.0, "index": 16, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 13.811999999976251, "speed": 8.0, "index": 17, "command": "timeline.add", "label": "output_nut_plate_9_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 13.84399999998277, "speed": 8.0, "index": 17, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 14.0, "speed": 8.0, "index": 18, "command": "timeline.add", "label": "output_nut_plate_9_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 15.5, "speed": 8.0, "index": 18, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 15.625, "speed": 8.0, "index": 19, "command": "timeline.add", "label": "output_nut_plate_10_ring_screw_axes"}
+{"event": "command_complete", "elapsed": 15.65600000001723, "speed": 8.0, "index": 19, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 15.78100000001723, "speed": 8.0, "index": 20, "command": "timeline.add", "label": "output_nut_plate_10_ring_screw_axes_extrude"}
+{"event": "command_complete", "elapsed": 16.64100000000326, "speed": 8.0, "index": 20, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 16.79700000002049, "speed": 8.0, "component": 23, "name": "output_cap_plate", "completed": [1]}
+{"event": "command_start", "elapsed": 16.79700000002049, "speed": 8.0, "index": 21, "command": "timeline.add", "label": "output_cap_plate_11_OOBB_7x7_blank"}
+{"event": "command_complete", "elapsed": 16.84399999998277, "speed": 8.0, "index": 21, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 16.96899999998277, "speed": 8.0, "index": 22, "command": "timeline.add", "label": "output_cap_plate_11_OOBB_7x7_blank_extrude"}
+{"event": "command_complete", "elapsed": 16.98399999999674, "speed": 8.0, "index": 22, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.10899999999674, "speed": 8.0, "index": 23, "command": "timeline.add", "label": "output_cap_plate_12_full_depth_bearing_and_pin_ring"}
+{"event": "command_complete", "elapsed": 17.15600000001723, "speed": 8.0, "index": 23, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.28100000001723, "speed": 8.0, "index": 24, "command": "timeline.add", "label": "output_cap_plate_12_full_depth_bearing_and_pin_ring_extrude"}
+{"event": "command_complete", "elapsed": 17.35899999999674, "speed": 8.0, "index": 24, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.48399999999674, "speed": 8.0, "index": 25, "command": "timeline.add", "label": "output_cap_plate_13_6810_lip"}
+{"event": "command_complete", "elapsed": 17.53100000001723, "speed": 8.0, "index": 25, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.65600000001723, "speed": 8.0, "index": 26, "command": "timeline.add", "label": "output_cap_plate_13_6810_lip_extrude"}
+{"event": "command_complete", "elapsed": 17.68699999997625, "speed": 8.0, "index": 26, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.81199999997625, "speed": 8.0, "index": 27, "command": "timeline.add", "label": "output_cap_plate_14_6810_open_seat"}
+{"event": "command_complete", "elapsed": 17.84399999998277, "speed": 8.0, "index": 27, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 17.96899999998277, "speed": 8.0, "index": 28, "command": "timeline.add", "label": "output_cap_plate_14_6810_open_seat_extrude"}
+{"event": "command_complete", "elapsed": 18.01600000000326, "speed": 8.0, "index": 28, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 18.14100000000326, "speed": 8.0, "index": 29, "command": "timeline.add", "label": "output_cap_plate_15_plain_m6_mount"}
+{"event": "command_complete", "elapsed": 18.17200000002049, "speed": 8.0, "index": 29, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 18.32799999997951, "speed": 8.0, "index": 30, "command": "timeline.add", "label": "output_cap_plate_15_plain_m6_mount_extrude"}
+{"event": "command_complete", "elapsed": 18.73399999999674, "speed": 8.0, "index": 30, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 18.85899999999674, "speed": 8.0, "index": 31, "command": "timeline.add", "label": "output_cap_plate_16_plain_m3_mount"}
+{"event": "command_complete", "elapsed": 18.89100000000326, "speed": 8.0, "index": 31, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 19.01600000000326, "speed": 8.0, "index": 32, "command": "timeline.add", "label": "output_cap_plate_16_plain_m3_mount_extrude"}
+{"event": "command_complete", "elapsed": 19.48399999999674, "speed": 8.0, "index": 32, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 19.67200000002049, "speed": 8.0, "index": 33, "command": "timeline.add", "label": "output_cap_plate_17_socket_cap_recess"}
+{"event": "command_complete", "elapsed": 19.73399999999674, "speed": 8.0, "index": 33, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 19.89100000000326, "speed": 8.0, "index": 34, "command": "timeline.add", "label": "output_cap_plate_17_socket_cap_recess_extrude"}
+{"event": "command_complete", "elapsed": 20.875, "speed": 8.0, "index": 34, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 21.0, "speed": 8.0, "index": 35, "command": "timeline.add", "label": "output_cap_plate_18_ring_screw_axes"}
+{"event": "command_complete", "elapsed": 21.01600000000326, "speed": 8.0, "index": 35, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 21.14100000000326, "speed": 8.0, "index": 36, "command": "timeline.add", "label": "output_cap_plate_18_ring_screw_axes_extrude"}
+{"event": "command_complete", "elapsed": 22.54700000002049, "speed": 8.0, "index": 36, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 22.70299999997951, "speed": 8.0, "component": 41, "name": "rotor_a", "completed": [1, 23]}
+{"event": "command_start", "elapsed": 22.70299999997951, "speed": 8.0, "index": 37, "command": "timeline.add", "label": "rotor_a_19_equation"}
+{"event": "command_complete", "elapsed": 23.20299999997951, "speed": 8.0, "index": 37, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 23.32799999997951, "speed": 8.0, "index": 38, "command": "timeline.add", "label": "rotor_a_19_equation_extrude"}
+{"event": "command_complete", "elapsed": 23.92200000002049, "speed": 8.0, "index": 38, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 24.04700000002049, "speed": 8.0, "index": 39, "command": "timeline.add", "label": "rotor_a_20_round_drive_tracks"}
+{"event": "command_complete", "elapsed": 24.09399999998277, "speed": 8.0, "index": 39, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 24.23399999999674, "speed": 8.0, "index": 40, "command": "timeline.add", "label": "rotor_a_20_round_drive_tracks_extrude"}
+{"event": "command_complete", "elapsed": 25.10899999999674, "speed": 8.0, "index": 40, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 25.23399999999674, "speed": 8.0, "index": 41, "command": "timeline.add", "label": "rotor_a_21_outer_race_retaining_lip"}
+{"event": "command_complete", "elapsed": 25.26600000000326, "speed": 8.0, "index": 41, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 25.40600000001723, "speed": 8.0, "index": 42, "command": "timeline.add", "label": "rotor_a_21_outer_race_retaining_lip_extrude"}
+{"event": "command_complete", "elapsed": 26.03100000001723, "speed": 8.0, "index": 42, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 26.15600000001723, "speed": 8.0, "index": 43, "command": "timeline.add", "label": "rotor_a_22_open_half_bearing_seat"}
+{"event": "command_complete", "elapsed": 26.18699999997625, "speed": 8.0, "index": 43, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 26.31199999997625, "speed": 8.0, "index": 44, "command": "timeline.add", "label": "rotor_a_22_open_half_bearing_seat_extrude"}
+{"event": "command_complete", "elapsed": 27.21899999998277, "speed": 8.0, "index": 44, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 27.34399999998277, "speed": 8.0, "index": 45, "command": "timeline.add", "label": "cut_23_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 27.34399999998277, "speed": 8.0, "index": 45, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 27.46899999998277, "speed": 8.0, "index": 46, "command": "timeline.add", "label": "cut_23_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 27.48399999999674, "speed": 8.0, "index": 46, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 27.60899999999674, "speed": 8.0, "index": 47, "command": "timeline.add", "label": "Move1"}
+{"event": "command_complete", "elapsed": 27.625, "speed": 8.0, "index": 47, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 27.75, "speed": 8.0, "index": 48, "command": "timeline.add", "label": "Move2"}
+{"event": "command_complete", "elapsed": 27.78100000001723, "speed": 8.0, "index": 48, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 27.90600000001723, "speed": 8.0, "index": 49, "command": "timeline.add", "label": "Combine1"}
+{"event": "command_complete", "elapsed": 28.39100000000326, "speed": 8.0, "index": 49, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 28.51600000000326, "speed": 8.0, "index": 50, "command": "timeline.add", "label": "rotor_a_24_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 28.53100000001723, "speed": 8.0, "index": 50, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 28.65600000001723, "speed": 8.0, "index": 51, "command": "timeline.add", "label": "rotor_a_24_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 35.26600000000326, "speed": 8.0, "index": 51, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 35.43699999997625, "speed": 8.0, "index": 52, "command": "timeline.add", "label": "cut_25_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 35.46899999998277, "speed": 8.0, "index": 52, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 35.59399999998277, "speed": 8.0, "index": 53, "command": "timeline.add", "label": "cut_25_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 35.60899999999674, "speed": 8.0, "index": 53, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 35.75, "speed": 8.0, "index": 54, "command": "timeline.add", "label": "Move3"}
+{"event": "command_complete", "elapsed": 35.78100000001723, "speed": 8.0, "index": 54, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 35.90600000001723, "speed": 8.0, "index": 55, "command": "timeline.add", "label": "Move4"}
+{"event": "command_complete", "elapsed": 35.92200000002049, "speed": 8.0, "index": 55, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 36.04700000002049, "speed": 8.0, "index": 56, "command": "timeline.add", "label": "Combine2"}
+{"event": "command_complete", "elapsed": 38.90600000001723, "speed": 8.0, "index": 56, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 39.03100000001723, "speed": 8.0, "index": 57, "command": "timeline.add", "label": "rotor_a_26_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 40.40600000001723, "speed": 8.0, "index": 57, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 40.54700000002049, "speed": 8.0, "index": 58, "command": "timeline.add", "label": "rotor_a_26_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 50.53100000001723, "speed": 8.0, "index": 58, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 50.78100000001723, "speed": 8.0, "index": 59, "command": "timeline.add", "label": "cut_27_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 50.79700000002049, "speed": 8.0, "index": 59, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 50.92200000002049, "speed": 8.0, "index": 60, "command": "timeline.add", "label": "cut_27_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 50.93699999997625, "speed": 8.0, "index": 60, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 51.06199999997625, "speed": 8.0, "index": 61, "command": "timeline.add", "label": "Move5"}
+{"event": "command_complete", "elapsed": 51.09399999998277, "speed": 8.0, "index": 61, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 51.21899999998277, "speed": 8.0, "index": 62, "command": "timeline.add", "label": "Move6"}
+{"event": "command_complete", "elapsed": 51.25, "speed": 8.0, "index": 62, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 51.375, "speed": 8.0, "index": 63, "command": "timeline.add", "label": "Combine3"}
+{"event": "command_complete", "elapsed": 56.39100000000326, "speed": 8.0, "index": 63, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 56.51600000000326, "speed": 8.0, "index": 64, "command": "timeline.add", "label": "rotor_a_28_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 56.56199999997625, "speed": 8.0, "index": 64, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 56.68699999997625, "speed": 8.0, "index": 65, "command": "timeline.add", "label": "rotor_a_28_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 66.28100000001723, "speed": 8.0, "index": 65, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 66.48399999999674, "speed": 8.0, "component": 72, "name": "rotor_b", "completed": [1, 23, 41]}
+{"event": "command_start", "elapsed": 66.48399999999674, "speed": 8.0, "index": 66, "command": "timeline.add", "label": "rotor_b_29_equation"}
+{"event": "command_complete", "elapsed": 66.64100000000326, "speed": 8.0, "index": 66, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 66.82799999997951, "speed": 8.0, "index": 67, "command": "timeline.add", "label": "rotor_b_29_equation_extrude"}
+{"event": "command_complete", "elapsed": 67.09399999998277, "speed": 8.0, "index": 67, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 67.21899999998277, "speed": 8.0, "index": 68, "command": "timeline.add", "label": "Move7"}
+{"event": "command_complete", "elapsed": 67.34399999998277, "speed": 8.0, "index": 68, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 67.46899999998277, "speed": 8.0, "index": 69, "command": "timeline.add", "label": "rotor_b_30_round_drive_tracks"}
+{"event": "command_complete", "elapsed": 67.48399999999674, "speed": 8.0, "index": 69, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 67.60899999999674, "speed": 8.0, "index": 70, "command": "timeline.add", "label": "rotor_b_30_round_drive_tracks_extrude"}
+{"event": "command_complete", "elapsed": 68.14100000000326, "speed": 8.0, "index": 70, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 68.26600000000326, "speed": 8.0, "index": 71, "command": "timeline.add", "label": "rotor_b_31_outer_race_retaining_lip"}
+{"event": "command_complete", "elapsed": 68.28100000001723, "speed": 8.0, "index": 71, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 68.46899999998277, "speed": 8.0, "index": 72, "command": "timeline.add", "label": "rotor_b_31_outer_race_retaining_lip_extrude"}
+{"event": "command_complete", "elapsed": 68.92200000002049, "speed": 8.0, "index": 72, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 69.04700000002049, "speed": 8.0, "index": 73, "command": "timeline.add", "label": "rotor_b_32_open_half_bearing_seat"}
+{"event": "command_complete", "elapsed": 69.09399999998277, "speed": 8.0, "index": 73, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 69.23399999999674, "speed": 8.0, "index": 74, "command": "timeline.add", "label": "rotor_b_32_open_half_bearing_seat_extrude"}
+{"event": "command_complete", "elapsed": 69.90600000001723, "speed": 8.0, "index": 74, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 70.03100000001723, "speed": 8.0, "index": 75, "command": "timeline.add", "label": "cut_33_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 70.06199999997625, "speed": 8.0, "index": 75, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 70.18699999997625, "speed": 8.0, "index": 76, "command": "timeline.add", "label": "cut_33_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 70.26600000000326, "speed": 8.0, "index": 76, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 70.39100000000326, "speed": 8.0, "index": 77, "command": "timeline.add", "label": "Move8"}
+{"event": "command_complete", "elapsed": 70.42200000002049, "speed": 8.0, "index": 77, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 70.54700000002049, "speed": 8.0, "index": 78, "command": "timeline.add", "label": "Move9"}
+{"event": "command_complete", "elapsed": 70.57799999997951, "speed": 8.0, "index": 78, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 70.70299999997951, "speed": 8.0, "index": 79, "command": "timeline.add", "label": "Combine4"}
+{"event": "command_complete", "elapsed": 71.51600000000326, "speed": 8.0, "index": 79, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 71.64100000000326, "speed": 8.0, "index": 80, "command": "timeline.add", "label": "rotor_b_34_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 71.65600000001723, "speed": 8.0, "index": 80, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 71.78100000001723, "speed": 8.0, "index": 81, "command": "timeline.add", "label": "rotor_b_34_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 80.18699999997625, "speed": 8.0, "index": 81, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 80.31199999997625, "speed": 8.0, "index": 82, "command": "timeline.add", "label": "cut_35_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 80.34399999998277, "speed": 8.0, "index": 82, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 80.46899999998277, "speed": 8.0, "index": 83, "command": "timeline.add", "label": "cut_35_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 80.5, "speed": 8.0, "index": 83, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 80.625, "speed": 8.0, "index": 84, "command": "timeline.add", "label": "Move10"}
+{"event": "command_complete", "elapsed": 80.65600000001723, "speed": 8.0, "index": 84, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 80.78100000001723, "speed": 8.0, "index": 85, "command": "timeline.add", "label": "Move11"}
+{"event": "command_complete", "elapsed": 80.79700000002049, "speed": 8.0, "index": 85, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 80.92200000002049, "speed": 8.0, "index": 86, "command": "timeline.add", "label": "Combine5"}
+{"event": "command_complete", "elapsed": 84.73399999999674, "speed": 8.0, "index": 86, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 84.85899999999674, "speed": 8.0, "index": 87, "command": "timeline.add", "label": "rotor_b_36_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 84.89100000000326, "speed": 8.0, "index": 87, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 85.01600000000326, "speed": 8.0, "index": 88, "command": "timeline.add", "label": "rotor_b_36_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 94.25, "speed": 8.0, "index": 88, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 94.375, "speed": 8.0, "index": 89, "command": "timeline.add", "label": "cut_37_direct_000_revolved_profile_00_profile"}
+{"event": "command_complete", "elapsed": 94.40600000001723, "speed": 8.0, "index": 89, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 94.53100000001723, "speed": 8.0, "index": 90, "command": "timeline.add", "label": "cut_37_direct_000_revolved_profile_00_extrude"}
+{"event": "command_complete", "elapsed": 94.57799999997951, "speed": 8.0, "index": 90, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 94.70299999997951, "speed": 8.0, "index": 91, "command": "timeline.add", "label": "Move12"}
+{"event": "command_complete", "elapsed": 94.76600000000326, "speed": 8.0, "index": 91, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 94.89100000000326, "speed": 8.0, "index": 92, "command": "timeline.add", "label": "Move13"}
+{"event": "command_complete", "elapsed": 94.92200000002049, "speed": 8.0, "index": 92, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 95.07799999997951, "speed": 8.0, "index": 93, "command": "timeline.add", "label": "Combine6"}
+{"event": "command_complete", "elapsed": 98.79700000002049, "speed": 8.0, "index": 93, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 98.92200000002049, "speed": 8.0, "index": 94, "command": "timeline.add", "label": "rotor_b_38_recess_head_below_face"}
+{"event": "command_complete", "elapsed": 98.93699999997625, "speed": 8.0, "index": 94, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 99.06199999997625, "speed": 8.0, "index": 95, "command": "timeline.add", "label": "rotor_b_38_recess_head_below_face_extrude"}
+{"event": "command_complete", "elapsed": 110.73399999999674, "speed": 8.0, "index": 95, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 110.92200000002049, "speed": 8.0, "component": 104, "name": "carrier_bottom", "completed": [1, 23, 41, 72]}
+{"event": "command_start", "elapsed": 110.92200000002049, "speed": 8.0, "index": 96, "command": "timeline.add", "label": "carrier_bottom_39_6810_inner_race_shoulder"}
+{"event": "command_complete", "elapsed": 110.95299999997951, "speed": 8.0, "index": 96, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.07799999997951, "speed": 8.0, "index": 97, "command": "timeline.add", "label": "carrier_bottom_39_6810_inner_race_shoulder_extrude"}
+{"event": "command_complete", "elapsed": 111.10899999999674, "speed": 8.0, "index": 97, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.23399999999674, "speed": 8.0, "index": 98, "command": "timeline.add", "label": "carrier_bottom_40_6810_inner_journal"}
+{"event": "command_complete", "elapsed": 111.25, "speed": 8.0, "index": 98, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.375, "speed": 8.0, "index": 99, "command": "timeline.add", "label": "carrier_bottom_40_6810_inner_journal_extrude"}
+{"event": "command_complete", "elapsed": 111.46899999998277, "speed": 8.0, "index": 99, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.59399999998277, "speed": 8.0, "index": 100, "command": "timeline.add", "label": "carrier_bottom_41_inner_race_access"}
+{"event": "command_complete", "elapsed": 111.60899999999674, "speed": 8.0, "index": 100, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.73399999999674, "speed": 8.0, "index": 101, "command": "timeline.add", "label": "carrier_bottom_41_inner_race_access_extrude"}
+{"event": "command_complete", "elapsed": 111.81199999997625, "speed": 8.0, "index": 101, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 111.93699999997625, "speed": 8.0, "index": 102, "command": "timeline.add", "label": "carrier_bottom_42_6704_open_seat"}
+{"event": "command_complete", "elapsed": 111.96899999998277, "speed": 8.0, "index": 102, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 112.09399999998277, "speed": 8.0, "index": 103, "command": "timeline.add", "label": "carrier_bottom_42_6704_open_seat_extrude"}
+{"event": "command_complete", "elapsed": 112.14100000000326, "speed": 8.0, "index": 103, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 112.26600000000326, "speed": 8.0, "index": 104, "command": "timeline.add", "label": "carrier_bottom_43_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 112.29700000002049, "speed": 8.0, "index": 104, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 112.42200000002049, "speed": 8.0, "index": 105, "command": "timeline.add", "label": "carrier_bottom_43_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 112.5, "speed": 8.0, "index": 105, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 112.625, "speed": 8.0, "index": 106, "command": "timeline.add", "label": "carrier_bottom_44_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 112.65600000001723, "speed": 8.0, "index": 106, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 112.78100000001723, "speed": 8.0, "index": 107, "command": "timeline.add", "label": "carrier_bottom_44_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 112.875, "speed": 8.0, "index": 107, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 113.0, "speed": 8.0, "index": 108, "command": "timeline.add", "label": "carrier_bottom_45_M3_nut_overhang"}
+{"event": "command_complete", "elapsed": 113.04700000002049, "speed": 8.0, "index": 108, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 113.17200000002049, "speed": 8.0, "index": 109, "command": "timeline.add", "label": "carrier_bottom_45_M3_nut_overhang_extrude"}
+{"event": "command_complete", "elapsed": 113.28100000001723, "speed": 8.0, "index": 109, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 113.40600000001723, "speed": 8.0, "index": 110, "command": "timeline.add", "label": "carrier_bottom_46_M3_drive_through"}
+{"event": "command_complete", "elapsed": 113.43699999997625, "speed": 8.0, "index": 110, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 113.56199999997625, "speed": 8.0, "index": 111, "command": "timeline.add", "label": "carrier_bottom_46_M3_drive_through_extrude"}
+{"event": "command_complete", "elapsed": 113.75, "speed": 8.0, "index": 111, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 113.875, "speed": 8.0, "index": 112, "command": "timeline.add", "label": "carrier_bottom_47_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 113.90600000001723, "speed": 8.0, "index": 112, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 114.03100000001723, "speed": 8.0, "index": 113, "command": "timeline.add", "label": "carrier_bottom_47_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 114.125, "speed": 8.0, "index": 113, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 114.25, "speed": 8.0, "index": 114, "command": "timeline.add", "label": "carrier_bottom_48_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 114.28100000001723, "speed": 8.0, "index": 114, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 114.42200000002049, "speed": 8.0, "index": 115, "command": "timeline.add", "label": "carrier_bottom_48_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 114.56199999997625, "speed": 8.0, "index": 115, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 114.68699999997625, "speed": 8.0, "index": 116, "command": "timeline.add", "label": "carrier_bottom_49_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 114.70299999997951, "speed": 8.0, "index": 116, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 114.82799999997951, "speed": 8.0, "index": 117, "command": "timeline.add", "label": "carrier_bottom_49_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 114.96899999998277, "speed": 8.0, "index": 117, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 115.09399999998277, "speed": 8.0, "index": 118, "command": "timeline.add", "label": "carrier_bottom_50_m3_mounting_bores"}
+{"event": "command_complete", "elapsed": 115.125, "speed": 8.0, "index": 118, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 115.25, "speed": 8.0, "index": 119, "command": "timeline.add", "label": "carrier_bottom_50_m3_mounting_bores_extrude"}
+{"event": "command_complete", "elapsed": 115.43699999997625, "speed": 8.0, "index": 119, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 115.64100000000326, "speed": 8.0, "component": 130, "name": "carrier_top", "completed": [1, 23, 41, 72, 104]}
+{"event": "command_start", "elapsed": 115.64100000000326, "speed": 8.0, "index": 120, "command": "timeline.add", "label": "carrier_top_51_6810_inner_race_shoulder"}
+{"event": "command_complete", "elapsed": 115.68699999997625, "speed": 8.0, "index": 120, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 115.81199999997625, "speed": 8.0, "index": 121, "command": "timeline.add", "label": "carrier_top_51_6810_inner_race_shoulder_extrude"}
+{"event": "command_complete", "elapsed": 115.85899999999674, "speed": 8.0, "index": 121, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 115.98399999999674, "speed": 8.0, "index": 122, "command": "timeline.add", "label": "carrier_top_52_6810_inner_journal"}
+{"event": "command_complete", "elapsed": 116.03100000001723, "speed": 8.0, "index": 122, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 116.15600000001723, "speed": 8.0, "index": 123, "command": "timeline.add", "label": "carrier_top_52_6810_inner_journal_extrude"}
+{"event": "command_complete", "elapsed": 116.26600000000326, "speed": 8.0, "index": 123, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 116.39100000000326, "speed": 8.0, "index": 124, "command": "timeline.add", "label": "carrier_top_53_inner_race_access"}
+{"event": "command_complete", "elapsed": 116.42200000002049, "speed": 8.0, "index": 124, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 116.57799999997951, "speed": 8.0, "index": 125, "command": "timeline.add", "label": "carrier_top_53_inner_race_access_extrude"}
+{"event": "command_complete", "elapsed": 116.625, "speed": 8.0, "index": 125, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 116.75, "speed": 8.0, "index": 126, "command": "timeline.add", "label": "carrier_top_54_6704_open_seat"}
+{"event": "command_complete", "elapsed": 116.79700000002049, "speed": 8.0, "index": 126, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 116.92200000002049, "speed": 8.0, "index": 127, "command": "timeline.add", "label": "carrier_top_54_6704_open_seat_extrude"}
+{"event": "command_complete", "elapsed": 116.98399999999674, "speed": 8.0, "index": 127, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 117.10899999999674, "speed": 8.0, "index": 128, "command": "timeline.add", "label": "carrier_top_55_drive_cap_pockets"}
+{"event": "command_complete", "elapsed": 117.14100000000326, "speed": 8.0, "index": 128, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 117.26600000000326, "speed": 8.0, "index": 129, "command": "timeline.add", "label": "carrier_top_55_drive_cap_pockets_extrude"}
+{"event": "command_complete", "elapsed": 117.375, "speed": 8.0, "index": 129, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 117.5, "speed": 8.0, "index": 130, "command": "timeline.add", "label": "carrier_top_56_drive_screw_axes"}
+{"event": "command_complete", "elapsed": 117.53100000001723, "speed": 8.0, "index": 130, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 117.65600000001723, "speed": 8.0, "index": 131, "command": "timeline.add", "label": "carrier_top_56_drive_screw_axes_extrude"}
+{"event": "command_complete", "elapsed": 117.875, "speed": 8.0, "index": 131, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.0, "speed": 8.0, "index": 132, "command": "timeline.add", "label": "carrier_top_57_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 118.04700000002049, "speed": 8.0, "index": 132, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.17200000002049, "speed": 8.0, "index": 133, "command": "timeline.add", "label": "carrier_top_57_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 118.28100000001723, "speed": 8.0, "index": 133, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.40600000001723, "speed": 8.0, "index": 134, "command": "timeline.add", "label": "carrier_top_58_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 118.42200000002049, "speed": 8.0, "index": 134, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.54700000002049, "speed": 8.0, "index": 135, "command": "timeline.add", "label": "carrier_top_58_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 118.65600000001723, "speed": 8.0, "index": 135, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.78100000001723, "speed": 8.0, "index": 136, "command": "timeline.add", "label": "carrier_top_59_m3_loading_relief"}
+{"event": "command_complete", "elapsed": 118.82799999997951, "speed": 8.0, "index": 136, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 118.95299999997951, "speed": 8.0, "index": 137, "command": "timeline.add", "label": "carrier_top_59_m3_loading_relief_extrude"}
+{"event": "command_complete", "elapsed": 119.06199999997625, "speed": 8.0, "index": 137, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 119.18699999997625, "speed": 8.0, "index": 138, "command": "timeline.add", "label": "carrier_top_60_m3_mounting_bores"}
+{"event": "command_complete", "elapsed": 119.21899999998277, "speed": 8.0, "index": 138, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 119.34399999998277, "speed": 8.0, "index": 139, "command": "timeline.add", "label": "carrier_top_60_m3_mounting_bores_extrude"}
+{"event": "command_complete", "elapsed": 119.48399999999674, "speed": 8.0, "index": 139, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 119.65600000001723, "speed": 8.0, "component": 152, "name": "input_d_shaft", "completed": [1, 23, 41, 72, 104, 130]}
+{"event": "command_start", "elapsed": 119.65600000001723, "speed": 8.0, "index": 140, "command": "timeline.add", "label": "input_d_shaft_61_through_spindle_and_thrust_rim"}
+{"event": "command_complete", "elapsed": 119.70299999997951, "speed": 8.0, "index": 140, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 119.82799999997951, "speed": 8.0, "index": 141, "command": "timeline.add", "label": "input_d_shaft_61_through_spindle_and_thrust_rim_revolve"}
+{"event": "command_complete", "elapsed": 119.89100000000326, "speed": 8.0, "index": 141, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 120.01600000000326, "speed": 8.0, "index": 142, "command": "timeline.add", "label": "input_d_shaft_62_external_drive_flat"}
+{"event": "command_complete", "elapsed": 120.04700000002049, "speed": 8.0, "index": 142, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 120.17200000002049, "speed": 8.0, "index": 143, "command": "timeline.add", "label": "input_d_shaft_62_external_drive_flat_extrude"}
+{"event": "command_complete", "elapsed": 120.40600000001723, "speed": 8.0, "index": 143, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 120.53100000001723, "speed": 8.0, "index": 144, "command": "timeline.add", "label": "input_d_shaft_63_spacer_drive_flat"}
+{"event": "command_complete", "elapsed": 120.57799999997951, "speed": 8.0, "index": 144, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 120.70299999997951, "speed": 8.0, "index": 145, "command": "timeline.add", "label": "input_d_shaft_63_spacer_drive_flat_extrude"}
+{"event": "command_complete", "elapsed": 120.96899999998277, "speed": 8.0, "index": 145, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 121.09399999998277, "speed": 8.0, "index": 146, "command": "timeline.add", "label": "input_d_shaft_64_M6_printable_axial_channel"}
+{"event": "command_complete", "elapsed": 121.15600000001723, "speed": 8.0, "index": 146, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 121.28100000001723, "speed": 8.0, "index": 147, "command": "timeline.add", "label": "input_d_shaft_64_M6_printable_axial_channel_extrude"}
+{"event": "command_complete", "elapsed": 121.375, "speed": 8.0, "index": 147, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 121.5, "speed": 8.0, "index": 148, "command": "timeline.add", "label": "input_d_shaft_65_flat_split_face"}
+{"event": "command_complete", "elapsed": 121.56199999997625, "speed": 8.0, "index": 148, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 121.68699999997625, "speed": 8.0, "index": 149, "command": "timeline.add", "label": "input_d_shaft_65_flat_split_face_extrude"}
+{"event": "command_complete", "elapsed": 122.70299999997951, "speed": 8.0, "index": 149, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 122.89100000000326, "speed": 8.0, "component": 164, "name": "round_shim_bottom", "completed": [1, 23, 41, 72, 104, 130, 152]}
+{"event": "command_start", "elapsed": 122.89100000000326, "speed": 8.0, "index": 150, "command": "timeline.add", "label": "round_shim_bottom_66_eccentric_inner_race_pad"}
+{"event": "command_complete", "elapsed": 122.92200000002049, "speed": 8.0, "index": 150, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.04700000002049, "speed": 8.0, "index": 151, "command": "timeline.add", "label": "round_shim_bottom_66_eccentric_inner_race_pad_extrude"}
+{"event": "command_complete", "elapsed": 123.07799999997951, "speed": 8.0, "index": 151, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.20299999997951, "speed": 8.0, "index": 152, "command": "timeline.add", "label": "round_shim_bottom_67_straight_distance_collar"}
+{"event": "command_complete", "elapsed": 123.23399999999674, "speed": 8.0, "index": 152, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.375, "speed": 8.0, "index": 153, "command": "timeline.add", "label": "round_shim_bottom_67_straight_distance_collar_extrude"}
+{"event": "command_complete", "elapsed": 123.48399999999674, "speed": 8.0, "index": 153, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.60899999999674, "speed": 8.0, "index": 154, "command": "timeline.add", "label": "round_shim_bottom_D_68_69_D_profile"}
+{"event": "command_complete", "elapsed": 123.64100000000326, "speed": 8.0, "index": 154, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.76600000000326, "speed": 8.0, "index": 155, "command": "timeline.add", "label": "round_shim_bottom_D_68_69_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 123.81199999997625, "speed": 8.0, "index": 155, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 123.93699999997625, "speed": 8.0, "index": 156, "command": "timeline.add", "label": "round_shim_bottom_D_68_70_D_flat"}
+{"event": "command_complete", "elapsed": 123.95299999997951, "speed": 8.0, "index": 156, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 124.07799999997951, "speed": 8.0, "index": 157, "command": "timeline.add", "label": "round_shim_bottom_D_68_70_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 124.10899999999674, "speed": 8.0, "index": 157, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 124.23399999999674, "speed": 8.0, "index": 158, "command": "timeline.add", "label": "Combine7"}
+{"event": "command_complete", "elapsed": 124.28100000001723, "speed": 8.0, "index": 158, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 124.45299999997951, "speed": 8.0, "component": 175, "name": "eccentric_spacer_a", "completed": [1, 23, 41, 72, 104, 130, 152, 164]}
+{"event": "command_start", "elapsed": 124.45299999997951, "speed": 8.0, "index": 159, "command": "timeline.add", "label": "eccentric_spacer_a_71_inner_race_thrust_face"}
+{"event": "command_complete", "elapsed": 124.48399999999674, "speed": 8.0, "index": 159, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 124.60899999999674, "speed": 8.0, "index": 160, "command": "timeline.add", "label": "eccentric_spacer_a_71_inner_race_thrust_face_extrude"}
+{"event": "command_complete", "elapsed": 124.65600000001723, "speed": 8.0, "index": 160, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 124.78100000001723, "speed": 8.0, "index": 161, "command": "timeline.add", "label": "eccentric_spacer_a_72_offset_6704_journal"}
+{"event": "command_complete", "elapsed": 124.81199999997625, "speed": 8.0, "index": 161, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 124.93699999997625, "speed": 8.0, "index": 162, "command": "timeline.add", "label": "eccentric_spacer_a_72_offset_6704_journal_extrude"}
+{"event": "command_complete", "elapsed": 125.04700000002049, "speed": 8.0, "index": 162, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 125.17200000002049, "speed": 8.0, "index": 163, "command": "timeline.add", "label": "eccentric_spacer_a_D_73_74_D_profile"}
+{"event": "command_complete", "elapsed": 125.20299999997951, "speed": 8.0, "index": 163, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 125.32799999997951, "speed": 8.0, "index": 164, "command": "timeline.add", "label": "eccentric_spacer_a_D_73_74_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 125.35899999999674, "speed": 8.0, "index": 164, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 125.48399999999674, "speed": 8.0, "index": 165, "command": "timeline.add", "label": "eccentric_spacer_a_D_73_75_D_flat"}
+{"event": "command_complete", "elapsed": 125.51600000000326, "speed": 8.0, "index": 165, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 125.65600000001723, "speed": 8.0, "index": 166, "command": "timeline.add", "label": "eccentric_spacer_a_D_73_75_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 125.71899999998277, "speed": 8.0, "index": 166, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 125.84399999998277, "speed": 8.0, "index": 167, "command": "timeline.add", "label": "Combine8"}
+{"event": "command_complete", "elapsed": 125.89100000000326, "speed": 8.0, "index": 167, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 126.06199999997625, "speed": 8.0, "component": 186, "name": "eccentric_spacer_b", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175]}
+{"event": "command_start", "elapsed": 126.06199999997625, "speed": 8.0, "index": 168, "command": "timeline.add", "label": "eccentric_spacer_b_76_inner_race_thrust_face"}
+{"event": "command_complete", "elapsed": 126.10899999999674, "speed": 8.0, "index": 168, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 126.23399999999674, "speed": 8.0, "index": 169, "command": "timeline.add", "label": "eccentric_spacer_b_76_inner_race_thrust_face_extrude"}
+{"event": "command_complete", "elapsed": 126.28100000001723, "speed": 8.0, "index": 169, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 126.40600000001723, "speed": 8.0, "index": 170, "command": "timeline.add", "label": "eccentric_spacer_b_77_offset_6704_journal"}
+{"event": "command_complete", "elapsed": 126.45299999997951, "speed": 8.0, "index": 170, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 126.57799999997951, "speed": 8.0, "index": 171, "command": "timeline.add", "label": "eccentric_spacer_b_77_offset_6704_journal_extrude"}
+{"event": "command_complete", "elapsed": 126.70299999997951, "speed": 8.0, "index": 171, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 126.82799999997951, "speed": 8.0, "index": 172, "command": "timeline.add", "label": "eccentric_spacer_b_D_78_79_D_profile"}
+{"event": "command_complete", "elapsed": 126.85899999999674, "speed": 8.0, "index": 172, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 126.98399999999674, "speed": 8.0, "index": 173, "command": "timeline.add", "label": "eccentric_spacer_b_D_78_79_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 127.03100000001723, "speed": 8.0, "index": 173, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 127.15600000001723, "speed": 8.0, "index": 174, "command": "timeline.add", "label": "eccentric_spacer_b_D_78_80_D_flat"}
+{"event": "command_complete", "elapsed": 127.18699999997625, "speed": 8.0, "index": 174, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 127.31199999997625, "speed": 8.0, "index": 175, "command": "timeline.add", "label": "eccentric_spacer_b_D_78_80_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 127.375, "speed": 8.0, "index": 175, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 127.5, "speed": 8.0, "index": 176, "command": "timeline.add", "label": "Combine9"}
+{"event": "command_complete", "elapsed": 127.56199999997625, "speed": 8.0, "index": 176, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 127.73399999999674, "speed": 8.0, "component": 197, "name": "round_shim_top", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186]}
+{"event": "command_start", "elapsed": 127.73399999999674, "speed": 8.0, "index": 177, "command": "timeline.add", "label": "round_shim_top_81_eccentric_inner_race_pad"}
+{"event": "command_complete", "elapsed": 127.78100000001723, "speed": 8.0, "index": 177, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 127.90600000001723, "speed": 8.0, "index": 178, "command": "timeline.add", "label": "round_shim_top_81_eccentric_inner_race_pad_extrude"}
+{"event": "command_complete", "elapsed": 127.92200000002049, "speed": 8.0, "index": 178, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.0470000000205, "speed": 8.0, "index": 179, "command": "timeline.add", "label": "round_shim_top_82_straight_distance_collar"}
+{"event": "command_complete", "elapsed": 128.0779999999795, "speed": 8.0, "index": 179, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.2029999999795, "speed": 8.0, "index": 180, "command": "timeline.add", "label": "round_shim_top_82_straight_distance_collar_extrude"}
+{"event": "command_complete", "elapsed": 128.3279999999795, "speed": 8.0, "index": 180, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.4529999999795, "speed": 8.0, "index": 181, "command": "timeline.add", "label": "round_shim_top_D_83_84_D_profile"}
+{"event": "command_complete", "elapsed": 128.46899999998277, "speed": 8.0, "index": 181, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.59399999998277, "speed": 8.0, "index": 182, "command": "timeline.add", "label": "round_shim_top_D_83_84_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 128.625, "speed": 8.0, "index": 182, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.75, "speed": 8.0, "index": 183, "command": "timeline.add", "label": "round_shim_top_D_83_85_D_flat"}
+{"event": "command_complete", "elapsed": 128.78100000001723, "speed": 8.0, "index": 183, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 128.90600000001723, "speed": 8.0, "index": 184, "command": "timeline.add", "label": "round_shim_top_D_83_85_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 128.96899999998277, "speed": 8.0, "index": 184, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 129.09399999998277, "speed": 8.0, "index": 185, "command": "timeline.add", "label": "Combine10"}
+{"event": "command_complete", "elapsed": 129.15600000001723, "speed": 8.0, "index": 185, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 129.35899999999674, "speed": 8.0, "component": 208, "name": "shaft_end_washer", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197]}
+{"event": "command_start", "elapsed": 129.35899999999674, "speed": 8.0, "index": 186, "command": "timeline.add", "label": "shaft_end_washer_86_M6_thrust_washer"}
+{"event": "command_complete", "elapsed": 129.40600000001723, "speed": 8.0, "index": 186, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 129.5470000000205, "speed": 8.0, "index": 187, "command": "timeline.add", "label": "shaft_end_washer_86_M6_thrust_washer_extrude"}
+{"event": "command_complete", "elapsed": 129.59399999998277, "speed": 8.0, "index": 187, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 129.78100000001723, "speed": 8.0, "component": 212, "name": "rotor_a_cap", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208]}
+{"event": "command_start", "elapsed": 129.78100000001723, "speed": 8.0, "index": 188, "command": "timeline.add", "label": "rotor_a_cap_87_equation"}
+{"event": "command_complete", "elapsed": 130.0470000000205, "speed": 8.0, "index": 188, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 130.1720000000205, "speed": 8.0, "index": 189, "command": "timeline.add", "label": "rotor_a_cap_87_equation_extrude"}
+{"event": "command_complete", "elapsed": 130.60899999999674, "speed": 8.0, "index": 189, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 130.73399999999674, "speed": 8.0, "index": 190, "command": "timeline.add", "label": "rotor_a_cap_88_round_drive_tracks"}
+{"event": "command_complete", "elapsed": 130.76600000000326, "speed": 8.0, "index": 190, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 130.89100000000326, "speed": 8.0, "index": 191, "command": "timeline.add", "label": "rotor_a_cap_88_round_drive_tracks_extrude"}
+{"event": "command_complete", "elapsed": 131.4529999999795, "speed": 8.0, "index": 191, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 131.59399999998277, "speed": 8.0, "index": 192, "command": "timeline.add", "label": "rotor_a_cap_89_outer_race_retaining_lip"}
+{"event": "command_complete", "elapsed": 131.64100000000326, "speed": 8.0, "index": 192, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 131.76600000000326, "speed": 8.0, "index": 193, "command": "timeline.add", "label": "rotor_a_cap_89_outer_race_retaining_lip_extrude"}
+{"event": "command_complete", "elapsed": 132.0779999999795, "speed": 8.0, "index": 193, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 132.2029999999795, "speed": 8.0, "index": 194, "command": "timeline.add", "label": "rotor_a_cap_90_open_half_bearing_seat"}
+{"event": "command_complete", "elapsed": 132.26600000000326, "speed": 8.0, "index": 194, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 132.39100000000326, "speed": 8.0, "index": 195, "command": "timeline.add", "label": "rotor_a_cap_90_open_half_bearing_seat_extrude"}
+{"event": "command_complete", "elapsed": 133.06199999997625, "speed": 8.0, "index": 195, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 133.18699999997625, "speed": 8.0, "index": 196, "command": "timeline.add", "label": "cut_91_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 133.23399999999674, "speed": 8.0, "index": 196, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 133.35899999999674, "speed": 8.0, "index": 197, "command": "timeline.add", "label": "cut_91_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 133.4220000000205, "speed": 8.0, "index": 197, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 133.5470000000205, "speed": 8.0, "index": 198, "command": "timeline.add", "label": "Move14"}
+{"event": "command_complete", "elapsed": 133.59399999998277, "speed": 8.0, "index": 198, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 133.71899999998277, "speed": 8.0, "index": 199, "command": "timeline.add", "label": "cut_91_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 133.76600000000326, "speed": 8.0, "index": 199, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 133.89100000000326, "speed": 8.0, "index": 200, "command": "timeline.add", "label": "cut_91_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 133.93699999997625, "speed": 8.0, "index": 200, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.06199999997625, "speed": 8.0, "index": 201, "command": "timeline.add", "label": "Move15"}
+{"event": "command_complete", "elapsed": 134.10899999999674, "speed": 8.0, "index": 201, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.23399999999674, "speed": 8.0, "index": 202, "command": "timeline.add", "label": "cut_91_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 134.26600000000326, "speed": 8.0, "index": 202, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.39100000000326, "speed": 8.0, "index": 203, "command": "timeline.add", "label": "cut_91_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 134.4220000000205, "speed": 8.0, "index": 203, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.5470000000205, "speed": 8.0, "index": 204, "command": "timeline.add", "label": "Move16"}
+{"event": "command_complete", "elapsed": 134.59399999998277, "speed": 8.0, "index": 204, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.73399999999674, "speed": 8.0, "index": 205, "command": "timeline.add", "label": "cut_91_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 134.75, "speed": 8.0, "index": 205, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 134.875, "speed": 8.0, "index": 206, "command": "timeline.add", "label": "cut_91_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 134.9220000000205, "speed": 8.0, "index": 206, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.06199999997625, "speed": 8.0, "index": 207, "command": "timeline.add", "label": "Move17"}
+{"event": "command_complete", "elapsed": 135.10899999999674, "speed": 8.0, "index": 207, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.23399999999674, "speed": 8.0, "index": 208, "command": "timeline.add", "label": "cut_91_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 135.25, "speed": 8.0, "index": 208, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.375, "speed": 8.0, "index": 209, "command": "timeline.add", "label": "cut_91_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 135.4220000000205, "speed": 8.0, "index": 209, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.5470000000205, "speed": 8.0, "index": 210, "command": "timeline.add", "label": "Combine11"}
+{"event": "command_complete", "elapsed": 135.65600000001723, "speed": 8.0, "index": 210, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.7970000000205, "speed": 8.0, "index": 211, "command": "timeline.add", "label": "Move18"}
+{"event": "command_complete", "elapsed": 135.84399999998277, "speed": 8.0, "index": 211, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 135.98399999999674, "speed": 8.0, "index": 212, "command": "timeline.add", "label": "Combine12"}
+{"event": "command_complete", "elapsed": 136.9529999999795, "speed": 8.0, "index": 212, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 137.0779999999795, "speed": 8.0, "index": 213, "command": "timeline.add", "label": "rotor_a_cap_92_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 137.18699999997625, "speed": 8.0, "index": 213, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 137.31199999997625, "speed": 8.0, "index": 214, "command": "timeline.add", "label": "rotor_a_cap_92_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 138.5, "speed": 8.0, "index": 214, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 138.625, "speed": 8.0, "index": 215, "command": "timeline.add", "label": "cut_93_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 138.6720000000205, "speed": 8.0, "index": 215, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 138.7970000000205, "speed": 8.0, "index": 216, "command": "timeline.add", "label": "cut_93_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 138.84399999998277, "speed": 8.0, "index": 216, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 138.96899999998277, "speed": 8.0, "index": 217, "command": "timeline.add", "label": "Move19"}
+{"event": "command_complete", "elapsed": 139.01600000000326, "speed": 8.0, "index": 217, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 139.14100000000326, "speed": 8.0, "index": 218, "command": "timeline.add", "label": "cut_93_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 139.2029999999795, "speed": 8.0, "index": 218, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 139.3279999999795, "speed": 8.0, "index": 219, "command": "timeline.add", "label": "cut_93_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 139.39100000000326, "speed": 8.0, "index": 219, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 139.51600000000326, "speed": 8.0, "index": 220, "command": "timeline.add", "label": "Move20"}
+{"event": "command_complete", "elapsed": 139.60899999999674, "speed": 8.0, "index": 220, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 139.73399999999674, "speed": 8.0, "index": 221, "command": "timeline.add", "label": "cut_93_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 139.81199999997625, "speed": 8.0, "index": 221, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 139.93699999997625, "speed": 8.0, "index": 222, "command": "timeline.add", "label": "cut_93_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 140.01600000000326, "speed": 8.0, "index": 222, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 140.14100000000326, "speed": 8.0, "index": 223, "command": "timeline.add", "label": "Move21"}
+{"event": "command_complete", "elapsed": 140.2029999999795, "speed": 8.0, "index": 223, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 140.3279999999795, "speed": 8.0, "index": 224, "command": "timeline.add", "label": "cut_93_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 140.375, "speed": 8.0, "index": 224, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 140.5, "speed": 8.0, "index": 225, "command": "timeline.add", "label": "cut_93_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 140.56199999997625, "speed": 8.0, "index": 225, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 140.68699999997625, "speed": 8.0, "index": 226, "command": "timeline.add", "label": "Move22"}
+{"event": "command_complete", "elapsed": 140.75, "speed": 8.0, "index": 226, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 140.875, "speed": 8.0, "index": 227, "command": "timeline.add", "label": "cut_93_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 140.9220000000205, "speed": 8.0, "index": 227, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 141.0470000000205, "speed": 8.0, "index": 228, "command": "timeline.add", "label": "cut_93_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 141.10899999999674, "speed": 8.0, "index": 228, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 141.23399999999674, "speed": 8.0, "index": 229, "command": "timeline.add", "label": "Combine13"}
+{"event": "command_complete", "elapsed": 141.39100000000326, "speed": 8.0, "index": 229, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 141.51600000000326, "speed": 8.0, "index": 230, "command": "timeline.add", "label": "Move23"}
+{"event": "command_complete", "elapsed": 141.59399999998277, "speed": 8.0, "index": 230, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 141.73399999999674, "speed": 8.0, "index": 231, "command": "timeline.add", "label": "Combine14"}
+{"event": "command_complete", "elapsed": 143.0, "speed": 8.0, "index": 231, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 143.15600000001723, "speed": 8.0, "index": 232, "command": "timeline.add", "label": "rotor_a_cap_94_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 143.23399999999674, "speed": 8.0, "index": 232, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 143.35899999999674, "speed": 8.0, "index": 233, "command": "timeline.add", "label": "rotor_a_cap_94_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 144.6720000000205, "speed": 8.0, "index": 233, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 144.7970000000205, "speed": 8.0, "index": 234, "command": "timeline.add", "label": "cut_95_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 144.84399999998277, "speed": 8.0, "index": 234, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 144.96899999998277, "speed": 8.0, "index": 235, "command": "timeline.add", "label": "cut_95_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 145.0470000000205, "speed": 8.0, "index": 235, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 145.18699999997625, "speed": 8.0, "index": 236, "command": "timeline.add", "label": "Move24"}
+{"event": "command_complete", "elapsed": 145.25, "speed": 8.0, "index": 236, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 145.375, "speed": 8.0, "index": 237, "command": "timeline.add", "label": "cut_95_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 145.4220000000205, "speed": 8.0, "index": 237, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 145.56199999997625, "speed": 8.0, "index": 238, "command": "timeline.add", "label": "cut_95_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 145.60899999999674, "speed": 8.0, "index": 238, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 145.75, "speed": 8.0, "index": 239, "command": "timeline.add", "label": "Move25"}
+{"event": "command_complete", "elapsed": 145.7970000000205, "speed": 8.0, "index": 239, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 145.93699999997625, "speed": 8.0, "index": 240, "command": "timeline.add", "label": "cut_95_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 145.98399999999674, "speed": 8.0, "index": 240, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 146.125, "speed": 8.0, "index": 241, "command": "timeline.add", "label": "cut_95_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 146.18699999997625, "speed": 8.0, "index": 241, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 146.3279999999795, "speed": 8.0, "index": 242, "command": "timeline.add", "label": "Move26"}
+{"event": "command_complete", "elapsed": 146.375, "speed": 8.0, "index": 242, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 146.5, "speed": 8.0, "index": 243, "command": "timeline.add", "label": "cut_95_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 146.5470000000205, "speed": 8.0, "index": 243, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 146.6720000000205, "speed": 8.0, "index": 244, "command": "timeline.add", "label": "cut_95_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 146.71899999998277, "speed": 8.0, "index": 244, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 146.84399999998277, "speed": 8.0, "index": 245, "command": "timeline.add", "label": "Move27"}
+{"event": "command_complete", "elapsed": 146.89100000000326, "speed": 8.0, "index": 245, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 147.01600000000326, "speed": 8.0, "index": 246, "command": "timeline.add", "label": "cut_95_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 147.0470000000205, "speed": 8.0, "index": 246, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 147.1720000000205, "speed": 8.0, "index": 247, "command": "timeline.add", "label": "cut_95_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 147.2029999999795, "speed": 8.0, "index": 247, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 147.3279999999795, "speed": 8.0, "index": 248, "command": "timeline.add", "label": "Combine15"}
+{"event": "command_complete", "elapsed": 147.4220000000205, "speed": 8.0, "index": 248, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 147.5470000000205, "speed": 8.0, "index": 249, "command": "timeline.add", "label": "Move28"}
+{"event": "command_complete", "elapsed": 147.5470000000205, "speed": 8.0, "index": 249, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 147.6720000000205, "speed": 8.0, "index": 250, "command": "timeline.add", "label": "Combine16"}
+{"event": "command_complete", "elapsed": 148.375, "speed": 8.0, "index": 250, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 148.5, "speed": 8.0, "index": 251, "command": "timeline.add", "label": "rotor_a_cap_96_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 148.56199999997625, "speed": 8.0, "index": 251, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 148.68699999997625, "speed": 8.0, "index": 252, "command": "timeline.add", "label": "rotor_a_cap_96_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 149.76600000000326, "speed": 8.0, "index": 252, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 150.0, "speed": 8.0, "component": 279, "name": "rotor_b_cap", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212]}
+{"event": "command_start", "elapsed": 150.0, "speed": 8.0, "index": 253, "command": "timeline.add", "label": "rotor_b_cap_97_equation"}
+{"event": "command_complete", "elapsed": 150.23399999999674, "speed": 8.0, "index": 253, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 150.35899999999674, "speed": 8.0, "index": 254, "command": "timeline.add", "label": "rotor_b_cap_97_equation_extrude"}
+{"event": "command_complete", "elapsed": 150.75, "speed": 8.0, "index": 254, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 150.875, "speed": 8.0, "index": 255, "command": "timeline.add", "label": "Move29"}
+{"event": "command_complete", "elapsed": 151.03100000001723, "speed": 8.0, "index": 255, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 151.15600000001723, "speed": 8.0, "index": 256, "command": "timeline.add", "label": "rotor_b_cap_98_round_drive_tracks"}
+{"event": "command_complete", "elapsed": 151.18699999997625, "speed": 8.0, "index": 256, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 151.31199999997625, "speed": 8.0, "index": 257, "command": "timeline.add", "label": "rotor_b_cap_98_round_drive_tracks_extrude"}
+{"event": "command_complete", "elapsed": 151.85899999999674, "speed": 8.0, "index": 257, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 152.0, "speed": 8.0, "index": 258, "command": "timeline.add", "label": "rotor_b_cap_99_outer_race_retaining_lip"}
+{"event": "command_complete", "elapsed": 152.0470000000205, "speed": 8.0, "index": 258, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 152.1720000000205, "speed": 8.0, "index": 259, "command": "timeline.add", "label": "rotor_b_cap_99_outer_race_retaining_lip_extrude"}
+{"event": "command_complete", "elapsed": 152.5779999999795, "speed": 8.0, "index": 259, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 152.7029999999795, "speed": 8.0, "index": 260, "command": "timeline.add", "label": "rotor_b_cap_100_open_half_bearing_seat"}
+{"event": "command_complete", "elapsed": 152.7970000000205, "speed": 8.0, "index": 260, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 152.9220000000205, "speed": 8.0, "index": 261, "command": "timeline.add", "label": "rotor_b_cap_100_open_half_bearing_seat_extrude"}
+{"event": "command_complete", "elapsed": 153.68699999997625, "speed": 8.0, "index": 261, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 153.81199999997625, "speed": 8.0, "index": 262, "command": "timeline.add", "label": "cut_101_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 153.84399999998277, "speed": 8.0, "index": 262, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 153.98399999999674, "speed": 8.0, "index": 263, "command": "timeline.add", "label": "cut_101_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 154.01600000000326, "speed": 8.0, "index": 263, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.14100000000326, "speed": 8.0, "index": 264, "command": "timeline.add", "label": "Move30"}
+{"event": "command_complete", "elapsed": 154.1720000000205, "speed": 8.0, "index": 264, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.2970000000205, "speed": 8.0, "index": 265, "command": "timeline.add", "label": "cut_101_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 154.3279999999795, "speed": 8.0, "index": 265, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.4529999999795, "speed": 8.0, "index": 266, "command": "timeline.add", "label": "cut_101_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 154.53100000001723, "speed": 8.0, "index": 266, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.65600000001723, "speed": 8.0, "index": 267, "command": "timeline.add", "label": "Move31"}
+{"event": "command_complete", "elapsed": 154.68699999997625, "speed": 8.0, "index": 267, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.81199999997625, "speed": 8.0, "index": 268, "command": "timeline.add", "label": "cut_101_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 154.84399999998277, "speed": 8.0, "index": 268, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 154.96899999998277, "speed": 8.0, "index": 269, "command": "timeline.add", "label": "cut_101_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 155.01600000000326, "speed": 8.0, "index": 269, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.14100000000326, "speed": 8.0, "index": 270, "command": "timeline.add", "label": "Move32"}
+{"event": "command_complete", "elapsed": 155.18699999997625, "speed": 8.0, "index": 270, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.31199999997625, "speed": 8.0, "index": 271, "command": "timeline.add", "label": "cut_101_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 155.34399999998277, "speed": 8.0, "index": 271, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.46899999998277, "speed": 8.0, "index": 272, "command": "timeline.add", "label": "cut_101_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 155.5, "speed": 8.0, "index": 272, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.625, "speed": 8.0, "index": 273, "command": "timeline.add", "label": "Move33"}
+{"event": "command_complete", "elapsed": 155.65600000001723, "speed": 8.0, "index": 273, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.78100000001723, "speed": 8.0, "index": 274, "command": "timeline.add", "label": "cut_101_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 155.8279999999795, "speed": 8.0, "index": 274, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 155.9529999999795, "speed": 8.0, "index": 275, "command": "timeline.add", "label": "cut_101_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 155.98399999999674, "speed": 8.0, "index": 275, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 156.10899999999674, "speed": 8.0, "index": 276, "command": "timeline.add", "label": "Combine17"}
+{"event": "command_complete", "elapsed": 156.18699999997625, "speed": 8.0, "index": 276, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 156.31199999997625, "speed": 8.0, "index": 277, "command": "timeline.add", "label": "Move34"}
+{"event": "command_complete", "elapsed": 156.35899999999674, "speed": 8.0, "index": 277, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 156.48399999999674, "speed": 8.0, "index": 278, "command": "timeline.add", "label": "Combine18"}
+{"event": "command_complete", "elapsed": 157.1720000000205, "speed": 8.0, "index": 278, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 157.2970000000205, "speed": 8.0, "index": 279, "command": "timeline.add", "label": "rotor_b_cap_102_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 157.34399999998277, "speed": 8.0, "index": 279, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 157.46899999998277, "speed": 8.0, "index": 280, "command": "timeline.add", "label": "rotor_b_cap_102_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 158.31199999997625, "speed": 8.0, "index": 280, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 158.4529999999795, "speed": 8.0, "index": 281, "command": "timeline.add", "label": "cut_103_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 158.48399999999674, "speed": 8.0, "index": 281, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 158.60899999999674, "speed": 8.0, "index": 282, "command": "timeline.add", "label": "cut_103_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 158.68699999997625, "speed": 8.0, "index": 282, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 158.81199999997625, "speed": 8.0, "index": 283, "command": "timeline.add", "label": "Move35"}
+{"event": "command_complete", "elapsed": 158.85899999999674, "speed": 8.0, "index": 283, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 158.98399999999674, "speed": 8.0, "index": 284, "command": "timeline.add", "label": "cut_103_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 159.03100000001723, "speed": 8.0, "index": 284, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 159.15600000001723, "speed": 8.0, "index": 285, "command": "timeline.add", "label": "cut_103_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 159.21899999998277, "speed": 8.0, "index": 285, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 159.375, "speed": 8.0, "index": 286, "command": "timeline.add", "label": "Move36"}
+{"event": "command_complete", "elapsed": 159.4220000000205, "speed": 8.0, "index": 286, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 159.5470000000205, "speed": 8.0, "index": 287, "command": "timeline.add", "label": "cut_103_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 159.59399999998277, "speed": 8.0, "index": 287, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 159.71899999998277, "speed": 8.0, "index": 288, "command": "timeline.add", "label": "cut_103_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 159.78100000001723, "speed": 8.0, "index": 288, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 159.90600000001723, "speed": 8.0, "index": 289, "command": "timeline.add", "label": "Move37"}
+{"event": "command_complete", "elapsed": 159.9529999999795, "speed": 8.0, "index": 289, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 160.0779999999795, "speed": 8.0, "index": 290, "command": "timeline.add", "label": "cut_103_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 160.125, "speed": 8.0, "index": 290, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 160.25, "speed": 8.0, "index": 291, "command": "timeline.add", "label": "cut_103_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 160.2970000000205, "speed": 8.0, "index": 291, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 160.43699999997625, "speed": 8.0, "index": 292, "command": "timeline.add", "label": "Move38"}
+{"event": "command_complete", "elapsed": 160.51600000000326, "speed": 8.0, "index": 292, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 160.64100000000326, "speed": 8.0, "index": 293, "command": "timeline.add", "label": "cut_103_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 160.7029999999795, "speed": 8.0, "index": 293, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 160.8279999999795, "speed": 8.0, "index": 294, "command": "timeline.add", "label": "cut_103_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 160.875, "speed": 8.0, "index": 294, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 161.0, "speed": 8.0, "index": 295, "command": "timeline.add", "label": "Combine19"}
+{"event": "command_complete", "elapsed": 161.15600000001723, "speed": 8.0, "index": 295, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 161.28100000001723, "speed": 8.0, "index": 296, "command": "timeline.add", "label": "Move39"}
+{"event": "command_complete", "elapsed": 161.375, "speed": 8.0, "index": 296, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 161.5, "speed": 8.0, "index": 297, "command": "timeline.add", "label": "Combine20"}
+{"event": "command_complete", "elapsed": 162.5470000000205, "speed": 8.0, "index": 297, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 162.6720000000205, "speed": 8.0, "index": 298, "command": "timeline.add", "label": "rotor_b_cap_104_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 162.7029999999795, "speed": 8.0, "index": 298, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 162.8279999999795, "speed": 8.0, "index": 299, "command": "timeline.add", "label": "rotor_b_cap_104_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 163.71899999998277, "speed": 8.0, "index": 299, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 163.84399999998277, "speed": 8.0, "index": 300, "command": "timeline.add", "label": "cut_105_direct_000_cube_00_profile"}
+{"event": "command_complete", "elapsed": 163.875, "speed": 8.0, "index": 300, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.0, "speed": 8.0, "index": 301, "command": "timeline.add", "label": "cut_105_direct_000_cube_00_extrude"}
+{"event": "command_complete", "elapsed": 164.01600000000326, "speed": 8.0, "index": 301, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.14100000000326, "speed": 8.0, "index": 302, "command": "timeline.add", "label": "Move40"}
+{"event": "command_complete", "elapsed": 164.1720000000205, "speed": 8.0, "index": 302, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.2970000000205, "speed": 8.0, "index": 303, "command": "timeline.add", "label": "cut_105_direct_000_cube_01_profile"}
+{"event": "command_complete", "elapsed": 164.35899999999674, "speed": 8.0, "index": 303, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.48399999999674, "speed": 8.0, "index": 304, "command": "timeline.add", "label": "cut_105_direct_000_cube_01_extrude"}
+{"event": "command_complete", "elapsed": 164.51600000000326, "speed": 8.0, "index": 304, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.64100000000326, "speed": 8.0, "index": 305, "command": "timeline.add", "label": "Move41"}
+{"event": "command_complete", "elapsed": 164.6720000000205, "speed": 8.0, "index": 305, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.7970000000205, "speed": 8.0, "index": 306, "command": "timeline.add", "label": "cut_105_direct_000_cube_02_profile"}
+{"event": "command_complete", "elapsed": 164.81199999997625, "speed": 8.0, "index": 306, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 164.93699999997625, "speed": 8.0, "index": 307, "command": "timeline.add", "label": "cut_105_direct_000_cube_02_extrude"}
+{"event": "command_complete", "elapsed": 164.96899999998277, "speed": 8.0, "index": 307, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.09399999998277, "speed": 8.0, "index": 308, "command": "timeline.add", "label": "Move42"}
+{"event": "command_complete", "elapsed": 165.125, "speed": 8.0, "index": 308, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.25, "speed": 8.0, "index": 309, "command": "timeline.add", "label": "cut_105_direct_000_cube_03_profile"}
+{"event": "command_complete", "elapsed": 165.28100000001723, "speed": 8.0, "index": 309, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.40600000001723, "speed": 8.0, "index": 310, "command": "timeline.add", "label": "cut_105_direct_000_cube_03_extrude"}
+{"event": "command_complete", "elapsed": 165.43699999997625, "speed": 8.0, "index": 310, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.56199999997625, "speed": 8.0, "index": 311, "command": "timeline.add", "label": "Move43"}
+{"event": "command_complete", "elapsed": 165.59399999998277, "speed": 8.0, "index": 311, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.73399999999674, "speed": 8.0, "index": 312, "command": "timeline.add", "label": "cut_105_direct_000_polyg_04_profile"}
+{"event": "command_complete", "elapsed": 165.75, "speed": 8.0, "index": 312, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 165.875, "speed": 8.0, "index": 313, "command": "timeline.add", "label": "cut_105_direct_000_polyg_04_extrude"}
+{"event": "command_complete", "elapsed": 165.90600000001723, "speed": 8.0, "index": 313, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 166.03100000001723, "speed": 8.0, "index": 314, "command": "timeline.add", "label": "Combine21"}
+{"event": "command_complete", "elapsed": 166.14100000000326, "speed": 8.0, "index": 314, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 166.26600000000326, "speed": 8.0, "index": 315, "command": "timeline.add", "label": "Move44"}
+{"event": "command_complete", "elapsed": 166.2970000000205, "speed": 8.0, "index": 315, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 166.4220000000205, "speed": 8.0, "index": 316, "command": "timeline.add", "label": "Combine22"}
+{"event": "command_complete", "elapsed": 167.21899999998277, "speed": 8.0, "index": 316, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 167.34399999998277, "speed": 8.0, "index": 317, "command": "timeline.add", "label": "rotor_b_cap_106_M3_clamp_shank"}
+{"event": "command_complete", "elapsed": 167.43699999997625, "speed": 8.0, "index": 317, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 167.56199999997625, "speed": 8.0, "index": 318, "command": "timeline.add", "label": "rotor_b_cap_106_M3_clamp_shank_extrude"}
+{"event": "command_complete", "elapsed": 168.8279999999795, "speed": 8.0, "index": 318, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 169.0470000000205, "speed": 8.0, "component": 347, "name": "input_d_shaft_b", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279]}
+{"event": "command_start", "elapsed": 169.0470000000205, "speed": 8.0, "index": 319, "command": "timeline.add", "label": "input_d_shaft_b_107_through_spindle_and_thrust_rim"}
+{"event": "command_complete", "elapsed": 169.14100000000326, "speed": 8.0, "index": 319, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 169.26600000000326, "speed": 8.0, "index": 320, "command": "timeline.add", "label": "input_d_shaft_b_107_through_spindle_and_thrust_rim_revolve"}
+{"event": "command_complete", "elapsed": 169.3279999999795, "speed": 8.0, "index": 320, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 169.4529999999795, "speed": 8.0, "index": 321, "command": "timeline.add", "label": "input_d_shaft_b_108_external_drive_flat"}
+{"event": "command_complete", "elapsed": 169.5, "speed": 8.0, "index": 321, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 169.625, "speed": 8.0, "index": 322, "command": "timeline.add", "label": "input_d_shaft_b_108_external_drive_flat_extrude"}
+{"event": "command_complete", "elapsed": 169.89100000000326, "speed": 8.0, "index": 322, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 170.01600000000326, "speed": 8.0, "index": 323, "command": "timeline.add", "label": "input_d_shaft_b_109_spacer_drive_flat"}
+{"event": "command_complete", "elapsed": 170.0470000000205, "speed": 8.0, "index": 323, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 170.1720000000205, "speed": 8.0, "index": 324, "command": "timeline.add", "label": "input_d_shaft_b_109_spacer_drive_flat_extrude"}
+{"event": "command_complete", "elapsed": 170.4529999999795, "speed": 8.0, "index": 324, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 170.5779999999795, "speed": 8.0, "index": 325, "command": "timeline.add", "label": "input_d_shaft_b_110_M6_printable_axial_channel"}
+{"event": "command_complete", "elapsed": 170.64100000000326, "speed": 8.0, "index": 325, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 170.76600000000326, "speed": 8.0, "index": 326, "command": "timeline.add", "label": "input_d_shaft_b_110_M6_printable_axial_channel_extrude"}
+{"event": "command_complete", "elapsed": 170.875, "speed": 8.0, "index": 326, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 171.0, "speed": 8.0, "index": 327, "command": "timeline.add", "label": "input_d_shaft_b_111_flat_split_face"}
+{"event": "command_complete", "elapsed": 171.0470000000205, "speed": 8.0, "index": 327, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 171.1720000000205, "speed": 8.0, "index": 328, "command": "timeline.add", "label": "input_d_shaft_b_111_flat_split_face_extrude"}
+{"event": "command_complete", "elapsed": 172.21899999998277, "speed": 8.0, "index": 328, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 172.40600000001723, "speed": 8.0, "component": 359, "name": "shaft_bush_bottom", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347]}
+{"event": "command_start", "elapsed": 172.40600000001723, "speed": 8.0, "index": 329, "command": "timeline.add", "label": "shaft_bush_bottom_112_support_race_shoulder"}
+{"event": "command_complete", "elapsed": 172.43699999997625, "speed": 8.0, "index": 329, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 172.56199999997625, "speed": 8.0, "index": 330, "command": "timeline.add", "label": "shaft_bush_bottom_112_support_race_shoulder_extrude"}
+{"event": "command_complete", "elapsed": 172.59399999998277, "speed": 8.0, "index": 330, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 172.71899999998277, "speed": 8.0, "index": 331, "command": "timeline.add", "label": "shaft_bush_bottom_113_concentric_6704_journal"}
+{"event": "command_complete", "elapsed": 172.75, "speed": 8.0, "index": 331, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 172.89100000000326, "speed": 8.0, "index": 332, "command": "timeline.add", "label": "shaft_bush_bottom_113_concentric_6704_journal_extrude"}
+{"event": "command_complete", "elapsed": 173.0779999999795, "speed": 8.0, "index": 332, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 173.2029999999795, "speed": 8.0, "index": 333, "command": "timeline.add", "label": "shaft_bush_bottom_D_114_115_D_profile"}
+{"event": "command_complete", "elapsed": 173.21899999998277, "speed": 8.0, "index": 333, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 173.35899999999674, "speed": 8.0, "index": 334, "command": "timeline.add", "label": "shaft_bush_bottom_D_114_115_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 173.39100000000326, "speed": 8.0, "index": 334, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 173.51600000000326, "speed": 8.0, "index": 335, "command": "timeline.add", "label": "shaft_bush_bottom_D_114_116_D_flat"}
+{"event": "command_complete", "elapsed": 173.5779999999795, "speed": 8.0, "index": 335, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 173.7029999999795, "speed": 8.0, "index": 336, "command": "timeline.add", "label": "shaft_bush_bottom_D_114_116_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 173.75, "speed": 8.0, "index": 336, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 173.875, "speed": 8.0, "index": 337, "command": "timeline.add", "label": "Combine23"}
+{"event": "command_complete", "elapsed": 173.9220000000205, "speed": 8.0, "index": 337, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 174.10899999999674, "speed": 8.0, "component": 370, "name": "shaft_bush_top", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359]}
+{"event": "command_start", "elapsed": 174.10899999999674, "speed": 8.0, "index": 338, "command": "timeline.add", "label": "shaft_bush_top_117_support_race_shoulder"}
+{"event": "command_complete", "elapsed": 174.15600000001723, "speed": 8.0, "index": 338, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 174.28100000001723, "speed": 8.0, "index": 339, "command": "timeline.add", "label": "shaft_bush_top_117_support_race_shoulder_extrude"}
+{"event": "command_complete", "elapsed": 174.34399999998277, "speed": 8.0, "index": 339, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 174.46899999998277, "speed": 8.0, "index": 340, "command": "timeline.add", "label": "shaft_bush_top_118_concentric_6704_journal"}
+{"event": "command_complete", "elapsed": 174.48399999999674, "speed": 8.0, "index": 340, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 174.60899999999674, "speed": 8.0, "index": 341, "command": "timeline.add", "label": "shaft_bush_top_118_concentric_6704_journal_extrude"}
+{"event": "command_complete", "elapsed": 174.71899999998277, "speed": 8.0, "index": 341, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 174.84399999998277, "speed": 8.0, "index": 342, "command": "timeline.add", "label": "shaft_bush_top_D_119_120_D_profile"}
+{"event": "command_complete", "elapsed": 174.90600000001723, "speed": 8.0, "index": 342, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.03100000001723, "speed": 8.0, "index": 343, "command": "timeline.add", "label": "shaft_bush_top_D_119_120_D_profile_extrude"}
+{"event": "command_complete", "elapsed": 175.0779999999795, "speed": 8.0, "index": 343, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.2029999999795, "speed": 8.0, "index": 344, "command": "timeline.add", "label": "shaft_bush_top_D_119_121_D_flat"}
+{"event": "command_complete", "elapsed": 175.25, "speed": 8.0, "index": 344, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.375, "speed": 8.0, "index": 345, "command": "timeline.add", "label": "shaft_bush_top_D_119_121_D_flat_extrude"}
+{"event": "command_complete", "elapsed": 175.4220000000205, "speed": 8.0, "index": 345, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.5470000000205, "speed": 8.0, "index": 346, "command": "timeline.add", "label": "Combine24"}
+{"event": "command_complete", "elapsed": 175.625, "speed": 8.0, "index": 346, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.75, "speed": 8.0, "index": 347, "command": "timeline.add", "label": "Move45"}
+{"event": "command_complete", "elapsed": 175.84399999998277, "speed": 8.0, "index": 347, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 175.96899999998277, "speed": 8.0, "index": 348, "command": "timeline.add", "label": "Move46"}
+{"event": "command_complete", "elapsed": 176.0779999999795, "speed": 8.0, "index": 348, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 176.2029999999795, "speed": 8.0, "index": 349, "command": "timeline.add", "label": "Move47"}
+{"event": "command_complete", "elapsed": 176.31199999997625, "speed": 8.0, "index": 349, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 176.43699999997625, "speed": 8.0, "index": 350, "command": "timeline.add", "label": "Move48"}
+{"event": "command_complete", "elapsed": 176.56199999997625, "speed": 8.0, "index": 350, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 176.68699999997625, "speed": 8.0, "index": 351, "command": "timeline.add", "label": "Move49"}
+{"event": "command_complete", "elapsed": 176.78100000001723, "speed": 8.0, "index": 351, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 176.90600000001723, "speed": 8.0, "index": 352, "command": "timeline.add", "label": "Move50"}
+{"event": "command_complete", "elapsed": 177.10899999999674, "speed": 8.0, "index": 352, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 177.23399999999674, "speed": 8.0, "index": 353, "command": "timeline.add", "label": "Move51"}
+{"event": "command_complete", "elapsed": 177.43699999997625, "speed": 8.0, "index": 353, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 177.56199999997625, "speed": 8.0, "index": 354, "command": "timeline.add", "label": "Move52"}
+{"event": "command_complete", "elapsed": 177.75, "speed": 8.0, "index": 354, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 177.875, "speed": 8.0, "index": 355, "command": "timeline.add", "label": "Move53"}
+{"event": "command_complete", "elapsed": 177.9529999999795, "speed": 8.0, "index": 355, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 178.09399999998277, "speed": 8.0, "index": 356, "command": "timeline.add", "label": "Move54"}
+{"event": "command_complete", "elapsed": 178.15600000001723, "speed": 8.0, "index": 356, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 178.28100000001723, "speed": 8.0, "index": 357, "command": "timeline.add", "label": "Move55"}
+{"event": "command_complete", "elapsed": 178.34399999998277, "speed": 8.0, "index": 357, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 178.46899999998277, "speed": 8.0, "index": 358, "command": "timeline.add", "label": "Move56"}
+{"event": "command_complete", "elapsed": 178.5470000000205, "speed": 8.0, "index": 358, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 178.6720000000205, "speed": 8.0, "index": 359, "command": "timeline.add", "label": "Move57"}
+{"event": "command_complete", "elapsed": 178.75, "speed": 8.0, "index": 359, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 178.875, "speed": 8.0, "index": 360, "command": "timeline.add", "label": "Move58"}
+{"event": "command_complete", "elapsed": 178.9220000000205, "speed": 8.0, "index": 360, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 179.0470000000205, "speed": 8.0, "index": 361, "command": "timeline.add", "label": "Move59"}
+{"event": "command_complete", "elapsed": 179.10899999999674, "speed": 8.0, "index": 361, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 179.23399999999674, "speed": 8.0, "index": 362, "command": "timeline.add", "label": "Move60"}
+{"event": "command_complete", "elapsed": 179.28100000001723, "speed": 8.0, "index": 362, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 179.4220000000205, "speed": 8.0, "index": 363, "command": "timeline.add", "label": "Move61"}
+{"event": "command_complete", "elapsed": 179.46899999998277, "speed": 8.0, "index": 363, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 179.60899999999674, "speed": 8.0, "index": 364, "command": "timeline.add", "label": "Move62"}
+{"event": "command_complete", "elapsed": 179.68699999997625, "speed": 8.0, "index": 364, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 179.81199999997625, "speed": 8.0, "index": 365, "command": "timeline.add", "label": "Move63"}
+{"event": "command_complete", "elapsed": 179.89100000000326, "speed": 8.0, "index": 365, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.01600000000326, "speed": 8.0, "index": 366, "command": "timeline.add", "label": "Move64"}
+{"event": "command_complete", "elapsed": 180.09399999998277, "speed": 8.0, "index": 366, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.21899999998277, "speed": 8.0, "index": 367, "command": "timeline.add", "label": "Move65"}
+{"event": "command_complete", "elapsed": 180.28100000001723, "speed": 8.0, "index": 367, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.40600000001723, "speed": 8.0, "index": 368, "command": "timeline.add", "label": "Move66"}
+{"event": "command_complete", "elapsed": 180.4529999999795, "speed": 8.0, "index": 368, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.5779999999795, "speed": 8.0, "index": 369, "command": "timeline.add", "label": "Move67"}
+{"event": "command_complete", "elapsed": 180.60899999999674, "speed": 8.0, "index": 369, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.75, "speed": 8.0, "index": 370, "command": "timeline.add", "label": "Move68"}
+{"event": "command_complete", "elapsed": 180.8279999999795, "speed": 8.0, "index": 370, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 180.96899999998277, "speed": 8.0, "index": 371, "command": "timeline.add", "label": "Move69"}
+{"event": "command_complete", "elapsed": 181.0470000000205, "speed": 8.0, "index": 371, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 181.1720000000205, "speed": 8.0, "index": 372, "command": "timeline.add", "label": "Move70"}
+{"event": "command_complete", "elapsed": 181.40600000001723, "speed": 8.0, "index": 372, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 181.53100000001723, "speed": 8.0, "index": 373, "command": "timeline.add", "label": "Move71"}
+{"event": "command_complete", "elapsed": 181.6720000000205, "speed": 8.0, "index": 373, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 181.7970000000205, "speed": 8.0, "index": 374, "command": "timeline.add", "label": "Move72"}
+{"event": "command_complete", "elapsed": 181.9529999999795, "speed": 8.0, "index": 374, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.10899999999674, "speed": 8.0, "index": 375, "command": "timeline.add", "label": "Move73"}
+{"event": "command_complete", "elapsed": 182.18699999997625, "speed": 8.0, "index": 375, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.31199999997625, "speed": 8.0, "index": 376, "command": "timeline.add", "label": "Move74"}
+{"event": "command_complete", "elapsed": 182.35899999999674, "speed": 8.0, "index": 376, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.48399999999674, "speed": 8.0, "index": 377, "command": "timeline.add", "label": "Move75"}
+{"event": "command_complete", "elapsed": 182.53100000001723, "speed": 8.0, "index": 377, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.65600000001723, "speed": 8.0, "index": 378, "command": "timeline.add", "label": "Move76"}
+{"event": "command_complete", "elapsed": 182.68699999997625, "speed": 8.0, "index": 378, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.81199999997625, "speed": 8.0, "index": 379, "command": "timeline.add", "label": "Move77"}
+{"event": "command_complete", "elapsed": 182.85899999999674, "speed": 8.0, "index": 379, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 182.98399999999674, "speed": 8.0, "index": 380, "command": "timeline.add", "label": "Move78"}
+{"event": "command_complete", "elapsed": 183.01600000000326, "speed": 8.0, "index": 380, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 183.14100000000326, "speed": 8.0, "index": 381, "command": "timeline.add", "label": "Move79"}
+{"event": "command_complete", "elapsed": 183.18699999997625, "speed": 8.0, "index": 381, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 183.31199999997625, "speed": 8.0, "index": 382, "command": "timeline.add", "label": "Move80"}
+{"event": "command_complete", "elapsed": 183.35899999999674, "speed": 8.0, "index": 382, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 183.5779999999795, "speed": 8.0, "component": 417, "name": "connected_contact_ring", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370]}
+{"event": "command_start", "elapsed": 183.5779999999795, "speed": 8.0, "index": 383, "command": "timeline.add", "label": "connected_contact_ring_122_outer_connecting_wall"}
+{"event": "command_complete", "elapsed": 183.64100000000326, "speed": 8.0, "index": 383, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 183.76600000000326, "speed": 8.0, "index": 384, "command": "timeline.add", "label": "connected_contact_ring_122_outer_connecting_wall_extrude"}
+{"event": "command_complete", "elapsed": 183.81199999997625, "speed": 8.0, "index": 384, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 183.93699999997625, "speed": 8.0, "index": 385, "command": "timeline.add", "label": "connected_contact_ring_123_spacer_bosses"}
+{"event": "command_complete", "elapsed": 183.96899999998277, "speed": 8.0, "index": 385, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 184.09399999998277, "speed": 8.0, "index": 386, "command": "timeline.add", "label": "connected_contact_ring_123_spacer_bosses_extrude"}
+{"event": "command_complete", "elapsed": 184.48399999999674, "speed": 8.0, "index": 386, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 184.60899999999674, "speed": 8.0, "index": 387, "command": "timeline.add", "label": "connected_contact_ring_124_ring_bores"}
+{"event": "command_complete", "elapsed": 184.68699999997625, "speed": 8.0, "index": 387, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 184.81199999997625, "speed": 8.0, "index": 388, "command": "timeline.add", "label": "connected_contact_ring_124_ring_bores_extrude"}
+{"event": "command_complete", "elapsed": 185.875, "speed": 8.0, "index": 388, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 186.01600000000326, "speed": 8.0, "index": 389, "command": "timeline.add", "label": "Move81"}
+{"event": "command_complete", "elapsed": 186.14100000000326, "speed": 8.0, "index": 389, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 186.26600000000326, "speed": 8.0, "index": 390, "command": "timeline.add", "label": "Move82"}
+{"event": "command_complete", "elapsed": 186.35899999999674, "speed": 8.0, "index": 390, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 186.60899999999674, "speed": 8.0, "component": 427, "name": "printed_contact_sleeve", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417]}
+{"event": "command_start", "elapsed": 186.60899999999674, "speed": 8.0, "index": 391, "command": "timeline.add", "label": "printed_contact_sleeve_1001_contact_sleeve_new"}
+{"event": "command_complete", "elapsed": 186.65600000001723, "speed": 8.0, "index": 391, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 186.7970000000205, "speed": 8.0, "index": 392, "command": "timeline.add", "label": "printed_contact_sleeve_1001_contact_sleeve_new_extrude"}
+{"event": "command_complete", "elapsed": 187.0470000000205, "speed": 8.0, "index": 392, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 187.1720000000205, "speed": 8.0, "index": 393, "command": "timeline.add", "label": "printed_contact_sleeve_1002_contact_sleeve_cut"}
+{"event": "command_complete", "elapsed": 187.21899999998277, "speed": 8.0, "index": 393, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 187.35899999999674, "speed": 8.0, "index": 394, "command": "timeline.add", "label": "Extrude1"}
+{"event": "command_complete", "elapsed": 192.51600000000326, "speed": 8.0, "index": 394, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 192.71899999998277, "speed": 8.0, "component": 433, "name": "hardware_M3_ring_nuts", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427]}
+{"event": "command_start", "elapsed": 192.71899999998277, "speed": 8.0, "index": 395, "command": "timeline.add", "label": "hardware_M3_ring_nuts_1003_M3_ring_nuts_new"}
+{"event": "command_complete", "elapsed": 192.75, "speed": 8.0, "index": 395, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 192.875, "speed": 8.0, "index": 396, "command": "timeline.add", "label": "hardware_M3_ring_nuts_1003_M3_ring_nuts_new_extrude"}
+{"event": "command_complete", "elapsed": 192.93699999997625, "speed": 8.0, "index": 396, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 193.06199999997625, "speed": 8.0, "index": 397, "command": "timeline.add", "label": "hardware_M3_ring_nuts_1004_M3_ring_nuts_cut"}
+{"event": "command_complete", "elapsed": 193.10899999999674, "speed": 8.0, "index": 397, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 193.23399999999674, "speed": 8.0, "index": 398, "command": "timeline.add", "label": "Extrude2"}
+{"event": "command_complete", "elapsed": 198.81199999997625, "speed": 8.0, "index": 398, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 199.01600000000326, "speed": 8.0, "component": 439, "name": "printed_drive_sleeve", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433]}
+{"event": "command_start", "elapsed": 199.01600000000326, "speed": 8.0, "index": 399, "command": "timeline.add", "label": "printed_drive_sleeve_1005_drive_sleeve_new"}
+{"event": "command_complete", "elapsed": 199.0470000000205, "speed": 8.0, "index": 399, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 199.1720000000205, "speed": 8.0, "index": 400, "command": "timeline.add", "label": "printed_drive_sleeve_1005_drive_sleeve_new_extrude"}
+{"event": "command_complete", "elapsed": 199.25, "speed": 8.0, "index": 400, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 199.375, "speed": 8.0, "index": 401, "command": "timeline.add", "label": "printed_drive_sleeve_1006_drive_sleeve_cut"}
+{"event": "command_complete", "elapsed": 199.40600000001723, "speed": 8.0, "index": 401, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 199.53100000001723, "speed": 8.0, "index": 402, "command": "timeline.add", "label": "Extrude3"}
+{"event": "command_complete", "elapsed": 201.10899999999674, "speed": 8.0, "index": 402, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 201.3279999999795, "speed": 8.0, "component": 445, "name": "hardware_ring_cap_heads", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439]}
+{"event": "command_start", "elapsed": 201.3279999999795, "speed": 8.0, "index": 403, "command": "timeline.add", "label": "hardware_ring_cap_heads_1007_ring_cap_heads_new"}
+{"event": "command_complete", "elapsed": 201.4220000000205, "speed": 8.0, "index": 403, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 201.5470000000205, "speed": 8.0, "index": 404, "command": "timeline.add", "label": "hardware_ring_cap_heads_1007_ring_cap_heads_new_extrude"}
+{"event": "command_complete", "elapsed": 201.7029999999795, "speed": 8.0, "index": 404, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 201.8279999999795, "speed": 8.0, "index": 405, "command": "timeline.add", "label": "hardware_ring_cap_heads_1008_ring_cap_heads_cut"}
+{"event": "command_complete", "elapsed": 201.875, "speed": 8.0, "index": 405, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 202.0, "speed": 8.0, "index": 406, "command": "timeline.add", "label": "Extrude4"}
+{"event": "command_complete", "elapsed": 207.5470000000205, "speed": 8.0, "index": 406, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 207.75, "speed": 8.0, "component": 451, "name": "hardware_ring_M3_shanks", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445]}
+{"event": "command_start", "elapsed": 207.75, "speed": 8.0, "index": 407, "command": "timeline.add", "label": "hardware_ring_M3_shanks_1009_ring_M3_shanks_new"}
+{"event": "command_complete", "elapsed": 207.8279999999795, "speed": 8.0, "index": 407, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 207.9529999999795, "speed": 8.0, "index": 408, "command": "timeline.add", "label": "hardware_ring_M3_shanks_1009_ring_M3_shanks_new_extrude"}
+{"event": "command_complete", "elapsed": 208.14100000000326, "speed": 8.0, "index": 408, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 208.375, "speed": 8.0, "component": 455, "name": "hardware_drive_nuts", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451]}
+{"event": "command_start", "elapsed": 208.375, "speed": 8.0, "index": 409, "command": "timeline.add", "label": "hardware_drive_nuts_1010_drive_nuts_new"}
+{"event": "command_complete", "elapsed": 208.4529999999795, "speed": 8.0, "index": 409, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 208.5779999999795, "speed": 8.0, "index": 410, "command": "timeline.add", "label": "hardware_drive_nuts_1010_drive_nuts_new_extrude"}
+{"event": "command_complete", "elapsed": 208.65600000001723, "speed": 8.0, "index": 410, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 208.78100000001723, "speed": 8.0, "index": 411, "command": "timeline.add", "label": "hardware_drive_nuts_1011_drive_nuts_cut"}
+{"event": "command_complete", "elapsed": 208.84399999998277, "speed": 8.0, "index": 411, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 208.96899999998277, "speed": 8.0, "index": 412, "command": "timeline.add", "label": "Extrude5"}
+{"event": "command_complete", "elapsed": 211.85899999999674, "speed": 8.0, "index": 412, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 212.14100000000326, "speed": 8.0, "component": 461, "name": "hardware_drive_caps", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455]}
+{"event": "command_start", "elapsed": 212.14100000000326, "speed": 8.0, "index": 413, "command": "timeline.add", "label": "hardware_drive_caps_1012_drive_caps_new"}
+{"event": "command_complete", "elapsed": 212.21899999998277, "speed": 8.0, "index": 413, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 212.34399999998277, "speed": 8.0, "index": 414, "command": "timeline.add", "label": "hardware_drive_caps_1012_drive_caps_new_extrude"}
+{"event": "command_complete", "elapsed": 212.48399999999674, "speed": 8.0, "index": 414, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 212.60899999999674, "speed": 8.0, "index": 415, "command": "timeline.add", "label": "hardware_drive_caps_1013_drive_caps_cut"}
+{"event": "command_complete", "elapsed": 212.65600000001723, "speed": 8.0, "index": 415, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 212.7970000000205, "speed": 8.0, "index": 416, "command": "timeline.add", "label": "Extrude6"}
+{"event": "command_complete", "elapsed": 215.34399999998277, "speed": 8.0, "index": 416, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 215.53100000001723, "speed": 8.0, "component": 467, "name": "hardware_drive_shanks", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461]}
+{"event": "command_start", "elapsed": 215.53100000001723, "speed": 8.0, "index": 417, "command": "timeline.add", "label": "hardware_drive_shanks_1014_drive_shanks_new"}
+{"event": "command_complete", "elapsed": 215.59399999998277, "speed": 8.0, "index": 417, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 215.76600000000326, "speed": 8.0, "index": 418, "command": "timeline.add", "label": "hardware_drive_shanks_1014_drive_shanks_new_extrude"}
+{"event": "command_complete", "elapsed": 215.84399999998277, "speed": 8.0, "index": 418, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 216.03100000001723, "speed": 8.0, "component": 471, "name": "hardware_6810_bottom", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467]}
+{"event": "command_start", "elapsed": 216.03100000001723, "speed": 8.0, "index": 419, "command": "timeline.add", "label": "hardware_6810_bottom_1015_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 216.09399999998277, "speed": 8.0, "index": 419, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 216.25, "speed": 8.0, "index": 420, "command": "timeline.add", "label": "hardware_6810_bottom_1015_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 216.31199999997625, "speed": 8.0, "index": 420, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 216.51600000000326, "speed": 8.0, "component": 475, "name": "hardware_6810_top", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471]}
+{"event": "command_start", "elapsed": 216.51600000000326, "speed": 8.0, "index": 421, "command": "timeline.add", "label": "hardware_6810_top_1016_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 216.56199999997625, "speed": 8.0, "index": 421, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 216.71899999998277, "speed": 8.0, "index": 422, "command": "timeline.add", "label": "hardware_6810_top_1016_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 216.78100000001723, "speed": 8.0, "index": 422, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 216.98399999999674, "speed": 8.0, "component": 479, "name": "hardware_6704_base", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475]}
+{"event": "command_start", "elapsed": 216.98399999999674, "speed": 8.0, "index": 423, "command": "timeline.add", "label": "hardware_6704_base_1017_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 217.01600000000326, "speed": 8.0, "index": 423, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 217.1720000000205, "speed": 8.0, "index": 424, "command": "timeline.add", "label": "hardware_6704_base_1017_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 217.25, "speed": 8.0, "index": 424, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 217.4529999999795, "speed": 8.0, "component": 483, "name": "hardware_6704_disc_a", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479]}
+{"event": "command_start", "elapsed": 217.46899999998277, "speed": 8.0, "index": 425, "command": "timeline.add", "label": "hardware_6704_disc_a_1018_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 217.51600000000326, "speed": 8.0, "index": 425, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 217.64100000000326, "speed": 8.0, "index": 426, "command": "timeline.add", "label": "hardware_6704_disc_a_1018_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 217.71899999998277, "speed": 8.0, "index": 426, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 217.90600000001723, "speed": 8.0, "component": 487, "name": "hardware_6704_disc_b", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483]}
+{"event": "command_start", "elapsed": 217.90600000001723, "speed": 8.0, "index": 427, "command": "timeline.add", "label": "hardware_6704_disc_b_1019_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 217.96899999998277, "speed": 8.0, "index": 427, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 218.09399999998277, "speed": 8.0, "index": 428, "command": "timeline.add", "label": "hardware_6704_disc_b_1019_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 218.15600000001723, "speed": 8.0, "index": 428, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 218.39100000000326, "speed": 8.0, "component": 491, "name": "hardware_6704_top", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487]}
+{"event": "command_start", "elapsed": 218.39100000000326, "speed": 8.0, "index": 429, "command": "timeline.add", "label": "hardware_6704_top_1020_nominal_race_envelope"}
+{"event": "command_complete", "elapsed": 218.43699999997625, "speed": 8.0, "index": 429, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 218.56199999997625, "speed": 8.0, "index": 430, "command": "timeline.add", "label": "hardware_6704_top_1020_nominal_race_envelope_extrude"}
+{"event": "command_complete", "elapsed": 218.65600000001723, "speed": 8.0, "index": 430, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 218.84399999998277, "speed": 8.0, "component": 495, "name": "hardware_disc_a_M3x6_1", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491]}
+{"event": "command_start", "elapsed": 218.84399999998277, "speed": 8.0, "index": 431, "command": "timeline.add", "label": "hardware_disc_a_M3x6_1_1021_countersunk_screw"}
+{"event": "command_complete", "elapsed": 218.90600000001723, "speed": 8.0, "index": 431, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 219.03100000001723, "speed": 8.0, "index": 432, "command": "timeline.add", "label": "hardware_disc_a_M3x6_1_1021_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 219.0779999999795, "speed": 8.0, "index": 432, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 219.2029999999795, "speed": 8.0, "index": 433, "command": "timeline.add", "label": "hardware_disc_a_M3x6_1_1022_hex_socket"}
+{"event": "command_complete", "elapsed": 219.25, "speed": 8.0, "index": 433, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 219.375, "speed": 8.0, "index": 434, "command": "timeline.add", "label": "hardware_disc_a_M3x6_1_1022_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 219.46899999998277, "speed": 8.0, "index": 434, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 219.59399999998277, "speed": 8.0, "index": 435, "command": "timeline.add", "label": "Move83"}
+{"event": "command_complete", "elapsed": 219.64100000000326, "speed": 8.0, "index": 435, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 219.8279999999795, "speed": 8.0, "component": 502, "name": "hardware_disc_a_nut_1", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495]}
+{"event": "command_start", "elapsed": 219.8279999999795, "speed": 8.0, "index": 436, "command": "timeline.add", "label": "hardware_disc_a_nut_1_1023_M3_nut"}
+{"event": "command_complete", "elapsed": 219.89100000000326, "speed": 8.0, "index": 436, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 220.01600000000326, "speed": 8.0, "index": 437, "command": "timeline.add", "label": "hardware_disc_a_nut_1_1023_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 220.0779999999795, "speed": 8.0, "index": 437, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 220.2029999999795, "speed": 8.0, "index": 438, "command": "timeline.add", "label": "hardware_disc_a_nut_1_1024_nominal_thread"}
+{"event": "command_complete", "elapsed": 220.25, "speed": 8.0, "index": 438, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 220.375, "speed": 8.0, "index": 439, "command": "timeline.add", "label": "hardware_disc_a_nut_1_1024_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 220.4220000000205, "speed": 8.0, "index": 439, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 220.5470000000205, "speed": 8.0, "index": 440, "command": "timeline.add", "label": "Move84"}
+{"event": "command_complete", "elapsed": 220.59399999998277, "speed": 8.0, "index": 440, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 220.7970000000205, "speed": 8.0, "component": 509, "name": "hardware_disc_a_M3x6_2", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502]}
+{"event": "command_start", "elapsed": 220.7970000000205, "speed": 8.0, "index": 441, "command": "timeline.add", "label": "hardware_disc_a_M3x6_2_1025_countersunk_screw"}
+{"event": "command_complete", "elapsed": 220.875, "speed": 8.0, "index": 441, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 221.0, "speed": 8.0, "index": 442, "command": "timeline.add", "label": "hardware_disc_a_M3x6_2_1025_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 221.0470000000205, "speed": 8.0, "index": 442, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 221.1720000000205, "speed": 8.0, "index": 443, "command": "timeline.add", "label": "hardware_disc_a_M3x6_2_1026_hex_socket"}
+{"event": "command_complete", "elapsed": 221.23399999999674, "speed": 8.0, "index": 443, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 221.35899999999674, "speed": 8.0, "index": 444, "command": "timeline.add", "label": "hardware_disc_a_M3x6_2_1026_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 221.46899999998277, "speed": 8.0, "index": 444, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 221.59399999998277, "speed": 8.0, "index": 445, "command": "timeline.add", "label": "Move85"}
+{"event": "command_complete", "elapsed": 221.65600000001723, "speed": 8.0, "index": 445, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 221.85899999999674, "speed": 8.0, "component": 516, "name": "hardware_disc_a_nut_2", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509]}
+{"event": "command_start", "elapsed": 221.85899999999674, "speed": 8.0, "index": 446, "command": "timeline.add", "label": "hardware_disc_a_nut_2_1027_M3_nut"}
+{"event": "command_complete", "elapsed": 221.93699999997625, "speed": 8.0, "index": 446, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 222.06199999997625, "speed": 8.0, "index": 447, "command": "timeline.add", "label": "hardware_disc_a_nut_2_1027_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 222.15600000001723, "speed": 8.0, "index": 447, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 222.28100000001723, "speed": 8.0, "index": 448, "command": "timeline.add", "label": "hardware_disc_a_nut_2_1028_nominal_thread"}
+{"event": "command_complete", "elapsed": 222.35899999999674, "speed": 8.0, "index": 448, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 222.48399999999674, "speed": 8.0, "index": 449, "command": "timeline.add", "label": "hardware_disc_a_nut_2_1028_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 222.5779999999795, "speed": 8.0, "index": 449, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 222.7029999999795, "speed": 8.0, "index": 450, "command": "timeline.add", "label": "Move86"}
+{"event": "command_complete", "elapsed": 222.76600000000326, "speed": 8.0, "index": 450, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 222.98399999999674, "speed": 8.0, "component": 523, "name": "hardware_disc_a_M3x6_3", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516]}
+{"event": "command_start", "elapsed": 222.98399999999674, "speed": 8.0, "index": 451, "command": "timeline.add", "label": "hardware_disc_a_M3x6_3_1029_countersunk_screw"}
+{"event": "command_complete", "elapsed": 223.09399999998277, "speed": 8.0, "index": 451, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 223.21899999998277, "speed": 8.0, "index": 452, "command": "timeline.add", "label": "hardware_disc_a_M3x6_3_1029_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 223.31199999997625, "speed": 8.0, "index": 452, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 223.43699999997625, "speed": 8.0, "index": 453, "command": "timeline.add", "label": "hardware_disc_a_M3x6_3_1030_hex_socket"}
+{"event": "command_complete", "elapsed": 223.5, "speed": 8.0, "index": 453, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 223.625, "speed": 8.0, "index": 454, "command": "timeline.add", "label": "hardware_disc_a_M3x6_3_1030_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 223.78100000001723, "speed": 8.0, "index": 454, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 223.9220000000205, "speed": 8.0, "index": 455, "command": "timeline.add", "label": "Move87"}
+{"event": "command_complete", "elapsed": 223.98399999999674, "speed": 8.0, "index": 455, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 224.21899999998277, "speed": 8.0, "component": 530, "name": "hardware_disc_a_nut_3", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523]}
+{"event": "command_start", "elapsed": 224.21899999998277, "speed": 8.0, "index": 456, "command": "timeline.add", "label": "hardware_disc_a_nut_3_1031_M3_nut"}
+{"event": "command_complete", "elapsed": 224.26600000000326, "speed": 8.0, "index": 456, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 224.39100000000326, "speed": 8.0, "index": 457, "command": "timeline.add", "label": "hardware_disc_a_nut_3_1031_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 224.4529999999795, "speed": 8.0, "index": 457, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 224.60899999999674, "speed": 8.0, "index": 458, "command": "timeline.add", "label": "hardware_disc_a_nut_3_1032_nominal_thread"}
+{"event": "command_complete", "elapsed": 224.6720000000205, "speed": 8.0, "index": 458, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 224.7970000000205, "speed": 8.0, "index": 459, "command": "timeline.add", "label": "hardware_disc_a_nut_3_1032_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 224.89100000000326, "speed": 8.0, "index": 459, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 225.03100000001723, "speed": 8.0, "index": 460, "command": "timeline.add", "label": "Move88"}
+{"event": "command_complete", "elapsed": 225.09399999998277, "speed": 8.0, "index": 460, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 225.2970000000205, "speed": 8.0, "component": 537, "name": "hardware_disc_b_M3x6_1", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530]}
+{"event": "command_start", "elapsed": 225.2970000000205, "speed": 8.0, "index": 461, "command": "timeline.add", "label": "hardware_disc_b_M3x6_1_1033_countersunk_screw"}
+{"event": "command_complete", "elapsed": 225.35899999999674, "speed": 8.0, "index": 461, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 225.5, "speed": 8.0, "index": 462, "command": "timeline.add", "label": "hardware_disc_b_M3x6_1_1033_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 225.5470000000205, "speed": 8.0, "index": 462, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 225.6720000000205, "speed": 8.0, "index": 463, "command": "timeline.add", "label": "hardware_disc_b_M3x6_1_1034_hex_socket"}
+{"event": "command_complete", "elapsed": 225.76600000000326, "speed": 8.0, "index": 463, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 225.89100000000326, "speed": 8.0, "index": 464, "command": "timeline.add", "label": "hardware_disc_b_M3x6_1_1034_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 226.0, "speed": 8.0, "index": 464, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 226.125, "speed": 8.0, "index": 465, "command": "timeline.add", "label": "Move89"}
+{"event": "command_complete", "elapsed": 226.18699999997625, "speed": 8.0, "index": 465, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 226.31199999997625, "speed": 8.0, "index": 466, "command": "timeline.add", "label": "Move90"}
+{"event": "command_complete", "elapsed": 226.40600000001723, "speed": 8.0, "index": 466, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 226.59399999998277, "speed": 8.0, "component": 545, "name": "hardware_disc_b_nut_1", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537]}
+{"event": "command_start", "elapsed": 226.59399999998277, "speed": 8.0, "index": 467, "command": "timeline.add", "label": "hardware_disc_b_nut_1_1035_M3_nut"}
+{"event": "command_complete", "elapsed": 226.65600000001723, "speed": 8.0, "index": 467, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 226.78100000001723, "speed": 8.0, "index": 468, "command": "timeline.add", "label": "hardware_disc_b_nut_1_1035_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 226.84399999998277, "speed": 8.0, "index": 468, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 226.96899999998277, "speed": 8.0, "index": 469, "command": "timeline.add", "label": "hardware_disc_b_nut_1_1036_nominal_thread"}
+{"event": "command_complete", "elapsed": 227.06199999997625, "speed": 8.0, "index": 469, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 227.18699999997625, "speed": 8.0, "index": 470, "command": "timeline.add", "label": "hardware_disc_b_nut_1_1036_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 227.25, "speed": 8.0, "index": 470, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 227.4220000000205, "speed": 8.0, "index": 471, "command": "timeline.add", "label": "Move91"}
+{"event": "command_complete", "elapsed": 227.5, "speed": 8.0, "index": 471, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 227.625, "speed": 8.0, "index": 472, "command": "timeline.add", "label": "Move92"}
+{"event": "command_complete", "elapsed": 227.6720000000205, "speed": 8.0, "index": 472, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 227.9529999999795, "speed": 8.0, "component": 553, "name": "hardware_disc_b_M3x6_2", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545]}
+{"event": "command_start", "elapsed": 227.9529999999795, "speed": 8.0, "index": 473, "command": "timeline.add", "label": "hardware_disc_b_M3x6_2_1037_countersunk_screw"}
+{"event": "command_complete", "elapsed": 228.0, "speed": 8.0, "index": 473, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 228.125, "speed": 8.0, "index": 474, "command": "timeline.add", "label": "hardware_disc_b_M3x6_2_1037_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 228.23399999999674, "speed": 8.0, "index": 474, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 228.35899999999674, "speed": 8.0, "index": 475, "command": "timeline.add", "label": "hardware_disc_b_M3x6_2_1038_hex_socket"}
+{"event": "command_complete", "elapsed": 228.40600000001723, "speed": 8.0, "index": 475, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 228.53100000001723, "speed": 8.0, "index": 476, "command": "timeline.add", "label": "hardware_disc_b_M3x6_2_1038_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 228.75, "speed": 8.0, "index": 476, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 228.875, "speed": 8.0, "index": 477, "command": "timeline.add", "label": "Move93"}
+{"event": "command_complete", "elapsed": 228.93699999997625, "speed": 8.0, "index": 477, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 229.0779999999795, "speed": 8.0, "index": 478, "command": "timeline.add", "label": "Move94"}
+{"event": "command_complete", "elapsed": 229.15600000001723, "speed": 8.0, "index": 478, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 229.375, "speed": 8.0, "component": 561, "name": "hardware_disc_b_nut_2", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545, 553]}
+{"event": "command_start", "elapsed": 229.375, "speed": 8.0, "index": 479, "command": "timeline.add", "label": "hardware_disc_b_nut_2_1039_M3_nut"}
+{"event": "command_complete", "elapsed": 229.43699999997625, "speed": 8.0, "index": 479, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 229.59399999998277, "speed": 8.0, "index": 480, "command": "timeline.add", "label": "hardware_disc_b_nut_2_1039_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 229.6720000000205, "speed": 8.0, "index": 480, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 229.7970000000205, "speed": 8.0, "index": 481, "command": "timeline.add", "label": "hardware_disc_b_nut_2_1040_nominal_thread"}
+{"event": "command_complete", "elapsed": 229.84399999998277, "speed": 8.0, "index": 481, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 229.98399999999674, "speed": 8.0, "index": 482, "command": "timeline.add", "label": "hardware_disc_b_nut_2_1040_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 230.0779999999795, "speed": 8.0, "index": 482, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 230.2029999999795, "speed": 8.0, "index": 483, "command": "timeline.add", "label": "Move95"}
+{"event": "command_complete", "elapsed": 230.25, "speed": 8.0, "index": 483, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 230.375, "speed": 8.0, "index": 484, "command": "timeline.add", "label": "Move96"}
+{"event": "command_complete", "elapsed": 230.5, "speed": 8.0, "index": 484, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 230.71899999998277, "speed": 8.0, "component": 569, "name": "hardware_disc_b_M3x6_3", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545, 553, 561]}
+{"event": "command_start", "elapsed": 230.71899999998277, "speed": 8.0, "index": 485, "command": "timeline.add", "label": "hardware_disc_b_M3x6_3_1041_countersunk_screw"}
+{"event": "command_complete", "elapsed": 230.81199999997625, "speed": 8.0, "index": 485, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 230.9529999999795, "speed": 8.0, "index": 486, "command": "timeline.add", "label": "hardware_disc_b_M3x6_3_1041_countersunk_screw_revolve"}
+{"event": "command_complete", "elapsed": 231.0470000000205, "speed": 8.0, "index": 486, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 231.1720000000205, "speed": 8.0, "index": 487, "command": "timeline.add", "label": "hardware_disc_b_M3x6_3_1042_hex_socket"}
+{"event": "command_complete", "elapsed": 231.2029999999795, "speed": 8.0, "index": 487, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 231.3279999999795, "speed": 8.0, "index": 488, "command": "timeline.add", "label": "hardware_disc_b_M3x6_3_1042_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 231.5470000000205, "speed": 8.0, "index": 488, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 231.6720000000205, "speed": 8.0, "index": 489, "command": "timeline.add", "label": "Move97"}
+{"event": "command_complete", "elapsed": 231.73399999999674, "speed": 8.0, "index": 489, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 231.85899999999674, "speed": 8.0, "index": 490, "command": "timeline.add", "label": "Move98"}
+{"event": "command_complete", "elapsed": 231.90600000001723, "speed": 8.0, "index": 490, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 232.125, "speed": 8.0, "component": 577, "name": "hardware_disc_b_nut_3", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545, 553, 561, 569]}
+{"event": "command_start", "elapsed": 232.125, "speed": 8.0, "index": 491, "command": "timeline.add", "label": "hardware_disc_b_nut_3_1043_M3_nut"}
+{"event": "command_complete", "elapsed": 232.18699999997625, "speed": 8.0, "index": 491, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 232.31199999997625, "speed": 8.0, "index": 492, "command": "timeline.add", "label": "hardware_disc_b_nut_3_1043_M3_nut_extrude"}
+{"event": "command_complete", "elapsed": 232.35899999999674, "speed": 8.0, "index": 492, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 232.48399999999674, "speed": 8.0, "index": 493, "command": "timeline.add", "label": "hardware_disc_b_nut_3_1044_nominal_thread"}
+{"event": "command_complete", "elapsed": 232.51600000000326, "speed": 8.0, "index": 493, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 232.64100000000326, "speed": 8.0, "index": 494, "command": "timeline.add", "label": "hardware_disc_b_nut_3_1044_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 232.68699999997625, "speed": 8.0, "index": 494, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 232.81199999997625, "speed": 8.0, "index": 495, "command": "timeline.add", "label": "Move99"}
+{"event": "command_complete", "elapsed": 232.875, "speed": 8.0, "index": 495, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 233.0, "speed": 8.0, "index": 496, "command": "timeline.add", "label": "Move100"}
+{"event": "command_complete", "elapsed": 233.0779999999795, "speed": 8.0, "index": 496, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 233.28100000001723, "speed": 8.0, "component": 585, "name": "hardware_M6_tie", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545, 553, 561, 569, 577]}
+{"event": "command_start", "elapsed": 233.28100000001723, "speed": 8.0, "index": 497, "command": "timeline.add", "label": "hardware_M6_tie_1045_central_M6_shank"}
+{"event": "command_complete", "elapsed": 233.34399999998277, "speed": 8.0, "index": 497, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 233.46899999998277, "speed": 8.0, "index": 498, "command": "timeline.add", "label": "hardware_M6_tie_1045_central_M6_shank_extrude"}
+{"event": "command_complete", "elapsed": 233.5470000000205, "speed": 8.0, "index": 498, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 233.6720000000205, "speed": 8.0, "index": 499, "command": "timeline.add", "label": "hardware_M6_tie_1046_socket_cap"}
+{"event": "command_complete", "elapsed": 233.71899999998277, "speed": 8.0, "index": 499, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 233.84399999998277, "speed": 8.0, "index": 500, "command": "timeline.add", "label": "hardware_M6_tie_1046_socket_cap_extrude"}
+{"event": "command_complete", "elapsed": 233.9529999999795, "speed": 8.0, "index": 500, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 234.0779999999795, "speed": 8.0, "index": 501, "command": "timeline.add", "label": "hardware_M6_tie_1047_hex_socket"}
+{"event": "command_complete", "elapsed": 234.14100000000326, "speed": 8.0, "index": 501, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 234.26600000000326, "speed": 8.0, "index": 502, "command": "timeline.add", "label": "hardware_M6_tie_1047_hex_socket_extrude"}
+{"event": "command_complete", "elapsed": 234.34399999998277, "speed": 8.0, "index": 502, "command": "timeline.add"}
+{"event": "focus_piece", "elapsed": 234.5470000000205, "speed": 8.0, "component": 593, "name": "hardware_M6_top_nut", "completed": [1, 23, 41, 72, 104, 130, 152, 164, 175, 186, 197, 208, 212, 279, 347, 359, 370, 417, 427, 433, 439, 445, 451, 455, 461, 467, 471, 475, 479, 483, 487, 491, 495, 502, 509, 516, 523, 530, 537, 545, 553, 561, 569, 577, 585]}
+{"event": "command_start", "elapsed": 234.5470000000205, "speed": 8.0, "index": 503, "command": "timeline.add", "label": "hardware_M6_top_nut_1048_nut"}
+{"event": "command_complete", "elapsed": 234.60899999999674, "speed": 8.0, "index": 503, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 234.73399999999674, "speed": 8.0, "index": 504, "command": "timeline.add", "label": "hardware_M6_top_nut_1048_nut_extrude"}
+{"event": "command_complete", "elapsed": 234.81199999997625, "speed": 8.0, "index": 504, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 234.93699999997625, "speed": 8.0, "index": 505, "command": "timeline.add", "label": "hardware_M6_top_nut_1049_nominal_thread"}
+{"event": "command_complete", "elapsed": 234.98399999999674, "speed": 8.0, "index": 505, "command": "timeline.add"}
+{"event": "command_start", "elapsed": 235.10899999999674, "speed": 8.0, "index": 506, "command": "timeline.add", "label": "hardware_M6_top_nut_1049_nominal_thread_extrude"}
+{"event": "command_complete", "elapsed": 235.15600000001723, "speed": 8.0, "index": 506, "command": "timeline.add"}

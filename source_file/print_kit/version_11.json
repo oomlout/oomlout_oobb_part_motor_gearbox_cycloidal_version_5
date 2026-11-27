@@ -1,0 +1,24 @@
+{
+  "title": "Manual {reduction}-to-1 gearbox",
+  "file": "working.3mf",
+  "exclude": ["output_circle_plate", "output_lower_row_plate", "connected_contact_ring"],
+  "plates": [
+    {"name":"Turquoise - square housing", "filament":2, "groups":[
+      {"parts":["output_cap_plate","output_nut_plate"], "start":[68,85], "step":[118,0]},
+      {"parts":["output_cap_cylinder","output_nut_cylinder"], "start":[68,195], "step":[118,0]}
+    ]},
+    {"name":"Turquoise - cycloids and shaft nut carriers", "filament":2, "groups":[
+      {"parts":["rotor_a","rotor_a_cap","rotor_b","rotor_b_cap"], "start":[74,82], "step":[86,86], "columns":2},
+      {"parts":["shaft_mount_lower","shaft_mount_upper","shaft_mount_upper_nut_tray"], "start":[222,72], "step":[0,41]}
+    ]},
+    {"name":"Black - carriers and eccentric cams", "filament":1, "groups":[
+      {"parts":["carrier_bottom","carrier_bottom_cap","carrier_top","carrier_top_cap","carrier_top_nut_tray"], "start":[65,89], "step":[63,63], "columns":3},
+      {"parts":["shaft_cam_a_inner","shaft_cam_a_outer","shaft_cam_b_inner","shaft_cam_b_outer"], "start":[71,208], "step":[36,0]}
+    ]},
+    {"name":"Sunflower yellow - sleeves and end journals", "filament":3, "groups":[
+      {"series":"printed_contact_sleeve", "count":"ring_count", "start":[70,84], "step":[16,16], "columns":5},
+      {"series":"printed_drive_sleeve", "count":"guide_count", "start":[166,84], "step":[16,16], "columns":3},
+      {"parts":["shaft_end_upper","shaft_end_lower"], "start":[174,136], "step":[34,0]}
+    ]}
+  ]
+}

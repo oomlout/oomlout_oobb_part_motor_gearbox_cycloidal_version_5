@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 578, in run_project
+    report.update(rebuild_native(source, output, desktop, export_stl=export_stl, export_extras=export_extras))
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 538, in rebuild_native
+    raise RuntimeError('Source native file changed during the run')
+RuntimeError: Source native file changed during the run

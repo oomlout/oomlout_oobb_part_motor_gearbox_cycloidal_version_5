@@ -1,0 +1,21 @@
+{
+  "housing_grid_size": 9,
+  "housing_plate_width_mm": 134.0,
+  "pitch_mm": 48.0,
+  "ratio": 15,
+  "eccentricity_mm": 2,
+  "spacer_length_mm": 20.0,
+  "join_screw_mm": 35.0,
+  "axial_tie_mm": 35.0,
+  "round_spacers": 15,
+  "minimum_cam_to_tie_web_mm": 1.430146629142236,
+  "reopened": true,
+  "mesh_watertight": true,
+  "motion": {
+    "input_positions": 360,
+    "discs": 2,
+    "minimum_ring_gap_mm": 0.14714970121845106,
+    "minimum_wall_gap_bound_mm": 2.647159902150854,
+    "chord_error_mm": 0.002840097849147822
+  }
+}

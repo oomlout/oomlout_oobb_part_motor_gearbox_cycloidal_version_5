@@ -1,0 +1,241 @@
+// Controls affect pose/visibility only; generated dimensions are in gearbox.json.
+$fn=96;
+turns=is_undef(input_turns)?0:input_turns;
+E=is_undef(explode)?0:explode;
+section_view=is_undef(cutaway)?false:cutaway;
+collision_view=is_undef(fit_only)?false:fit_only;
+input_angle=360*turns;
+output_angle=input_angle/ratio;
+module disk(side) {
+    sign=side==0?1:-1;
+    translate([sign*eccentricity*cos(input_angle),sign*eccentricity*sin(input_angle),rotor_z[side]+(side==0?-2:3)*E])
+    if(side==0) rotor_a();
+    else rotor_b();
+}
+module lower_hub() {translate([-6*E,0,drive_start-3.5*E]) rotate([0,0,input_angle]) eccentric_hub_lower();}
+module upper_hub() {translate([-6*E,0,hub_upper_end+4.5*E]) rotate([0,0,input_angle]) rotate([180,0,0]) eccentric_hub_upper();}
+module hub() {lower_hub();upper_hub();}
+module carrier(side) {
+    if(side==1) translate([0,0,H-flange_depth+6*E]) pin_front();
+}
+module casing() {translate([9*E,0,-rear_retainer_depth]) rotate([0,0,output_angle]) output_casing();}
+module mount() {translate([0,0,mount_bottom_z-10*E]) motor_mount();}
+module cap() {translate([0,0,H+retainer_depth+10*E]) rotate([0,0,output_angle]) rotate([180,0,0]) output_cover();}
+module bearing(kind,side) {
+    if(kind==0) {
+        s=side==0?1:-1;
+        translate([s*eccentricity*cos(input_angle),s*eccentricity*sin(input_angle),eccentric_bearing_z[side]+(side==0?-3:4)*E]) hardware_bearing_eccentric();
+    } else if(kind==1) {
+        if(side==1) translate([0,0,shaft_bearing_z[1]+7*E]) hardware_bearing_shaft();
+    }
+    else translate([0,0,output_bearing_z[side]+(side==0?-4:5)*E]) hardware_bearing_output();
+}
+module guide_bearings(side) {
+    for(p=guide_positions)
+    translate([p[0],p[1],guide_bearing_z[side]+(side==0?-2.7:3.7)*E]) hardware_bearing_guide();
+}
+module guide_spacers() {
+    for(p=guide_positions) for(i=[0:2])
+    translate([p[0],p[1],guide_spacer_z[i]+(i==0?-3.4:(i==1?1:5.5))*E]) {
+        if(i==0) hardware_guide_spacer_0();
+        if(i==1) hardware_guide_spacer_1();
+        if(i==2) hardware_guide_spacer_2();
+    }
+}
+module guide_bolts() {
+    for(i=[0:len(guide_positions)-1]) {
+        p=guide_positions[i];a=guide_nut_rotations[i];
+        // Head orientation is built into its OOBB component; keep the nominal
+        // shank facets aligned with the bearing bores.
+        translate([p[0],p[1],guide_bolt_head_z+8.5*E]) hardware_screw_guide();
+    }
+}
+module guide_nuts() {
+    for(i=[0:len(guide_positions)-1]) {
+        p=guide_positions[i];a=guide_nut_rotations[i];
+        translate([p[0],p[1],guide_nut_bottom-11.5*E]) rotate([0,0,a]) hardware_nut_guide();
+    }
+}
+module guide_fasteners() {guide_bolts();guide_nuts();}
+module housing_fasteners() {
+    rotate([0,0,output_angle]) for(p=housing_positions) {
+        translate([p[0],p[1],H+retainer_depth+11*E]) hardware_screw_housing();
+        translate([p[0],p[1],case_nut_bottom-8.7*E]) hardware_nut_m3();
+    }
+}
+module motor_fasteners() {
+    for(p=motor_positions) translate([p[0],p[1],motor_face+motor_plate_depth-9.5*E]) hardware_screw_motor();
+}
+module shaft_fasteners() {} // The hollow shaft has no central joining bolt.
+module flange_nut(i, shift=0) {
+    p=coupling_positions[i];
+    a=coupling_nut_rotations[i];
+    translate([-6*E,0,-3.5*E]) rotate([0,0,input_angle])
+    translate([p[0]-shift*cos(a),p[1]-shift*sin(a),drive_roof_top-nut_depth_m3])
+    rotate([0,0,a+coupling_nut_hex_rotation]) hardware_nut_m3();
+}
+module flange_fasteners() {
+    rotate([0,0,input_angle]) for(p=coupling_positions) {
+        translate([p[0],p[1],cap_screw_head_z+8*E]) hardware_screw_flange();
+    }
+    for(i=[0:len(coupling_positions)-1]) flange_nut(i,1.5*E);
+}
+module coupling() {translate([0,0,coupling_z+4.2*E]) rotate([0,0,input_angle]) hardware_coupling();}
+module coupling_screws() {
+    rotate([0,0,input_angle]) for(a=coupling_grub_angles)
+    rotate([0,0,a]) translate([coupling_barrel_radius+0.55+2*E,0,coupling_grub_z+4.2*E]) rotate([0,90,0]) hardware_set_screw();
+}
+module motor() {translate([0,0,motor_face-12*E]) hardware_motor();}
+
+// Full, assembled collision checks. Bearings are nominal annuli: intended race
+// contacts are tangencies. Thread engagement within hardware is intentional;
+// all hardware is checked against the printed bodies.
+module moving(i) {
+    if(i==0) disk(0);
+    if(i==1) disk(1);
+    if(i==2) {hub();shaft_fasteners();}
+    if(i==3) {casing();cap();housing_fasteners();}
+    if(i==4) {for(k=[0:2],s=[0:1]) bearing(k,s);}
+    if(i==5) {coupling();flange_fasteners();coupling_screws();}
+}
+module fixed() {mount();carrier(1);guide_spacers();guide_bearings(0);guide_bearings(1);guide_fasteners();motor();motor_fasteners();}
+module collision_pair(i,j) {
+    // All separate moving groups include their fasteners; thread engagement
+    // inside a group is checked separately against the printed bodies.
+    intersection() {
+        moving(i);
+        if(j<0) fixed(); else moving(j);
+    }
+}
+module internal_collisions() {
+    intersection() {lower_hub();upper_hub();}
+    intersection() {mount();motor();}
+    intersection() {guide_fasteners();motor();}
+    intersection() {hub();shaft_fasteners();}
+    intersection() {hub();flange_fasteners();}
+    intersection() {union(){mount();carrier(1);} union(){motor_fasteners();guide_fasteners();guide_spacers();guide_bearings(0);guide_bearings(1);}}
+    intersection() {union(){carrier(0);carrier(1);} guide_fasteners();}
+    intersection() {coupling();union(){flange_fasteners();coupling_screws();}}
+    intersection() {union(){casing();cap();} housing_fasteners();}
+}
+module collisions() {
+    if(!is_undef(fit_pair)) collision_pair(fit_pair[0],fit_pair[1]);
+    else {
+        internal_collisions();
+        for(i=[0:5]) collision_pair(i,-1);
+        for(i=[0:4],j=[i+1:5]) collision_pair(i,j);
+    }
+}
+module scene() {
+    if(is_undef(show_housing)||show_housing) {
+        color("SteelBlue") mount();
+        color("Tomato") casing();
+    }
+    if(is_undef(show_retainers)||show_retainers) color("Tomato") cap();
+    if(is_undef(show_carrier)||show_carrier) color("SteelBlue") {carrier(0);carrier(1);}
+    color("Ivory") disk(0);
+    color("LightSkyBlue") disk(1);
+    color("Gold") hub();
+    if(is_undef(show_bearings)||show_bearings) color("DimGray") for(k=[0:2],s=[0:1]) bearing(k,s);
+    if(is_undef(show_bearings)||show_bearings) color("DimGray") {guide_bearings(0);guide_bearings(1);}
+    if(is_undef(show_hardware)||show_hardware) {
+        color("Silver") {guide_spacers();shaft_fasteners();coupling();coupling_screws();flange_fasteners();}
+        color("SlateGray") {guide_fasteners();housing_fasteners();motor_fasteners();}
+    }
+    if(is_undef(show_motor)||show_motor) color("DarkSlateGray") motor();
+}
+module service_tools() {
+    for(a=coupling_grub_angles) rotate([0,0,a+coupling_service_angle])
+    translate([coupling_barrel_radius+0.1,0,coupling_grub_z]) rotate([0,90,0]) cylinder(r=0.9,h=35);
+}
+module service_stage() {
+    mount();lower_hub();bearing(2,0);disk(0);bearing(0,0);motor();
+    guide_bearings(0);
+    for(p=guide_positions) translate([p[0],p[1],guide_spacer_z[0]]) hardware_guide_spacer_0();
+}
+module drive_scene() {
+    color("SteelBlue") mount();
+    color("Gold") hub();
+    color("DimGray") {bearing(2,0);bearing(1,1);}
+    color("Silver") {coupling();coupling_screws();flange_fasteners();motor_fasteners();}
+    color("DarkSlateGray") motor();
+}
+if(!is_undef(flange_nut_installation_check)) color("Red") intersection() {
+    union() {lower_hub();coupling();}
+    // The hull is the complete swept envelope of a translating hex nut.
+    union() for(i=[0:len(coupling_positions)-1]) hull() {
+        flange_nut(i,0);flange_nut(i,20);
+    }
+} else if(!is_undef(flange_nut_loading_view)) {
+    color("Gold") lower_hub();
+    color("Silver") coupling();
+    color("SlateGray") for(i=[0:len(coupling_positions)-1]) flange_nut(i,12*(1-$t));
+} else if(!is_undef(nut_installation_shift)) color("Red") intersection() {
+    mount();
+    translate([0,0,-nut_installation_shift]) for(i=[0:len(guide_positions)-1])
+        translate([guide_positions[i][0],guide_positions[i][1],guide_nut_bottom]) rotate([0,0,guide_nut_rotations[i]]) hardware_nut_guide();
+} else if(!is_undef(nut_loading_view)) {
+    color("SteelBlue") mount();
+    color("Silver") for(i=[0:len(guide_positions)-1])
+        translate([guide_positions[i][0],guide_positions[i][1],motor_face-6]) rotate([0,0,guide_nut_rotations[i]]) hardware_nut_guide();
+} else if(!is_undef(bearing_installation_shift)) color("Red") {
+    // Assemble from opposite ends of the one-piece shaft. Upper bearing clears
+    // the installed flange, so grub screws can be tightened before this step.
+    intersection() {lower_hub();translate([0,0,-bearing_installation_shift]) bearing(0,0);}
+    intersection() {union(){lower_hub();coupling();} translate([0,0,bearing_installation_shift]) bearing(0,1);}
+} else if(!is_undef(joint_installation_shift)) color("Red") intersection() {
+    union(){lower_hub();disk(0);disk(1);coupling();mount();carrier(1);for(k=[0:2],i=[0:1]) bearing(k,i);}
+    translate([0,0,joint_installation_shift]) upper_hub();
+} else if(!is_undef(upper_disc_installation_shift)) color("Red") {
+    intersection(){union(){lower_hub();coupling();} translate([0,0,upper_disc_installation_shift]) disk(1);}
+    intersection(){lower_hub();translate([0,0,-upper_disc_installation_shift]) disk(0);}
+} else if(!is_undef(grub_access_check)) color("Red") intersection() {
+    service_tools();
+    service_stage();
+} else if(!is_undef(grub_access_view)) {
+    color("SteelBlue",0.65) mount();
+    color("Ivory",0.65) disk(0);
+    color("Gold") lower_hub();
+    color("Silver") coupling();
+    color("DimGray") {bearing(0,0);guide_bearings(0);}
+    color("DarkSlateGray") motor();
+    color("OrangeRed") service_tools();
+} else if(!is_undef(coupling_installation_shift)) color("Red") intersection() {
+    translate([0,0,coupling_installation_shift]) coupling();
+    union(){lower_hub();mount();motor();disk(0);bearing(0,0);}
+} else if(!is_undef(guide_bolt_installation_shift)) color("Red") intersection() {
+    translate([0,0,guide_bolt_installation_shift]) guide_bolts();
+    union(){mount();carrier(1);disk(0);disk(1);guide_spacers();guide_bearings(0);guide_bearings(1);}
+} else if(!is_undef(guide_bearing_installation_shift)) color("Red") {
+    // Fit each row before its upper spacers and the front carrier are installed.
+    // Distribute intersection over the union: identical collision geometry,
+    // without first fusing the unrelated shaft, disc, bracket and casing.
+    for(side=[0:1], part=[0:4]) intersection(){
+        translate([0,0,guide_bearing_installation_shift]) guide_bearings(side);
+        if(part==0) disk(side);
+        else if(part==1) lower_hub();
+        else if(part==2) upper_hub();
+        else if(part==3) mount();
+        else casing();
+    }
+} else if(!is_undef(guide_only)) {
+    color("Ivory") disk(0); color("LightSkyBlue") disk(1);
+    color("DimGray") {guide_bearings(0);guide_bearings(1);}
+    color("Silver") {guide_spacers();guide_fasteners();}
+} else if(!is_undef(drive_only)) {
+    if(section_view) difference() {drive_scene();translate([0,-200,-200]) cube([200,400,500]);}
+    else drive_scene();
+} else if(!is_undef(rear_bearing_installation_shift)) color("Red") intersection() {
+    mount();translate([0,0,rear_bearing_installation_shift]) bearing(2,0);
+} else if(!is_undef(casing_installation_shift)) color("Red") intersection() {
+    translate([0,0,casing_installation_shift]) casing();
+    union(){mount();lower_hub();coupling();bearing(2,0);motor();motor_fasteners();}
+} else if(!is_undef(installation_shift)) color("Red") intersection() {
+    casing();
+    translate([0,0,installation_shift]) {
+        disk(0);disk(1);hub();carrier(0);carrier(1);guide_spacers();
+        for(k=[0:2],s=[0:1]) if(k==0 || s==1) bearing(k,s);
+    }
+} else if(collision_view) color("Red") collisions();
+else if(section_view) difference() {scene();translate([0,-200,-200]) cube([200,400,500]);}
+else scene();

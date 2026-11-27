@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_6703_and_M3_orbit",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_3d1",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_3d1_radius",
+        "height": "oobb_hole_radius_3d1_depth"
+      },
+      "positions": [
+        [
+          17.4,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_10d7",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_10d7_radius",
+        "height": "oobb_hole_radius_10d7_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_11d6",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_11d6_radius",
+        "height": "oobb_hole_radius_11d6_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          0.7999999999999998
+        ]
+      ]
+    }
+  ],
+  "sketch_count": 4,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

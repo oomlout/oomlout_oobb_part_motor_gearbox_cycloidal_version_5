@@ -1,0 +1,25 @@
+{
+  "name": "cycloidal_roller_envelope",
+  "parameter": "t",
+  "domain": [
+    0,
+    "2*pi"
+  ],
+  "angle_unit": "radians",
+  "parameters": {
+    "N": 20,
+    "R": 31.15,
+    "e": 1.4,
+    "roller_radius": 3.0,
+    "clearance": 0.2
+  },
+  "expressions": {
+    "a": "roller_radius + clearance",
+    "u": "R*cos(t) - N*e*cos(N*t)",
+    "v": "R*sin(t) - N*e*sin(N*t)",
+    "s": "sqrt(u*u + v*v)",
+    "x": "R*cos(t) - e*cos(N*t) - a*u/s",
+    "y": "R*sin(t) - e*sin(N*t) - a*v/s"
+  },
+  "native_representation": "Shared cycloidal_disc / parametric_profile; fixed sampled line segments with native formula links on all caps and walls"
+}

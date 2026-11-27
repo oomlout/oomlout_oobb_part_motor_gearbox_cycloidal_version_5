@@ -1,0 +1,5988 @@
+{
+  "checks": 439,
+  "maximum_overlap_mm3": 0,
+  "clashes": [],
+  "source_sha256": "1f6a2f3adafb383be77fbb8b0dc6f1e0d9bcd7b59d9f0c021bd9273bf27b67e5",
+  "physical_fit_tested": false,
+  "continuous_tube_probes": [
+    {
+      "angle": 0,
+      "material_mm3": 0.09817477042468119
+    },
+    {
+      "angle": 45,
+      "material_mm3": 0.09817477042468108
+    },
+    {
+      "angle": 90,
+      "material_mm3": 0.09817477042468126
+    },
+    {
+      "angle": 135,
+      "material_mm3": 0.09817477042468108
+    },
+    {
+      "angle": 180,
+      "material_mm3": 0.09817477042468119
+    },
+    {
+      "angle": 225,
+      "material_mm3": 0.09817477042468106
+    },
+    {
+      "angle": 270,
+      "material_mm3": 0.09817477042468126
+    },
+    {
+      "angle": 315,
+      "material_mm3": 0.09817477042468106
+    }
+  ],
+  "paired_post_web_probes": [
+    {
+      "screw_axes": [
+        [
+          -7.4999999999999964,
+          52.5
+        ],
+        [
+          7.5000000000000036,
+          52.5
+        ]
+      ],
+      "material_mm3": 0.09817477042468126
+    },
+    {
+      "screw_axes": [
+        [
+          -41.71633369868302,
+          -32.7451905283833
+        ],
+        [
+          -49.21633369868302,
+          -19.754809471616717
+        ]
+      ],
+      "material_mm3": 0.09817477042468112
+    },
+    {
+      "screw_axes": [
+        [
+          49.216333698683016,
+          -19.75480947161674
+        ],
+        [
+          41.716333698683016,
+          -32.74519052838331
+        ]
+      ],
+      "material_mm3": 0.09817477042468112
+    }
+  ],
+  "coupler_6704_bolt_circle_checks": [
+    {
+      "part": "shaft_end_lower",
+      "angle": 45,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_mount_lower",
+      "angle": 45,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_end_lower",
+      "angle": 135,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_mount_lower",
+      "angle": 135,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_end_lower",
+      "angle": 225,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_mount_lower",
+      "angle": 225,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_end_lower",
+      "angle": 315,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    },
+    {
+      "part": "shaft_mount_lower",
+      "angle": 315,
+      "bolt_circle_diameter_mm": 16,
+      "overlap_mm3": 0
+    }
+  ],
+  "flush_joining_heads": [
+    {
+      "screw": "hardware_endcap_front_join_screw_0",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382942104
+    },
+    {
+      "screw": "hardware_endcap_front_join_screw_1",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829421113
+    },
+    {
+      "screw": "hardware_endcap_front_join_screw_2",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382942081
+    },
+    {
+      "screw": "hardware_endcap_front_join_screw_3",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382942129
+    },
+    {
+      "screw": "hardware_endcap_rear_join_M3x16_0",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829420455
+    },
+    {
+      "screw": "hardware_endcap_rear_join_M3x16_1",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829419727
+    },
+    {
+      "screw": "hardware_endcap_rear_join_M3x16_2",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829419656
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_0",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.961998382942161
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_1",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.9619983829420313
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_2",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.961998382942138
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_3",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.961998382942168
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_4",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.961998382942113
+    },
+    {
+      "screw": "hardware_endcap_outer_extension_screw_5",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000116860974e-07,
+      "seat_stop_mm3": 3.961998382942051
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_0",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382941971
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_1",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829419545
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_2",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.9619983829419843
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_3",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382942018
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_4",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382941995
+    },
+    {
+      "screw": "hardware_endcap_outer_ring_screw_5",
+      "style": "countersunk",
+      "face_clearance_mm": -1.000000082740371e-07,
+      "seat_stop_mm3": 3.961998382941998
+    },
+    {
+      "screw": "hardware_endcap_spacer_screw_0",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000472132342e-07,
+      "seat_stop_mm3": 3.9619983829421646
+    },
+    {
+      "screw": "hardware_endcap_spacer_screw_1",
+      "style": "countersunk",
+      "face_clearance_mm": -1.0000000472132342e-07,
+      "seat_stop_mm3": 3.961998382942106
+    }
+  ],
+  "outer_connection_depth_mm": 3.0,
+  "rear_flange_depth_mm": 3.0,
+  "rear_post_diameter_mm": 13.0,
+  "extension_post_count": 3,
+  "extension_join_count": 6,
+  "motor_tube_wall_mm": 3.0,
+  "complete_attachment_rims": [
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_cap_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_nut_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_circle_rear_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "complete_material_rim": true
+    },
+    {
+      "plate": "output_lower_row_rear_plate",
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "complete_material_rim": true
+    }
+  ],
+  "circular_plate_pair_fit": {
+    "checks": 102,
+    "maximum_overlap_mm3": 0,
+    "clashes": []
+  },
+  "asymmetric_plate_pair_fit": {
+    "checks": 102,
+    "maximum_overlap_mm3": 0,
+    "clashes": []
+  },
+  "rear_holder_proud_mm": 1.5,
+  "extension_join_screw_mm": 10.0,
+  "brace_screw_mm": 25.0,
+  "cage_join_screw_mm": 16.0,
+  "bracket_full_rows_y_mm": [
+    -75.0,
+    -90.0
+  ],
+  "fixed_rear_flange_radial_clearance_mm": 1.2,
+  "front_shaft_axial_clearance_mm": 5.099999899999901,
+  "front_carrier_axial_clearance_mm": 4.299999899999982,
+  "rear_cover_motor_clearance_mm": 5.9999998999999775,
+  "continuous_360_degree_rotation": {
+    "clear": true,
+    "checks": [
+      {
+        "envelope": 0,
+        "part": "rear_cover_face",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "rear_cover_nuts",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_join_M3x16_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_join_M3x16_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_join_M3x16_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_9",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_10",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_11",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_12",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_13",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_14",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_15",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_16",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_17",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m6_mount_nut_18",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_19",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_20",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_21",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_22",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_23",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_24",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_25",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_26",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_27",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_28",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_29",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_30",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_31",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_32",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 0,
+        "part": "hardware_endcap_rear_m3_mount_nut_33",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rear_cover_face",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rear_cover_nuts",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "motor_cage",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "motor_inner_adapter",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_drive_sleeve (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "printed_contact_sleeve (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_end_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_mount_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_cam_a_outer",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_cam_a_inner",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_cam_b_inner",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_cam_b_outer",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_mount_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "shaft_end_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rotor_b",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rotor_b_cap",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rotor_a",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "rotor_a_cap",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "carrier_top",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "carrier_top_cap",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "carrier_bottom",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "carrier_bottom_cap",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_front_join_screw_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_front_join_screw_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_front_join_screw_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_front_join_screw_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_M3x16_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_nut_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_M3x16_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_M3x16_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_join_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_M3x16_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_nut_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_M3x16_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_M3x16_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_cage_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_9",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_10",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_11",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_12",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_13",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_14",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_15",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_16",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_17",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m6_mount_nut_18",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_19",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_20",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_21",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_22",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_23",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_24",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_25",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_26",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_27",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_28",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_29",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_30",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_31",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_32",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_endcap_rear_m3_mount_nut_33",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x40_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x35_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x40_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x35_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x40_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_M3x35_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_guide_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_NEMA17_M3x8_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_M3x14_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_washer_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_NEMA17_M3x8_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_M3x14_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_washer_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_NEMA17_M3x8_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_M3x14_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_washer_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_NEMA17_M3x8_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_M3x14_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_coupler_washer_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_flange_coupler_5mm",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_NEMA17_motor",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6810_bottom",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6810_top",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6704_base",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6704_disc_a",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6704_disc_b",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_6704_top",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_M3_ring_nuts (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_cap_heads (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_ring_M3_shanks (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_M3x6_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_M3x6_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_M3x6_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_a_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_M3x6_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_M3x6_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_M3x6_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_disc_b_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_bottom_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_carrier_top_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_M3x35_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_tie_nut_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_lower_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_lower_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_lower_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_lower_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_M3x35_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_upper_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_upper_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_upper_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 1,
+        "part": "hardware_shaft_mount_nut_upper_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "shaft_mount_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "carrier_bottom",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x40_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x35_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x40_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x35_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x40_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_guide_M3x35_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_coupler_M3x14_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_coupler_M3x14_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_coupler_M3x14_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_coupler_M3x14_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_ring_M3_shanks (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_carrier_bottom_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_M3x35_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_mount_nut_lower_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_mount_nut_lower_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_mount_nut_lower_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_mount_nut_lower_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 2,
+        "part": "hardware_shaft_M3x35_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "shaft_mount_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "carrier_top",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_endcap_front_join_screw_0",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_endcap_front_join_screw_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_endcap_front_join_screw_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_endcap_front_join_screw_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x40_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x35_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x40_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x35_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x40_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_guide_M3x35_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (2)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (3)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (4)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (5)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (6)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (7)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (8)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (9)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (10)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (11)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (12)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (13)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (14)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (15)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (16)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (17)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (18)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (19)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_ring_M3_shanks (20)",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_4",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_5",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_6",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_7",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_carrier_top_mount_nut_8",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_M3x35_lower",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_M3x35_upper",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_mount_nut_upper_1",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_mount_nut_upper_2",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_mount_nut_upper_3",
+        "overlap_mm3": 0
+      },
+      {
+        "envelope": 3,
+        "part": "hardware_shaft_mount_nut_upper_4",
+        "overlap_mm3": 0
+      }
+    ]
+  },
+  "brace_nut_loading": [
+    {
+      "nut": "hardware_endcap_spacer_nut_0",
+      "clear": true,
+      "maximum_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.7993365490100439
+    },
+    {
+      "nut": "hardware_endcap_spacer_nut_1",
+      "clear": true,
+      "maximum_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.7993365490100441
+    }
+  ],
+  "extension_driver_access": [
+    {
+      "xy_mm": [
+        -7.4999999999999964,
+        52.5
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "xy_mm": [
+        7.5000000000000036,
+        52.5
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "xy_mm": [
+        -41.71633369868302,
+        -32.7451905283833
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "xy_mm": [
+        -49.21633369868302,
+        -19.754809471616717
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "xy_mm": [
+        49.216333698683016,
+        -19.75480947161674
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "xy_mm": [
+        41.716333698683016,
+        -32.74519052838331
+      ],
+      "driver_diameter_mm": 2.5,
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    }
+  ],
+  "insertion_paths": [
+    {
+      "step": "Seat fixed front standoff on the unchanged black carrier",
+      "moving": [
+        "front_cover_spacer"
+      ],
+      "approach_offset_mm": 60,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2"
+      ],
+      "candidate_pairs": 0,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Fit front stationary cover sandwich",
+      "moving": [
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30"
+      ],
+      "approach_offset_mm": 80,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer"
+      ],
+      "candidate_pairs": 0,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Seat front cover countersunk screws",
+      "moving": [
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3"
+      ],
+      "approach_offset_mm": 80,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30"
+      ],
+      "candidate_pairs": 42,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Fit rear stationary cover sandwich",
+      "moving": [
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33"
+      ],
+      "approach_offset_mm": -80,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3"
+      ],
+      "candidate_pairs": 0,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Seat rear cover countersunk screws",
+      "moving": [
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2"
+      ],
+      "approach_offset_mm": -80,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33"
+      ],
+      "candidate_pairs": 13,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Slide three independent joiners onto the gearbox attachment face",
+      "moving": [
+        "rear_output_joiner_1",
+        "rear_output_joiner_2",
+        "rear_output_joiner_3",
+        "hardware_endcap_outer_extension_nut_0",
+        "hardware_endcap_outer_extension_nut_1",
+        "hardware_endcap_outer_extension_nut_2",
+        "hardware_endcap_outer_extension_nut_3",
+        "hardware_endcap_outer_extension_nut_4",
+        "hardware_endcap_outer_extension_nut_5",
+        "hardware_endcap_outer_ring_nut_0",
+        "hardware_endcap_outer_ring_nut_1",
+        "hardware_endcap_outer_ring_nut_2",
+        "hardware_endcap_outer_ring_nut_3",
+        "hardware_endcap_outer_ring_nut_4",
+        "hardware_endcap_outer_ring_nut_5"
+      ],
+      "approach_offset_mm": -120,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33",
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2"
+      ],
+      "candidate_pairs": 32,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Seat separate rear output ring against all three joiners",
+      "moving": [
+        "rear_output_extension"
+      ],
+      "approach_offset_mm": -120,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33",
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2",
+        "rear_output_joiner_1",
+        "rear_output_joiner_2",
+        "rear_output_joiner_3",
+        "hardware_endcap_outer_extension_nut_0",
+        "hardware_endcap_outer_extension_nut_1",
+        "hardware_endcap_outer_extension_nut_2",
+        "hardware_endcap_outer_extension_nut_3",
+        "hardware_endcap_outer_extension_nut_4",
+        "hardware_endcap_outer_extension_nut_5",
+        "hardware_endcap_outer_ring_nut_0",
+        "hardware_endcap_outer_ring_nut_1",
+        "hardware_endcap_outer_ring_nut_2",
+        "hardware_endcap_outer_ring_nut_3",
+        "hardware_endcap_outer_ring_nut_4",
+        "hardware_endcap_outer_ring_nut_5"
+      ],
+      "candidate_pairs": 39,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Seat rear ring countersunk screws",
+      "moving": [
+        "hardware_endcap_outer_ring_screw_0",
+        "hardware_endcap_outer_ring_screw_1",
+        "hardware_endcap_outer_ring_screw_2",
+        "hardware_endcap_outer_ring_screw_3",
+        "hardware_endcap_outer_ring_screw_4",
+        "hardware_endcap_outer_ring_screw_5"
+      ],
+      "approach_offset_mm": -60,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33",
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2",
+        "rear_output_joiner_1",
+        "rear_output_joiner_2",
+        "rear_output_joiner_3",
+        "hardware_endcap_outer_extension_nut_0",
+        "hardware_endcap_outer_extension_nut_1",
+        "hardware_endcap_outer_extension_nut_2",
+        "hardware_endcap_outer_extension_nut_3",
+        "hardware_endcap_outer_extension_nut_4",
+        "hardware_endcap_outer_extension_nut_5",
+        "hardware_endcap_outer_ring_nut_0",
+        "hardware_endcap_outer_ring_nut_1",
+        "hardware_endcap_outer_ring_nut_2",
+        "hardware_endcap_outer_ring_nut_3",
+        "hardware_endcap_outer_ring_nut_4",
+        "hardware_endcap_outer_ring_nut_5",
+        "rear_output_extension"
+      ],
+      "candidate_pairs": 24,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Insert rear-extension screws from the accessible front face",
+      "moving": [
+        "hardware_endcap_outer_extension_screw_0",
+        "hardware_endcap_outer_extension_screw_1",
+        "hardware_endcap_outer_extension_screw_2",
+        "hardware_endcap_outer_extension_screw_3",
+        "hardware_endcap_outer_extension_screw_4",
+        "hardware_endcap_outer_extension_screw_5"
+      ],
+      "approach_offset_mm": 60,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33",
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2",
+        "rear_output_joiner_1",
+        "rear_output_joiner_2",
+        "rear_output_joiner_3",
+        "hardware_endcap_outer_extension_nut_0",
+        "hardware_endcap_outer_extension_nut_1",
+        "hardware_endcap_outer_extension_nut_2",
+        "hardware_endcap_outer_extension_nut_3",
+        "hardware_endcap_outer_extension_nut_4",
+        "hardware_endcap_outer_extension_nut_5",
+        "hardware_endcap_outer_ring_nut_0",
+        "hardware_endcap_outer_ring_nut_1",
+        "hardware_endcap_outer_ring_nut_2",
+        "hardware_endcap_outer_ring_nut_3",
+        "hardware_endcap_outer_ring_nut_4",
+        "hardware_endcap_outer_ring_nut_5",
+        "rear_output_extension",
+        "hardware_endcap_outer_ring_screw_0",
+        "hardware_endcap_outer_ring_screw_1",
+        "hardware_endcap_outer_ring_screw_2",
+        "hardware_endcap_outer_ring_screw_3",
+        "hardware_endcap_outer_ring_screw_4",
+        "hardware_endcap_outer_ring_screw_5",
+        "rear_output_spacer_1",
+        "rear_output_spacer_2"
+      ],
+      "candidate_pairs": 32,
+      "clear": true,
+      "blocked": []
+    },
+    {
+      "step": "Insert countersunk brace screws through the clocked sleeves",
+      "moving": [
+        "hardware_endcap_spacer_screw_0",
+        "hardware_endcap_spacer_screw_1"
+      ],
+      "approach_offset_mm": 60,
+      "installed": [
+        "output_cap_plate",
+        "output_circle_plate",
+        "output_circle_rear_plate",
+        "output_lower_row_plate",
+        "output_lower_row_rear_plate",
+        "output_nut_plate",
+        "motor_cage",
+        "output_plain_circle_plate",
+        "motor_inner_adapter",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)",
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (20)",
+        "shaft_end_lower",
+        "shaft_mount_lower",
+        "shaft_cam_a_outer",
+        "shaft_cam_a_inner",
+        "shaft_cam_b_inner",
+        "shaft_cam_b_outer",
+        "shaft_mount_upper",
+        "shaft_end_upper",
+        "rotor_b",
+        "rotor_b_cap",
+        "rotor_a",
+        "rotor_a_cap",
+        "carrier_top",
+        "carrier_top_cap",
+        "output_cap_cylinder",
+        "carrier_bottom",
+        "carrier_bottom_cap",
+        "output_nut_cylinder",
+        "hardware_cage_M3x16_0",
+        "hardware_cage_nut_0",
+        "hardware_cage_M3x16_2",
+        "hardware_cage_nut_2",
+        "hardware_cage_M3x16_4",
+        "hardware_cage_nut_4",
+        "hardware_guide_M3x40_1",
+        "hardware_guide_nut_1",
+        "hardware_guide_M3x35_2",
+        "hardware_guide_nut_2",
+        "hardware_guide_M3x40_3",
+        "hardware_guide_nut_3",
+        "hardware_guide_M3x35_4",
+        "hardware_guide_nut_4",
+        "hardware_guide_M3x40_5",
+        "hardware_guide_nut_5",
+        "hardware_guide_M3x35_6",
+        "hardware_guide_nut_6",
+        "hardware_NEMA17_M3x8_1",
+        "hardware_coupler_M3x14_1",
+        "hardware_coupler_washer_1",
+        "hardware_NEMA17_M3x8_2",
+        "hardware_coupler_M3x14_2",
+        "hardware_coupler_washer_2",
+        "hardware_NEMA17_M3x8_3",
+        "hardware_coupler_M3x14_3",
+        "hardware_coupler_washer_3",
+        "hardware_NEMA17_M3x8_4",
+        "hardware_coupler_M3x14_4",
+        "hardware_coupler_washer_4",
+        "hardware_flange_coupler_5mm",
+        "hardware_NEMA17_motor",
+        "hardware_6810_bottom",
+        "hardware_6810_top",
+        "hardware_6704_base",
+        "hardware_6704_disc_a",
+        "hardware_6704_disc_b",
+        "hardware_6704_top",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_M3x6_3",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_3",
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4",
+        "hardware_shaft_M3x35_upper",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4",
+        "hardware_endcap_rear_join_nut_0",
+        "hardware_endcap_rear_join_nut_1",
+        "hardware_endcap_rear_join_nut_2",
+        "front_cover_spacer",
+        "front_cover_face",
+        "front_cover_nuts",
+        "hardware_endcap_front_m6_mount_nut_0",
+        "hardware_endcap_front_m6_mount_nut_1",
+        "hardware_endcap_front_m6_mount_nut_2",
+        "hardware_endcap_front_m6_mount_nut_3",
+        "hardware_endcap_front_m6_mount_nut_4",
+        "hardware_endcap_front_m6_mount_nut_5",
+        "hardware_endcap_front_m6_mount_nut_6",
+        "hardware_endcap_front_m6_mount_nut_7",
+        "hardware_endcap_front_m6_mount_nut_8",
+        "hardware_endcap_front_m6_mount_nut_9",
+        "hardware_endcap_front_m6_mount_nut_10",
+        "hardware_endcap_front_m6_mount_nut_11",
+        "hardware_endcap_front_m6_mount_nut_12",
+        "hardware_endcap_front_m6_mount_nut_13",
+        "hardware_endcap_front_m6_mount_nut_14",
+        "hardware_endcap_front_m3_mount_nut_15",
+        "hardware_endcap_front_m3_mount_nut_16",
+        "hardware_endcap_front_m3_mount_nut_17",
+        "hardware_endcap_front_m3_mount_nut_18",
+        "hardware_endcap_front_m3_mount_nut_19",
+        "hardware_endcap_front_m3_mount_nut_20",
+        "hardware_endcap_front_m3_mount_nut_21",
+        "hardware_endcap_front_m3_mount_nut_22",
+        "hardware_endcap_front_m3_mount_nut_23",
+        "hardware_endcap_front_m3_mount_nut_24",
+        "hardware_endcap_front_m3_mount_nut_25",
+        "hardware_endcap_front_m3_mount_nut_26",
+        "hardware_endcap_front_m3_mount_nut_27",
+        "hardware_endcap_front_m3_mount_nut_28",
+        "hardware_endcap_front_m3_mount_nut_29",
+        "hardware_endcap_front_m3_mount_nut_30",
+        "hardware_endcap_front_join_screw_0",
+        "hardware_endcap_front_join_screw_1",
+        "hardware_endcap_front_join_screw_2",
+        "hardware_endcap_front_join_screw_3",
+        "rear_cover_face",
+        "rear_cover_nuts",
+        "hardware_endcap_rear_m6_mount_nut_0",
+        "hardware_endcap_rear_m6_mount_nut_1",
+        "hardware_endcap_rear_m6_mount_nut_2",
+        "hardware_endcap_rear_m6_mount_nut_3",
+        "hardware_endcap_rear_m6_mount_nut_4",
+        "hardware_endcap_rear_m6_mount_nut_5",
+        "hardware_endcap_rear_m6_mount_nut_6",
+        "hardware_endcap_rear_m6_mount_nut_7",
+        "hardware_endcap_rear_m6_mount_nut_8",
+        "hardware_endcap_rear_m6_mount_nut_9",
+        "hardware_endcap_rear_m6_mount_nut_10",
+        "hardware_endcap_rear_m6_mount_nut_11",
+        "hardware_endcap_rear_m6_mount_nut_12",
+        "hardware_endcap_rear_m6_mount_nut_13",
+        "hardware_endcap_rear_m6_mount_nut_14",
+        "hardware_endcap_rear_m6_mount_nut_15",
+        "hardware_endcap_rear_m6_mount_nut_16",
+        "hardware_endcap_rear_m6_mount_nut_17",
+        "hardware_endcap_rear_m6_mount_nut_18",
+        "hardware_endcap_rear_m3_mount_nut_19",
+        "hardware_endcap_rear_m3_mount_nut_20",
+        "hardware_endcap_rear_m3_mount_nut_21",
+        "hardware_endcap_rear_m3_mount_nut_22",
+        "hardware_endcap_rear_m3_mount_nut_23",
+        "hardware_endcap_rear_m3_mount_nut_24",
+        "hardware_endcap_rear_m3_mount_nut_25",
+        "hardware_endcap_rear_m3_mount_nut_26",
+        "hardware_endcap_rear_m3_mount_nut_27",
+        "hardware_endcap_rear_m3_mount_nut_28",
+        "hardware_endcap_rear_m3_mount_nut_29",
+        "hardware_endcap_rear_m3_mount_nut_30",
+        "hardware_endcap_rear_m3_mount_nut_31",
+        "hardware_endcap_rear_m3_mount_nut_32",
+        "hardware_endcap_rear_m3_mount_nut_33",
+        "hardware_endcap_rear_join_M3x16_0",
+        "hardware_endcap_rear_join_M3x16_1",
+        "hardware_endcap_rear_join_M3x16_2",
+        "rear_output_joiner_1",
+        "rear_output_joiner_2",
+        "rear_output_joiner_3",
+        "hardware_endcap_outer_extension_nut_0",
+        "hardware_endcap_outer_extension_nut_1",
+        "hardware_endcap_outer_extension_nut_2",
+        "hardware_endcap_outer_extension_nut_3",
+        "hardware_endcap_outer_extension_nut_4",
+        "hardware_endcap_outer_extension_nut_5",
+        "hardware_endcap_outer_ring_nut_0",
+        "hardware_endcap_outer_ring_nut_1",
+        "hardware_endcap_outer_ring_nut_2",
+        "hardware_endcap_outer_ring_nut_3",
+        "hardware_endcap_outer_ring_nut_4",
+        "hardware_endcap_outer_ring_nut_5",
+        "rear_output_extension",
+        "hardware_endcap_outer_ring_screw_0",
+        "hardware_endcap_outer_ring_screw_1",
+        "hardware_endcap_outer_ring_screw_2",
+        "hardware_endcap_outer_ring_screw_3",
+        "hardware_endcap_outer_ring_screw_4",
+        "hardware_endcap_outer_ring_screw_5",
+        "rear_output_spacer_1",
+        "rear_output_spacer_2",
+        "hardware_endcap_outer_extension_screw_0",
+        "hardware_endcap_outer_extension_screw_1",
+        "hardware_endcap_outer_extension_screw_2",
+        "hardware_endcap_outer_extension_screw_3",
+        "hardware_endcap_outer_extension_screw_4",
+        "hardware_endcap_outer_extension_screw_5",
+        "hardware_endcap_spacer_nut_0",
+        "hardware_endcap_spacer_nut_1"
+      ],
+      "candidate_pairs": 12,
+      "clear": true,
+      "blocked": []
+    }
+  ],
+  "radial_sleeve_paths": [
+    {
+      "part": "rear_output_spacer_1",
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    },
+    {
+      "part": "rear_output_spacer_2",
+      "maximum_overlap_mm3": 0,
+      "clear": true
+    }
+  ],
+  "side_loaded_clamp_nuts": [
+    {
+      "nut": "hardware_endcap_rear_join_nut_0",
+      "body": "motor_cage",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789253510654
+    },
+    {
+      "nut": "hardware_endcap_rear_join_nut_1",
+      "body": "motor_cage",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578936015025
+    },
+    {
+      "nut": "hardware_endcap_rear_join_nut_2",
+      "body": "motor_cage",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789250337803
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_0",
+      "body": "rear_output_joiner_1",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924339138
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_1",
+      "body": "rear_output_joiner_1",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924087464
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_2",
+      "body": "rear_output_joiner_2",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924339158
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_3",
+      "body": "rear_output_joiner_2",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789240874906
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_4",
+      "body": "rear_output_joiner_3",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924339129
+    },
+    {
+      "nut": "hardware_endcap_outer_extension_nut_5",
+      "body": "rear_output_joiner_3",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924087161
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_0",
+      "body": "rear_output_joiner_1",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789248508966
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_1",
+      "body": "rear_output_joiner_1",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924902134
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_2",
+      "body": "rear_output_joiner_2",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924850821
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_3",
+      "body": "rear_output_joiner_2",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.3481578924902438
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_4",
+      "body": "rear_output_joiner_3",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789248510887
+    },
+    {
+      "nut": "hardware_endcap_outer_ring_nut_5",
+      "body": "rear_output_joiner_3",
+      "entry_overlap_mm3": 0,
+      "clamping_stop_mm3": 0.34815789249024764
+    }
+  ],
+  "mounting_nut_counts": {
+    "front": {
+      "m6": 15,
+      "m3": 16
+    },
+    "rear": {
+      "m6": 19,
+      "m3": 15
+    }
+  },
+  "maximum_socket_cap_length_mm": 40,
+  "captured_mounting_nuts": [
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_0",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370831601,
+        26.657209546711332
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_1",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.28624037083231,
+        26.657209546711314
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_2",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370831774,
+        26.65720954671131
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_3",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370830601,
+        26.65720954671128
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_4",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370809676,
+        26.657209546710803
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_5",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.2862403708314,
+        26.657209546711755
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_6",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370812132,
+        26.65720954671132
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_7",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370811045,
+        26.657209546711393
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_8",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.28624037082105,
+        26.65720954671061
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_9",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370811015,
+        26.657209546710675
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_10",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370787443,
+        26.657209546711748
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_11",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370824208,
+        26.65720954671079
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_12",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.28624037078836,
+        26.657209546711776
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_13",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370834015,
+        26.657209546710703
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m6_mount_nut_14",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        13.286240370822766,
+        26.657209546711265
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_15",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549216437,
+        7.993365490100468
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_16",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921812,
+        7.993365490100441
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_17",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549218693,
+        7.993365490100474
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_18",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549216437,
+        7.993365490100434
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_19",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549216446,
+        7.99336549010047
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_20",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921601,
+        7.99336549010045
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_21",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921648,
+        7.9933654901003734
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_22",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549215998,
+        7.9933654901005475
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_23",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549216984,
+        7.993365490100375
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_24",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921642,
+        7.993365490100567
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_25",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549217046,
+        7.993365490100461
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_26",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921704,
+        7.993365490100472
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_27",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549216464,
+        7.993365489318281
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_28",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549215962,
+        7.993365489309065
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_29",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.0889473549217583,
+        7.993365489308854
+      ]
+    },
+    {
+      "nut": "hardware_endcap_front_m3_mount_nut_30",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        2.088947354921679,
+        7.993365489318465
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_0",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.65720954671135,
+        13.286240370814346
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_1",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.65720954671137,
+        13.286240370802641
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_2",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711304,
+        13.286240370790342
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_3",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.65720954671134,
+        13.286240370802563
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_4",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711353,
+        13.286240370794363
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_5",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711364,
+        13.286240370770114
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_6",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711314,
+        13.286240370767963
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_7",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711286,
+        13.286240370770434
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_8",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711357,
+        13.286240370789821
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_9",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711215,
+        13.286240370809496
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_10",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711382,
+        13.286240370792036
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_11",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711393,
+        13.286240370801895
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_12",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711265,
+        13.286240370801961
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_13",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.65720954671127,
+        13.28624037079039
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_14",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546710668,
+        13.286240370746693
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_15",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711318,
+        13.286240370790647
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_16",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711297,
+        13.286240370771232
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_17",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711215,
+        13.286240370770841
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m6_mount_nut_18",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        26.657209546711297,
+        13.286240370791187
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_19",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100453,
+        2.088947354925419
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_20",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100434,
+        2.0889473549254256
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_21",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100421,
+        2.0889473549256614
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_22",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100468,
+        2.0889473549258555
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_23",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.9933654901004365,
+        2.0889473549247812
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_24",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100426,
+        2.0889473549258533
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_25",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365489318398,
+        2.088947354925301
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_26",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365490100471,
+        2.0889473549251663
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_27",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365489338771,
+        2.088947354925586
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_28",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.9933654901004685,
+        2.088947354925587
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_29",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365489338741,
+        2.088947354925261
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_30",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.99336548931838,
+        2.0889473549256756
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_31",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365488577076,
+        2.0889473549253497
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_32",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365489318393,
+        2.088947354925695
+      ]
+    },
+    {
+      "nut": "hardware_endcap_rear_m3_mount_nut_33",
+      "axial_escape_blocked_both_directions": true,
+      "stop_volumes_mm3": [
+        7.993365488577117,
+        2.0889473549256867
+      ]
+    }
+  ],
+  "conservative_sweep_envelopes": [],
+  "status": "passed",
+  "printability": {
+    "motor_cage": {
+      "layer_height_mm": 0.2,
+      "levels": 231,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.831,
+      "at_print_z_mm": 6.801
+    },
+    "front_cover_spacer": {
+      "layer_height_mm": 0.2,
+      "levels": 23,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "front_cover_face": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.198,
+      "at_print_z_mm": 1.201
+    },
+    "front_cover_nuts": {
+      "layer_height_mm": 0.2,
+      "levels": 31,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.254,
+      "at_print_z_mm": 3.401
+    },
+    "rear_cover_face": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.205,
+      "at_print_z_mm": 0.201
+    },
+    "rear_cover_nuts": {
+      "layer_height_mm": 0.2,
+      "levels": 31,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.254,
+      "at_print_z_mm": 3.401
+    },
+    "rear_output_extension": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.193,
+      "at_print_z_mm": 0.201
+    },
+    "rear_output_spacer_1": {
+      "layer_height_mm": 0.2,
+      "levels": 81,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "rear_output_spacer_2": {
+      "layer_height_mm": 0.2,
+      "levels": 81,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "rear_output_joiner_1": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "rear_output_joiner_2": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "rear_output_joiner_3": {
+      "layer_height_mm": 0.2,
+      "levels": 394,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.535,
+      "at_print_z_mm": 5.401
+    },
+    "output_cap_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "output_circle_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "output_circle_rear_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "output_lower_row_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.01,
+      "at_print_z_mm": 0.201
+    },
+    "output_lower_row_rear_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    },
+    "output_nut_plate": {
+      "layer_height_mm": 0.2,
+      "levels": 16,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    }
+  }
+}

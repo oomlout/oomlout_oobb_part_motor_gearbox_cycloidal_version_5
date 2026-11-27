@@ -1,0 +1,2623 @@
+{
+  "commands": [
+    {
+      "command": "parameters.add",
+      "params": {
+        "name": "profile_unit",
+        "expression": "1 mm",
+        "comment": "Uniform native dimension scale; recipe dimensions remain in Python/YAML"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "3.0 * profile_unit",
+        "name": "boundary_000_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-12.185417437700565 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "through": [
+          "41.74999999999997 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-17.814582562299442 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "47.0 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "52.0 * profile_unit",
+          "-17.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "-20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "52.0 * profile_unit",
+            "-17.0 * profile_unit"
+          ],
+          [
+            "52.0 * profile_unit",
+            "17.0 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "52.0 * profile_unit",
+          "17.0 * profile_unit"
+        ],
+        "end": [
+          "47.0 * profile_unit",
+          "22.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "47.0 * profile_unit",
+            "22.0 * profile_unit"
+          ],
+          [
+            "28.684882778216124 * profile_unit",
+            "22.0 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "36.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610836 * profile_unit",
+          "11.616023148381874 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "36.15 * profile_unit",
+          "-8.854196357835363e-15 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610835 * profile_unit",
+          "-11.616023148381894 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "28.684882778216124 * profile_unit",
+            "-22.0 * profile_unit"
+          ],
+          [
+            "47.0 * profile_unit",
+            "-22.0 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "-1.1157741397482823e-14 * profile_unit"
+        ],
+        "end": [
+          "43.375000000000036 * profile_unit",
+          "2.814582562299396 * profile_unit"
+        ],
+        "through": [
+          "46.625000000000014 * profile_unit",
+          "2.8145825622993956 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375000000000036 * profile_unit",
+          "2.814582562299396 * profile_unit"
+        ],
+        "end": [
+          "43.37500000000003 * profile_unit",
+          "-2.8145825622994174 * profile_unit"
+        ],
+        "through": [
+          "41.75000000000004 * profile_unit",
+          "-1.0759731187759936e-14 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37500000000003 * profile_unit",
+          "-2.8145825622994174 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-1.1953761816928597e-14 * profile_unit"
+        ],
+        "through": [
+          "46.62500000000001 * profile_unit",
+          "-2.814582562299419 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "-7.500000000000005 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-5.941154273188019 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-5.941154273188019 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-5.941154273188019 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-9.058845726811992 * profile_unit"
+        ],
+        "through": [
+          "43.2 * profile_unit",
+          "-7.500000000000005 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-9.058845726811992 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "-7.500000000000005 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-9.058845726811992 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "14.999999999999986 * profile_unit"
+        ],
+        "end": [
+          "43.37500000000004 * profile_unit",
+          "17.814582562299385 * profile_unit"
+        ],
+        "through": [
+          "46.625000000000014 * profile_unit",
+          "17.814582562299385 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37500000000004 * profile_unit",
+          "17.814582562299385 * profile_unit"
+        ],
+        "end": [
+          "43.37500000000004 * profile_unit",
+          "12.185417437700586 * profile_unit"
+        ],
+        "through": [
+          "41.75000000000006 * profile_unit",
+          "14.999999999999986 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37500000000004 * profile_unit",
+          "12.185417437700586 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "14.999999999999986 * profile_unit"
+        ],
+        "through": [
+          "46.625000000000014 * profile_unit",
+          "12.185417437700584 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "7.499999999999995 * profile_unit"
+        ],
+        "end": [
+          "44.10000000000001 * profile_unit",
+          "9.058845726811978 * profile_unit"
+        ],
+        "through": [
+          "45.900000000000006 * profile_unit",
+          "9.058845726811978 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.10000000000001 * profile_unit",
+          "9.058845726811978 * profile_unit"
+        ],
+        "end": [
+          "44.10000000000001 * profile_unit",
+          "5.941154273188013 * profile_unit"
+        ],
+        "through": [
+          "43.20000000000002 * profile_unit",
+          "7.499999999999995 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.10000000000001 * profile_unit",
+          "5.941154273188013 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "7.499999999999995 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "5.941154273188012 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_000_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_000",
+        "body_name": "boundary_000"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_001_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-12.185417437700565 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "through": [
+          "41.74999999999997 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-17.814582562299442 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_001_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_001",
+        "body_name": "boundary_001"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_001"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        "offset": "-22.0 * profile_unit",
+        "name": "boundary_002_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0.0 * profile_unit",
+            "28.684882778216647 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "47.0 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "47.0 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "28.684882778216124 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_002_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_002",
+        "body_name": "boundary_002"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_002"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_003_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999567 * profile_unit",
+          "26.111731080110747 * profile_unit"
+        ],
+        "through": [
+          "26.921055752820635 * profile_unit",
+          "24.1263187650649 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_003_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_003",
+        "body_name": "boundary_003"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_003"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "3.0 * profile_unit",
+        "name": "boundary_004_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "36.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610836 * profile_unit",
+          "11.616023148381874 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "36.15 * profile_unit",
+          "-8.854196357835363e-15 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610835 * profile_unit",
+          "-11.616023148381894 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999574 * profile_unit",
+          "-26.11173108011074 * profile_unit"
+        ],
+        "end": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "through": [
+          "26.92105575282064 * profile_unit",
+          "-24.126318765064898 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999567 * profile_unit",
+          "26.111731080110747 * profile_unit"
+        ],
+        "through": [
+          "26.921055752820635 * profile_unit",
+          "24.1263187650649 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_004_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "9.75 * profile_unit",
+        "name": "boundary_004",
+        "body_name": "boundary_004"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_004"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_005_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999574 * profile_unit",
+          "-26.11173108011074 * profile_unit"
+        ],
+        "end": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "through": [
+          "26.92105575282064 * profile_unit",
+          "-24.126318765064898 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_005_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_005",
+        "body_name": "boundary_005"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_005"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ]
+        },
+        "offset": "22.0 * profile_unit",
+        "name": "boundary_006_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "0.0 * profile_unit",
+            "28.68488277821662 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "28.684882778216124 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "47.0 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "47.0 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_006_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_006",
+        "body_name": "boundary_006"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_007_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-12.185417437700565 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-12.185417437700563 * profile_unit"
+        ],
+        "end": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "through": [
+          "41.74999999999997 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.37499999999998 * profile_unit",
+          "-17.81458256229944 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-15.000000000000002 * profile_unit"
+        ],
+        "through": [
+          "46.62499999999999 * profile_unit",
+          "-17.814582562299442 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "2.814582562299426 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "2.8145825622994254 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "2.814582562299426 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "-2.814582562299425 * profile_unit"
+        ],
+        "through": [
+          "41.75 * profile_unit",
+          "3.9801020972288977e-16 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "-2.814582562299425 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-7.960204194457795e-16 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "-2.8145825622994267 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "52.0 * profile_unit",
+            "-17.0 * profile_unit"
+          ],
+          [
+            "52.0 * profile_unit",
+            "17.0 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "47.0 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "52.0 * profile_unit",
+          "-17.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "-20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "28.684882778216647 * profile_unit",
+            "-21.99999999999966 * profile_unit"
+          ],
+          [
+            "47.0 * profile_unit",
+            "-22.0 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999574 * profile_unit",
+          "-26.11173108011074 * profile_unit"
+        ],
+        "end": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "through": [
+          "26.92105575282064 * profile_unit",
+          "-24.126318765064898 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "25.0 * profile_unit",
+            "-26.11173108011087 * profile_unit"
+          ],
+          [
+            "25.0 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "34.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999996 * profile_unit",
+          "23.26418921862527 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576355 * profile_unit",
+          "12.49944998789947 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999993 * profile_unit",
+          "-23.264189218625273 * profile_unit"
+        ],
+        "end": [
+          "34.15 * profile_unit",
+          "-8.364337638176422e-15 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576354 * profile_unit",
+          "-12.49944998789949 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "25.0 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "25.0 * profile_unit",
+            "26.1117310801109 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999567 * profile_unit",
+          "26.111731080110747 * profile_unit"
+        ],
+        "through": [
+          "26.921055752820635 * profile_unit",
+          "24.1263187650649 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "47.0 * profile_unit",
+            "22.0 * profile_unit"
+          ],
+          [
+            "28.68488277821662 * profile_unit",
+            "21.999999999999673 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "52.0 * profile_unit",
+          "17.0 * profile_unit"
+        ],
+        "end": [
+          "47.0 * profile_unit",
+          "22.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "through": [
+          "43.2 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "5.941154273188011 * profile_unit"
+        ],
+        "through": [
+          "43.2 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "5.941154273188011 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "5.94115427318801 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "12.185417437700576 * profile_unit"
+        ],
+        "through": [
+          "41.75 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "12.185417437700576 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "12.185417437700574 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_007_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_007",
+        "body_name": "boundary_007"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_007"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_008_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "2.814582562299426 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "2.8145825622994254 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "2.814582562299426 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "-2.814582562299425 * profile_unit"
+        ],
+        "through": [
+          "41.75 * profile_unit",
+          "3.9801020972288977e-16 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "-2.814582562299425 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "-7.960204194457795e-16 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "-2.8145825622994267 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_008_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_008",
+        "body_name": "boundary_008"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_008"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "offset": "25.0 * profile_unit",
+        "name": "boundary_009_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "12.75 * profile_unit",
+            "26.11173108011087 * profile_unit"
+          ],
+          [
+            "12.75 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "26.111731080110335 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_009_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_009",
+        "body_name": "boundary_009"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_009"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "offset": "25.0 * profile_unit",
+        "name": "boundary_010_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "3.0 * profile_unit",
+            "26.111731080110335 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "26.11173108011087 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_010_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_010",
+        "body_name": "boundary_010"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_010"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "12.75 * profile_unit",
+        "name": "boundary_011_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "25.0 * profile_unit",
+            "-26.11173108011087 * profile_unit"
+          ],
+          [
+            "25.0 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "36.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610836 * profile_unit",
+          "11.616023148381874 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.684882778216124 * profile_unit",
+          "21.999999999999996 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999567 * profile_unit",
+          "26.111731080110747 * profile_unit"
+        ],
+        "through": [
+          "26.921055752820635 * profile_unit",
+          "24.1263187650649 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999574 * profile_unit",
+          "-26.11173108011074 * profile_unit"
+        ],
+        "end": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "through": [
+          "26.92105575282064 * profile_unit",
+          "-24.126318765064898 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "28.68488277821612 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "36.15 * profile_unit",
+          "-8.854196357835363e-15 * profile_unit"
+        ],
+        "through": [
+          "34.23288632610835 * profile_unit",
+          "-11.616023148381894 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "25.0 * profile_unit",
+            "23.264189218625262 * profile_unit"
+          ],
+          [
+            "25.0 * profile_unit",
+            "26.1117310801109 * profile_unit"
+          ]
+        ],
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "34.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999996 * profile_unit",
+          "23.26418921862527 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576355 * profile_unit",
+          "12.49944998789947 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999993 * profile_unit",
+          "-23.264189218625273 * profile_unit"
+        ],
+        "end": [
+          "34.15 * profile_unit",
+          "-8.364337638176422e-15 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576354 * profile_unit",
+          "-12.49944998789949 * profile_unit"
+        ],
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_011_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_011",
+        "body_name": "boundary_011"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "offset": "25.0 * profile_unit",
+        "name": "boundary_012_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "12.75 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ],
+          [
+            "12.75 * profile_unit",
+            "-26.1117310801109 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "-26.111731080110335 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_012_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_012",
+        "body_name": "boundary_012"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_012"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "offset": "25.0 * profile_unit",
+        "name": "boundary_013_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "3.0 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "-26.111731080110335 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "-26.1117310801109 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "-23.264189218625262 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_013_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_013",
+        "body_name": "boundary_013"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_013"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_014_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-5.94115427318801 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "through": [
+          "43.2 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "-7.5 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "-9.05884572681199 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_014_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_014",
+        "body_name": "boundary_014"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_014"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_015_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "47.0 * profile_unit",
+          "-22.0 * profile_unit"
+        ],
+        "end": [
+          "52.0 * profile_unit",
+          "-17.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "-20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_015_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_015",
+        "body_name": "boundary_015"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_015"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_016_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "48.25 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "17.814582562299424 * profile_unit"
+        ],
+        "end": [
+          "43.375 * profile_unit",
+          "12.185417437700576 * profile_unit"
+        ],
+        "through": [
+          "41.75 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "43.375 * profile_unit",
+          "12.185417437700576 * profile_unit"
+        ],
+        "end": [
+          "48.25 * profile_unit",
+          "15.0 * profile_unit"
+        ],
+        "through": [
+          "46.625 * profile_unit",
+          "12.185417437700574 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_016_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_016",
+        "body_name": "boundary_016"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_016"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_017_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "46.8 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "9.05884572681199 * profile_unit"
+        ],
+        "end": [
+          "44.1 * profile_unit",
+          "5.941154273188011 * profile_unit"
+        ],
+        "through": [
+          "43.2 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "44.1 * profile_unit",
+          "5.941154273188011 * profile_unit"
+        ],
+        "end": [
+          "46.8 * profile_unit",
+          "7.5 * profile_unit"
+        ],
+        "through": [
+          "45.9 * profile_unit",
+          "5.94115427318801 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_017_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_017",
+        "body_name": "boundary_017"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_017"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_018_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "34.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999996 * profile_unit",
+          "23.26418921862527 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576355 * profile_unit",
+          "12.49944998789947 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999993 * profile_unit",
+          "-23.264189218625273 * profile_unit"
+        ],
+        "end": [
+          "34.15 * profile_unit",
+          "-8.364337638176422e-15 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576354 * profile_unit",
+          "-12.49944998789949 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_018_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_018",
+        "body_name": "boundary_018"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_018"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "3.0 * profile_unit",
+        "name": "boundary_019_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "34.15 * profile_unit",
+          "0.0 * profile_unit"
+        ],
+        "end": [
+          "24.999999999999996 * profile_unit",
+          "23.26418921862527 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576355 * profile_unit",
+          "12.49944998789947 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "24.999999999999993 * profile_unit",
+          "-23.264189218625273 * profile_unit"
+        ],
+        "end": [
+          "34.15 * profile_unit",
+          "-8.364337638176422e-15 * profile_unit"
+        ],
+        "through": [
+          "31.78028083576354 * profile_unit",
+          "-12.49944998789949 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_019_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "9.75 * profile_unit",
+        "name": "boundary_019",
+        "body_name": "boundary_019"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_019"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "y_dir": [
+            0.0,
+            -1.0,
+            0.0
+          ]
+        },
+        "offset": "52.0 * profile_unit",
+        "name": "boundary_020_profile"
+      }
+    },
+    {
+      "command": "sketch.line",
+      "params": {
+        "points": [
+          [
+            "3.0 * profile_unit",
+            "17.0 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "17.0 * profile_unit"
+          ],
+          [
+            "0.0 * profile_unit",
+            "-17.0 * profile_unit"
+          ],
+          [
+            "3.0 * profile_unit",
+            "-17.0 * profile_unit"
+          ]
+        ],
+        "closed": true,
+        "infer": false,
+        "connect": false
+      },
+      "capture_outer": true
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.patch",
+      "params": {
+        "sketch": "boundary_020_profile",
+        "profiles": "OUTER_PROFILE",
+        "name": "boundary_020",
+        "body_name": "boundary_020"
+      }
+    },
+    {
+      "command": "sketch.create",
+      "params": {
+        "plane": {
+          "x_dir": [
+            1.0,
+            0.0,
+            -0.0
+          ],
+          "y_dir": [
+            -0.0,
+            1.0,
+            0.0
+          ]
+        },
+        "offset": "0.0 * profile_unit",
+        "name": "boundary_021_profile"
+      }
+    },
+    {
+      "command": "sketch.arc.three_point",
+      "params": {
+        "start": [
+          "52.0 * profile_unit",
+          "17.0 * profile_unit"
+        ],
+        "end": [
+          "47.0 * profile_unit",
+          "22.0 * profile_unit"
+        ],
+        "through": [
+          "50.53553390593274 * profile_unit",
+          "20.535533905932738 * profile_unit"
+        ],
+        "connect": false
+      }
+    },
+    {
+      "command": "sketch.solve",
+      "params": {}
+    },
+    {
+      "command": "sketch.finish",
+      "params": {}
+    },
+    {
+      "command": "surface.extrude",
+      "params": {
+        "sketch": "boundary_021_profile",
+        "curves": "CURRENT_CURVES",
+        "distance": "3.0 * profile_unit",
+        "name": "boundary_021",
+        "body_name": "boundary_021"
+      }
+    },
+    {
+      "command": "surface.reverse_normal",
+      "params": {
+        "body": "boundary_021"
+      }
+    }
+  ]
+}

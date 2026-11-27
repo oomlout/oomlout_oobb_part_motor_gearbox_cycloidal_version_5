@@ -1,0 +1,16 @@
+Traceback (most recent call last):
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 386, in run_project
+    root.mkdir(exist_ok=True)
+                              
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 322, in rebuild_native
+    version = require_backend_version(baseline)
+         ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 242, in document
+    # This window is private; never use desktop auto-discovery.
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\live\working.py", line 117, in checked
+    result = require_ok(result)
+             ^^^^^^^^^^^^^^^^^^
+  File "C:\od\OneDrive\docs\software_cad_mcp_helper\components\backend\working.py", line 19, in require_ok
+    raise TimeoutError(f"Uncertain MCP outcome; discard owned session without replay: {result}")
+TimeoutError: Uncertain MCP outcome; discard owned session without replay: {'tool_error': True, 'detail': 'the app did not say it checked this call at --param-check strict, so it may have run unchecked: inspect the design before sending it again (the next calls are checked here before they are sent)'}

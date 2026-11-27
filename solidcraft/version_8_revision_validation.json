@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "project_tests_passed": 21,
+  "shared_helper_tests_passed": 2,
+  "native_configuration_cases": 6,
+  "hardware_checks_per_preset": 278,
+  "save_reopen_cycles_per_preset": 2,
+  "preservation": {
+    "status": "passed",
+    "releases": {
+      "version_1": {
+        "checked_files": 55
+      },
+      "version_2": {
+        "checked_files": 105
+      },
+      "version_3": {
+        "checked_files": 145
+      },
+      "version_4": {
+        "checked_files": 2593
+      },
+      "version_5": {
+        "checked_files": 2296
+      },
+      "version_6": {
+        "checked_files": 3381
+      },
+      "version_7": {
+        "checked_files": 1936
+      }
+    },
+    "violations": []
+  },
+  "test_log": "solidcraft/evidence/v8_targeted_tests.txt"
+}

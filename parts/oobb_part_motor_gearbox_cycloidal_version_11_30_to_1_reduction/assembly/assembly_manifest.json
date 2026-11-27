@@ -1,0 +1,1044 @@
+{
+  "book": {
+    "cover_title": "Cycloidal gearbox",
+    "cover_subtitle": "30:1 reduction / manual input",
+    "project_name": "OOBB cycloidal gearbox",
+    "project_url": "https://github.com/oomlout/oomlout_oobb_part_motor_gearbox_cycloidal_version_5",
+    "viewer_url": "https://oomlout.github.io/oomlout_oobb_part_motor_gearbox_cycloidal_version_5/30-to-1/",
+    "description": "A 3D-printable cycloidal gearbox for OOBB mechanisms. Drive the centre shaft and hold the inner carrier fixed to turn the outer casing once per 30 input turns.",
+    "details_title": "Building the gearbox",
+    "details": [
+      "Print all four plates from the P1S project. This build uses two square flanges and 30 loose contact sleeves.",
+      "Two 6810 bearings (50 \u00d7 65 \u00d7 7 mm) support the casing. Four 6704 bearings (20 \u00d7 27 \u00d7 4 mm) support the shaft and cycloids.",
+      "Use 30 7 mm OD \u00d7 16 mm contact sleeves and six matching guide sleeves.",
+      "Use a 2.5 mm hex key for the socket caps and a 2 mm key for the countersunk disc screws.",
+      "Start at the socket end and build upwards. The two shaft screws stay parallel throughout assembly.",
+      "Mount the black carrier for 30:1 casing output. With the casing fixed, the carrier gives 29:1 in the opposite direction.",
+      "Regenerate the drawings from the project root with python working.py --assembly-only.",
+      "Clearances and nut access were checked in CAD. Physical fit and load capacity are unverified.",
+      "AI-generated CAD images and instructions. Errors possible."
+    ],
+    "signature_pages": 4,
+    "summary_step": true,
+    "summary_view": "book_cover",
+    "summary_title": "Printed parts",
+    "hardware_title": "Hardware",
+    "viewer_start": "page-03",
+    "viewer_layout": "a4-landscape-four-step",
+    "logo_svg": "gearbox_native/book/oomlout.svg",
+    "logo_symbol_subpaths": 3
+  },
+  "style": {
+    "page_mm": [
+      297,
+      210
+    ],
+    "columns": 2,
+    "rows": 2,
+    "margin_mm": 6,
+    "gutter_mm": 4,
+    "border_radius_mm": 3,
+    "border_width_pt": 3.0,
+    "component_border_width_pt": 1.1,
+    "thumbnail_height_mm": 8.5,
+    "quantity_gap_mm": 1.0,
+    "border": "000000",
+    "font_body_pt": 7,
+    "font_code_pt": 6.4,
+    "font_url_prefix_pt": 4.8,
+    "quantity_pt": 5.8
+  },
+  "configuration_title": "Manual 30:1 cycloidal gearbox",
+  "parts": {
+    "shaft_end_upper": {
+      "name": "Starting E journal",
+      "id": "shaft_end_upper",
+      "provenance": "Native CAD body",
+      "key": "shaft_end_upper",
+      "quantity": 1
+    },
+    "carrier_top_cap": {
+      "name": "Starting carrier cap",
+      "id": "carrier_top_cap",
+      "provenance": "Native CAD body",
+      "key": "carrier_top_cap",
+      "quantity": 1
+    },
+    "output_cap_cylinder": {
+      "name": "Starting bearing cylinder",
+      "id": "output_cap_cylinder",
+      "provenance": "Native CAD body",
+      "key": "output_cap_cylinder",
+      "quantity": 1
+    },
+    "H4": {
+      "name": "M3 x 35 socket-cap screw",
+      "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "md5": "355042ff49937139cdebcee290780697",
+      "md5_6_alpha": "22vya",
+      "short_label": "oom.lt/a/22vya",
+      "short_url": "https://oom.lt/a/22vya",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H4",
+      "quantity": 8
+    },
+    "H3": {
+      "name": "M3 x 30 socket-cap screw",
+      "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+      "md5": "7e252fca70adce3700f60f1c0b0bd9dc",
+      "md5_6_alpha": "4x6wf",
+      "short_label": "oom.lt/a/4x6wf",
+      "short_url": "https://oom.lt/a/4x6wf",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H3",
+      "quantity": 30
+    },
+    "H1": {
+      "name": "6810 bearing",
+      "id": "hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+      "md5": "cb4eb99a384ce4439e763e05c6830f0a",
+      "md5_6_alpha": "7xku1",
+      "short_label": "oom.lt/a/7xku1",
+      "short_url": "https://oom.lt/a/7xku1",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H1",
+      "quantity": 2
+    },
+    "H2": {
+      "name": "6704 bearing",
+      "id": "hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+      "md5": "7edd1090264a248f9e6140547bebe5c5",
+      "md5_6_alpha": "4y780",
+      "short_label": "oom.lt/a/4y780",
+      "short_url": "https://oom.lt/a/4y780",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H2",
+      "quantity": 4
+    },
+    "carrier_top_nut_tray": {
+      "name": "Carrier nut tray",
+      "id": "carrier_top_nut_tray",
+      "provenance": "Native CAD body",
+      "key": "carrier_top_nut_tray",
+      "quantity": 1
+    },
+    "shaft_mount_upper_nut_tray": {
+      "name": "Shaft nut tray",
+      "id": "shaft_mount_upper_nut_tray",
+      "provenance": "Native CAD body",
+      "key": "shaft_mount_upper_nut_tray",
+      "quantity": 1
+    },
+    "output_cap_plate": {
+      "name": "Starting OOBB plate",
+      "id": "output_cap_plate",
+      "provenance": "Native CAD body",
+      "key": "output_cap_plate",
+      "quantity": 1
+    },
+    "H6": {
+      "name": "M3 hex nut",
+      "id": "hardware_nut_m3",
+      "md5": "632d2f1cf592d38bafebf6dcced02499",
+      "md5_6_alpha": "3vb5b",
+      "short_label": "oom.lt/a/3vb5b",
+      "short_url": "https://oom.lt/a/3vb5b",
+      "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H6",
+      "quantity": 68
+    },
+    "carrier_top": {
+      "name": "Starting carrier core",
+      "id": "carrier_top",
+      "provenance": "Native CAD body",
+      "key": "carrier_top",
+      "quantity": 1
+    },
+    "shaft_mount_upper": {
+      "name": "Starting N nut carrier",
+      "id": "shaft_mount_upper",
+      "provenance": "Native CAD body",
+      "key": "shaft_mount_upper",
+      "quantity": 1
+    },
+    "printed_contact_sleeve": {
+      "name": "Contact sleeve 7 \u00d7 16 mm",
+      "id": "printed_contact_sleeve",
+      "provenance": "Native CAD body",
+      "key": "printed_contact_sleeve",
+      "quantity": 30
+    },
+    "printed_drive_sleeve": {
+      "name": "Guide sleeve 7 \u00d7 16 mm",
+      "id": "printed_drive_sleeve",
+      "provenance": "Native CAD body",
+      "key": "printed_drive_sleeve",
+      "quantity": 6
+    },
+    "shaft_cam_b_outer": {
+      "name": "B outer C half",
+      "id": "shaft_cam_b_outer",
+      "provenance": "Native CAD body",
+      "key": "shaft_cam_b_outer",
+      "quantity": 1
+    },
+    "H5": {
+      "name": "M3 x 6 countersunk screw",
+      "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "md5": "9b2fdc9a5f4148186f0d8cb93c4e7fa5",
+      "md5_6_alpha": "61zh8",
+      "short_label": "oom.lt/a/61zh8",
+      "short_url": "https://oom.lt/a/61zh8",
+      "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+      "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+      "key": "H5",
+      "quantity": 6
+    },
+    "rotor_b": {
+      "name": "Disc B screw half",
+      "id": "rotor_b",
+      "provenance": "Native CAD body",
+      "key": "rotor_b",
+      "quantity": 1
+    },
+    "rotor_b_cap": {
+      "name": "Disc B nut half",
+      "id": "rotor_b_cap",
+      "provenance": "Native CAD body",
+      "key": "rotor_b_cap",
+      "quantity": 1
+    },
+    "shaft_cam_b_inner": {
+      "name": "B inner C half",
+      "id": "shaft_cam_b_inner",
+      "provenance": "Native CAD body",
+      "key": "shaft_cam_b_inner",
+      "quantity": 1
+    },
+    "shaft_cam_a_inner": {
+      "name": "A inner C half",
+      "id": "shaft_cam_a_inner",
+      "provenance": "Native CAD body",
+      "key": "shaft_cam_a_inner",
+      "quantity": 1
+    },
+    "rotor_a": {
+      "name": "Disc A screw half",
+      "id": "rotor_a",
+      "provenance": "Native CAD body",
+      "key": "rotor_a",
+      "quantity": 1
+    },
+    "rotor_a_cap": {
+      "name": "Disc A nut half",
+      "id": "rotor_a_cap",
+      "provenance": "Native CAD body",
+      "key": "rotor_a_cap",
+      "quantity": 1
+    },
+    "shaft_cam_a_outer": {
+      "name": "A outer C half",
+      "id": "shaft_cam_a_outer",
+      "provenance": "Native CAD body",
+      "key": "shaft_cam_a_outer",
+      "quantity": 1
+    },
+    "output_nut_plate": {
+      "name": "Finishing OOBB plate",
+      "id": "output_nut_plate",
+      "provenance": "Native CAD body",
+      "key": "output_nut_plate",
+      "quantity": 1
+    },
+    "carrier_bottom": {
+      "name": "Finishing carrier core",
+      "id": "carrier_bottom",
+      "provenance": "Native CAD body",
+      "key": "carrier_bottom",
+      "quantity": 1
+    },
+    "shaft_mount_lower": {
+      "name": "Finishing N nut carrier",
+      "id": "shaft_mount_lower",
+      "provenance": "Native CAD body",
+      "key": "shaft_mount_lower",
+      "quantity": 1
+    },
+    "shaft_end_lower": {
+      "name": "Finishing E journal",
+      "id": "shaft_end_lower",
+      "provenance": "Native CAD body",
+      "key": "shaft_end_lower",
+      "quantity": 1
+    },
+    "carrier_bottom_cap": {
+      "name": "Finishing carrier cap",
+      "id": "carrier_bottom_cap",
+      "provenance": "Native CAD body",
+      "key": "carrier_bottom_cap",
+      "quantity": 1
+    },
+    "output_nut_cylinder": {
+      "name": "Finishing bearing cylinder",
+      "id": "output_nut_cylinder",
+      "provenance": "Native CAD body",
+      "key": "output_nut_cylinder",
+      "quantity": 1
+    }
+  },
+  "steps": [
+    {
+      "key": "step_01",
+      "title": "Set down the socket end",
+      "action": "Place the socket-side cylinder, black carrier cap and yellow two-socket journal flange-down on a support with access underneath. The native model calls this end \u201cupper\u201d.",
+      "add": [
+        "output_cap_cylinder",
+        "carrier_top_cap",
+        "shaft_end_upper"
+      ],
+      "loose_parts": {
+        "carrier_top_cap": 1,
+        "output_cap_cylinder": 1,
+        "shaft_end_upper": 1
+      }
+    },
+    {
+      "key": "step_02",
+      "title": "Stand all 38 screws",
+      "action": "Insert 30 M3 \u00d7 30 socket caps through the outer ring, six M3 \u00d7 35 through the carrier and two M3 \u00d7 35 through the yellow journal. Both shaft screw heads sit at this end. Support the heads while building upward.",
+      "add": [
+        "hardware_ring_M3_shanks",
+        "hardware_ring_M3_shanks (10)",
+        "hardware_ring_M3_shanks (11)",
+        "hardware_ring_M3_shanks (12)",
+        "hardware_ring_M3_shanks (13)",
+        "hardware_ring_M3_shanks (14)",
+        "hardware_ring_M3_shanks (15)",
+        "hardware_ring_M3_shanks (16)",
+        "hardware_ring_M3_shanks (17)",
+        "hardware_ring_M3_shanks (18)",
+        "hardware_ring_M3_shanks (19)",
+        "hardware_ring_M3_shanks (2)",
+        "hardware_ring_M3_shanks (20)",
+        "hardware_ring_M3_shanks (21)",
+        "hardware_ring_M3_shanks (22)",
+        "hardware_ring_M3_shanks (23)",
+        "hardware_ring_M3_shanks (24)",
+        "hardware_ring_M3_shanks (25)",
+        "hardware_ring_M3_shanks (26)",
+        "hardware_ring_M3_shanks (27)",
+        "hardware_ring_M3_shanks (28)",
+        "hardware_ring_M3_shanks (29)",
+        "hardware_ring_M3_shanks (3)",
+        "hardware_ring_M3_shanks (30)",
+        "hardware_ring_M3_shanks (4)",
+        "hardware_ring_M3_shanks (5)",
+        "hardware_ring_M3_shanks (6)",
+        "hardware_ring_M3_shanks (7)",
+        "hardware_ring_M3_shanks (8)",
+        "hardware_ring_M3_shanks (9)",
+        "hardware_ring_cap_heads",
+        "hardware_ring_cap_heads (10)",
+        "hardware_ring_cap_heads (11)",
+        "hardware_ring_cap_heads (12)",
+        "hardware_ring_cap_heads (13)",
+        "hardware_ring_cap_heads (14)",
+        "hardware_ring_cap_heads (15)",
+        "hardware_ring_cap_heads (16)",
+        "hardware_ring_cap_heads (17)",
+        "hardware_ring_cap_heads (18)",
+        "hardware_ring_cap_heads (19)",
+        "hardware_ring_cap_heads (2)",
+        "hardware_ring_cap_heads (20)",
+        "hardware_ring_cap_heads (21)",
+        "hardware_ring_cap_heads (22)",
+        "hardware_ring_cap_heads (23)",
+        "hardware_ring_cap_heads (24)",
+        "hardware_ring_cap_heads (25)",
+        "hardware_ring_cap_heads (26)",
+        "hardware_ring_cap_heads (27)",
+        "hardware_ring_cap_heads (28)",
+        "hardware_ring_cap_heads (29)",
+        "hardware_ring_cap_heads (3)",
+        "hardware_ring_cap_heads (30)",
+        "hardware_ring_cap_heads (4)",
+        "hardware_ring_cap_heads (5)",
+        "hardware_ring_cap_heads (6)",
+        "hardware_ring_cap_heads (7)",
+        "hardware_ring_cap_heads (8)",
+        "hardware_ring_cap_heads (9)",
+        "hardware_drive_caps",
+        "hardware_drive_caps (2)",
+        "hardware_drive_caps (3)",
+        "hardware_drive_caps (4)",
+        "hardware_drive_caps (5)",
+        "hardware_drive_caps (6)",
+        "hardware_drive_shanks",
+        "hardware_drive_shanks (2)",
+        "hardware_drive_shanks (3)",
+        "hardware_drive_shanks (4)",
+        "hardware_drive_shanks (5)",
+        "hardware_drive_shanks (6)",
+        "hardware_shaft_M3x35_lower",
+        "hardware_shaft_M3x35_upper"
+      ],
+      "loose_parts": {
+        "H3": 30,
+        "H4": 8
+      }
+    },
+    {
+      "key": "step_03",
+      "title": "Seat the first two bearings",
+      "action": "Lower the 6810 over the black journal and the centred 6704 over the yellow journal. Seat both flat on their shoulders.",
+      "add": [
+        "hardware_6810_top",
+        "hardware_6704_top"
+      ],
+      "loose_parts": {
+        "H1": 1,
+        "H2": 1
+      }
+    },
+    {
+      "key": "step_04",
+      "title": "Place the empty nut trays",
+      "action": "Lower the square socket-side plate. Slide the large black eight-pocket tray and small turquoise four-pocket tray over the standing screws, with both sets of pockets open upward.",
+      "add": [
+        "output_cap_plate",
+        "carrier_top_nut_tray",
+        "shaft_mount_upper_nut_tray"
+      ],
+      "loose_parts": {
+        "carrier_top_nut_tray": 1,
+        "output_cap_plate": 1,
+        "shaft_mount_upper_nut_tray": 1
+      }
+    },
+    {
+      "key": "step_05",
+      "title": "Load the twelve mounting nuts",
+      "action": "Drop eight M3 nuts into the black tray and four into the turquoise tray. Seat the flats in their pockets while the screw heads remain supported.",
+      "add": [
+        "hardware_carrier_top_mount_nut_1",
+        "hardware_carrier_top_mount_nut_2",
+        "hardware_carrier_top_mount_nut_3",
+        "hardware_carrier_top_mount_nut_4",
+        "hardware_carrier_top_mount_nut_5",
+        "hardware_carrier_top_mount_nut_6",
+        "hardware_carrier_top_mount_nut_7",
+        "hardware_carrier_top_mount_nut_8",
+        "hardware_shaft_mount_nut_upper_1",
+        "hardware_shaft_mount_nut_upper_2",
+        "hardware_shaft_mount_nut_upper_3",
+        "hardware_shaft_mount_nut_upper_4"
+      ],
+      "loose_parts": {
+        "H6": 12
+      }
+    },
+    {
+      "key": "step_06",
+      "title": "Close both trays",
+      "action": "Lower the socket-end carrier core over the eight outer nuts and the small shaft nut carrier over the four inner nuts. Both covers should settle flat.",
+      "add": [
+        "carrier_top",
+        "shaft_mount_upper"
+      ],
+      "loose_parts": {
+        "carrier_top": 1,
+        "shaft_mount_upper": 1
+      }
+    },
+    {
+      "key": "step_07",
+      "title": "Add the sleeves",
+      "action": "Slide 30 yellow contact sleeves onto the ring screws and six yellow guide sleeves onto the inner screws. Seat the six guides in the carrier sockets.",
+      "add": [
+        "printed_contact_sleeve",
+        "printed_contact_sleeve (10)",
+        "printed_contact_sleeve (11)",
+        "printed_contact_sleeve (12)",
+        "printed_contact_sleeve (13)",
+        "printed_contact_sleeve (14)",
+        "printed_contact_sleeve (15)",
+        "printed_contact_sleeve (16)",
+        "printed_contact_sleeve (17)",
+        "printed_contact_sleeve (18)",
+        "printed_contact_sleeve (19)",
+        "printed_contact_sleeve (2)",
+        "printed_contact_sleeve (20)",
+        "printed_contact_sleeve (21)",
+        "printed_contact_sleeve (22)",
+        "printed_contact_sleeve (23)",
+        "printed_contact_sleeve (24)",
+        "printed_contact_sleeve (25)",
+        "printed_contact_sleeve (26)",
+        "printed_contact_sleeve (27)",
+        "printed_contact_sleeve (28)",
+        "printed_contact_sleeve (29)",
+        "printed_contact_sleeve (3)",
+        "printed_contact_sleeve (30)",
+        "printed_contact_sleeve (4)",
+        "printed_contact_sleeve (5)",
+        "printed_contact_sleeve (6)",
+        "printed_contact_sleeve (7)",
+        "printed_contact_sleeve (8)",
+        "printed_contact_sleeve (9)",
+        "printed_drive_sleeve",
+        "printed_drive_sleeve (2)",
+        "printed_drive_sleeve (3)",
+        "printed_drive_sleeve (4)",
+        "printed_drive_sleeve (5)",
+        "printed_drive_sleeve (6)"
+      ],
+      "loose_parts": {
+        "printed_contact_sleeve": 30,
+        "printed_drive_sleeve": 6
+      }
+    },
+    {
+      "key": "step_08",
+      "title": "Start cam B",
+      "action": "Slide the B outer cam onto the two shaft screws with its narrow eccentric journal facing up.",
+      "add": [
+        "shaft_cam_b_outer"
+      ],
+      "loose_parts": {
+        "shaft_cam_b_outer": 1
+      }
+    },
+    {
+      "key": "step_09",
+      "title": "Prepare disc B",
+      "action": "On the bench, seat one 6704 between the B screw half and the B nut half. Match the three clamp holes before closing the halves.",
+      "add": [
+        "rotor_b",
+        "hardware_6704_disc_b",
+        "rotor_b_cap"
+      ],
+      "loose_parts": {
+        "H2": 1,
+        "rotor_b": 1,
+        "rotor_b_cap": 1
+      }
+    },
+    {
+      "key": "step_10",
+      "title": "Clamp disc B",
+      "action": "Fit three M3 nuts and three M3 \u00d7 6 countersunk screws. Seat the heads flush. Orient the closed disc with the screw heads facing down for installation.",
+      "add": [
+        "hardware_disc_b_M3x6_1",
+        "hardware_disc_b_M3x6_2",
+        "hardware_disc_b_M3x6_3",
+        "hardware_disc_b_nut_1",
+        "hardware_disc_b_nut_2",
+        "hardware_disc_b_nut_3"
+      ],
+      "loose_parts": {
+        "H5": 3,
+        "H6": 3
+      }
+    },
+    {
+      "key": "step_11",
+      "title": "Install B and oppose the cams",
+      "action": "Lower the closed B disc over all six guide sleeves and onto the B journal. Point its indexed clamp screw toward the wide guide gap. Add B inner cam journal-down, then A inner cam journal-up. Their eccentric offsets face opposite ways.",
+      "add": [
+        "shaft_cam_b_inner",
+        "shaft_cam_a_inner"
+      ],
+      "loose_parts": {
+        "shaft_cam_a_inner": 1,
+        "shaft_cam_b_inner": 1
+      }
+    },
+    {
+      "key": "step_12",
+      "title": "Prepare disc A",
+      "action": "Seat a 6704 bearing between the two A disc halves. Orient the A screw half upward and align all three clamp holes.",
+      "add": [
+        "rotor_a_cap",
+        "hardware_6704_disc_a",
+        "rotor_a"
+      ],
+      "loose_parts": {
+        "H2": 1,
+        "rotor_a": 1,
+        "rotor_a_cap": 1
+      }
+    },
+    {
+      "key": "step_13",
+      "title": "Clamp disc A",
+      "action": "Fit three M3 nuts and three M3 \u00d7 6 countersunk screws. Seat the heads flush with the upward-facing screw half.",
+      "add": [
+        "hardware_disc_a_nut_1",
+        "hardware_disc_a_nut_2",
+        "hardware_disc_a_nut_3",
+        "hardware_disc_a_M3x6_1",
+        "hardware_disc_a_M3x6_2",
+        "hardware_disc_a_M3x6_3"
+      ],
+      "loose_parts": {
+        "H5": 3,
+        "H6": 3
+      }
+    },
+    {
+      "key": "step_14",
+      "title": "Install A and close its cam",
+      "action": "Lower disc A onto the six guides and the A journal with the indexed clamp screw toward the same wide gap. Fit the A outer cam journal-down.",
+      "add": [
+        "shaft_cam_a_outer"
+      ],
+      "loose_parts": {
+        "shaft_cam_a_outer": 1
+      }
+    },
+    {
+      "key": "step_15",
+      "title": "Fit the finishing plate and carriers",
+      "action": "Lower the nut-side square plate, carrier core and shaft nut carrier. Seat the six guide sleeves in the matching recesses. Keep both sets of mounting pockets facing up.",
+      "add": [
+        "output_nut_plate",
+        "carrier_bottom",
+        "shaft_mount_lower"
+      ],
+      "loose_parts": {
+        "carrier_bottom": 1,
+        "output_nut_plate": 1,
+        "shaft_mount_lower": 1
+      }
+    },
+    {
+      "key": "step_16",
+      "title": "Load the finishing nuts",
+      "action": "Seat eight M3 mounting nuts in the black core and four in the turquoise shaft nut carrier before fitting the bearings and caps.",
+      "add": [
+        "hardware_carrier_bottom_mount_nut_1",
+        "hardware_carrier_bottom_mount_nut_2",
+        "hardware_carrier_bottom_mount_nut_3",
+        "hardware_carrier_bottom_mount_nut_4",
+        "hardware_carrier_bottom_mount_nut_5",
+        "hardware_carrier_bottom_mount_nut_6",
+        "hardware_carrier_bottom_mount_nut_7",
+        "hardware_carrier_bottom_mount_nut_8",
+        "hardware_shaft_mount_nut_lower_1",
+        "hardware_shaft_mount_nut_lower_2",
+        "hardware_shaft_mount_nut_lower_3",
+        "hardware_shaft_mount_nut_lower_4"
+      ],
+      "loose_parts": {
+        "H6": 12
+      }
+    },
+    {
+      "key": "step_17",
+      "title": "Seat the second pair of bearings",
+      "action": "Lower the second 6810 onto the casing and carrier seat. Lower the remaining centred 6704 onto the shaft nut carrier.",
+      "add": [
+        "hardware_6810_bottom",
+        "hardware_6704_base"
+      ],
+      "loose_parts": {
+        "H1": 1,
+        "H2": 1
+      }
+    },
+    {
+      "key": "step_18",
+      "title": "Close the nut end",
+      "action": "Lower the nut-side cylinder, black carrier cap and yellow two-hex-pocket end journal. Check that the two shaft screw tips reach the yellow hex pockets.",
+      "add": [
+        "output_nut_cylinder",
+        "carrier_bottom_cap",
+        "shaft_end_lower"
+      ],
+      "loose_parts": {
+        "carrier_bottom_cap": 1,
+        "output_nut_cylinder": 1,
+        "shaft_end_lower": 1
+      }
+    },
+    {
+      "key": "step_19",
+      "title": "Secure and turn the gearbox",
+      "action": "Start both shaft-tie nuts, the six guide nuts and the 30 ring nuts. Snug each group evenly, turning the shaft by hand between groups. For 30:1, mount the black inner carrier to the frame, drive the yellow centre and attach the load to the turquoise outer casing.",
+      "add": [
+        "hardware_shaft_tie_nut_lower",
+        "hardware_shaft_tie_nut_upper",
+        "hardware_drive_nuts",
+        "hardware_drive_nuts (2)",
+        "hardware_drive_nuts (3)",
+        "hardware_drive_nuts (4)",
+        "hardware_drive_nuts (5)",
+        "hardware_drive_nuts (6)",
+        "hardware_M3_ring_nuts",
+        "hardware_M3_ring_nuts (10)",
+        "hardware_M3_ring_nuts (11)",
+        "hardware_M3_ring_nuts (12)",
+        "hardware_M3_ring_nuts (13)",
+        "hardware_M3_ring_nuts (14)",
+        "hardware_M3_ring_nuts (15)",
+        "hardware_M3_ring_nuts (16)",
+        "hardware_M3_ring_nuts (17)",
+        "hardware_M3_ring_nuts (18)",
+        "hardware_M3_ring_nuts (19)",
+        "hardware_M3_ring_nuts (2)",
+        "hardware_M3_ring_nuts (20)",
+        "hardware_M3_ring_nuts (21)",
+        "hardware_M3_ring_nuts (22)",
+        "hardware_M3_ring_nuts (23)",
+        "hardware_M3_ring_nuts (24)",
+        "hardware_M3_ring_nuts (25)",
+        "hardware_M3_ring_nuts (26)",
+        "hardware_M3_ring_nuts (27)",
+        "hardware_M3_ring_nuts (28)",
+        "hardware_M3_ring_nuts (29)",
+        "hardware_M3_ring_nuts (3)",
+        "hardware_M3_ring_nuts (30)",
+        "hardware_M3_ring_nuts (4)",
+        "hardware_M3_ring_nuts (5)",
+        "hardware_M3_ring_nuts (6)",
+        "hardware_M3_ring_nuts (7)",
+        "hardware_M3_ring_nuts (8)",
+        "hardware_M3_ring_nuts (9)"
+      ],
+      "loose_parts": {
+        "H6": 38
+      }
+    }
+  ],
+  "printed_keys": [
+    "shaft_end_upper",
+    "carrier_top_cap",
+    "output_cap_cylinder",
+    "carrier_top_nut_tray",
+    "shaft_mount_upper_nut_tray",
+    "output_cap_plate",
+    "carrier_top",
+    "shaft_mount_upper",
+    "printed_contact_sleeve",
+    "printed_drive_sleeve",
+    "shaft_cam_b_outer",
+    "rotor_b",
+    "rotor_b_cap",
+    "shaft_cam_b_inner",
+    "shaft_cam_a_inner",
+    "rotor_a",
+    "rotor_a_cap",
+    "shaft_cam_a_outer",
+    "output_nut_plate",
+    "carrier_bottom",
+    "shaft_mount_lower",
+    "shaft_end_lower",
+    "carrier_bottom_cap",
+    "output_nut_cylinder"
+  ],
+  "physical_item_count": 176,
+  "production_step_sha256": "84e41940d7d2099dd100e1554fee4f88f96dd9ff0660849d88d520c60b3aa937",
+  "source_master_sha256": "0402587d697cd9e224baf60a18e455e8e5103e361bd280aed1de88edaa4aa9ab",
+  "parameters": {
+    "ring_count": 30.0,
+    "eccentricity": 1.0,
+    "guide_count": 6.0
+  },
+  "source_logo_sha256": "72918ba326599a1e6ae495ae4cabb51cc7a462035d35ee30de984229e30d9d67",
+  "summary_inventory": {
+    "printed": [
+      {
+        "name": "Starting E journal",
+        "id": "shaft_end_upper",
+        "provenance": "Native CAD body",
+        "key": "shaft_end_upper",
+        "quantity": 1
+      },
+      {
+        "name": "Starting carrier cap",
+        "id": "carrier_top_cap",
+        "provenance": "Native CAD body",
+        "key": "carrier_top_cap",
+        "quantity": 1
+      },
+      {
+        "name": "Starting bearing cylinder",
+        "id": "output_cap_cylinder",
+        "provenance": "Native CAD body",
+        "key": "output_cap_cylinder",
+        "quantity": 1
+      },
+      {
+        "name": "Carrier nut tray",
+        "id": "carrier_top_nut_tray",
+        "provenance": "Native CAD body",
+        "key": "carrier_top_nut_tray",
+        "quantity": 1
+      },
+      {
+        "name": "Shaft nut tray",
+        "id": "shaft_mount_upper_nut_tray",
+        "provenance": "Native CAD body",
+        "key": "shaft_mount_upper_nut_tray",
+        "quantity": 1
+      },
+      {
+        "name": "Starting OOBB plate",
+        "id": "output_cap_plate",
+        "provenance": "Native CAD body",
+        "key": "output_cap_plate",
+        "quantity": 1
+      },
+      {
+        "name": "Starting carrier core",
+        "id": "carrier_top",
+        "provenance": "Native CAD body",
+        "key": "carrier_top",
+        "quantity": 1
+      },
+      {
+        "name": "Starting N nut carrier",
+        "id": "shaft_mount_upper",
+        "provenance": "Native CAD body",
+        "key": "shaft_mount_upper",
+        "quantity": 1
+      },
+      {
+        "name": "Contact sleeve 7 \u00d7 16 mm",
+        "id": "printed_contact_sleeve",
+        "provenance": "Native CAD body",
+        "key": "printed_contact_sleeve",
+        "quantity": 30
+      },
+      {
+        "name": "Guide sleeve 7 \u00d7 16 mm",
+        "id": "printed_drive_sleeve",
+        "provenance": "Native CAD body",
+        "key": "printed_drive_sleeve",
+        "quantity": 6
+      },
+      {
+        "name": "B outer C half",
+        "id": "shaft_cam_b_outer",
+        "provenance": "Native CAD body",
+        "key": "shaft_cam_b_outer",
+        "quantity": 1
+      },
+      {
+        "name": "Disc B screw half",
+        "id": "rotor_b",
+        "provenance": "Native CAD body",
+        "key": "rotor_b",
+        "quantity": 1
+      },
+      {
+        "name": "Disc B nut half",
+        "id": "rotor_b_cap",
+        "provenance": "Native CAD body",
+        "key": "rotor_b_cap",
+        "quantity": 1
+      },
+      {
+        "name": "B inner C half",
+        "id": "shaft_cam_b_inner",
+        "provenance": "Native CAD body",
+        "key": "shaft_cam_b_inner",
+        "quantity": 1
+      },
+      {
+        "name": "A inner C half",
+        "id": "shaft_cam_a_inner",
+        "provenance": "Native CAD body",
+        "key": "shaft_cam_a_inner",
+        "quantity": 1
+      },
+      {
+        "name": "Disc A screw half",
+        "id": "rotor_a",
+        "provenance": "Native CAD body",
+        "key": "rotor_a",
+        "quantity": 1
+      },
+      {
+        "name": "Disc A nut half",
+        "id": "rotor_a_cap",
+        "provenance": "Native CAD body",
+        "key": "rotor_a_cap",
+        "quantity": 1
+      },
+      {
+        "name": "A outer C half",
+        "id": "shaft_cam_a_outer",
+        "provenance": "Native CAD body",
+        "key": "shaft_cam_a_outer",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing OOBB plate",
+        "id": "output_nut_plate",
+        "provenance": "Native CAD body",
+        "key": "output_nut_plate",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing carrier core",
+        "id": "carrier_bottom",
+        "provenance": "Native CAD body",
+        "key": "carrier_bottom",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing N nut carrier",
+        "id": "shaft_mount_lower",
+        "provenance": "Native CAD body",
+        "key": "shaft_mount_lower",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing E journal",
+        "id": "shaft_end_lower",
+        "provenance": "Native CAD body",
+        "key": "shaft_end_lower",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing carrier cap",
+        "id": "carrier_bottom_cap",
+        "provenance": "Native CAD body",
+        "key": "carrier_bottom_cap",
+        "quantity": 1
+      },
+      {
+        "name": "Finishing bearing cylinder",
+        "id": "output_nut_cylinder",
+        "provenance": "Native CAD body",
+        "key": "output_nut_cylinder",
+        "quantity": 1
+      }
+    ],
+    "hardware": [
+      {
+        "name": "M3 x 35 socket-cap screw",
+        "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+        "md5": "355042ff49937139cdebcee290780697",
+        "md5_6_alpha": "22vya",
+        "short_label": "oom.lt/a/22vya",
+        "short_url": "https://oom.lt/a/22vya",
+        "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_35_mm_length",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H4",
+        "quantity": 8
+      },
+      {
+        "name": "M3 x 30 socket-cap screw",
+        "id": "hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+        "md5": "7e252fca70adce3700f60f1c0b0bd9dc",
+        "md5_6_alpha": "4x6wf",
+        "short_label": "oom.lt/a/4x6wf",
+        "short_url": "https://oom.lt/a/4x6wf",
+        "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_socket_cap_hex_head_black_m3_diameter_30_mm_length",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H3",
+        "quantity": 30
+      },
+      {
+        "name": "6810 bearing",
+        "id": "hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+        "md5": "cb4eb99a384ce4439e763e05c6830f0a",
+        "md5_6_alpha": "7xku1",
+        "short_label": "oom.lt/a/7xku1",
+        "short_url": "https://oom.lt/a/7xku1",
+        "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6800_series_6810_size_50_mm_id_65_mm_od_7_mm_depth",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H1",
+        "quantity": 2
+      },
+      {
+        "name": "6704 bearing",
+        "id": "hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+        "md5": "7edd1090264a248f9e6140547bebe5c5",
+        "md5_6_alpha": "4y780",
+        "short_label": "oom.lt/a/4y780",
+        "short_url": "https://oom.lt/a/4y780",
+        "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_bearing_6700_series_6704_size_20_mm_id_27_mm_od_4_mm_depth",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H2",
+        "quantity": 4
+      },
+      {
+        "name": "M3 hex nut",
+        "id": "hardware_nut_m3",
+        "md5": "632d2f1cf592d38bafebf6dcced02499",
+        "md5_6_alpha": "3vb5b",
+        "short_label": "oom.lt/a/3vb5b",
+        "short_url": "https://oom.lt/a/3vb5b",
+        "url": "https://github.com/oomlout/oomlout_oomp_version_1_messy/tree/main/parts/hardware_nut_m3",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H6",
+        "quantity": 68
+      },
+      {
+        "name": "M3 x 6 countersunk screw",
+        "id": "hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "md5": "9b2fdc9a5f4148186f0d8cb93c4e7fa5",
+        "md5_6_alpha": "61zh8",
+        "short_label": "oom.lt/a/61zh8",
+        "short_url": "https://oom.lt/a/61zh8",
+        "url": "https://github.com/oomlout/oomp_hardware_screw_version_5/tree/main/parts/hardware_screw_countersunk_hex_head_black_m3_diameter_6_mm_length",
+        "provenance": "Public OOMP working.yaml identity and code inspected 2026-11-07; production CAD nominal hardware envelope.",
+        "key": "H5",
+        "quantity": 6
+      }
+    ]
+  },
+  "book_pages": [
+    {
+      "kind": "cover"
+    },
+    {
+      "kind": "details"
+    },
+    {
+      "kind": "instructions",
+      "group": 0
+    },
+    {
+      "kind": "instructions",
+      "group": 1
+    },
+    {
+      "kind": "instructions",
+      "group": 2
+    },
+    {
+      "kind": "instructions",
+      "group": 3
+    },
+    {
+      "kind": "instructions",
+      "group": 4
+    },
+    {
+      "kind": "summary",
+      "number": 20
+    },
+    {
+      "kind": "spacer"
+    },
+    {
+      "kind": "spacer"
+    },
+    {
+      "kind": "parts"
+    },
+    {
+      "kind": "back"
+    }
+  ],
+  "printed_piece_count": 58
+}

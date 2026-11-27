@@ -1,0 +1,35 @@
+{
+  "status": "PASS",
+  "reports": [
+    {
+      "name": "desktop",
+      "headings": [
+        "Summary",
+        "Details",
+        "Parts",
+        "Assembly"
+      ],
+      "brokenImages": [],
+      "viewport": 1280,
+      "documentWidth": 1280,
+      "tableScrollWidth": 946,
+      "tableClientWidth": 946,
+      "thumbnails": 14
+    },
+    {
+      "name": "mobile",
+      "headings": [
+        "Summary",
+        "Details",
+        "Parts",
+        "Assembly"
+      ],
+      "brokenImages": [],
+      "viewport": 390,
+      "documentWidth": 390,
+      "tableScrollWidth": 860,
+      "tableClientWidth": 350,
+      "thumbnails": 14
+    }
+  ]
+}

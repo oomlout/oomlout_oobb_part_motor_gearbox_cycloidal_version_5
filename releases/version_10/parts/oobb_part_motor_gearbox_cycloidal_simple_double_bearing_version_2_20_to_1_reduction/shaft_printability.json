@@ -1,0 +1,58 @@
+{
+  "shaft_end_lower": {
+    "layer_height_mm": 0.2,
+    "levels": 42,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 1.501,
+    "at_print_z_mm": 3.401
+  },
+  "shaft_mount_lower": {
+    "layer_height_mm": 0.2,
+    "levels": 19,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_cam_a_outer": {
+    "layer_height_mm": 0.2,
+    "levels": 20,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_cam_a_inner": {
+    "layer_height_mm": 0.2,
+    "levels": 20,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_cam_b_inner": {
+    "layer_height_mm": 0.2,
+    "levels": 20,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_cam_b_outer": {
+    "layer_height_mm": 0.2,
+    "levels": 20,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_mount_upper": {
+    "layer_height_mm": 0.2,
+    "levels": 19,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 0.002,
+    "at_print_z_mm": 0.201
+  },
+  "shaft_end_upper": {
+    "layer_height_mm": 0.2,
+    "levels": 42,
+    "unsupported_islands": 0,
+    "maximum_lateral_reach_mm": 1.501,
+    "at_print_z_mm": 3.401
+  }
+}

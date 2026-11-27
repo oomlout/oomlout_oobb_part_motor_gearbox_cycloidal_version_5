@@ -1,0 +1,86 @@
+{
+  "native_geometry": "passed",
+  "check_counts": {
+    "35": 663,
+    "10": 575,
+    "35_bearing": 617
+  },
+  "maximum_overlap_mm3": 0,
+  "native_drive_edit": "passed",
+  "print_plates": {
+    "35": {
+      "sha256": "795ef2c2972c08c2cae4dc80b26ae02af15c3dcb2c2cc5f108a56882d5962da9",
+      "part_count": 11,
+      "size_mm": [
+        234.0,
+        218.5,
+        29.299999237160566
+      ],
+      "bounds_mm": [
+        [
+          3.0,
+          3.0,
+          -1.0001933309355948e-10
+        ],
+        [
+          237.0,
+          221.5,
+          29.299999237060547
+        ]
+      ]
+    },
+    "10": {
+      "sha256": "bca2eea41bb52cfa8052776f00bd7bfa5daf1859451efa867ce688586b59fdfa",
+      "part_count": 11,
+      "size_mm": [
+        234.0,
+        218.5,
+        29.299999237061154
+      ],
+      "bounds_mm": [
+        [
+          3.0,
+          3.0,
+          -6.08978741999805e-13
+        ],
+        [
+          237.0,
+          221.5,
+          29.299999237060547
+        ]
+      ]
+    },
+    "35_bearing": {
+      "sha256": "6cfe831e9b2e3da4dc913a23f2de636a69a66ea72efb9fd76548d35f3cb91291",
+      "part_count": 11,
+      "size_mm": [
+        234.0,
+        218.5,
+        29.299999237160566
+      ],
+      "bounds_mm": [
+        [
+          3.0,
+          3.0,
+          -1.0001933309355948e-10
+        ],
+        [
+          237.0,
+          221.5,
+          29.299999237060547
+        ]
+      ]
+    }
+  },
+  "pytest": {
+    "command": "python -m pytest tests/test_native_version_9.py tests/test_native_acceptance.py -q",
+    "passed": 10,
+    "failed": 2,
+    "preexisting_failures": [
+      "test_v9_starting_provenance_and_current_revision_are_preserved",
+      "test_v8_release_is_complete_and_protected"
+    ],
+    "reason": "V8 20:1 catalogue folder was already moved beneath the V9 10:1 folder. Sealed V8 archive hash and all archived file hashes passed. Historical catalogue paths were not changed by this task."
+  },
+  "physical_fit_tested": false
+}

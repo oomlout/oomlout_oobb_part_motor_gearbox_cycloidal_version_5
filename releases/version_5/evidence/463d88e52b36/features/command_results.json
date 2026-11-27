@@ -1,0 +1,563 @@
+[
+  {
+    "index": 0,
+    "source_id": "direct_001",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "name": "direct_001_oobb_cylinder_00_profile",
+      "offset": 0
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "direct_001_oobb_cylinder_00_profile",
+      "projected": null,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 1,
+    "source_id": "direct_001",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_001_oobb_cylinder_00_radius",
+      "expression": "36.15 mm",
+      "comment": "direct_001"
+    },
+    "reply": {
+      "display_value": 36.15,
+      "name": "direct_001_oobb_cylinder_00_radius",
+      "unit": "mm",
+      "value": 36.15
+    }
+  },
+  {
+    "index": 2,
+    "source_id": "direct_001",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          0,
+          0
+        ],
+        "radius": 36.15
+      },
+      "dimensions": {
+        "diameter": "2 * direct_001_oobb_cylinder_00_radius"
+      }
+    },
+    "reply": {
+      "constraints": [
+        "k1"
+      ],
+      "created": {
+        "constraints": [
+          "k1"
+        ],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k2"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k2"
+            ],
+            "points": []
+          },
+          "expression": "2 * direct_001_oobb_cylinder_00_radius",
+          "measured": 72.3,
+          "param": "d2",
+          "sketch": {
+            "dof": 0,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 1,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 3,
+    "source_id": "direct_001",
+    "command": "parameters.add",
+    "params": {
+      "name": "direct_001_oobb_cylinder_00_depth",
+      "expression": "9.2 mm",
+      "comment": "direct_001"
+    },
+    "reply": {
+      "display_value": 9.2,
+      "name": "direct_001_oobb_cylinder_00_depth",
+      "unit": "mm",
+      "value": 9.2
+    }
+  },
+  {
+    "index": 4,
+    "source_id": "direct_001",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 0,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 5,
+    "source_id": "direct_001",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 1
+    }
+  },
+  {
+    "index": 6,
+    "source_id": "direct_001",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "direct_001_oobb_cylinder_00_profile",
+      "distance": "direct_001_oobb_cylinder_00_depth",
+      "operation": "new",
+      "name": "direct_001_oobb_cylinder_00_extrude",
+      "body_name": "direct_001_oobb_cylinder_00_body"
+    },
+    "reply": {
+      "bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "changed_bodies": [],
+      "created_bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "feature": 2,
+      "ms": 2.1029999999999998,
+      "name": "direct_001_oobb_cylinder_00_extrude",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 7,
+    "source_id": "direct_004",
+    "command": "parameters.add",
+    "params": {
+      "name": "oobb_hole_radius_31d2_radius",
+      "expression": "31.2 mm",
+      "comment": "direct_004"
+    },
+    "reply": {
+      "display_value": 31.2,
+      "name": "oobb_hole_radius_31d2_radius",
+      "unit": "mm",
+      "value": 31.2
+    }
+  },
+  {
+    "index": 8,
+    "source_id": "direct_004",
+    "command": "parameters.add",
+    "params": {
+      "name": "oobb_hole_radius_31d2_depth",
+      "expression": "9.219999999999999 mm",
+      "comment": "direct_004"
+    },
+    "reply": {
+      "display_value": 9.219999999999999,
+      "name": "oobb_hole_radius_31d2_depth",
+      "unit": "mm",
+      "value": 9.219999999999999
+    }
+  },
+  {
+    "index": 9,
+    "source_id": "direct_007",
+    "command": "parameters.add",
+    "params": {
+      "name": "oobb_hole_radius_32d6_radius",
+      "expression": "32.6 mm",
+      "comment": "direct_007"
+    },
+    "reply": {
+      "display_value": 32.6,
+      "name": "oobb_hole_radius_32d6_radius",
+      "unit": "mm",
+      "value": 32.6
+    }
+  },
+  {
+    "index": 10,
+    "source_id": "direct_007",
+    "command": "parameters.add",
+    "params": {
+      "name": "oobb_hole_radius_32d6_depth",
+      "expression": "7.22 mm",
+      "comment": "direct_007"
+    },
+    "reply": {
+      "display_value": 7.22,
+      "name": "oobb_hole_radius_32d6_depth",
+      "unit": "mm",
+      "value": 7.22
+    }
+  },
+  {
+    "index": 11,
+    "source_id": "direct_004",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "offset": -0.01,
+      "name": "oobb_hole_radius_31d2_positions"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "oobb_hole_radius_31d2_positions",
+      "projected": null,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 12,
+    "source_id": "direct_004",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          "0 mm",
+          "0 mm"
+        ],
+        "radius": 31.2,
+        "connect": false
+      },
+      "dimensions": {
+        "diameter": "2 * oobb_hole_radius_31d2_radius"
+      }
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k1"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k1"
+            ],
+            "points": []
+          },
+          "expression": "2 * oobb_hole_radius_31d2_radius",
+          "measured": 62.4,
+          "param": "d5",
+          "sketch": {
+            "dof": 2,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 3,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 13,
+    "source_id": "direct_004",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 2,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 14,
+    "source_id": "direct_004",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 3
+    }
+  },
+  {
+    "index": 15,
+    "source_id": "direct_004",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "oobb_hole_radius_31d2_positions",
+      "distance": "oobb_hole_radius_31d2_depth",
+      "direction": "positive",
+      "operation": "cut",
+      "targets": [
+        "direct_001_oobb_cylinder_00_body"
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "changed_bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 4,
+      "ms": 17.6974,
+      "name": "Extrude1",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 16,
+    "source_id": "direct_004",
+    "command": "timeline.rename",
+    "params": {
+      "feature": 4,
+      "name": "oobb_hole_radius_31d2_flat_bottom_cut"
+    },
+    "reply": {
+      "feature": 4,
+      "name": "oobb_hole_radius_31d2_flat_bottom_cut"
+    }
+  },
+  {
+    "index": 17,
+    "source_id": "direct_004",
+    "command": "timeline.group",
+    "params": {
+      "name": "oobb_hole_radius_31d2",
+      "features": [
+        "oobb_hole_radius_31d2_positions",
+        "oobb_hole_radius_31d2_flat_bottom_cut"
+      ]
+    },
+    "reply": {
+      "group": 5,
+      "groups": [],
+      "name": "oobb_hole_radius_31d2",
+      "parent": null
+    }
+  },
+  {
+    "index": 18,
+    "source_id": "direct_007",
+    "command": "sketch.create",
+    "params": {
+      "plane": "XY",
+      "offset": -0.01,
+      "name": "oobb_hole_radius_32d6_positions"
+    },
+    "reply": {
+      "attachment": "fixed",
+      "created": {
+        "constraints": [],
+        "curves": [],
+        "dimensions": [],
+        "points": []
+      },
+      "name": "oobb_hole_radius_32d6_positions",
+      "projected": null,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 19,
+    "source_id": "direct_007",
+    "command": "sketch.draw.dimensioned",
+    "params": {
+      "command": "sketch.circle.center",
+      "params": {
+        "center": [
+          "0 mm",
+          "0 mm"
+        ],
+        "radius": 32.6,
+        "connect": false
+      },
+      "dimensions": {
+        "diameter": "2 * oobb_hole_radius_32d6_radius"
+      }
+    },
+    "reply": {
+      "constraints": [],
+      "created": {
+        "constraints": [],
+        "curves": [
+          "c1"
+        ],
+        "dimensions": [
+          "k1"
+        ],
+        "points": [
+          "c1.center"
+        ]
+      },
+      "curves": [
+        "c1"
+      ],
+      "dimensions": {
+        "diameter": {
+          "created": {
+            "constraints": [],
+            "curves": [],
+            "dimensions": [
+              "k1"
+            ],
+            "points": []
+          },
+          "expression": "2 * oobb_hole_radius_32d6_radius",
+          "measured": 65.2,
+          "param": "d8",
+          "sketch": {
+            "dof": 2,
+            "solved": true
+          },
+          "type": "DiameterDimension",
+          "unit": "mm"
+        }
+      },
+      "sketch": {
+        "dof": 3,
+        "solved": true
+      }
+    }
+  },
+  {
+    "index": 20,
+    "source_id": "direct_007",
+    "command": "sketch.solve",
+    "params": {},
+    "reply": {
+      "dof": 2,
+      "failing": [],
+      "profiles": 1,
+      "status": "solved"
+    }
+  },
+  {
+    "index": 21,
+    "source_id": "direct_007",
+    "command": "sketch.finish",
+    "params": {},
+    "reply": {
+      "profiles": 1,
+      "sketch": 6
+    }
+  },
+  {
+    "index": 22,
+    "source_id": "direct_007",
+    "command": "solid.extrude",
+    "params": {
+      "sketch": "oobb_hole_radius_32d6_positions",
+      "distance": "oobb_hole_radius_32d6_depth",
+      "direction": "positive",
+      "operation": "cut",
+      "targets": [
+        "direct_001_oobb_cylinder_00_body"
+      ]
+    },
+    "reply": {
+      "bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "changed_bodies": [
+        "direct_001_oobb_cylinder_00_body"
+      ],
+      "created_bodies": [],
+      "feature": 7,
+      "ms": 21.743599999999997,
+      "name": "Extrude1",
+      "removed_bodies": [],
+      "warning": null
+    }
+  },
+  {
+    "index": 23,
+    "source_id": "direct_007",
+    "command": "timeline.rename",
+    "params": {
+      "feature": 7,
+      "name": "oobb_hole_radius_32d6_flat_bottom_cut"
+    },
+    "reply": {
+      "feature": 7,
+      "name": "oobb_hole_radius_32d6_flat_bottom_cut"
+    }
+  },
+  {
+    "index": 24,
+    "source_id": "direct_007",
+    "command": "timeline.group",
+    "params": {
+      "name": "oobb_hole_radius_32d6",
+      "features": [
+        "oobb_hole_radius_32d6_positions",
+        "oobb_hole_radius_32d6_flat_bottom_cut"
+      ]
+    },
+    "reply": {
+      "group": 8,
+      "groups": [],
+      "name": "oobb_hole_radius_32d6",
+      "parent": null
+    }
+  }
+]

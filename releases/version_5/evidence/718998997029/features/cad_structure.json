@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "part_id": "oobb_part_motor_gearbox_cycloidal_version_5_20_to_1_reduction__fit_6701_shaft",
+  "mode": "3dpr",
+  "definitions": [
+    {
+      "name": "oobb_hole_radius_7d5",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_7d5_radius",
+        "height": "oobb_hole_radius_7d5_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          -0.01
+        ]
+      ]
+    },
+    {
+      "name": "oobb_hole_radius_9d1",
+      "method": "finite_circle_extrusions",
+      "instance_count": 1,
+      "parameters": {
+        "radius": "oobb_hole_radius_9d1_radius",
+        "height": "oobb_hole_radius_9d1_depth"
+      },
+      "positions": [
+        [
+          0,
+          0,
+          1.0
+        ]
+      ]
+    }
+  ],
+  "sketch_count": 3,
+  "native_hole_features": 0,
+  "depth_policies": []
+}

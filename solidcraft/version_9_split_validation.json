@@ -1,0 +1,151 @@
+{
+  "status": "passed",
+  "source_sha256": "1a660a291e059c92189173d86a91497de54a7b09f44bd92967fd0c332cb11918",
+  "bearing_input_fit_checks": 984,
+  "maximum_overlap_mm3": 0,
+  "shared_stepper_parts": {
+    "motor_mount": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "output_casing_lobes": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "output_casing_lower": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "output_casing_upper": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "pin_front": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "rotor_a": {
+      "volume_delta_mm3": 0.0,
+      "maximum_bound_change_mm": 0.0
+    },
+    "rotor_b": {
+      "volume_delta_mm3": 1.8189894035458565e-12,
+      "maximum_bound_change_mm": 0.0
+    }
+  },
+  "hardware": "Axial M3 x 35 socket cap, M3 captive nut; OOBB overhang enabled for both.",
+  "print_plates": {
+    "3dpr.stl": {
+      "parts": 14,
+      "size_mm": [
+        309.0,
+        227.49990844726562,
+        29.300086185103282
+      ],
+      "sha256": "ae8f79fc9e9c13bd2e27e1071f40e9cb65dd485e514961c30c2d46760aeb229d"
+    },
+    "compact_print/3dpr.stl": {
+      "parts": 14,
+      "size_mm": [
+        235.3000030517578,
+        218.5,
+        29.300086185103282
+      ],
+      "sha256": "d93e7861b63a39b3e97dc15113246cd80d660acfd7bde1af5b7dee8d300b41ed"
+    },
+    "shaft_reprint/3dpr.stl": {
+      "parts": 6,
+      "size_mm": [
+        64.72427368164062,
+        53.919158935546875,
+        29.300086185103282
+      ],
+      "sha256": "2f30d92e8e63dcb1a649e254873138873a22b4e03025d44de028d45230c84050"
+    },
+    "bearing_conversion/3dpr.stl": {
+      "parts": 7,
+      "size_mm": [
+        85.90000915527344,
+        100.91915893554688,
+        29.300086185103282
+      ],
+      "sha256": "8cb19ddeb3e4d19d3c5a3c5ce2e15ae31a88e70dc025e120c23f1b42c1b9bcc3"
+    }
+  },
+  "layer_checks": {
+    "bearing_retainer": {
+      "layer_height_mm": 0.2,
+      "levels": 29,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.515,
+      "at_print_z_mm": 2.401
+    },
+    "eccentric_hub_lower_a": {
+      "layer_height_mm": 0.2,
+      "levels": 43,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.2,
+      "at_print_z_mm": 0.201
+    },
+    "eccentric_hub_lower_b": {
+      "layer_height_mm": 0.2,
+      "levels": 43,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.2,
+      "at_print_z_mm": 0.201
+    },
+    "eccentric_hub_upper_a": {
+      "layer_height_mm": 0.2,
+      "levels": 43,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.354,
+      "at_print_z_mm": 2.401
+    },
+    "eccentric_hub_upper_b": {
+      "layer_height_mm": 0.2,
+      "levels": 43,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.354,
+      "at_print_z_mm": 2.401
+    },
+    "drive_sleeve": {
+      "layer_height_mm": 0.2,
+      "levels": 148,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.437,
+      "at_print_z_mm": 9.601
+    }
+  },
+  "native_sleeve_edit": "passed",
+  "physical_fit_tested": false,
+  "previous_layer_checks": {
+    "eccentric_hub_lower": {
+      "layer_height_mm": 0.2,
+      "levels": 136,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.854,
+      "at_print_z_mm": 4.601
+    },
+    "eccentric_hub_upper": {
+      "layer_height_mm": 0.2,
+      "levels": 111,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 3.401,
+      "at_print_z_mm": 4.801
+    },
+    "drive_sleeve": {
+      "layer_height_mm": 0.2,
+      "levels": 148,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 4.648,
+      "at_print_z_mm": 15.401
+    },
+    "bearing_retainer": {
+      "layer_height_mm": 0.2,
+      "levels": 13,
+      "unsupported_islands": 0,
+      "maximum_lateral_reach_mm": 0.002,
+      "at_print_z_mm": 0.201
+    }
+  }
+}

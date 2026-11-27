@@ -1,0 +1,15 @@
+{
+  "construction": "native",
+  "method": "analytic_sketch_surfaces",
+  "native_feature_history": true,
+  "body_count": 1,
+  "sketch_count": 15,
+  "profile_vertices_preserved": true,
+  "parameters": {
+    "pitch_radius": "rotor_parameter_pitch_radius",
+    "eccentricity": "rotor_parameter_eccentricity",
+    "roller_radius": "rotor_parameter_roller_radius",
+    "clearance": "rotor_parameter_clearance"
+  },
+  "parameter_source": "Shared equation coordinate expressions on all caps and walls; validate fixed stations before native edits"
+}
